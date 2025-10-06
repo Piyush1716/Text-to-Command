@@ -1,0 +1,121 @@
+user_query,command,description
+Change to `/var/log` and push my current directory onto the stack,pushd /var/log,Changes to /var/log and adds current directory to stack.
+"Navigate to `/var/log`, remembering my current location",pushd /var/log,Changes to /var/log and adds current directory to stack.
+"Go into `/var/log`, and add my present directory to the directory stack",pushd /var/log,Changes to /var/log and adds current directory to stack.
+I need to get to `/var/log`; please save my current path,pushd /var/log,Changes to /var/log and adds current directory to stack.
+"Switch to `/var/log`, but keep my current directory on the stack for quick return",pushd /var/log,Changes to /var/log and adds current directory to stack.
+Could you move me to `/var/log` and push my current working directory?,pushd /var/log,Changes to /var/log and adds current directory to stack.
+"Take me to `/var/log`, and I want to push my current path",pushd /var/log,Changes to /var/log and adds current directory to stack.
+"Move into `/var/log`, ensuring my current location is added to the stack",pushd /var/log,Changes to /var/log and adds current directory to stack.
+"Jump to `/var/log`, pushing the current directory onto the stack",pushd /var/log,Changes to /var/log and adds current directory to stack.
+"I'd like to change directory to `/var/log`, and remember where I am now",pushd /var/log,Changes to /var/log and adds current directory to stack.
+"Please go to `/var/log`, and make sure my current directory is saved on the stack",pushd /var/log,Changes to /var/log and adds current directory to stack.
+"Set my current directory to `/var/log`, while also pushing my old directory onto the stack",pushd /var/log,Changes to /var/log and adds current directory to stack.
+Run popd,popd,Returns to the directory at the top of the stack.
+Pop the directory stack,popd,Returns to the directory at the top of the stack.
+Return to the previously pushed directory,popd,Returns to the directory at the top of the stack.
+How do I go back to the last directory on the stack?,popd,Returns to the directory at the top of the stack.
+I want to remove the top directory from the stack,popd,Returns to the directory at the top of the stack.
+Execute the popd command,popd,Returns to the directory at the top of the stack.
+Shift to the directory at the top of the stack,popd,Returns to the directory at the top of the stack.
+Can you pop a directory for me?,popd,Returns to the directory at the top of the stack.
+Go back using the directory stack,popd,Returns to the directory at the top of the stack.
+What command pops the directory stack?,popd,Returns to the directory at the top of the stack.
+Undo the last pushd operation,popd,Returns to the directory at the top of the stack.
+Move to the next directory down on the stack,popd,Returns to the directory at the top of the stack.
+"Display the directory stack, indexed and stacked vertically",dirs -v,Displays the directory stack with indices vertically.
+"Show me my current directory stack, including the indices, presented vertically",dirs -v,Displays the directory stack with indices vertically.
+"Output the directory stack with its entry numbers, one per line",dirs -v,Displays the directory stack with indices vertically.
+"List my directory stack in a vertical format, showing the numerical indices",dirs -v,Displays the directory stack with indices vertically.
+I'd like to see the directory stack; ensure it's vertical and includes the indices,dirs -v,Displays the directory stack with indices vertically.
+"Present the directory stack to me, with each entry numbered and on its own line",dirs -v,Displays the directory stack with indices vertically.
+"Give me the detailed, vertical view of the directory stack, complete with indices",dirs -v,Displays the directory stack with indices vertically.
+Run the command that displays the directory stack vertically with indices,dirs -v,Displays the directory stack with indices vertically.
+Execute the command that shows the directory stack indexed and vertically arranged,dirs -v,Displays the directory stack with indices vertically.
+"Could you pretty-print the directory stack for me, with indices, in a vertical layout?",dirs -v,Displays the directory stack with indices vertically.
+"I need a numbered, vertical list of my directory stack entries",dirs -v,Displays the directory stack with indices vertically.
+"Print the directory stack, ensuring each entry has its index and is on a new line",dirs -v,Displays the directory stack with indices vertically.
+What's the command to list extended attributes for file.txt?,lsattr file.txt,Lists extended attributes of file.txt.
+How do I view the extended attributes of file.txt?,lsattr file.txt,Lists extended attributes of file.txt.
+Show me the extended attributes for file.txt,lsattr file.txt,Lists extended attributes of file.txt.
+I need to check the extended attributes on file.txt,lsattr file.txt,Lists extended attributes of file.txt.
+What are the extended attributes set on file.txt?,lsattr file.txt,Lists extended attributes of file.txt.
+"List the attributes of file.txt, please",lsattr file.txt,Lists extended attributes of file.txt.
+How can I see what special attributes file.txt has?,lsattr file.txt,Lists extended attributes of file.txt.
+Can you tell me the extended attributes associated with file.txt?,lsattr file.txt,Lists extended attributes of file.txt.
+I'm trying to find a command to display the extended attributes of file.txt,lsattr file.txt,Lists extended attributes of file.txt.
+What command would I use to inspect file.txt's extended attributes?,lsattr file.txt,Lists extended attributes of file.txt.
+Give me the extended attributes for file.txt,lsattr file.txt,Lists extended attributes of file.txt.
+Display the extended attributes of file.txt,lsattr file.txt,Lists extended attributes of file.txt.
+How do I make `file.txt` immutable?,chattr +i file.txt,"Sets the immutable attribute on file.txt, preventing modifications."
+I want to lock `file.txt` so it cannot be modified or deleted,chattr +i file.txt,"Sets the immutable attribute on file.txt, preventing modifications."
+Can you tell me how to set the immutable attribute on `file.txt`?,chattr +i file.txt,"Sets the immutable attribute on file.txt, preventing modifications."
+"What's the command to prevent any changes to `file.txt`, even by root?",chattr +i file.txt,"Sets the immutable attribute on file.txt, preventing modifications."
+I need to protect `file.txt` from accidental deletion or modification,chattr +i file.txt,"Sets the immutable attribute on file.txt, preventing modifications."
+How do I freeze `file.txt` so its contents can't be altered?,chattr +i file.txt,"Sets the immutable attribute on file.txt, preventing modifications."
+Could you show me how to make `file.txt` unchangeable?,chattr +i file.txt,"Sets the immutable attribute on file.txt, preventing modifications."
+I'm looking for a way to secure `file.txt` against tampering,chattr +i file.txt,"Sets the immutable attribute on file.txt, preventing modifications."
+How can I ensure `file.txt` is permanently read-only?,chattr +i file.txt,"Sets the immutable attribute on file.txt, preventing modifications."
+I need to apply the immutable flag to `file.txt`,chattr +i file.txt,"Sets the immutable attribute on file.txt, preventing modifications."
+Make `file.txt` completely unmodifiable,chattr +i file.txt,"Sets the immutable attribute on file.txt, preventing modifications."
+How do I enable the 'i' attribute for `file.txt`?,chattr +i file.txt,"Sets the immutable attribute on file.txt, preventing modifications."
+How do I give 'user' read and write permissions on 'file.txt' using an ACL?,setfacl -m u:user:rw file.txt,Grants user read and write permissions on file.txt using ACL.
+I need to grant 'user' read/write access to 'file.txt' via an Access Control List,setfacl -m u:user:rw file.txt,Grants user read and write permissions on file.txt using ACL.
+What's the command to set an ACL entry for 'user' with read and write access to 'file.txt'?,setfacl -m u:user:rw file.txt,Grants user read and write permissions on file.txt using ACL.
+Can you help me configure `setfacl` to allow 'user' to read and write 'file.txt'?,setfacl -m u:user:rw file.txt,Grants user read and write permissions on file.txt using ACL.
+I want to set read and write permissions for 'user' on 'file.txt' using ACLs. How do I do that?,setfacl -m u:user:rw file.txt,Grants user read and write permissions on file.txt using ACL.
+How can I ensure 'user' has read and write capabilities on 'file.txt' through an ACL?,setfacl -m u:user:rw file.txt,Grants user read and write permissions on file.txt using ACL.
+Please apply a read/write ACL rule for 'user' on 'file.txt',setfacl -m u:user:rw file.txt,Grants user read and write permissions on file.txt using ACL.
+Show me how to use `setfacl` to grant 'user' read/write access to 'file.txt',setfacl -m u:user:rw file.txt,Grants user read and write permissions on file.txt using ACL.
+What's the proper `setfacl` syntax to give 'user' read and write access to 'file.txt'?,setfacl -m u:user:rw file.txt,Grants user read and write permissions on file.txt using ACL.
+I need to explicitly allow 'user' to read and modify 'file.txt' using an ACL,setfacl -m u:user:rw file.txt,Grants user read and write permissions on file.txt using ACL.
+Could you set an ACL entry for 'user' granting them read and write access to 'file.txt'?,setfacl -m u:user:rw file.txt,Grants user read and write permissions on file.txt using ACL.
+How do I modify the ACL for 'file.txt' to give 'user' read and write permissions?,setfacl -m u:user:rw file.txt,Grants user read and write permissions on file.txt using ACL.
+How do I view the ACL for file.txt?,getfacl file.txt,Displays the access control list (ACL) for file.txt.
+Show me the access control list for file.txt,getfacl file.txt,Displays the access control list (ACL) for file.txt.
+I need to display the extended permissions on file.txt,getfacl file.txt,Displays the access control list (ACL) for file.txt.
+What's the command to get the ACL of file.txt?,getfacl file.txt,Displays the access control list (ACL) for file.txt.
+Can you retrieve the access rules for file.txt?,getfacl file.txt,Displays the access control list (ACL) for file.txt.
+List the ACL entries for file.txt please,getfacl file.txt,Displays the access control list (ACL) for file.txt.
+How can I check file.txt's access control list?,getfacl file.txt,Displays the access control list (ACL) for file.txt.
+Display the `getfacl` output for file.txt,getfacl file.txt,Displays the access control list (ACL) for file.txt.
+I want to see the security settings for file.txt,getfacl file.txt,Displays the access control list (ACL) for file.txt.
+Tell me the access rights configured for file.txt,getfacl file.txt,Displays the access control list (ACL) for file.txt.
+Could you show me the full permissions for file.txt?,getfacl file.txt,Displays the access control list (ACL) for file.txt.
+Get me the ACL information for file.txt,getfacl file.txt,Displays the access control list (ACL) for file.txt.
+How do I view the contents of `logfile.gz` without extracting it?,zcat logfile.gz,Displays the contents of compressed logfile.gz without uncompressing.
+What's the command to display a gzipped file's content directly to the terminal?,zcat logfile.gz,Displays the contents of compressed logfile.gz without uncompressing.
+I need to see what's inside `logfile.gz` but not actually unzip it,zcat logfile.gz,Displays the contents of compressed logfile.gz without uncompressing.
+Can you tell me how to output the contents of `logfile.gz` to standard output?,zcat logfile.gz,Displays the contents of compressed logfile.gz without uncompressing.
+What's the best way to read `logfile.gz` without saving the uncompressed data?,zcat logfile.gz,Displays the contents of compressed logfile.gz without uncompressing.
+How can I quickly inspect `logfile.gz`'s content?,zcat logfile.gz,Displays the contents of compressed logfile.gz without uncompressing.
+I want to `cat` a compressed `logfile.gz`. What's the command?,zcat logfile.gz,Displays the contents of compressed logfile.gz without uncompressing.
+Show me the command to print `logfile.gz`'s uncompressed content,zcat logfile.gz,Displays the contents of compressed logfile.gz without uncompressing.
+How do I look at `logfile.gz` without decompressing it permanently?,zcat logfile.gz,Displays the contents of compressed logfile.gz without uncompressing.
+Give me the command to pipe the uncompressed data from `logfile.gz`,zcat logfile.gz,Displays the contents of compressed logfile.gz without uncompressing.
+What's the Linux command to view a `.gz` file's content on the fly?,zcat logfile.gz,Displays the contents of compressed logfile.gz without uncompressing.
+I just need to see the raw text from `logfile.gz`. How do I do that?,zcat logfile.gz,Displays the contents of compressed logfile.gz without uncompressing.
+How can I view the contents of `logfile.gz` with pagination?,zless logfile.gz,Views compressed logfile.gz with pagination.
+I need to look at a gzipped log file. What's the command to view `logfile.gz`?,zless logfile.gz,Views compressed logfile.gz with pagination.
+How do I page through the compressed log file named `logfile.gz`?,zless logfile.gz,Views compressed logfile.gz with pagination.
+"I have `logfile.gz`, a compressed log. How can I read it comfortably?",zless logfile.gz,Views compressed logfile.gz with pagination.
+"What's the command to display `logfile.gz` interactively, even though it's gzipped?",zless logfile.gz,Views compressed logfile.gz with pagination.
+Can you tell me how to view `logfile.gz` one page at a time?,zless logfile.gz,Views compressed logfile.gz with pagination.
+How do I open `logfile.gz` so I can scroll through it?,zless logfile.gz,Views compressed logfile.gz with pagination.
+I want to examine `logfile.gz`. What's the best command for viewing compressed log files?,zless logfile.gz,Views compressed logfile.gz with pagination.
+What's the equivalent of `less` for a compressed file like `logfile.gz`?,zless logfile.gz,Views compressed logfile.gz with pagination.
+Show me how to read `logfile.gz` without decompressing it first,zless logfile.gz,Views compressed logfile.gz with pagination.
+I need to view the contents of `logfile.gz` and be able to navigate through it,zless logfile.gz,Views compressed logfile.gz with pagination.
+What command should I use to view the gzipped log file `logfile.gz` with a pager?,zless logfile.gz,Views compressed logfile.gz with pagination.
+"How do I display the contents of `file.bin` in octal format, showing the ASCII characters?",od -c file.bin,Dumps file.bin in octal format with ASCII representation.
+What's the command to get an octal dump of `file.bin` with its corresponding ASCII representation?,od -c file.bin,Dumps file.bin in octal format with ASCII representation.
+"I need to inspect `file.bin` byte-by-byte, can you show me the command to output octal values and characters?",od -c file.bin,Dumps file.bin in octal format with ASCII representation.
+How can I use `od` to dump `file.bin` in octal and also display the printable characters?,od -c file.bin,Dumps file.bin in octal format with ASCII representation.
+I want to see the octal values and the ASCII characters for each byte in `file.bin`. What command should I use?,od -c file.bin,Dumps file.bin in octal format with ASCII representation.
+Give me the Linux command to get a character-by-character octal dump of `file.bin`,od -c file.bin,Dumps file.bin in octal format with ASCII representation.
+How do I view `file.bin` in octal with its ASCII interpretation alongside?,od -c file.bin,Dumps file.bin in octal format with ASCII representation.
+Can you provide the command to output `file.bin` as octal and show its character representation?,od -c file.bin,Dumps file.bin in octal format with ASCII representation.
+"I'm debugging a binary file, `file.bin`. How do I get an octal and ASCII dump of its contents?",od -c file.bin,Dumps file.bin in octal format with ASCII representation.
+What's the easiest way to inspect `file.bin` and see both its octal byte values and ASCII characters?,od -c file.bin,Dumps file.bin in octal format with ASCII representation.
+Show me the `od` command to output `file.bin` as octal bytes with the character column,od -c file.bin,Dumps file.bin in octal format with ASCII representation.
+"I need to dump `file.bin` in octal, and also see the ASCII interpretation for each byte",od -c file.bin,Dumps file.bin in octal format with ASCII representation.

@@ -1,0 +1,1201 @@
+user_query,command,description
+How do I set the maximum password age for 'user' to 90 days?,chage -M 90 user,Sets the maximum password age for user to 90 days.
+Please set the maximum password age for 'user' to 90 days,chage -M 90 user,Sets the maximum password age for user to 90 days.
+What's the command to enforce a 90-day password expiry for 'user'?,chage -M 90 user,Sets the maximum password age for user to 90 days.
+I need to configure 'user's' password to expire after 90 days. How do I do that?,chage -M 90 user,Sets the maximum password age for user to 90 days.
+"Using `chage`, how can I limit 'user's' password validity to 90 days?",chage -M 90 user,Sets the maximum password age for user to 90 days.
+Could you show me how to change 'user's' maximum password lifetime to 90 days?,chage -M 90 user,Sets the maximum password age for user to 90 days.
+I want to make sure 'user' has to change their password every 90 days. What command should I use?,chage -M 90 user,Sets the maximum password age for user to 90 days.
+Set a 90-day maximum password period for 'user',chage -M 90 user,Sets the maximum password age for user to 90 days.
+How do I restrict 'user's' password to be valid for only 90 days?,chage -M 90 user,Sets the maximum password age for user to 90 days.
+Can you update 'user's' password policy to a 90-day maximum?,chage -M 90 user,Sets the maximum password age for user to 90 days.
+What's the syntax to apply a 90-day password age limit for 'user'?,chage -M 90 user,Sets the maximum password age for user to 90 days.
+"For 'user', how do I cap their password's active duration at 90 days?",chage -M 90 user,Sets the maximum password age for user to 90 days.
+"How do I see a history of logins, logouts, and reboots?",last -x,"Displays system login, logout, and other events like reboots."
+"Can you show me a detailed log of all system login/logout events, including reboots?",last -x,"Displays system login, logout, and other events like reboots."
+"I need to check the full system event history, including boots, shutdowns, and user sessions",last -x,"Displays system login, logout, and other events like reboots."
+"Display all user activity, reboots, and runlevel changes on this machine",last -x,"Displays system login, logout, and other events like reboots."
+"What's the command to view a comprehensive list of system logins, logouts, and other events like reboots?",last -x,"Displays system login, logout, and other events like reboots."
+"Show me the system's complete boot, shutdown, and login history",last -x,"Displays system login, logout, and other events like reboots."
+"Retrieve a full audit trail of system reboots, shutdowns, and user login/logout times",last -x,"Displays system login, logout, and other events like reboots."
+"Which command lists all system login/logout events, including shutdowns and runlevel changes?",last -x,"Displays system login, logout, and other events like reboots."
+"I'd like to see the extended history of system logins, logouts, and reboots",last -x,"Displays system login, logout, and other events like reboots."
+Please provide a report of all system access events and power cycles,last -x,"Displays system login, logout, and other events like reboots."
+"Can you get me the full timeline of system uptime, shutdowns, and user sessions?",last -x,"Displays system login, logout, and other events like reboots."
+How do I find out when the system was last rebooted and who logged in/out since then?,last -x,"Displays system login, logout, and other events like reboots."
+Run `authconfig --test`,authconfig --test,Displays current authentication configuration.
+Please run `authconfig --test`,authconfig --test,Displays current authentication configuration.
+Could you run `authconfig --test`?,authconfig --test,Displays current authentication configuration.
+I need to run `authconfig --test`,authconfig --test,Displays current authentication configuration.
+I want to run `authconfig --test`,authconfig --test,Displays current authentication configuration.
+Show me the output of `authconfig --test`,authconfig --test,Displays current authentication configuration.
+Display the current authentication configuration by running `authconfig --test`,authconfig --test,Displays current authentication configuration.
+Can you execute `authconfig --test` for me?,authconfig --test,Displays current authentication configuration.
+Let's run `authconfig --test`,authconfig --test,Displays current authentication configuration.
+I'd like to run `authconfig --test` now,authconfig --test,Displays current authentication configuration.
+Perform `authconfig --test`,authconfig --test,Displays current authentication configuration.
+Check the authentication configuration using `authconfig --test`,authconfig --test,Displays current authentication configuration.
+Please run the command `nscd -i passwd` for me,nscd -i passwd,Invalidates the passwd cache in the Name Service Cache Daemon.
+Can you invalidate the `passwd` cache?,nscd -i passwd,Invalidates the passwd cache in the Name Service Cache Daemon.
+I need to clear the Name Service Cache Daemon's password entries,nscd -i passwd,Invalidates the passwd cache in the Name Service Cache Daemon.
+Execute `nscd -i passwd`,nscd -i passwd,Invalidates the passwd cache in the Name Service Cache Daemon.
+How do I refresh the `passwd` information stored by `nscd`?,nscd -i passwd,Invalidates the passwd cache in the Name Service Cache Daemon.
+Flush the `passwd` cache,nscd -i passwd,Invalidates the passwd cache in the Name Service Cache Daemon.
+Could you please issue `nscd -i passwd`?,nscd -i passwd,Invalidates the passwd cache in the Name Service Cache Daemon.
+I want to make sure the system's `passwd` lookups are current,nscd -i passwd,Invalidates the passwd cache in the Name Service Cache Daemon.
+Invalidate the `nscd` `passwd` cache,nscd -i passwd,Invalidates the passwd cache in the Name Service Cache Daemon.
+Run the command to invalidate the `passwd` cache,nscd -i passwd,Invalidates the passwd cache in the Name Service Cache Daemon.
+Could you force `nscd` to re-read the `passwd` file?,nscd -i passwd,Invalidates the passwd cache in the Name Service Cache Daemon.
+Please clear out the stale `passwd` data from the cache,nscd -i passwd,Invalidates the passwd cache in the Name Service Cache Daemon.
+Please run `atrm 1`,atrm 1,Removes the scheduled job with ID 1 from the at queue.
+How do I remove job number 1 from the 'at' queue?,atrm 1,Removes the scheduled job with ID 1 from the at queue.
+Can you delete the scheduled job with ID 1?,atrm 1,Removes the scheduled job with ID 1 from the at queue.
+I need to cancel 'at' job,atrm 1,Removes the scheduled job with ID 1 from the at queue.
+Execute `atrm 1`,atrm 1,Removes the scheduled job with ID 1 from the at queue.
+Get rid of the 'at' job that's number,atrm 1,Removes the scheduled job with ID 1 from the at queue.
+Remove job 1 from the 'at' scheduler,atrm 1,Removes the scheduled job with ID 1 from the at queue.
+Could you process `atrm 1` for me?,atrm 1,Removes the scheduled job with ID 1 from the at queue.
+Delete the 'at' entry with ID,atrm 1,Removes the scheduled job with ID 1 from the at queue.
+Run `atrm 1` immediately,atrm 1,Removes the scheduled job with ID 1 from the at queue.
+I'd like to remove the scheduled task identified by,atrm 1,Removes the scheduled job with ID 1 from the at queue.
+Perform the `atrm 1` command,atrm 1,Removes the scheduled job with ID 1 from the at queue.
+Run systemd-cgtop,systemd-cgtop,Displays resource usage by control groups.
+Please run systemd-cgtop,systemd-cgtop,Displays resource usage by control groups.
+Execute systemd-cgtop,systemd-cgtop,Displays resource usage by control groups.
+Could you start systemd-cgtop?,systemd-cgtop,Displays resource usage by control groups.
+I need systemd-cgtop to run,systemd-cgtop,Displays resource usage by control groups.
+Launch systemd-cgtop for me,systemd-cgtop,Displays resource usage by control groups.
+Display control group resource usage with systemd-cgtop,systemd-cgtop,Displays resource usage by control groups.
+Can you open systemd-cgtop?,systemd-cgtop,Displays resource usage by control groups.
+Run the systemd-cgtop command,systemd-cgtop,Displays resource usage by control groups.
+Fire up systemd-cgtop,systemd-cgtop,Displays resource usage by control groups.
+Let's run systemd-cgtop,systemd-cgtop,Displays resource usage by control groups.
+Initiate systemd-cgtop,systemd-cgtop,Displays resource usage by control groups.
+How do I run sar to get network device statistics every second for 3 iterations?,sar -n DEV 1 3,Reports network device statistics every second for 3 iterations.
+"Show me the network device statistics using sar, updated every second, three times",sar -n DEV 1 3,Reports network device statistics every second for 3 iterations.
+"I need to monitor network device activity for 3 seconds, taking samples every second. What's the sar command?",sar -n DEV 1 3,Reports network device statistics every second for 3 iterations.
+"Run sar to report network device stats three times, with a one-second interval",sar -n DEV 1 3,Reports network device statistics every second for 3 iterations.
+"What's the sar command to display network device metrics, collecting 3 samples at a 1-second interval?",sar -n DEV 1 3,Reports network device statistics every second for 3 iterations.
+"Can you give me the sar command to check network device performance, reporting every second for 3 samples?",sar -n DEV 1 3,Reports network device statistics every second for 3 iterations.
+"I want to see network device statistics. How can I use sar to get 3 updates, one second apart?",sar -n DEV 1 3,Reports network device statistics every second for 3 iterations.
+"Perform a 3-second network device statistics report using sar, updating every second",sar -n DEV 1 3,Reports network device statistics every second for 3 iterations.
+"With sar, how do I get network device statistics, taking 3 snapshots with a 1-second delay?",sar -n DEV 1 3,Reports network device statistics every second for 3 iterations.
+"What's the command using sar to gather network device usage data every second, three times?",sar -n DEV 1 3,Reports network device statistics every second for 3 iterations.
+"Generate a sar report for network device statistics, capturing 3 data points at one-second intervals",sar -n DEV 1 3,Reports network device statistics every second for 3 iterations.
+"Display network device statistics via sar, 3 times, with a 1-second interval",sar -n DEV 1 3,Reports network device statistics every second for 3 iterations.
+Show me the detailed statistics for the eth0 network interface,ethtool -S eth0,Displays detailed statistics for the eth0 interface.
+How do I check the full network statistics for eth0?,ethtool -S eth0,Displays detailed statistics for the eth0 interface.
+Display all the `ethtool` statistics for `eth0`,ethtool -S eth0,Displays detailed statistics for the eth0 interface.
+I need to see the comprehensive statistics for eth,ethtool -S eth0,Displays detailed statistics for the eth0 interface.
+What are the current detailed statistics for eth0?,ethtool -S eth0,Displays detailed statistics for the eth0 interface.
+Could you run `ethtool -S eth0` for me?,ethtool -S eth0,Displays detailed statistics for the eth0 interface.
+Get me the complete stats for eth0 using `ethtool`,ethtool -S eth0,Displays detailed statistics for the eth0 interface.
+Please provide the in-depth statistics for eth,ethtool -S eth0,Displays detailed statistics for the eth0 interface.
+Can you show me the NIC statistics for eth0?,ethtool -S eth0,Displays detailed statistics for the eth0 interface.
+I want to examine the detailed performance statistics of eth,ethtool -S eth0,Displays detailed statistics for the eth0 interface.
+Fetch the complete ethtool report for eth,ethtool -S eth0,Displays detailed statistics for the eth0 interface.
+How can I view the comprehensive statistics of the eth0 interface?,ethtool -S eth0,Displays detailed statistics for the eth0 interface.
+Please run `ip rule show`,ip rule show,Displays policy routing rules.
+Can you display the policy routing rules?,ip rule show,Displays policy routing rules.
+Show me the current policy routing rules,ip rule show,Displays policy routing rules.
+I need to see the output of `ip rule show`,ip rule show,Displays policy routing rules.
+What are the policy routing rules configured on this system?,ip rule show,Displays policy routing rules.
+Could you list the policy routing rules?,ip rule show,Displays policy routing rules.
+Please retrieve the policy routing table,ip rule show,Displays policy routing rules.
+I'd like to view the `ip rule show` output,ip rule show,Displays policy routing rules.
+Display the routing rules for me,ip rule show,Displays policy routing rules.
+Could you execute `ip rule show` and provide the results?,ip rule show,Displays policy routing rules.
+Let's see the policy routing rules,ip rule show,Displays policy routing rules.
+Get me the policy routing rules,ip rule show,Displays policy routing rules.
+Run `ip xfrm state`,ip xfrm state,Lists IPsec security associations.
+Please execute `ip xfrm state`,ip xfrm state,Lists IPsec security associations.
+Show me the output of `ip xfrm state`,ip xfrm state,Lists IPsec security associations.
+List the IPsec security associations,ip xfrm state,Lists IPsec security associations.
+Display the `xfrm` state entries,ip xfrm state,Lists IPsec security associations.
+Could you show me the current IPsec SAs?,ip xfrm state,Lists IPsec security associations.
+I need to view the IPsec security associations,ip xfrm state,Lists IPsec security associations.
+What's the status of the IPsec security associations?,ip xfrm state,Lists IPsec security associations.
+Can I see the `xfrm` state?,ip xfrm state,Lists IPsec security associations.
+Get me the `ip xfrm state` information,ip xfrm state,Lists IPsec security associations.
+Let's check the IPsec SAs,ip xfrm state,Lists IPsec security associations.
+Provide a listing of the `xfrm` state,ip xfrm state,Lists IPsec security associations.
+Please run `ip mroute show`,ip mroute show,Displays multicast routing table.
+Can you display the multicast routing table?,ip mroute show,Displays multicast routing table.
+Show me the current multicast routes,ip mroute show,Displays multicast routing table.
+How do I view the multicast routing table?,ip mroute show,Displays multicast routing table.
+I need to see the multicast routing entries,ip mroute show,Displays multicast routing table.
+What's the command to check multicast routes?,ip mroute show,Displays multicast routing table.
+"Multicast routing table, please",ip mroute show,Displays multicast routing table.
+Output the multicast forwarding information,ip mroute show,Displays multicast routing table.
+Could you show me the multicast routing state?,ip mroute show,Displays multicast routing table.
+Display multicast routes,ip mroute show,Displays multicast routing table.
+I'd like to see the multicast routing table,ip mroute show,Displays multicast routing table.
+Present the multicast routing table,ip mroute show,Displays multicast routing table.
+Run `tc qdisc show`,tc qdisc show,Lists traffic control queueing disciplines.
+Show me the traffic control queueing disciplines,tc qdisc show,Lists traffic control queueing disciplines.
+List all configured qdiscs,tc qdisc show,Lists traffic control queueing disciplines.
+Display the current `tc` queueing disciplines,tc qdisc show,Lists traffic control queueing disciplines.
+What are the active queueing disciplines?,tc qdisc show,Lists traffic control queueing disciplines.
+I need to see the output of `tc qdisc show`,tc qdisc show,Lists traffic control queueing disciplines.
+Could you show me the `tc` qdisc configuration?,tc qdisc show,Lists traffic control queueing disciplines.
+Please execute `tc qdisc show`,tc qdisc show,Lists traffic control queueing disciplines.
+Retrieve the queueing discipline settings,tc qdisc show,Lists traffic control queueing disciplines.
+Output the traffic control queueing discipline list,tc qdisc show,Lists traffic control queueing disciplines.
+Tell me the `tc` qdisc status,tc qdisc show,Lists traffic control queueing disciplines.
+Display the network queueing discipline setup,tc qdisc show,Lists traffic control queueing disciplines.
+How can I see the status of my network bridge interfaces?,bridge link show,Displays bridge interfaces and their states.
+Show me all the bridge links configured on this system,bridge link show,Displays bridge interfaces and their states.
+Display the current state of all network bridges,bridge link show,Displays bridge interfaces and their states.
+What bridge interfaces are active right now?,bridge link show,Displays bridge interfaces and their states.
+I need to check the details of my bridge links,bridge link show,Displays bridge interfaces and their states.
+List all network links that are part of a bridge,bridge link show,Displays bridge interfaces and their states.
+Could you provide an overview of the bridge interfaces and their states?,bridge link show,Displays bridge interfaces and their states.
+How do I inspect the operational status of my bridge devices?,bridge link show,Displays bridge interfaces and their states.
+What's the command to view bridge link information?,bridge link show,Displays bridge interfaces and their states.
+Please show me the configuration of my system's bridge interfaces,bridge link show,Displays bridge interfaces and their states.
+Give me a summary of the current bridge links,bridge link show,Displays bridge interfaces and their states.
+I want to see the state of all network bridges,bridge link show,Displays bridge interfaces and their states.
+Run `ip netns list`,ip netns list,Lists network namespaces.
+How do I list network namespaces?,ip netns list,Lists network namespaces.
+Show me the network namespaces,ip netns list,Lists network namespaces.
+What's the command to display network namespaces?,ip netns list,Lists network namespaces.
+List all available network namespaces,ip netns list,Lists network namespaces.
+I need to see my network namespaces,ip netns list,Lists network namespaces.
+Display network namespaces,ip netns list,Lists network namespaces.
+Could you show me the configured network namespaces?,ip netns list,Lists network namespaces.
+Tell me what network namespaces exist,ip netns list,Lists network namespaces.
+Get a list of the current network namespaces,ip netns list,Lists network namespaces.
+Execute `ip netns list`,ip netns list,Lists network namespaces.
+What are my network namespaces?,ip netns list,Lists network namespaces.
+How do I run the `ip addr` command specifically within the `ns1` network namespace?,ip netns exec ns1 ip addr,Runs ip addr command within the ns1 network namespace.
+What's the command to list IP addresses inside the `ns1` namespace?,ip netns exec ns1 ip addr,Runs ip addr command within the ns1 network namespace.
+I need to check the IP configuration for the `ns1` network namespace. How do I do that?,ip netns exec ns1 ip addr,Runs ip addr command within the ns1 network namespace.
+Show me the IP addresses assigned to the `ns1` namespace,ip netns exec ns1 ip addr,Runs ip addr command within the ns1 network namespace.
+How can I execute `ip addr` such that it only shows information for `ns1`?,ip netns exec ns1 ip addr,Runs ip addr command within the ns1 network namespace.
+Could you tell me the command to view the IP addresses within namespace `ns1`?,ip netns exec ns1 ip addr,Runs ip addr command within the ns1 network namespace.
+"What's the syntax for running a command, like `ip addr`, inside a specific network namespace called `ns1`?",ip netns exec ns1 ip addr,Runs ip addr command within the ns1 network namespace.
+I want to inspect the network interfaces and their IPs inside `ns1`. What's the command?,ip netns exec ns1 ip addr,Runs ip addr command within the ns1 network namespace.
+How do I get `ip addr` to operate on the `ns1` network namespace?,ip netns exec ns1 ip addr,Runs ip addr command within the ns1 network namespace.
+Give me the command to display network addresses in `ns1`,ip netns exec ns1 ip addr,Runs ip addr command within the ns1 network namespace.
+How do you query the IP addresses that belong to the `ns1` network namespace?,ip netns exec ns1 ip addr,Runs ip addr command within the ns1 network namespace.
+I need the command to see the IP address details for `ns1`,ip netns exec ns1 ip addr,Runs ip addr command within the ns1 network namespace.
+How do I establish an SSL connection to 192.168.1.1 on port 443 using ncat?,ncat --ssl 192.168.1.1 443,Establishes an SSL connection to 192.168.1.1 on port 443.
+What's the ncat command to connect securely to 192.168.1.1:443?,ncat --ssl 192.168.1.1 443,Establishes an SSL connection to 192.168.1.1 on port 443.
+Run ncat to make an encrypted connection to 192.168.1.1 on port,ncat --ssl 192.168.1.1 443,Establishes an SSL connection to 192.168.1.1 on port 443.
+I need to use ncat to connect to 192.168.1.1 port 443 with SSL. How?,ncat --ssl 192.168.1.1 443,Establishes an SSL connection to 192.168.1.1 on port 443.
+Show me the ncat command for an SSL handshake with 192.168.1.1 on port,ncat --ssl 192.168.1.1 443,Establishes an SSL connection to 192.168.1.1 on port 443.
+How can I tell ncat to connect with TLS to 192.168.1.1 on port 443?,ncat --ssl 192.168.1.1 443,Establishes an SSL connection to 192.168.1.1 on port 443.
+Give me the exact ncat command to open an SSL socket to 192.168.1.1:,ncat --ssl 192.168.1.1 443,Establishes an SSL connection to 192.168.1.1 on port 443.
+What's the proper syntax for ncat to connect via SSL to 192.168.1.1:443?,ncat --ssl 192.168.1.1 443,Establishes an SSL connection to 192.168.1.1 on port 443.
+Connect 192.168.1.1 port 443 via ncat with encryption,ncat --ssl 192.168.1.1 443,Establishes an SSL connection to 192.168.1.1 on port 443.
+"Using ncat, how do I create a secure link to 192.168.1.1 port 443?",ncat --ssl 192.168.1.1 443,Establishes an SSL connection to 192.168.1.1 on port 443.
+I want to perform an SSL client connection to 192.168.1.1 on port 443 with ncat. What do I type?,ncat --ssl 192.168.1.1 443,Establishes an SSL connection to 192.168.1.1 on port 443.
+How do I use the `--ssl` option with ncat to reach 192.168.1.1 on port 443?,ncat --ssl 192.168.1.1 443,Establishes an SSL connection to 192.168.1.1 on port 443.
+Compress `file.txt` with zstd,zstd -z file.txt,Compresses file.txt using Zstandard algorithm.
+How do I compress `file.txt` using the Zstandard algorithm?,zstd -z file.txt,Compresses file.txt using Zstandard algorithm.
+I need to make `file.txt` smaller using zstd,zstd -z file.txt,Compresses file.txt using Zstandard algorithm.
+Please compress `file.txt`,zstd -z file.txt,Compresses file.txt using Zstandard algorithm.
+Run the zstd compressor on `file.txt`,zstd -z file.txt,Compresses file.txt using Zstandard algorithm.
+Could you compress `file.txt` for me?,zstd -z file.txt,Compresses file.txt using Zstandard algorithm.
+What's the command to zstd-compress `file.txt`?,zstd -z file.txt,Compresses file.txt using Zstandard algorithm.
+I want to compress `file.txt` using the Zstandard utility,zstd -z file.txt,Compresses file.txt using Zstandard algorithm.
+Shrink `file.txt` using zstd,zstd -z file.txt,Compresses file.txt using Zstandard algorithm.
+Can you show me how to zstd compress `file.txt`?,zstd -z file.txt,Compresses file.txt using Zstandard algorithm.
+Compress `file.txt` into a `.zst` file,zstd -z file.txt,Compresses file.txt using Zstandard algorithm.
+Execute `zstd` on `file.txt`,zstd -z file.txt,Compresses file.txt using Zstandard algorithm.
+How do I display the contents of `file.txt.zst`?,zstdcat file.txt.zst,Displays the contents of a Zstandard-compressed file.txt.zst.
+Show me what's inside `file.txt.zst`,zstdcat file.txt.zst,Displays the contents of a Zstandard-compressed file.txt.zst.
+I need to view `file.txt.zst`,zstdcat file.txt.zst,Displays the contents of a Zstandard-compressed file.txt.zst.
+Print `file.txt.zst` to standard output,zstdcat file.txt.zst,Displays the contents of a Zstandard-compressed file.txt.zst.
+What's the command to decompress and show `file.txt.zst`?,zstdcat file.txt.zst,Displays the contents of a Zstandard-compressed file.txt.zst.
+Could you display the content of the Zstandard file `file.txt.zst`?,zstdcat file.txt.zst,Displays the contents of a Zstandard-compressed file.txt.zst.
+Output the text of `file.txt.zst`,zstdcat file.txt.zst,Displays the contents of a Zstandard-compressed file.txt.zst.
+I want to read `file.txt.zst`,zstdcat file.txt.zst,Displays the contents of a Zstandard-compressed file.txt.zst.
+Display the raw contents of `file.txt.zst`,zstdcat file.txt.zst,Displays the contents of a Zstandard-compressed file.txt.zst.
+How can I uncompress and view `file.txt.zst`?,zstdcat file.txt.zst,Displays the contents of a Zstandard-compressed file.txt.zst.
+Show `file.txt.zst` on the screen,zstdcat file.txt.zst,Displays the contents of a Zstandard-compressed file.txt.zst.
+Get the contents of `file.txt.zst`,zstdcat file.txt.zst,Displays the contents of a Zstandard-compressed file.txt.zst.
+Compress `file.txt` using the `xz` command,xz -z file.txt,Compresses file.txt using XZ compression.
+I need to compress `file.txt` with `xz`,xz -z file.txt,Compresses file.txt using XZ compression.
+How do I `xz` compress `file.txt`?,xz -z file.txt,Compresses file.txt using XZ compression.
+Can you apply `xz` compression to `file.txt`?,xz -z file.txt,Compresses file.txt using XZ compression.
+Please compress `file.txt` using `xz`,xz -z file.txt,Compresses file.txt using XZ compression.
+Make `file.txt` smaller using the `xz` utility,xz -z file.txt,Compresses file.txt using XZ compression.
+I want to `xz` `file.txt`,xz -z file.txt,Compresses file.txt using XZ compression.
+Compress `file.txt` into the `xz` format,xz -z file.txt,Compresses file.txt using XZ compression.
+Execute `xz -z` on `file.txt`,xz -z file.txt,Compresses file.txt using XZ compression.
+Use `xz` to compress `file.txt`,xz -z file.txt,Compresses file.txt using XZ compression.
+Could you compress `file.txt` with `xz`?,xz -z file.txt,Compresses file.txt using XZ compression.
+Run `xz` compression on `file.txt`,xz -z file.txt,Compresses file.txt using XZ compression.
+Show me the contents of `file.txt.xz`,xzcat file.txt.xz,Displays the contents of an XZ-compressed file.txt.xz.
+How do I view `file.txt.xz`?,xzcat file.txt.xz,Displays the contents of an XZ-compressed file.txt.xz.
+Display `file.txt.xz`,xzcat file.txt.xz,Displays the contents of an XZ-compressed file.txt.xz.
+I need to see what's inside `file.txt.xz`,xzcat file.txt.xz,Displays the contents of an XZ-compressed file.txt.xz.
+Print the uncompressed text from `file.txt.xz`,xzcat file.txt.xz,Displays the contents of an XZ-compressed file.txt.xz.
+Can you show me the content of `file.txt.xz`?,xzcat file.txt.xz,Displays the contents of an XZ-compressed file.txt.xz.
+What's in `file.txt.xz`?,xzcat file.txt.xz,Displays the contents of an XZ-compressed file.txt.xz.
+I want to read `file.txt.xz`,xzcat file.txt.xz,Displays the contents of an XZ-compressed file.txt.xz.
+Open and display the contents of `file.txt.xz`,xzcat file.txt.xz,Displays the contents of an XZ-compressed file.txt.xz.
+How can I examine `file.txt.xz`?,xzcat file.txt.xz,Displays the contents of an XZ-compressed file.txt.xz.
+Output the contents of `file.txt.xz`,xzcat file.txt.xz,Displays the contents of an XZ-compressed file.txt.xz.
+Show the decompressed version of `file.txt.xz`,xzcat file.txt.xz,Displays the contents of an XZ-compressed file.txt.xz.
+Compress file.txt using lzip,lzip -z file.txt,Compresses file.txt using Lzip compression.
+How do I lzip file.txt?,lzip -z file.txt,Compresses file.txt using Lzip compression.
+Please lzip compress file.txt,lzip -z file.txt,Compresses file.txt using Lzip compression.
+I need to compress file.txt with lzip,lzip -z file.txt,Compresses file.txt using Lzip compression.
+What's the command to lzip file.txt?,lzip -z file.txt,Compresses file.txt using Lzip compression.
+Can you shrink file.txt using lzip?,lzip -z file.txt,Compresses file.txt using Lzip compression.
+How can I make file.txt smaller with lzip?,lzip -z file.txt,Compresses file.txt using Lzip compression.
+I want to lzip compress file.txt,lzip -z file.txt,Compresses file.txt using Lzip compression.
+Run the lzip compression on file.txt,lzip -z file.txt,Compresses file.txt using Lzip compression.
+What's the lzip syntax for compressing file.txt?,lzip -z file.txt,Compresses file.txt using Lzip compression.
+Could you tell me how to lzip file.txt?,lzip -z file.txt,Compresses file.txt using Lzip compression.
+Let's lzip file.txt,lzip -z file.txt,Compresses file.txt using Lzip compression.
+How do I display the contents of `file.txt.lz`?,lzcat file.txt.lz,Displays the contents of an Lzip-compressed file.txt.lz.
+Can you show me what's inside `file.txt.lz`?,lzcat file.txt.lz,Displays the contents of an Lzip-compressed file.txt.lz.
+I need to view `file.txt.lz`. What's the command?,lzcat file.txt.lz,Displays the contents of an Lzip-compressed file.txt.lz.
+Decompress and print `file.txt.lz` to the terminal,lzcat file.txt.lz,Displays the contents of an Lzip-compressed file.txt.lz.
+How do I `cat` an Lzip-compressed file like `file.txt.lz`?,lzcat file.txt.lz,Displays the contents of an Lzip-compressed file.txt.lz.
+Get the uncompressed text from `file.txt.lz`,lzcat file.txt.lz,Displays the contents of an Lzip-compressed file.txt.lz.
+What command will let me read `file.txt.lz`?,lzcat file.txt.lz,Displays the contents of an Lzip-compressed file.txt.lz.
+Show me the content of `file.txt.lz`,lzcat file.txt.lz,Displays the contents of an Lzip-compressed file.txt.lz.
+Display `file.txt.lz`,lzcat file.txt.lz,Displays the contents of an Lzip-compressed file.txt.lz.
+I want to see `file.txt.lz`,lzcat file.txt.lz,Displays the contents of an Lzip-compressed file.txt.lz.
+Could you run `lzcat file.txt.lz` for me?,lzcat file.txt.lz,Displays the contents of an Lzip-compressed file.txt.lz.
+Open `file.txt.lz` and display its contents,lzcat file.txt.lz,Displays the contents of an Lzip-compressed file.txt.lz.
+How do I open `file.bin` using `hexedit`?,hexedit file.bin,Opens file.bin in an interactive hexadecimal editor.
+What's the command to hex edit `file.bin`?,hexedit file.bin,Opens file.bin in an interactive hexadecimal editor.
+I need to inspect `file.bin` with `hexedit`. How do I do that?,hexedit file.bin,Opens file.bin in an interactive hexadecimal editor.
+Could you show me how to run `hexedit` on `file.bin`?,hexedit file.bin,Opens file.bin in an interactive hexadecimal editor.
+Launch `hexedit` for `file.bin`. What's the command?,hexedit file.bin,Opens file.bin in an interactive hexadecimal editor.
+How can I view `file.bin` in a hexadecimal editor like `hexedit`?,hexedit file.bin,Opens file.bin in an interactive hexadecimal editor.
+Give me the command to open `file.bin` in `hexedit`,hexedit file.bin,Opens file.bin in an interactive hexadecimal editor.
+I want to edit `file.bin` in hexadecimal. What command should I use?,hexedit file.bin,Opens file.bin in an interactive hexadecimal editor.
+What's the proper way to use `hexedit` on `file.bin`?,hexedit file.bin,Opens file.bin in an interactive hexadecimal editor.
+Can you tell me the `hexedit` command for `file.bin`?,hexedit file.bin,Opens file.bin in an interactive hexadecimal editor.
+How do I start `hexedit` with `file.bin` as an argument?,hexedit file.bin,Opens file.bin in an interactive hexadecimal editor.
+Please provide the command to open `file.bin` with `hexedit`,hexedit file.bin,Opens file.bin in an interactive hexadecimal editor.
+How do I open `config.conf` in `nano` with line wrapping set to 80 columns?,nano -r 80 config.conf,Opens config.conf in Nano with 80-column line wrapping.
+"What's the command to edit `config.conf` using `nano`, forcing an 80-character line wrap?",nano -r 80 config.conf,Opens config.conf in Nano with 80-column line wrapping.
+I need to launch `nano` for `config.conf` and have it automatically wrap lines at column,nano -r 80 config.conf,Opens config.conf in Nano with 80-column line wrapping.
+Can you give me the `nano` command to open `config.conf` with an 80-column text limit?,nano -r 80 config.conf,Opens config.conf in Nano with 80-column line wrapping.
+How do I run `nano` on `config.conf` and specify 80-column wrapping when it opens?,nano -r 80 config.conf,Opens config.conf in Nano with 80-column line wrapping.
+What's the proper syntax to open `config.conf` in `nano` with lines wrapping at the 80th character?,nano -r 80 config.conf,Opens config.conf in Nano with 80-column line wrapping.
+I'm editing `config.conf` with `nano`. How do I make sure text doesn't exceed 80 columns?,nano -r 80 config.conf,Opens config.conf in Nano with 80-column line wrapping.
+Give me the command for `nano` to open `config.conf` with an 80-character hard wrap,nano -r 80 config.conf,Opens config.conf in Nano with 80-column line wrapping.
+How can I open `config.conf` with `nano` and set its line wrap feature to 80 columns?,nano -r 80 config.conf,Opens config.conf in Nano with 80-column line wrapping.
+What's the `nano` command I use to open `config.conf` and apply an 80-column wrap setting?,nano -r 80 config.conf,Opens config.conf in Nano with 80-column line wrapping.
+I want to use `nano` on `config.conf`. What's the command to open it with line wrap at 80?,nano -r 80 config.conf,Opens config.conf in Nano with 80-column line wrapping.
+"Launch `nano` for `config.conf`, but configure it to wrap lines at 80 characters",nano -r 80 config.conf,Opens config.conf in Nano with 80-column line wrapping.
+"Open `file.txt` in Vim, read-only",vim -R file.txt,Opens file.txt in Vim in read-only mode.
+How do I view `file.txt` using Vim without allowing any edits?,vim -R file.txt,Opens file.txt in Vim in read-only mode.
+"I need to open `file.txt` with Vim, but in a non-editable mode",vim -R file.txt,Opens file.txt in Vim in read-only mode.
+"Can you open `file.txt` in Vim for me, strictly for reading?",vim -R file.txt,Opens file.txt in Vim in read-only mode.
+What's the command to load `file.txt` into Vim in read-only mode?,vim -R file.txt,Opens file.txt in Vim in read-only mode.
+"Display `file.txt` in Vim, but prevent any accidental saves",vim -R file.txt,Opens file.txt in Vim in read-only mode.
+Just open `file.txt` in Vim's read-only view,vim -R file.txt,Opens file.txt in Vim in read-only mode.
+"I want to inspect `file.txt` using Vim, ensuring no modifications are possible",vim -R file.txt,Opens file.txt in Vim in read-only mode.
+"Could you open `file.txt` with Vim, forcing it into read-only?",vim -R file.txt,Opens file.txt in Vim in read-only mode.
+"Show me `file.txt` in Vim, but keep it read-only",vim -R file.txt,Opens file.txt in Vim in read-only mode.
+"How can I open `file.txt` with Vim in a safe, read-only state?",vim -R file.txt,Opens file.txt in Vim in read-only mode.
+"Launch Vim with `file.txt` open, in read-only mode",vim -R file.txt,Opens file.txt in Vim in read-only mode.
+How do I open `file.txt` in Emacs without loading my personal configuration?,emacs -Q file.txt,Opens file.txt in Emacs with minimal configuration.
+"What's the command to launch Emacs with `file.txt` in a clean, default state?",emacs -Q file.txt,Opens file.txt in Emacs with minimal configuration.
+"Can you show me how to open `file.txt` using Emacs, but bypass my `init.el` file?",emacs -Q file.txt,Opens file.txt in Emacs with minimal configuration.
+"I need to edit `file.txt` with Emacs, ensuring it starts up without any custom settings. What command should I use?",emacs -Q file.txt,Opens file.txt in Emacs with minimal configuration.
+"Please open `file.txt` in Emacs in a barebones, vanilla mode",emacs -Q file.txt,Opens file.txt in Emacs with minimal configuration.
+"How can I quickly open `file.txt` in Emacs, ignoring all my usual customizations?",emacs -Q file.txt,Opens file.txt in Emacs with minimal configuration.
+"What's the proper way to open `file.txt` in Emacs for testing, without my setup interfering?",emacs -Q file.txt,Opens file.txt in Emacs with minimal configuration.
+Could you help me launch Emacs to view `file.txt` without loading my `~/.emacs` file?,emacs -Q file.txt,Opens file.txt in Emacs with minimal configuration.
+I want to open `file.txt` in Emacs and force it to use its default settings only,emacs -Q file.txt,Opens file.txt in Emacs with minimal configuration.
+"Run Emacs to open `file.txt`, making sure it doesn't load any custom user files",emacs -Q file.txt,Opens file.txt in Emacs with minimal configuration.
+"How do I get Emacs to open `file.txt` in its default configuration, specifically skipping my init file?",emacs -Q file.txt,Opens file.txt in Emacs with minimal configuration.
+"Launch Emacs to edit `file.txt` in a ""factory default"" state",emacs -Q file.txt,Opens file.txt in Emacs with minimal configuration.
+Run `apt-config dump`,apt-config dump,Dumps the configuration of APT on Debian-based systems.
+Please show me the APT configuration,apt-config dump,Dumps the configuration of APT on Debian-based systems.
+I need to dump APT's configuration,apt-config dump,Dumps the configuration of APT on Debian-based systems.
+How do I view the APT configuration settings?,apt-config dump,Dumps the configuration of APT on Debian-based systems.
+Display the current APT configuration,apt-config dump,Dumps the configuration of APT on Debian-based systems.
+Can you execute `apt-config dump` for me?,apt-config dump,Dumps the configuration of APT on Debian-based systems.
+Let's get the APT configuration dump,apt-config dump,Dumps the configuration of APT on Debian-based systems.
+What are APT's current configuration details?,apt-config dump,Dumps the configuration of APT on Debian-based systems.
+Perform an APT configuration dump,apt-config dump,Dumps the configuration of APT on Debian-based systems.
+I'd like to see APT's config,apt-config dump,Dumps the configuration of APT on Debian-based systems.
+Could you please provide the APT configuration output?,apt-config dump,Dumps the configuration of APT on Debian-based systems.
+Dump the APT config,apt-config dump,Dumps the configuration of APT on Debian-based systems.
+What are the details for yum transaction 1?,yum history info 1,Displays details of transaction ID 1 in yum history on CentOS/RHEL.
+Show me the information for history ID 1 in yum,yum history info 1,Displays details of transaction ID 1 in yum history on CentOS/RHEL.
+Can you display the details of yum history entry number 1?,yum history info 1,Displays details of transaction ID 1 in yum history on CentOS/RHEL.
+I need to see the info for yum transaction ID,yum history info 1,Displays details of transaction ID 1 in yum history on CentOS/RHEL.
+Tell me about yum's transaction number,yum history info 1,Displays details of transaction ID 1 in yum history on CentOS/RHEL.
+Retrieve the details of yum history transaction,yum history info 1,Displays details of transaction ID 1 in yum history on CentOS/RHEL.
+Get me the information for yum history entry,yum history info 1,Displays details of transaction ID 1 in yum history on CentOS/RHEL.
+Display yum history details for transaction,yum history info 1,Displays details of transaction ID 1 in yum history on CentOS/RHEL.
+What happened in yum transaction 1?,yum history info 1,Displays details of transaction ID 1 in yum history on CentOS/RHEL.
+I'd like to view the details of yum history ID,yum history info 1,Displays details of transaction ID 1 in yum history on CentOS/RHEL.
+Please provide the details for yum transaction number one,yum history info 1,Displays details of transaction ID 1 in yum history on CentOS/RHEL.
+Can you give me the full info on yum history transaction 1?,yum history info 1,Displays details of transaction ID 1 in yum history on CentOS/RHEL.
+What are the direct dependencies of the python3 package?,dnf repoquery --requires python3,Lists dependencies required by the python3 package on Fedora-based systems.
+List all packages required by python,dnf repoquery --requires python3,Lists dependencies required by the python3 package on Fedora-based systems.
+Show me what python3 needs to function,dnf repoquery --requires python3,Lists dependencies required by the python3 package on Fedora-based systems.
+How can I check python3's dependencies with dnf?,dnf repoquery --requires python3,Lists dependencies required by the python3 package on Fedora-based systems.
+What other packages does python3 pull in?,dnf repoquery --requires python3,Lists dependencies required by the python3 package on Fedora-based systems.
+Could you display the prerequisites for python3?,dnf repoquery --requires python3,Lists dependencies required by the python3 package on Fedora-based systems.
+I need to see python3's required packages,dnf repoquery --requires python3,Lists dependencies required by the python3 package on Fedora-based systems.
+What does python3 rely on?,dnf repoquery --requires python3,Lists dependencies required by the python3 package on Fedora-based systems.
+List python3's dependencies,dnf repoquery --requires python3,Lists dependencies required by the python3 package on Fedora-based systems.
+Can you tell me the requirements for python3?,dnf repoquery --requires python3,Lists dependencies required by the python3 package on Fedora-based systems.
+Get me the dependency list for python,dnf repoquery --requires python3,Lists dependencies required by the python3 package on Fedora-based systems.
+What are python3's immediate requirements?,dnf repoquery --requires python3,Lists dependencies required by the python3 package on Fedora-based systems.
+Which package owns `/usr/bin/nginx`?,rpm -qf /usr/bin/nginx,Identifies which package owns /usr/bin/nginx.
+What RPM package provides `/usr/bin/nginx`?,rpm -qf /usr/bin/nginx,Identifies which package owns /usr/bin/nginx.
+How can I find out which package installed `/usr/bin/nginx`?,rpm -qf /usr/bin/nginx,Identifies which package owns /usr/bin/nginx.
+Can you tell me the package that `/usr/bin/nginx` belongs to?,rpm -qf /usr/bin/nginx,Identifies which package owns /usr/bin/nginx.
+I need to identify the RPM package containing `/usr/bin/nginx`,rpm -qf /usr/bin/nginx,Identifies which package owns /usr/bin/nginx.
+Please determine which package is responsible for `/usr/bin/nginx`,rpm -qf /usr/bin/nginx,Identifies which package owns /usr/bin/nginx.
+Which package bundled `/usr/bin/nginx`?,rpm -qf /usr/bin/nginx,Identifies which package owns /usr/bin/nginx.
+Show me the owner package of the file `/usr/bin/nginx`,rpm -qf /usr/bin/nginx,Identifies which package owns /usr/bin/nginx.
+What's the RPM package for `/usr/bin/nginx`?,rpm -qf /usr/bin/nginx,Identifies which package owns /usr/bin/nginx.
+Find the package that provides `/usr/bin/nginx`,rpm -qf /usr/bin/nginx,Identifies which package owns /usr/bin/nginx.
+Could you tell me which RPM owns `/usr/bin/nginx`?,rpm -qf /usr/bin/nginx,Identifies which package owns /usr/bin/nginx.
+I'm looking for the package `/usr/bin/nginx` is a part of,rpm -qf /usr/bin/nginx,Identifies which package owns /usr/bin/nginx.
+How do I verify the integrity of the nginx package files on Linux?,rpm -V nginx,Verifies the integrity of files in the nginx package.
+What's the `rpm` command to check the installation of the nginx package?,rpm -V nginx,Verifies the integrity of files in the nginx package.
+Could you tell me how to validate the files within the nginx package?,rpm -V nginx,Verifies the integrity of files in the nginx package.
+I need to ensure the nginx package hasn't been tampered with; what's the command?,rpm -V nginx,Verifies the integrity of files in the nginx package.
+What's the syntax for using `rpm` to verify the `nginx` package?,rpm -V nginx,Verifies the integrity of files in the nginx package.
+How can I check if my nginx package files are still original after installation?,rpm -V nginx,Verifies the integrity of files in the nginx package.
+Give me the command to run `rpm -V` against the `nginx` package,rpm -V nginx,Verifies the integrity of files in the nginx package.
+Is there a way to verify all files associated with the nginx package?,rpm -V nginx,Verifies the integrity of files in the nginx package.
+What command would I use to perform an integrity check on the `nginx` RPM package?,rpm -V nginx,Verifies the integrity of files in the nginx package.
+Show me the Linux command to confirm the nginx package's files are as expected,rpm -V nginx,Verifies the integrity of files in the nginx package.
+How do I use the Red Hat Package Manager to verify the integrity of nginx?,rpm -V nginx,Verifies the integrity of files in the nginx package.
+I suspect issues with my nginx package; how can I run a verification on its files?,rpm -V nginx,Verifies the integrity of files in the nginx package.
+Please run `debsums -c nginx`,debsums -c nginx,Checks the integrity of files in the nginx package on Debian-based systems.
+Could you execute `debsums -c nginx`?,debsums -c nginx,Checks the integrity of files in the nginx package on Debian-based systems.
+I need to perform `debsums -c nginx`,debsums -c nginx,Checks the integrity of files in the nginx package on Debian-based systems.
+Let's run `debsums -c nginx` to verify nginx,debsums -c nginx,Checks the integrity of files in the nginx package on Debian-based systems.
+Check the integrity of the nginx package using `debsums -c nginx`,debsums -c nginx,Checks the integrity of files in the nginx package on Debian-based systems.
+Perform the command: `debsums -c nginx`,debsums -c nginx,Checks the integrity of files in the nginx package on Debian-based systems.
+Go ahead and run `debsums -c nginx`,debsums -c nginx,Checks the integrity of files in the nginx package on Debian-based systems.
+Can you please run `debsums -c nginx` for me?,debsums -c nginx,Checks the integrity of files in the nginx package on Debian-based systems.
+Initiate `debsums -c nginx`,debsums -c nginx,Checks the integrity of files in the nginx package on Debian-based systems.
+I'd like to run `debsums -c nginx`,debsums -c nginx,Checks the integrity of files in the nginx package on Debian-based systems.
+How about we run `debsums -c nginx`?,debsums -c nginx,Checks the integrity of files in the nginx package on Debian-based systems.
+Execute `debsums -c nginx`,debsums -c nginx,Checks the integrity of files in the nginx package on Debian-based systems.
+List the partitions on /dev/sda,partx -s /dev/sda,Lists partitions on /dev/sda with size and type.
+Show me the partition table for /dev/sda,partx -s /dev/sda,Lists partitions on /dev/sda with size and type.
+What are the partitions on /dev/sda?,partx -s /dev/sda,Lists partitions on /dev/sda with size and type.
+How can I display the partitions of /dev/sda?,partx -s /dev/sda,Lists partitions on /dev/sda with size and type.
+I need to view the partition layout of /dev/sda,partx -s /dev/sda,Lists partitions on /dev/sda with size and type.
+Can you get me a summary of partitions from /dev/sda?,partx -s /dev/sda,Lists partitions on /dev/sda with size and type.
+Please provide the partition details for /dev/sda,partx -s /dev/sda,Lists partitions on /dev/sda with size and type.
+I want to know the partition scheme of /dev/sda,partx -s /dev/sda,Lists partitions on /dev/sda with size and type.
+Tell me about the partitions on my first hard drive,partx -s /dev/sda,Lists partitions on /dev/sda with size and type.
+"What's the partition information for /dev/sda, including size and type?",partx -s /dev/sda,Lists partitions on /dev/sda with size and type.
+Enumerate the partitions on /dev/sda,partx -s /dev/sda,Lists partitions on /dev/sda with size and type.
+Could you list all the partitions present on /dev/sda?,partx -s /dev/sda,Lists partitions on /dev/sda with size and type.
+How do I list all block devices with their full paths?,lsblk -p,Lists block devices with full device paths.
+Could you show me the complete paths for all the block devices?,lsblk -p,Lists block devices with full device paths.
+"What's the command to get a comprehensive list of block devices, including their full device paths?",lsblk -p,Lists block devices with full device paths.
+I need to see all storage devices along with their absolute paths. How can I do that?,lsblk -p,Lists block devices with full device paths.
+Display all block devices and ensure their full paths are included,lsblk -p,Lists block devices with full device paths.
+Can you please execute the command that lists block devices with their complete paths?,lsblk -p,Lists block devices with full device paths.
+I'm trying to identify a disk by its full `/dev/` path. What utility can help me with that?,lsblk -p,Lists block devices with full device paths.
+"Show me a detailed breakdown of block devices, specifically with their full device file paths",lsblk -p,Lists block devices with full device paths.
+How do I get the full path for every block device present on the system?,lsblk -p,Lists block devices with full device paths.
+"Please list the block devices, making sure to include their full hierarchical paths",lsblk -p,Lists block devices with full device paths.
+"I need a full enumeration of block devices, and their device paths are crucial. What's the command?",lsblk -p,Lists block devices with full device paths.
+What's the proper way to view block devices and their corresponding full file system paths?,lsblk -p,Lists block devices with full device paths.
+Run `lscpu -J`,lscpu -J,Displays CPU information in JSON format.
+How do I get my CPU information in JSON format?,lscpu -J,Displays CPU information in JSON format.
+What's the command to display CPU details as JSON?,lscpu -J,Displays CPU information in JSON format.
+Can you show me the processor specifications in JSON?,lscpu -J,Displays CPU information in JSON format.
+I need to view the `lscpu` output as JSON,lscpu -J,Displays CPU information in JSON format.
+Please execute `lscpu -J`,lscpu -J,Displays CPU information in JSON format.
+Display the CPU architecture information in JSON format,lscpu -J,Displays CPU information in JSON format.
+"Get me the machine's CPU data, formatted as JSON",lscpu -J,Displays CPU information in JSON format.
+I want to see my CPU statistics as a JSON object,lscpu -J,Displays CPU information in JSON format.
+How can I retrieve the system's CPU details in JSON?,lscpu -J,Displays CPU information in JSON format.
+Show me the JSON output for my CPU,lscpu -J,Displays CPU information in JSON format.
+Provide the `lscpu` results in JSON,lscpu -J,Displays CPU information in JSON format.
+Could you please run `free -b` for me?,free -b,Displays memory usage in bytes.
+Show me the system's memory usage in bytes,free -b,Displays memory usage in bytes.
+"How much free RAM is there, reported in bytes?",free -b,Displays memory usage in bytes.
+Display the current memory statistics using byte units,free -b,Displays memory usage in bytes.
+What's the memory situation? I need the figures in bytes,free -b,Displays memory usage in bytes.
+"I'd like to see the raw memory allocation, presented in bytes",free -b,Displays memory usage in bytes.
+"Provide the memory consumption details, formatted in bytes",free -b,Displays memory usage in bytes.
+"Tell me about the system's memory. Specifically, in bytes",free -b,Displays memory usage in bytes.
+Please output the memory information in bytes,free -b,Displays memory usage in bytes.
+"Can you give me a memory report, ensuring the values are in bytes?",free -b,Displays memory usage in bytes.
+"Let's get an overview of the memory, with byte measurements",free -b,Displays memory usage in bytes.
+"Just the memory usage, in bytes, please",free -b,Displays memory usage in bytes.
+What's my system's hardware platform?,uname -i,Displays the hardware platform.
+Could you please run `uname -i`?,uname -i,Displays the hardware platform.
+How do I check the hardware platform?,uname -i,Displays the hardware platform.
+Tell me the hardware architecture of this machine,uname -i,Displays the hardware platform.
+Display the system's platform identifier,uname -i,Displays the hardware platform.
+I need to know what hardware platform I'm running on,uname -i,Displays the hardware platform.
+Please show me the output of `uname -i`,uname -i,Displays the hardware platform.
+What command reports the hardware platform?,uname -i,Displays the hardware platform.
+Can you check the hardware platform for me?,uname -i,Displays the hardware platform.
+Give me the machine's hardware type,uname -i,Displays the hardware platform.
+Report the system's platform,uname -i,Displays the hardware platform.
+What's the hardware platform currently in use?,uname -i,Displays the hardware platform.
+Run `vmstat -SM`,vmstat -SM,Reports virtual memory statistics in megabytes.
+Please execute `vmstat -SM`,vmstat -SM,Reports virtual memory statistics in megabytes.
+Could you show me the virtual memory statistics in megabytes?,vmstat -SM,Reports virtual memory statistics in megabytes.
+"I need to see the `vmstat` output, specifically in MB",vmstat -SM,Reports virtual memory statistics in megabytes.
+How do I check virtual memory usage with `vmstat -SM`?,vmstat -SM,Reports virtual memory statistics in megabytes.
+Please run `vmstat -SM` to report memory stats,vmstat -SM,Reports virtual memory statistics in megabytes.
+Can you get the virtual memory statistics in megabytes?,vmstat -SM,Reports virtual memory statistics in megabytes.
+Display the virtual memory report using `vmstat -SM`,vmstat -SM,Reports virtual memory statistics in megabytes.
+Fire up `vmstat -SM`,vmstat -SM,Reports virtual memory statistics in megabytes.
+I'd like to inspect virtual memory in megabytes,vmstat -SM,Reports virtual memory statistics in megabytes.
+Let's see the `vmstat -SM` output,vmstat -SM,Reports virtual memory statistics in megabytes.
+Show me the virtual memory statistics in MB,vmstat -SM,Reports virtual memory statistics in megabytes.
+Run `iostat -m`,iostat -m,Displays I/O statistics in megabytes per second.
+How do I display I/O statistics in megabytes per second?,iostat -m,Displays I/O statistics in megabytes per second.
+"I need to see disk I/O stats in MB/s, what's the command?",iostat -m,Displays I/O statistics in megabytes per second.
+Show me the I/O performance figures in megabytes per second,iostat -m,Displays I/O statistics in megabytes per second.
+What's the `iostat` command for megabyte output?,iostat -m,Displays I/O statistics in megabytes per second.
+Could you provide the command to view I/O in MB/s?,iostat -m,Displays I/O statistics in megabytes per second.
+How can I check my disk activity in MB/s?,iostat -m,Displays I/O statistics in megabytes per second.
+"I want to monitor throughput using `iostat`, specifically in MB/s",iostat -m,Displays I/O statistics in megabytes per second.
+Give me the command to get I/O stats reported in megabytes,iostat -m,Displays I/O statistics in megabytes per second.
+What command shows disk read/write rates in MB/s?,iostat -m,Displays I/O statistics in megabytes per second.
+How do I get `iostat` to use megabytes per second for its units?,iostat -m,Displays I/O statistics in megabytes per second.
+"Display I/O statistics, but express the values in megabytes",iostat -m,Displays I/O statistics in megabytes per second.
+lslocks,lslocks,Lists file locks held by processes.
+Run lslocks,lslocks,Lists file locks held by processes.
+Execute the lslocks command,lslocks,Lists file locks held by processes.
+How do I list file locks?,lslocks,Lists file locks held by processes.
+Please run lslocks,lslocks,Lists file locks held by processes.
+Can you show me the current file locks?,lslocks,Lists file locks held by processes.
+I need to see which processes are holding locks,lslocks,Lists file locks held by processes.
+What's the command for checking file locks?,lslocks,Lists file locks held by processes.
+Let's check the locks with lslocks,lslocks,Lists file locks held by processes.
+Run lslocks to diagnose the locking issue,lslocks,Lists file locks held by processes.
+Could you execute lslocks for me?,lslocks,Lists file locks held by processes.
+Display all file locks,lslocks,Lists file locks held by processes.
+Run `lsmem`,lsmem,Lists memory ranges and their online status.
+Please execute `lsmem`,lsmem,Lists memory ranges and their online status.
+Could you run `lsmem`?,lsmem,Lists memory ranges and their online status.
+"I need to list memory ranges, so run `lsmem`",lsmem,Lists memory ranges and their online status.
+Show me the memory ranges with `lsmem`,lsmem,Lists memory ranges and their online status.
+Let's run `lsmem`,lsmem,Lists memory ranges and their online status.
+Go ahead and run `lsmem`,lsmem,Lists memory ranges and their online status.
+Initiate the `lsmem` command,lsmem,Lists memory ranges and their online status.
+Can you fire up `lsmem` for me?,lsmem,Lists memory ranges and their online status.
+I want to use `lsmem` to check memory status,lsmem,Lists memory ranges and their online status.
+Please run the `lsmem` utility,lsmem,Lists memory ranges and their online status.
+Execute `lsmem` to see the memory ranges and their online status,lsmem,Lists memory ranges and their online status.
+Please run the `lsscsi` command,lsscsi,Lists SCSI devices and their attributes.
+How can I list the SCSI devices on this machine?,lsscsi,Lists SCSI devices and their attributes.
+Could you execute `lsscsi` for me?,lsscsi,Lists SCSI devices and their attributes.
+I need to see the attributes of the SCSI hardware; what's the command for that?,lsscsi,Lists SCSI devices and their attributes.
+Show me the output of `lsscsi`,lsscsi,Lists SCSI devices and their attributes.
+Can you display the SCSI devices and their details?,lsscsi,Lists SCSI devices and their attributes.
+Let's run `lsscsi` to get the SCSI device list,lsscsi,Lists SCSI devices and their attributes.
+What command shows me the SCSI devices and their attributes?,lsscsi,Lists SCSI devices and their attributes.
+Could you fire up `lsscsi`?,lsscsi,Lists SCSI devices and their attributes.
+"I'd like to list all SCSI devices, please",lsscsi,Lists SCSI devices and their attributes.
+Run `lsscsi`,lsscsi,Lists SCSI devices and their attributes.
+Display the information about the attached SCSI devices,lsscsi,Lists SCSI devices and their attributes.
+Please run `lshw -short`,lshw -short,Displays a concise hardware summary.
+Can you execute `lshw -short` for me?,lshw -short,Displays a concise hardware summary.
+I need a concise hardware summary; please run `lshw -short`,lshw -short,Displays a concise hardware summary.
+Show me the output of `lshw -short`,lshw -short,Displays a concise hardware summary.
+Run the command `lshw -short`,lshw -short,Displays a concise hardware summary.
+Could you go ahead and execute `lshw -short`?,lshw -short,Displays a concise hardware summary.
+Display a short hardware list using `lshw -short`,lshw -short,Displays a concise hardware summary.
+I'd like to get a concise hardware overview. Please run `lshw -short`,lshw -short,Displays a concise hardware summary.
+Initiate `lshw -short`,lshw -short,Displays a concise hardware summary.
+Execute `lshw -short` to show the hardware,lshw -short,Displays a concise hardware summary.
+Let's run `lshw -short`,lshw -short,Displays a concise hardware summary.
+Perform `lshw -short`,lshw -short,Displays a concise hardware summary.
+How do I list the device mapper devices?,dmsetup ls,Lists device mapper devices.
+Show me the active device mapper devices,dmsetup ls,Lists device mapper devices.
+What are the current `dmsetup` devices?,dmsetup ls,Lists device mapper devices.
+Can you display the list of device mapper entries?,dmsetup ls,Lists device mapper devices.
+I need to see all device mapper devices,dmsetup ls,Lists device mapper devices.
+Please output the device mapper device list,dmsetup ls,Lists device mapper devices.
+Tell me what device mapper devices are configured,dmsetup ls,Lists device mapper devices.
+How can I view the state of the device mapper devices?,dmsetup ls,Lists device mapper devices.
+Give me a rundown of the device mapper devices,dmsetup ls,Lists device mapper devices.
+What command lists the device mapper (DM) devices?,dmsetup ls,Lists device mapper devices.
+Could you provide a list of the device mapper devices?,dmsetup ls,Lists device mapper devices.
+I want to check the device mapper devices present on the system,dmsetup ls,Lists device mapper devices.
+How do I list all extended attributes for files and subdirectories within `/data`?,lsattr -R /data,Recursively lists extended attributes for files in /data.
+What's the command to recursively display extended file attributes in `/data`?,lsattr -R /data,Recursively lists extended attributes for files in /data.
+I need to see the extended attributes for everything under `/data`. How can I do that?,lsattr -R /data,Recursively lists extended attributes for files in /data.
+Can you show me how to list attributes recursively for the `/data` directory?,lsattr -R /data,Recursively lists extended attributes for files in /data.
+How do I check the extended attributes of all files in `/data` and its subfolders?,lsattr -R /data,Recursively lists extended attributes for files in /data.
+What's the proper way to recursively list extended attributes for `/data`?,lsattr -R /data,Recursively lists extended attributes for files in /data.
+I'm trying to view the extended attributes of files in `/data` and its contents. What command should I use?,lsattr -R /data,Recursively lists extended attributes for files in /data.
+How can I get a recursive listing of extended attributes for the `/data` directory?,lsattr -R /data,Recursively lists extended attributes for files in /data.
+Display the extended attributes for `/data` and all its subdirectories,lsattr -R /data,Recursively lists extended attributes for files in /data.
+What command lists the extended file attributes recursively for the path `/data`?,lsattr -R /data,Recursively lists extended attributes for files in /data.
+Could you provide the command to recursively list extended attributes for `/data`?,lsattr -R /data,Recursively lists extended attributes for files in /data.
+"I want to list all extended attributes, including for nested files, within `/data`",lsattr -R /data,Recursively lists extended attributes for files in /data.
+"How do I find all setuid files on the root filesystem, without checking other mounts?",find / -xdev -perm /u+s,"Finds setuid files on the root filesystem, ignoring other mounts."
+List all SUID files present only on the root partition,find / -xdev -perm /u+s,"Finds setuid files on the root filesystem, ignoring other mounts."
+"I need to locate set-user-ID files, but only on the primary filesystem and not any mounted ones",find / -xdev -perm /u+s,"Finds setuid files on the root filesystem, ignoring other mounts."
+"Show me all files with the setuid bit set, strictly within the root directory's filesystem",find / -xdev -perm /u+s,"Finds setuid files on the root filesystem, ignoring other mounts."
+"What's the command to find setuid files only on the root filesystem, excluding other mounted volumes?",find / -xdev -perm /u+s,"Finds setuid files on the root filesystem, ignoring other mounts."
+"Help me identify setuid files on the root filesystem, without traversing into other filesystems",find / -xdev -perm /u+s,"Finds setuid files on the root filesystem, ignoring other mounts."
+"Find all setuid files on the root filesystem, ignoring other disks",find / -xdev -perm /u+s,"Finds setuid files on the root filesystem, ignoring other mounts."
+Locate any setuid files on the main filesystem and do not cross any mount points,find / -xdev -perm /u+s,"Finds setuid files on the root filesystem, ignoring other mounts."
+"I want to list all SUID programs on the root filesystem, making sure to stay on the same device",find / -xdev -perm /u+s,"Finds setuid files on the root filesystem, ignoring other mounts."
+"Can you show me setuid files present on the root volume, and nowhere else?",find / -xdev -perm /u+s,"Finds setuid files on the root filesystem, ignoring other mounts."
+Give me a list of all setuid-enabled files found exclusively on the root partition,find / -xdev -perm /u+s,"Finds setuid files on the root filesystem, ignoring other mounts."
+How can I search for setuid files on the root filesystem and ensure I don't look at other filesystems?,find / -xdev -perm /u+s,"Finds setuid files on the root filesystem, ignoring other mounts."
+How do I recursively remove setuid permissions from all files in the /data directory?,chmod -R u-s /data,Recursively removes setuid permissions from files in /data.
+I need to disable the SUID bit for the owner on every file within `/data` and its subdirectories. What's the command?,chmod -R u-s /data,Recursively removes setuid permissions from files in /data.
+"What's the command to strip setuid from all files in /data, including those in subfolders?",chmod -R u-s /data,Recursively removes setuid permissions from files in /data.
+Can you give me the `chmod` command to clear the user's setuid permission recursively from `/data`?,chmod -R u-s /data,Recursively removes setuid permissions from files in /data.
+"How do I get rid of the 's' permission bit for the user, recursively, in the /data folder?",chmod -R u-s /data,Recursively removes setuid permissions from files in /data.
+I want to turn off setuid on all files in the /data directory tree. What's the best way to do this?,chmod -R u-s /data,Recursively removes setuid permissions from files in /data.
+Please tell me the command to recursively remove the setuid bit for the owner from everything under /data,chmod -R u-s /data,Recursively removes setuid permissions from files in /data.
+Could you provide the command to ensure no files in `/data` (and its subdirectories) have the setuid bit set for the user?,chmod -R u-s /data,Recursively removes setuid permissions from files in /data.
+"What's the command to remove special 'execute-as-owner' permissions for the user, recursively, within the /data directory?",chmod -R u-s /data,Recursively removes setuid permissions from files in /data.
+I need to disable setuid recursively for the user on all contents of /data. How do I do that?,chmod -R u-s /data,Recursively removes setuid permissions from files in /data.
+How can I strip the setuid permission from all files and subdirectories in /data?,chmod -R u-s /data,Recursively removes setuid permissions from files in /data.
+Give me the command to recursively remove the user SUID permission from the /data folder,chmod -R u-s /data,Recursively removes setuid permissions from files in /data.
+How do I recursively change the owner of all files and subdirectories in `/data` from `root` to `user`?,chown -R --from=root user /data,Recursively changes ownership from root to user for files in /data.
+What's the Linux command to transfer ownership of everything within `/data` from `root` to `user`?,chown -R --from=root user /data,Recursively changes ownership from root to user for files in /data.
+"I need to `chown` `/data` and its contents, making `user` the new owner for files currently owned by `root`",chown -R --from=root user /data,Recursively changes ownership from root to user for files in /data.
+Command to set `user` as the owner for all files under `/data` that are currently owned by `root`?,chown -R --from=root user /data,Recursively changes ownership from root to user for files in /data.
+"How can I make `user` the recursive owner of `/data` and its files, specifically if they're owned by `root`?",chown -R --from=root user /data,Recursively changes ownership from root to user for files in /data.
+Please provide the `chown` command to recursively update ownership from `root` to `user` within the `/data` directory,chown -R --from=root user /data,Recursively changes ownership from root to user for files in /data.
+What's the syntax to recursively change file ownership in `/data` from `root` to `user`?,chown -R --from=root user /data,Recursively changes ownership from root to user for files in /data.
+"I want to assign ownership of `/data` files and folders to `user`, but only for those currently owned by `root`",chown -R --from=root user /data,Recursively changes ownership from root to user for files in /data.
+Linux: recursively change owner of `/data` from `root` to `user`,chown -R --from=root user /data,Recursively changes ownership from root to user for files in /data.
+Give me the command to recursively change `root` ownership to `user` for the `/data` directory tree,chown -R --from=root user /data,Recursively changes ownership from root to user for files in /data.
+How to recursively `chown` files in `/data` so that `user` owns anything previously owned by `root`?,chown -R --from=root user /data,Recursively changes ownership from root to user for files in /data.
+"What command would I use to ensure `user` owns all contents of `/data` that were previously owned by `root`, including subdirectories?",chown -R --from=root user /data,Recursively changes ownership from root to user for files in /data.
+How do I recursively remove all ACLs from files in `/data`?,setfacl -R -b /data,Recursively removes all ACLs from files in /data.
+What's the command to clear all access control lists from the `/data` directory tree?,setfacl -R -b /data,Recursively removes all ACLs from files in /data.
+I need to strip all ACLs from `/data` and its subdirectories. What command should I use?,setfacl -R -b /data,Recursively removes all ACLs from files in /data.
+How can I ensure there are no explicit ACLs on `/data` and everything under it?,setfacl -R -b /data,Recursively removes all ACLs from files in /data.
+Recursively delete all explicit ACLs from `/data`,setfacl -R -b /data,Recursively removes all ACLs from files in /data.
+What `setfacl` command do I use to clear ACLs recursively from `/data`?,setfacl -R -b /data,Recursively removes all ACLs from files in /data.
+I need to get rid of all ACLs on `/data` and its contents. What's the best way?,setfacl -R -b /data,Recursively removes all ACLs from files in /data.
+"Clear all recursive ACLs on `/data`, how?",setfacl -R -b /data,Recursively removes all ACLs from files in /data.
+How do I wipe *all* ACLs from `/data` recursively?,setfacl -R -b /data,Recursively removes all ACLs from files in /data.
+Can you give me the command to remove all ACLs from `/data` and its subdirectories?,setfacl -R -b /data,Recursively removes all ACLs from files in /data.
+I want to entirely remove all ACLs from `/data` and all its descendants. What's the exact command?,setfacl -R -b /data,Recursively removes all ACLs from files in /data.
+What's the simplest way to remove all ACLs from `/data` and everything inside it recursively?,setfacl -R -b /data,Recursively removes all ACLs from files in /data.
+Set the SELinux user for `file.txt` to `system_u`,chcon -u system_u file.txt,Sets the SELinux user to system_u for file.txt.
+How do I change the SELinux user context of `file.txt` to `system_u`?,chcon -u system_u file.txt,Sets the SELinux user to system_u for file.txt.
+Could you run `chcon` to assign `system_u` as the SELinux user for `file.txt`?,chcon -u system_u file.txt,Sets the SELinux user to system_u for file.txt.
+I need to modify the SELinux user for `file.txt` to be `system_u`,chcon -u system_u file.txt,Sets the SELinux user to system_u for file.txt.
+Please apply the `system_u` SELinux user to `file.txt`,chcon -u system_u file.txt,Sets the SELinux user to system_u for file.txt.
+What's the command to set `file.txt`'s SELinux user to `system_u`?,chcon -u system_u file.txt,Sets the SELinux user to system_u for file.txt.
+Change the SELinux user of `file.txt` to `system_u`,chcon -u system_u file.txt,Sets the SELinux user to system_u for file.txt.
+I want to set the SELinux user for `file.txt` to `system_u` using `chcon`,chcon -u system_u file.txt,Sets the SELinux user to system_u for file.txt.
+Could you help me set the SELinux user for `file.txt` to `system_u`?,chcon -u system_u file.txt,Sets the SELinux user to system_u for file.txt.
+I need to ensure `file.txt` has `system_u` as its SELinux user,chcon -u system_u file.txt,Sets the SELinux user to system_u for file.txt.
+Execute the command to make `system_u` the SELinux user for `file.txt`,chcon -u system_u file.txt,Sets the SELinux user to system_u for file.txt.
+Assign `system_u` as the SELinux user for `file.txt`,chcon -u system_u file.txt,Sets the SELinux user to system_u for file.txt.
+How do I run `xxd -i file.txt`?,xxd -i file.txt,Generates a C-style include file with a hex array from file.txt.
+What's the command to generate a C-style include file with a hex array from `file.txt`?,xxd -i file.txt,Generates a C-style include file with a hex array from file.txt.
+I need to convert `file.txt` into a C include file containing a hex dump. How do I do that?,xxd -i file.txt,Generates a C-style include file with a hex array from file.txt.
+Can you show me how to use `xxd` to create a C-style header with embedded binary data from `file.txt`?,xxd -i file.txt,Generates a C-style include file with a hex array from file.txt.
+How do I get `xxd` to produce a C hex array include for `file.txt`?,xxd -i file.txt,Generates a C-style include file with a hex array from file.txt.
+I want to embed the contents of `file.txt` into my C code as a hexadecimal array in an include file. What command should I use?,xxd -i file.txt,Generates a C-style include file with a hex array from file.txt.
+Generate a C include file with a hex array from `file.txt` using `xxd`,xxd -i file.txt,Generates a C-style include file with a hex array from file.txt.
+Which `xxd` option creates a C-style include file from `file.txt`?,xxd -i file.txt,Generates a C-style include file with a hex array from file.txt.
+How do I turn `file.txt` into a C header with its bytes represented as a hex array?,xxd -i file.txt,Generates a C-style include file with a hex array from file.txt.
+Give me the `xxd` command to make a C include from `file.txt`,xxd -i file.txt,Generates a C-style include file with a hex array from file.txt.
+I'm trying to create a `.h` file containing a `char` array representation of `file.txt` using `xxd`. What's the syntax?,xxd -i file.txt,Generates a C-style include file with a hex array from file.txt.
+Could you tell me the command to create a C-style include file that has a hexadecimal representation of `file.txt`'s content?,xxd -i file.txt,Generates a C-style include file with a hex array from file.txt.
+Please dump `file.bin` as decimal 4-byte integers with decimal offsets,od -A d -t d4 file.bin,Dumps file.bin as decimal 4-byte integers with decimal offsets.
+How do I use `od` to display `file.bin` as 4-byte decimal integers and decimal offsets?,od -A d -t d4 file.bin,Dumps file.bin as decimal 4-byte integers with decimal offsets.
+What `od` command would I use to show `file.bin` with decimal addresses and 4-byte decimal output?,od -A d -t d4 file.bin,Dumps file.bin as decimal 4-byte integers with decimal offsets.
+"I want to view `file.bin` with `od`, displaying data as 4-byte decimal numbers and showing offsets in decimal",od -A d -t d4 file.bin,Dumps file.bin as decimal 4-byte integers with decimal offsets.
+"Dump `file.bin` using `od`, showing decimal offsets and 4-byte decimal values",od -A d -t d4 file.bin,Dumps file.bin as decimal 4-byte integers with decimal offsets.
+How can I get `od` to output `file.bin` content as 4-byte decimal integers with decimal offsets?,od -A d -t d4 file.bin,Dumps file.bin as decimal 4-byte integers with decimal offsets.
+"Show me the contents of `file.bin` as 4-byte decimal values, with the addresses also in decimal, using `od`",od -A d -t d4 file.bin,Dumps file.bin as decimal 4-byte integers with decimal offsets.
+I need to use `od` to format `file.bin` with a decimal address base and a four-byte decimal type,od -A d -t d4 file.bin,Dumps file.bin as decimal 4-byte integers with decimal offsets.
+What's the `od` command to get a decimal offset dump of `file.bin` with 4-byte decimal integer output?,od -A d -t d4 file.bin,Dumps file.bin as decimal 4-byte integers with decimal offsets.
+Run `od` on `file.bin` to show 4-byte decimal integers and decimal offsets,od -A d -t d4 file.bin,Dumps file.bin as decimal 4-byte integers with decimal offsets.
+"How do I interpret `file.bin`'s binary data as a sequence of 4-byte decimal integers, with offsets shown in decimal, using `od`?",od -A d -t d4 file.bin,Dumps file.bin as decimal 4-byte integers with decimal offsets.
+Display `file.bin` with `od` in decimal offset mode and 4-byte decimal integer format,od -A d -t d4 file.bin,Dumps file.bin as decimal 4-byte integers with decimal offsets.
+How do I display the first 16 bytes of `file.bin` in hex and ASCII on Linux?,hexdump -C -n 16 file.bin,Displays the first 16 bytes of file.bin in hex and ASCII.
+"What's the command to get a hex dump of the initial 16 bytes of `file.bin`, including ASCII characters?",hexdump -C -n 16 file.bin,Displays the first 16 bytes of file.bin in hex and ASCII.
+Could you show me how to view the beginning 16 bytes of `file.bin` with a hex and ASCII output?,hexdump -C -n 16 file.bin,Displays the first 16 bytes of file.bin in hex and ASCII.
+I need to inspect the first 16 bytes of `file.bin`. How can I do a canonical hex dump for just that part?,hexdump -C -n 16 file.bin,Displays the first 16 bytes of file.bin in hex and ASCII.
+What's the `hexdump` command to show the first 16 bytes of `file.bin` in human-readable format?,hexdump -C -n 16 file.bin,Displays the first 16 bytes of file.bin in hex and ASCII.
+How can I see only the first 16 bytes of `file.bin` as a hex and ASCII representation?,hexdump -C -n 16 file.bin,Displays the first 16 bytes of file.bin in hex and ASCII.
+Display the first 16 bytes of `file.bin` in hex format with ASCII,hexdump -C -n 16 file.bin,Displays the first 16 bytes of file.bin in hex and ASCII.
+I want to examine the very beginning (16 bytes) of `file.bin` in hex and ASCII. What's the best way?,hexdump -C -n 16 file.bin,Displays the first 16 bytes of file.bin in hex and ASCII.
+Give me the command to print the first 16 bytes of `file.bin` with both hex and ASCII values,hexdump -C -n 16 file.bin,Displays the first 16 bytes of file.bin in hex and ASCII.
+"How do I get a compact hex dump of the first 16 bytes of `file.bin`, showing ASCII too?",hexdump -C -n 16 file.bin,Displays the first 16 bytes of file.bin in hex and ASCII.
+Show me the first 16 bytes of `file.bin` as a hex and ASCII table,hexdump -C -n 16 file.bin,Displays the first 16 bytes of file.bin in hex and ASCII.
+What's the quick way to preview the first 16 bytes of `file.bin` in hex and ASCII?,hexdump -C -n 16 file.bin,Displays the first 16 bytes of file.bin in hex and ASCII.
+What's the `nl` command to number `file.txt` lines using 2 digits and ': ' as separator?,nl -w 2 -s ': ' file.txt,Numbers lines in file.txt with 2-digit width and ': ' separator.
+How can I add line numbers to `file.txt` so they are two characters wide and followed by ': ' as a delimiter?,nl -w 2 -s ': ' file.txt,Numbers lines in file.txt with 2-digit width and ': ' separator.
+"I need to display `file.txt` with line numbers, ensuring they're always 2 digits wide and use ': ' as the separator",nl -w 2 -s ': ' file.txt,Numbers lines in file.txt with 2-digit width and ': ' separator.
+Number the lines in `file.txt` using a 2-digit width and a ': ' separator,nl -w 2 -s ': ' file.txt,Numbers lines in file.txt with 2-digit width and ': ' separator.
+What command provides 2-digit wide line numbers and a ': ' separator for `file.txt`?,nl -w 2 -s ': ' file.txt,Numbers lines in file.txt with 2-digit width and ': ' separator.
+Could you show me how to number `file.txt` lines with zero-padded 2-digit numbers and a ': ' suffix?,nl -w 2 -s ': ' file.txt,Numbers lines in file.txt with 2-digit width and ': ' separator.
+"How do I format `file.txt` output to include line numbers like '01: ', '02: ', etc.?",nl -w 2 -s ': ' file.txt,Numbers lines in file.txt with 2-digit width and ': ' separator.
+"I'm looking for the syntax to number `file.txt` lines with `nl`, where the number width is 2 and the string ': ' separates them",nl -w 2 -s ': ' file.txt,Numbers lines in file.txt with 2-digit width and ': ' separator.
+"Give me the command to number lines in `file.txt`, making the numbers two characters wide and adding ': ' after each",nl -w 2 -s ': ' file.txt,Numbers lines in file.txt with 2-digit width and ': ' separator.
+"For `file.txt`, I want line numbers that are always two digits, followed by a colon and a space. What's the command?",nl -w 2 -s ': ' file.txt,Numbers lines in file.txt with 2-digit width and ': ' separator.
+"How can I get `file.txt` numbered with a 2-character wide field for the line number, and ': ' as the string between the number and the line?",nl -w 2 -s ': ' file.txt,Numbers lines in file.txt with 2-digit width and ': ' separator.
+"Generate `file.txt` with line numbers prefixed, using a minimum width of 2 for the number and ': ' as the character string separating it from the line content",nl -w 2 -s ': ' file.txt,Numbers lines in file.txt with 2-digit width and ': ' separator.
+How do I convert tabs to 4 spaces in `file.txt`?,expand -t 4 file.txt,Converts tabs to 4 spaces in file.txt.
+I need to replace all tabs with 4 spaces in `file.txt`,expand -t 4 file.txt,Converts tabs to 4 spaces in file.txt.
+Can you expand the tabs in `file.txt` to be 4 spaces wide?,expand -t 4 file.txt,Converts tabs to 4 spaces in file.txt.
+Please change the tab characters in `file.txt` to four spaces,expand -t 4 file.txt,Converts tabs to 4 spaces in file.txt.
+Run the command to make tabs 4 spaces in `file.txt`,expand -t 4 file.txt,Converts tabs to 4 spaces in file.txt.
+Execute `expand` on `file.txt` with a tab stop of,expand -t 4 file.txt,Converts tabs to 4 spaces in file.txt.
+Could you help me transform the tabs in `file.txt` into 4 spaces?,expand -t 4 file.txt,Converts tabs to 4 spaces in file.txt.
+I want to set the tab width to 4 spaces for `file.txt`,expand -t 4 file.txt,Converts tabs to 4 spaces in file.txt.
+Apply the `expand` utility to `file.txt` using a 4-space tab stop,expand -t 4 file.txt,Converts tabs to 4 spaces in file.txt.
+Fix `file.txt` by converting its tabs to four spaces,expand -t 4 file.txt,Converts tabs to 4 spaces in file.txt.
+What's the command to expand tabs to 4 spaces in `file.txt`?,expand -t 4 file.txt,Converts tabs to 4 spaces in file.txt.
+Convert the tabs in `file.txt` to occupy 4 spaces,expand -t 4 file.txt,Converts tabs to 4 spaces in file.txt.
+What's the command to convert four-space sequences to tabs in `file.txt`?,unexpand -t 4 file.txt,Converts 4-space sequences to tabs in file.txt.
+How do I use `unexpand` to convert 4 spaces to tabs for `file.txt`?,unexpand -t 4 file.txt,Converts 4-space sequences to tabs in file.txt.
+I need to replace every four spaces with a tab character in `file.txt`. What's the command for that?,unexpand -t 4 file.txt,Converts 4-space sequences to tabs in file.txt.
+Could you tell me the command to change 4-space indents into tabs in `file.txt`?,unexpand -t 4 file.txt,Converts 4-space sequences to tabs in file.txt.
+What's the `unexpand` command for converting 4-space indents to tabs in `file.txt`?,unexpand -t 4 file.txt,Converts 4-space sequences to tabs in file.txt.
+Can you convert the 4-space sequences to tabs in `file.txt` for me?,unexpand -t 4 file.txt,Converts 4-space sequences to tabs in file.txt.
+I'm looking to convert 4-space sequences into tabs within `file.txt`. What's the best command for that?,unexpand -t 4 file.txt,Converts 4-space sequences to tabs in file.txt.
+Show me the `unexpand` command that converts four spaces to tabs in `file.txt`,unexpand -t 4 file.txt,Converts 4-space sequences to tabs in file.txt.
+What's the proper way to use `unexpand` to replace 4-space indents with tabs in `file.txt`?,unexpand -t 4 file.txt,Converts 4-space sequences to tabs in file.txt.
+Please run the command to replace every 4 spaces with a tab in `file.txt`,unexpand -t 4 file.txt,Converts 4-space sequences to tabs in file.txt.
+How can I get `unexpand` to treat four spaces as a single tab for `file.txt`?,unexpand -t 4 file.txt,Converts 4-space sequences to tabs in file.txt.
+I want to process `file.txt` to replace every 4 spaces with a tab. What command should I use?,unexpand -t 4 file.txt,Converts 4-space sequences to tabs in file.txt.
+How do I reformat `file.txt` to split long lines without joining short ones?,fmt -s file.txt,"Reformats file.txt, splitting long lines without joining short ones."
+"I need to format `file.txt` so that long lines are wrapped, but short paragraphs remain separate. What command should I use?",fmt -s file.txt,"Reformats file.txt, splitting long lines without joining short ones."
+What's the Linux command to split overly long lines in `file.txt` without combining existing paragraphs?,fmt -s file.txt,"Reformats file.txt, splitting long lines without joining short ones."
+"Can you show me how to use `fmt` on `file.txt` to only break long lines, leaving short ones untouched?",fmt -s file.txt,"Reformats file.txt, splitting long lines without joining short ones."
+My `file.txt` has very long lines. How can I make them wrap without merging the shorter lines together?,fmt -s file.txt,"Reformats file.txt, splitting long lines without joining short ones."
+"I want to apply `fmt` to `file.txt` to split lines, but I specifically don't want it to join short lines or fill blank lines. How do I do that?",fmt -s file.txt,"Reformats file.txt, splitting long lines without joining short ones."
+"How can I properly rewrap `file.txt` to prevent lines from being too long, ensuring short lines aren't combined?",fmt -s file.txt,"Reformats file.txt, splitting long lines without joining short ones."
+"What's the command to format `file.txt`, splitting long lines but keeping short ones distinct?",fmt -s file.txt,"Reformats file.txt, splitting long lines without joining short ones."
+"Could you tell me how to reformat `file.txt` using `fmt`, making sure not to join short lines?",fmt -s file.txt,"Reformats file.txt, splitting long lines without joining short ones."
+"I need to format `file.txt` where lines exceed a certain length, and I only want to split those; I don't want to rewrap existing short lines",fmt -s file.txt,"Reformats file.txt, splitting long lines without joining short ones."
+"What is the correct `fmt` command to reformat `file.txt`, splitting only excessively long lines and preserving the structure of short lines?",fmt -s file.txt,"Reformats file.txt, splitting long lines without joining short ones."
+"How do I get `fmt` to process `file.txt` and split only the lines that are too long, without affecting shorter ones?",fmt -s file.txt,"Reformats file.txt, splitting long lines without joining short ones."
+How do I double-space `file.txt` for printing?,pr -d file.txt,Formats file.txt for printing with double spacing.
+What's the command to format `file.txt` with double spacing?,pr -d file.txt,Formats file.txt for printing with double spacing.
+Can you run `pr -d file.txt`?,pr -d file.txt,Formats file.txt for printing with double spacing.
+I need to execute `pr -d file.txt`,pr -d file.txt,Formats file.txt for printing with double spacing.
+How can I use the `pr` command to double-space `file.txt`?,pr -d file.txt,Formats file.txt for printing with double spacing.
+Please give me the command to double-space `file.txt` for printing,pr -d file.txt,Formats file.txt for printing with double spacing.
+What command will make `file.txt` double-spaced when printed?,pr -d file.txt,Formats file.txt for printing with double spacing.
+Run the command to double-space `file.txt`,pr -d file.txt,Formats file.txt for printing with double spacing.
+Could you show me how to format `file.txt` with double spacing using `pr`?,pr -d file.txt,Formats file.txt for printing with double spacing.
+I want to prepare `file.txt` for printing with double spacing. What should I type?,pr -d file.txt,Formats file.txt for printing with double spacing.
+How do I get `pr` to apply double spacing to `file.txt`?,pr -d file.txt,Formats file.txt for printing with double spacing.
+Execute `pr -d file.txt` for me,pr -d file.txt,Formats file.txt for printing with double spacing.
+"What's the command to wrap `file.txt` at 80 characters, breaking on spaces?",fold -s -w 80 file.txt,"Wraps file.txt at 80 characters, breaking at spaces."
+I need to reformat `file.txt` so lines are no longer than 80 chars and break at word boundaries. How?,fold -s -w 80 file.txt,"Wraps file.txt at 80 characters, breaking at spaces."
+"Can you give me the `fold` command to wrap `file.txt` at column 80, respecting word breaks?",fold -s -w 80 file.txt,"Wraps file.txt at 80 characters, breaking at spaces."
+"How would a Linux user use `fold` to limit lines in `file.txt` to 80 columns, splitting only at spaces?",fold -s -w 80 file.txt,"Wraps file.txt at 80 characters, breaking at spaces."
+What's the syntax for using `fold` to wrap `file.txt` at 80 characters without splitting words?,fold -s -w 80 file.txt,"Wraps file.txt at 80 characters, breaking at spaces."
+"Could you tell me the command to wrap `file.txt` into 80-character lines, breaking at spaces?",fold -s -w 80 file.txt,"Wraps file.txt at 80 characters, breaking at spaces."
+"I'm trying to wrap `file.txt` text to 80 columns, preserving whole words. What command should I use?",fold -s -w 80 file.txt,"Wraps file.txt at 80 characters, breaking at spaces."
+"Show me the `fold` command for wrapping `file.txt` to a width of 80, only on whitespace",fold -s -w 80 file.txt,"Wraps file.txt at 80 characters, breaking at spaces."
+"How do I make the lines in `file.txt` 80 characters long, breaking at spaces, using `fold`?",fold -s -w 80 file.txt,"Wraps file.txt at 80 characters, breaking at spaces."
+"Give me the `fold` command to format `file.txt` to 80 columns, prioritizing space breaks",fold -s -w 80 file.txt,"Wraps file.txt at 80 characters, breaking at spaces."
+"What's the command-line instruction to wrap `file.txt` at 80 columns, ensuring words aren't split, using the `fold` utility?",fold -s -w 80 file.txt,"Wraps file.txt at 80 characters, breaking at spaces."
+"What's the standard way to `fold` `file.txt` to 80 characters, only breaking at words?",fold -s -w 80 file.txt,"Wraps file.txt at 80 characters, breaking at spaces."
+How do I get the first 10 characters of each line in file.txt?,cut -c 1-10 file.txt,Extracts the first 10 characters of each line in file.txt.
+What's the command to extract the first 10 characters from every line in file.txt?,cut -c 1-10 file.txt,Extracts the first 10 characters of each line in file.txt.
+I need to show only the first 10 characters of each line in file.txt,cut -c 1-10 file.txt,Extracts the first 10 characters of each line in file.txt.
+How can I display just the first 10 characters of lines in file.txt?,cut -c 1-10 file.txt,Extracts the first 10 characters of each line in file.txt.
+What Linux command will take file.txt and output only the initial 10 characters of each line?,cut -c 1-10 file.txt,Extracts the first 10 characters of each line in file.txt.
+Could you tell me the shell command to truncate each line in file.txt to its first 10 characters?,cut -c 1-10 file.txt,Extracts the first 10 characters of each line in file.txt.
+I want to process file.txt and only keep the first 10 characters of every line. How?,cut -c 1-10 file.txt,Extracts the first 10 characters of each line in file.txt.
+Is there a simple way in bash to grab the first 10 characters from each line of file.txt?,cut -c 1-10 file.txt,Extracts the first 10 characters of each line in file.txt.
+Give me the command to output the first 10 characters of each line from file.txt,cut -c 1-10 file.txt,Extracts the first 10 characters of each line in file.txt.
+How do I effectively slice the beginning 10 characters from each line in file.txt?,cut -c 1-10 file.txt,Extracts the first 10 characters of each line in file.txt.
+I need to generate an output with only the initial 10 characters for each line found in file.txt,cut -c 1-10 file.txt,Extracts the first 10 characters of each line in file.txt.
+What's the best command-line method to isolate the first 10 characters of every line within file.txt?,cut -c 1-10 file.txt,Extracts the first 10 characters of each line in file.txt.
+How do I randomly shuffle the lines of `file.txt`?,sort -R file.txt,Randomly shuffles the lines of file.txt.
+What's the command to randomize the order of lines in `file.txt`?,sort -R file.txt,Randomly shuffles the lines of file.txt.
+I need to jumble the lines in `file.txt`. What's the Linux command for that?,sort -R file.txt,Randomly shuffles the lines of file.txt.
+How can I get a randomly sorted version of `file.txt`?,sort -R file.txt,Randomly shuffles the lines of file.txt.
+What command will randomly reorder all the lines within `file.txt`?,sort -R file.txt,Randomly shuffles the lines of file.txt.
+Could you tell me the command to mix up the lines of `file.txt` randomly?,sort -R file.txt,Randomly shuffles the lines of file.txt.
+I want to put the lines of `file.txt` in a random sequence. How do I do it?,sort -R file.txt,Randomly shuffles the lines of file.txt.
+What's the best way to completely randomize `file.txt` line by line?,sort -R file.txt,Randomly shuffles the lines of file.txt.
+Give me the command to shuffle `file.txt` randomly,sort -R file.txt,Randomly shuffles the lines of file.txt.
+How do I make `file.txt`'s lines appear in a random order?,sort -R file.txt,Randomly shuffles the lines of file.txt.
+Is there a `sort` command option to randomly permute `file.txt`'s lines?,sort -R file.txt,Randomly shuffles the lines of file.txt.
+I need to get a random line permutation of `file.txt`. What's the command?,sort -R file.txt,Randomly shuffles the lines of file.txt.
+How do I count the occurrences of each unique line in `file.txt`?,uniq -c file.txt,Counts occurrences of each unique line in file.txt.
+What's the command to get a frequency count for each distinct line in `file.txt`?,uniq -c file.txt,Counts occurrences of each unique line in file.txt.
+I need to list all unique lines from `file.txt` and show how many times each one appears. How do I do that?,uniq -c file.txt,Counts occurrences of each unique line in file.txt.
+Can you tell me how to use `uniq` to count line frequencies in `file.txt`?,uniq -c file.txt,Counts occurrences of each unique line in file.txt.
+How can I tally the number of times each unique line shows up in `file.txt`?,uniq -c file.txt,Counts occurrences of each unique line in file.txt.
+What's the best way to get a count of each unique string in `file.txt`?,uniq -c file.txt,Counts occurrences of each unique line in file.txt.
+I'm trying to find out how many times each unique line repeats in `file.txt`. Which command should I use?,uniq -c file.txt,Counts occurrences of each unique line in file.txt.
+Could you give me the command to output unique lines from `file.txt` along with their counts?,uniq -c file.txt,Counts occurrences of each unique line in file.txt.
+How do I get a breakdown of unique line counts from `file.txt`?,uniq -c file.txt,Counts occurrences of each unique line in file.txt.
+I want to see each unique line in `file.txt` with its total count next to it. What's the command for that?,uniq -c file.txt,Counts occurrences of each unique line in file.txt.
+Is there a Linux command to count the number of times each unique line appears in `file.txt`?,uniq -c file.txt,Counts occurrences of each unique line in file.txt.
+What's the command-line equivalent of 'count distinct items and their frequencies' for `file.txt`?,uniq -c file.txt,Counts occurrences of each unique line in file.txt.
+How do I show lines common to file1.txt and file2.txt?,comm -12 file1.txt file2.txt,Shows lines common to both sorted files file1.txt and file2.txt.
+What's the command to display only the shared lines between file1.txt and file2.txt?,comm -12 file1.txt file2.txt,Shows lines common to both sorted files file1.txt and file2.txt.
+I need to find the intersection of lines in file1.txt and file2.txt,comm -12 file1.txt file2.txt,Shows lines common to both sorted files file1.txt and file2.txt.
+Show me the lines that are present in both file1.txt and file2.txt,comm -12 file1.txt file2.txt,Shows lines common to both sorted files file1.txt and file2.txt.
+How do I use `comm` to get just the common lines from file1.txt and file2.txt?,comm -12 file1.txt file2.txt,Shows lines common to both sorted files file1.txt and file2.txt.
+Display the common content between file1.txt and file2.txt,comm -12 file1.txt file2.txt,Shows lines common to both sorted files file1.txt and file2.txt.
+I want to compare file1.txt and file2.txt and output only the identical lines,comm -12 file1.txt file2.txt,Shows lines common to both sorted files file1.txt and file2.txt.
+Could you tell me how to list the lines that appear in both file1.txt and file2.txt?,comm -12 file1.txt file2.txt,Shows lines common to both sorted files file1.txt and file2.txt.
+Print the lines that exist in both file1.txt and file2.txt,comm -12 file1.txt file2.txt,Shows lines common to both sorted files file1.txt and file2.txt.
+What's the best way to get only the matching lines from file1.txt and file2.txt?,comm -12 file1.txt file2.txt,Shows lines common to both sorted files file1.txt and file2.txt.
+Give me the command to find the common entries in file1.txt and file2.txt,comm -12 file1.txt file2.txt,Shows lines common to both sorted files file1.txt and file2.txt.
+How can I filter file1.txt and file2.txt to show only their shared lines?,comm -12 file1.txt file2.txt,Shows lines common to both sorted files file1.txt and file2.txt.
+How can I join all the lines of `file.txt` into a single tab-separated line?,paste -s file.txt,Joins all lines of file.txt into a single line with tabs.
+"I need to collapse the content of `file.txt` onto one line, with tabs between each original line. What's the command?",paste -s file.txt,Joins all lines of file.txt into a single line with tabs.
+"What's the Linux command to take all lines from `file.txt` and put them on a single line, delimited by tabs?",paste -s file.txt,Joins all lines of file.txt into a single line with tabs.
+Could you tell me how to combine all lines in `file.txt` horizontally?,paste -s file.txt,Joins all lines of file.txt into a single line with tabs.
+"I want to process `file.txt` so all its lines appear on one line, separated by tabs. How do I do that?",paste -s file.txt,Joins all lines of file.txt into a single line with tabs.
+"Which utility can I use to concatenate `file.txt`'s lines into a single, tab-separated string?",paste -s file.txt,Joins all lines of file.txt into a single line with tabs.
+"How do I get `file.txt` to output all its lines on one line, joined by tabs?",paste -s file.txt,Joins all lines of file.txt into a single line with tabs.
+"My `file.txt` has multiple lines; I need a command to put them all on a single line, separated by tabs",paste -s file.txt,Joins all lines of file.txt into a single line with tabs.
+"Is there a simple way to convert `file.txt` from multi-line to a single, tab-delimited line?",paste -s file.txt,Joins all lines of file.txt into a single line with tabs.
+Can you show me the command to transform `file.txt` so all its lines are joined into a single tabbed row?,paste -s file.txt,Joins all lines of file.txt into a single line with tabs.
+What's the standard Linux way to join all lines of a file (`file.txt`) into a single tab-separated line?,paste -s file.txt,Joins all lines of file.txt into a single line with tabs.
+I'm looking for a command that will take `file.txt` and output a single line where the original lines are separated by tabs,paste -s file.txt,Joins all lines of file.txt into a single line with tabs.
+How do I join `file1.txt` and `file2.txt` with a comma as the field delimiter?,"join -t ',' file1.txt file2.txt",Joins two sorted files on a common field using comma as delimiter.
+"Can you help me merge `file1.txt` and `file2.txt` by their common fields, using a comma separator?","join -t ',' file1.txt file2.txt",Joins two sorted files on a common field using comma as delimiter.
+"I need to combine data from `file1.txt` and `file2.txt`, assuming comma-separated values","join -t ',' file1.txt file2.txt",Joins two sorted files on a common field using comma as delimiter.
+"What's the command to link `file1.txt` and `file2.txt` together, where fields are delimited by commas?","join -t ',' file1.txt file2.txt",Joins two sorted files on a common field using comma as delimiter.
+"Please perform a join operation on `file1.txt` and `file2.txt`, specifying a comma for the field separator","join -t ',' file1.txt file2.txt",Joins two sorted files on a common field using comma as delimiter.
+"Join `file1.txt` and `file2.txt` on their common keys, treating commas as separators","join -t ',' file1.txt file2.txt",Joins two sorted files on a common field using comma as delimiter.
+I want to match lines between `file1.txt` and `file2.txt` based on shared comma-delimited fields,"join -t ',' file1.txt file2.txt",Joins two sorted files on a common field using comma as delimiter.
+How can I execute a `join` command on `file1.txt` and `file2.txt` with a comma as the tab character?,"join -t ',' file1.txt file2.txt",Joins two sorted files on a common field using comma as delimiter.
+"Run the `join` utility on `file1.txt` and `file2.txt`, using a comma as the field delimiter","join -t ',' file1.txt file2.txt",Joins two sorted files on a common field using comma as delimiter.
+"Combine `file1.txt` and `file2.txt` by a common field, using commas to separate values","join -t ',' file1.txt file2.txt",Joins two sorted files on a common field using comma as delimiter.
+"Could you help me join these two files, `file1.txt` and `file2.txt`, assuming they are comma-delimited?","join -t ',' file1.txt file2.txt",Joins two sorted files on a common field using comma as delimiter.
+"I need to get the joined output of `file1.txt` and `file2.txt`, treating them as CSV files","join -t ',' file1.txt file2.txt",Joins two sorted files on a common field using comma as delimiter.
+How do I check the disk usage of the Btrfs filesystem at /mnt?,btrfs filesystem df /mnt,Shows disk usage for the Btrfs filesystem at /mnt.
+"Show me the disk space information for /mnt, specifically for Btrfs",btrfs filesystem df /mnt,Shows disk usage for the Btrfs filesystem at /mnt.
+What's the command to display Btrfs disk usage statistics for the /mnt mount point?,btrfs filesystem df /mnt,Shows disk usage for the Btrfs filesystem at /mnt.
+Can you tell me how much space is used and available on the Btrfs volume at /mnt?,btrfs filesystem df /mnt,Shows disk usage for the Btrfs filesystem at /mnt.
+I need to view the disk space on the /mnt Btrfs filesystem,btrfs filesystem df /mnt,Shows disk usage for the Btrfs filesystem at /mnt.
+Display the Btrfs filesystem's disk usage for /mnt,btrfs filesystem df /mnt,Shows disk usage for the Btrfs filesystem at /mnt.
+"Check the disk space status for /mnt, assuming it's a Btrfs filesystem",btrfs filesystem df /mnt,Shows disk usage for the Btrfs filesystem at /mnt.
+Provide the disk usage report for the Btrfs filesystem mounted at /mnt,btrfs filesystem df /mnt,Shows disk usage for the Btrfs filesystem at /mnt.
+What's the Btrfs-specific way to see disk usage for /mnt?,btrfs filesystem df /mnt,Shows disk usage for the Btrfs filesystem at /mnt.
+How full is my /mnt Btrfs partition?,btrfs filesystem df /mnt,Shows disk usage for the Btrfs filesystem at /mnt.
+Give me the current disk utilization for the Btrfs filesystem on /mnt,btrfs filesystem df /mnt,Shows disk usage for the Btrfs filesystem at /mnt.
+I want to see the disk space breakdown for /mnt (Btrfs),btrfs filesystem df /mnt,Shows disk usage for the Btrfs filesystem at /mnt.
+Please run `xfs_db -r /dev/sda1`,xfs_db -r /dev/sda1,Opens an interactive debugger for the XFS filesystem on /dev/sda1.
+How can I open an interactive debugger for the XFS filesystem on `/dev/sda1` in read-only mode?,xfs_db -r /dev/sda1,Opens an interactive debugger for the XFS filesystem on /dev/sda1.
+What is the command to launch the `xfs_db` utility on `/dev/sda1` for read-only inspection?,xfs_db -r /dev/sda1,Opens an interactive debugger for the XFS filesystem on /dev/sda1.
+"I need to debug the XFS filesystem on `/dev/sda1` in a safe, read-only manner. What command should I use?",xfs_db -r /dev/sda1,Opens an interactive debugger for the XFS filesystem on /dev/sda1.
+Execute `xfs_db` read-only on `/dev/sda1`,xfs_db -r /dev/sda1,Opens an interactive debugger for the XFS filesystem on /dev/sda1.
+Could you please start the XFS debugger for `/dev/sda1` with read-only access?,xfs_db -r /dev/sda1,Opens an interactive debugger for the XFS filesystem on /dev/sda1.
+I need to enter `xfs_db` for `/dev/sda1` with the read-only flag,xfs_db -r /dev/sda1,Opens an interactive debugger for the XFS filesystem on /dev/sda1.
+What command opens `xfs_db` in read-only mode for `/dev/sda1`?,xfs_db -r /dev/sda1,Opens an interactive debugger for the XFS filesystem on /dev/sda1.
+"Launch the interactive XFS debugger on `/dev/sda1`, ensuring it's in read-only mode",xfs_db -r /dev/sda1,Opens an interactive debugger for the XFS filesystem on /dev/sda1.
+I require the command to run `xfs_db` read-only on `/dev/sda1`,xfs_db -r /dev/sda1,Opens an interactive debugger for the XFS filesystem on /dev/sda1.
+Run `xfs_db` on `/dev/sda1` but make it read-only,xfs_db -r /dev/sda1,Opens an interactive debugger for the XFS filesystem on /dev/sda1.
+How do I open `/dev/sda1` with `xfs_db` in read-only interactive mode?,xfs_db -r /dev/sda1,Opens an interactive debugger for the XFS filesystem on /dev/sda1.
+Please run `debugfs -c /dev/sda1`,debugfs -c /dev/sda1,Opens debugfs in read-only mode for the ext2/ext3/ext4 filesystem on /dev/sda1.
+How do I open debugfs in read-only mode for `/dev/sda1`?,debugfs -c /dev/sda1,Opens debugfs in read-only mode for the ext2/ext3/ext4 filesystem on /dev/sda1.
+"Could you tell me how to inspect the filesystem on `/dev/sda1` using debugfs, without making any changes?",debugfs -c /dev/sda1,Opens debugfs in read-only mode for the ext2/ext3/ext4 filesystem on /dev/sda1.
+I need to start debugfs in safe mode on `/dev/sda1`. What's the command?,debugfs -c /dev/sda1,Opens debugfs in read-only mode for the ext2/ext3/ext4 filesystem on /dev/sda1.
+"What's the command to view the contents of the `/dev/sda1` partition with debugfs, ensuring it's read-only?",debugfs -c /dev/sda1,Opens debugfs in read-only mode for the ext2/ext3/ext4 filesystem on /dev/sda1.
+I want to examine the ext4 filesystem on `/dev/sda1` without modifying it. Which command should I use?,debugfs -c /dev/sda1,Opens debugfs in read-only mode for the ext2/ext3/ext4 filesystem on /dev/sda1.
+How can I launch debugfs for read-only access to `/dev/sda1`?,debugfs -c /dev/sda1,Opens debugfs in read-only mode for the ext2/ext3/ext4 filesystem on /dev/sda1.
+Is there a command to open `/dev/sda1` with debugfs in a way that I can't accidentally alter anything?,debugfs -c /dev/sda1,Opens debugfs in read-only mode for the ext2/ext3/ext4 filesystem on /dev/sda1.
+Please open debugfs in a non-modifying way for `/dev/sda1`,debugfs -c /dev/sda1,Opens debugfs in read-only mode for the ext2/ext3/ext4 filesystem on /dev/sda1.
+"I'd like to explore the ext2 filesystem on `/dev/sda1` using debugfs, but only in read-only mode. How do I do that?",debugfs -c /dev/sda1,Opens debugfs in read-only mode for the ext2/ext3/ext4 filesystem on /dev/sda1.
+What's the debugfs command to access `/dev/sda1` specifically in read-only mode?,debugfs -c /dev/sda1,Opens debugfs in read-only mode for the ext2/ext3/ext4 filesystem on /dev/sda1.
+Can I get the command to use debugfs to simply read from the `/dev/sda1` partition?,debugfs -c /dev/sda1,Opens debugfs in read-only mode for the ext2/ext3/ext4 filesystem on /dev/sda1.
+Run `dumpe2fs -h /dev/sda1`,dumpe2fs -h /dev/sda1,Displays superblock and block group information for /dev/sda1.
+Please execute `dumpe2fs -h /dev/sda1`,dumpe2fs -h /dev/sda1,Displays superblock and block group information for /dev/sda1.
+I need to run `dumpe2fs -h /dev/sda1`,dumpe2fs -h /dev/sda1,Displays superblock and block group information for /dev/sda1.
+How do I get the superblock info for `/dev/sda1` using `dumpe2fs`?,dumpe2fs -h /dev/sda1,Displays superblock and block group information for /dev/sda1.
+"Show me the `e2fs` details for `/dev/sda1`, human-readable format",dumpe2fs -h /dev/sda1,Displays superblock and block group information for /dev/sda1.
+Display the `dumpe2fs` output for `/dev/sda1` with human-readable sizes,dumpe2fs -h /dev/sda1,Displays superblock and block group information for /dev/sda1.
+Execute the command `dumpe2fs -h /dev/sda1`,dumpe2fs -h /dev/sda1,Displays superblock and block group information for /dev/sda1.
+Get the `dumpe2fs` output for `/dev/sda1` with the `-h` option,dumpe2fs -h /dev/sda1,Displays superblock and block group information for /dev/sda1.
+Could you run `dumpe2fs -h /dev/sda1`?,dumpe2fs -h /dev/sda1,Displays superblock and block group information for /dev/sda1.
+I want to see the superblock and block group information for `/dev/sda1`,dumpe2fs -h /dev/sda1,Displays superblock and block group information for /dev/sda1.
+What's the `dumpe2fs -h` result for `/dev/sda1`?,dumpe2fs -h /dev/sda1,Displays superblock and block group information for /dev/sda1.
+Perform `dumpe2fs -h /dev/sda1`,dumpe2fs -h /dev/sda1,Displays superblock and block group information for /dev/sda1.
+How do I get the driver information for eth0?,ethtool -i eth0,Displays driver information for the eth0 interface.
+Show me the network driver details for eth,ethtool -i eth0,Displays driver information for the eth0 interface.
+What command do I use to see eth0's driver?,ethtool -i eth0,Displays driver information for the eth0 interface.
+Can you display the driver info for the eth0 interface?,ethtool -i eth0,Displays driver information for the eth0 interface.
+I need to check the driver version of eth,ethtool -i eth0,Displays driver information for the eth0 interface.
+Use ethtool to show me eth0's driver,ethtool -i eth0,Displays driver information for the eth0 interface.
+What driver is currently being used by eth0?,ethtool -i eth0,Displays driver information for the eth0 interface.
+Display the hardware driver information for eth,ethtool -i eth0,Displays driver information for the eth0 interface.
+How can I find out the driver details for eth0?,ethtool -i eth0,Displays driver information for the eth0 interface.
+Get the driver and firmware info for eth,ethtool -i eth0,Displays driver information for the eth0 interface.
+Tell me about the network card driver on eth,ethtool -i eth0,Displays driver information for the eth0 interface.
+Provide the interface driver identification for eth,ethtool -i eth0,Displays driver information for the eth0 interface.
+How do I get network interface addresses in JSON?,ip -j addr,Displays network interface addresses in JSON format.
+Show me the network IP addresses in JSON format,ip -j addr,Displays network interface addresses in JSON format.
+Display all network interfaces as JSON,ip -j addr,Displays network interface addresses in JSON format.
+I need to list my network configuration as JSON,ip -j addr,Displays network interface addresses in JSON format.
+What's the command to view network addresses in JSON?,ip -j addr,Displays network interface addresses in JSON format.
+Could you output my network addresses in JSON?,ip -j addr,Displays network interface addresses in JSON format.
+Give me the network interface details in JSON,ip -j addr,Displays network interface addresses in JSON format.
+"I want to see the network addresses, but in JSON",ip -j addr,Displays network interface addresses in JSON format.
+How can I get a JSON output of my network interfaces?,ip -j addr,Displays network interface addresses in JSON format.
+Can you show me the network addresses formatted as JSON?,ip -j addr,Displays network interface addresses in JSON format.
+"List the network interfaces and their addresses, serialized to JSON",ip -j addr,Displays network interface addresses in JSON format.
+I'm looking for the JSON representation of my network interface addresses,ip -j addr,Displays network interface addresses in JSON format.
+How do I list sockets with their memory usage?,ss -M,Lists sockets with memory usage details.
+What's the command to display memory consumption for open sockets?,ss -M,Lists sockets with memory usage details.
+Show me the memory details for all active network connections,ss -M,Lists sockets with memory usage details.
+I need to see the memory allocation for each socket,ss -M,Lists sockets with memory usage details.
+How can I check the RAM usage of my system's sockets?,ss -M,Lists sockets with memory usage details.
+Provide a list of sockets along with their corresponding memory statistics,ss -M,Lists sockets with memory usage details.
+What command reveals the memory footprint of current network sockets?,ss -M,Lists sockets with memory usage details.
+I want to inspect socket memory details. Which command should I use?,ss -M,Lists sockets with memory usage details.
+"Display information about sockets, including how much memory they're utilizing",ss -M,Lists sockets with memory usage details.
+Can you show me the memory consumed by different active sockets?,ss -M,Lists sockets with memory usage details.
+Tell me the command to view memory usage per socket,ss -M,Lists sockets with memory usage details.
+I'm trying to get a report on socket memory usage,ss -M,Lists sockets with memory usage details.
+What's the command to capture network packets on `eth0` and display them in both hexadecimal and ASCII?,tcpdump -X -i eth0,"Captures packets on eth0, displaying both hex and ASCII."
+"How do I use `tcpdump` to monitor traffic on `eth0`, showing the packet contents in hex and ASCII?",tcpdump -X -i eth0,"Captures packets on eth0, displaying both hex and ASCII."
+"I need to view the raw packet data, in hex and ASCII, from `eth0`. What's the appropriate command?",tcpdump -X -i eth0,"Captures packets on eth0, displaying both hex and ASCII."
+Can you give me the `tcpdump` command to capture packets on `eth0` and show both the hex and ASCII output?,tcpdump -X -i eth0,"Captures packets on eth0, displaying both hex and ASCII."
+"Show me how to capture packets on the `eth0` interface with `tcpdump`, making sure to display both the hex and ASCII representations",tcpdump -X -i eth0,"Captures packets on eth0, displaying both hex and ASCII."
+I want to see the full packet contents on `eth0` (both hex and ASCII view). Which `tcpdump` command should I use?,tcpdump -X -i eth0,"Captures packets on eth0, displaying both hex and ASCII."
+How can I grab packets off `eth0` and get a detailed dump showing both hexadecimal and character data?,tcpdump -X -i eth0,"Captures packets on eth0, displaying both hex and ASCII."
+What command would I run to capture network traffic on `eth0` and output it in a human-readable (ASCII) and raw (hex) format?,tcpdump -X -i eth0,"Captures packets on eth0, displaying both hex and ASCII."
+Give me the `tcpdump` command that sniffs `eth0` and provides a hex/ASCII dump of the packets,tcpdump -X -i eth0,"Captures packets on eth0, displaying both hex and ASCII."
+I need to capture network data from `eth0` and inspect the payload in both hex and ASCII. What command should I execute?,tcpdump -X -i eth0,"Captures packets on eth0, displaying both hex and ASCII."
+"Please provide the command to start `tcpdump` on `eth0`, displaying the packet contents in both hex and ASCII",tcpdump -X -i eth0,"Captures packets on eth0, displaying both hex and ASCII."
+How do I configure `tcpdump` to capture packets from `eth0` and show them in a combined hexadecimal and ASCII format?,tcpdump -X -i eth0,"Captures packets on eth0, displaying both hex and ASCII."
+How do I run `nload eth0`?,nload eth0,Monitors network traffic on eth0 with a graphical interface.
+I want to monitor network traffic on `eth0`. What command should I use?,nload eth0,Monitors network traffic on eth0 with a graphical interface.
+Could you please execute `nload` on the `eth0` interface?,nload eth0,Monitors network traffic on eth0 with a graphical interface.
+Launch `nload` to observe `eth0`'s network activity,nload eth0,Monitors network traffic on eth0 with a graphical interface.
+What's the command to start `nload` for `eth0`?,nload eth0,Monitors network traffic on eth0 with a graphical interface.
+I need to see the real-time network usage on `eth0` using `nload`,nload eth0,Monitors network traffic on eth0 with a graphical interface.
+Run the `nload` utility on `eth0`,nload eth0,Monitors network traffic on eth0 with a graphical interface.
+Can you show me the `eth0` network traffic with `nload`?,nload eth0,Monitors network traffic on eth0 with a graphical interface.
+Start monitoring `eth0` with `nload`,nload eth0,Monitors network traffic on eth0 with a graphical interface.
+How do I get `nload` to display statistics for `eth0`?,nload eth0,Monitors network traffic on eth0 with a graphical interface.
+Please run the network load monitor for `eth0`,nload eth0,Monitors network traffic on eth0 with a graphical interface.
+Execute `nload eth0`,nload eth0,Monitors network traffic on eth0 with a graphical interface.
+ipcalc 192.168.1.0/,ipcalc 192.168.1.0/24,Calculates network details for the 192.168.1.0/24 subnet.
+Please run `ipcalc 192.168.1.0/24`,ipcalc 192.168.1.0/24,Calculates network details for the 192.168.1.0/24 subnet.
+How do I calculate network details for 192.168.1.0/24 using `ipcalc`?,ipcalc 192.168.1.0/24,Calculates network details for the 192.168.1.0/24 subnet.
+I need to get the network information for 192.168.1.0/24. What's the command?,ipcalc 192.168.1.0/24,Calculates network details for the 192.168.1.0/24 subnet.
+Could you execute `ipcalc 192.168.1.0/24` for me?,ipcalc 192.168.1.0/24,Calculates network details for the 192.168.1.0/24 subnet.
+What's the `ipcalc` command to show details for the 192.168.1.0/24 subnet?,ipcalc 192.168.1.0/24,Calculates network details for the 192.168.1.0/24 subnet.
+Calculate the network details for 192.168.1.0/,ipcalc 192.168.1.0/24,Calculates network details for the 192.168.1.0/24 subnet.
+I want to `ipcalc` the 192.168.1.0/24 range,ipcalc 192.168.1.0/24,Calculates network details for the 192.168.1.0/24 subnet.
+Could you please run the `ipcalc` command for 192.168.1.0/24?,ipcalc 192.168.1.0/24,Calculates network details for the 192.168.1.0/24 subnet.
+Run `ipcalc 192.168.1.0/24` to analyze that subnet,ipcalc 192.168.1.0/24,Calculates network details for the 192.168.1.0/24 subnet.
+What's the command to determine the network information for 192.168.1.0/24?,ipcalc 192.168.1.0/24,Calculates network details for the 192.168.1.0/24 subnet.
+Use `ipcalc` to get the network breakdown of 192.168.1.0/,ipcalc 192.168.1.0/24,Calculates network details for the 192.168.1.0/24 subnet.
+Please run `perf record -p 1234`,perf record -p 1234,Records performance data for the process with PID 1234.
+I need to record performance data for process,perf record -p 1234,Records performance data for the process with PID 1234.
+Can you start a performance recording for PID 1234?,perf record -p 1234,Records performance data for the process with PID 1234.
+How do I use `perf` to monitor process ID 1234?,perf record -p 1234,Records performance data for the process with PID 1234.
+Execute `perf record` on process,perf record -p 1234,Records performance data for the process with PID 1234.
+Could you initiate a performance data collection for PID 1234?,perf record -p 1234,Records performance data for the process with PID 1234.
+What's the command to get performance metrics for process 1234?,perf record -p 1234,Records performance data for the process with PID 1234.
+I want to gather performance statistics for the process with ID,perf record -p 1234,Records performance data for the process with PID 1234.
+Launch a `perf record` session targeting PID,perf record -p 1234,Records performance data for the process with PID 1234.
+Begin recording performance for process number,perf record -p 1234,Records performance data for the process with PID 1234.
+Could you please get performance traces for process 1234?,perf record -p 1234,Records performance data for the process with PID 1234.
+Start `perf` to record the activity of process,perf record -p 1234,Records performance data for the process with PID 1234.
+Run `perf report`,perf report,Displays performance analysis from the last perf record.
+Show me the performance report,perf report,Displays performance analysis from the last perf record.
+Display the analysis from the last `perf record`,perf report,Displays performance analysis from the last perf record.
+How do I view the `perf` results?,perf report,Displays performance analysis from the last perf record.
+I need to see the `perf` profile data,perf report,Displays performance analysis from the last perf record.
+Execute the `perf report` command,perf report,Displays performance analysis from the last perf record.
+Can you bring up the `perf` performance summary?,perf report,Displays performance analysis from the last perf record.
+Let's review the `perf` statistics,perf report,Displays performance analysis from the last perf record.
+What's the command to analyze the recorded `perf` data?,perf report,Displays performance analysis from the last perf record.
+Generate the `perf` report,perf report,Displays performance analysis from the last perf record.
+I want to see the output of `perf report`,perf report,Displays performance analysis from the last perf record.
+Could you run `perf` in report mode?,perf report,Displays performance analysis from the last perf record.
+Run `systemd-analyze blame`,systemd-analyze blame,Lists services and their startup times.
+Show me the startup times for all services,systemd-analyze blame,Lists services and their startup times.
+What are the slowest services during boot?,systemd-analyze blame,Lists services and their startup times.
+List systemd services by their boot duration,systemd-analyze blame,Lists services and their startup times.
+Can I see a breakdown of my system's boot process by service?,systemd-analyze blame,Lists services and their startup times.
+Generate a report of services and the time they take to start,systemd-analyze blame,Lists services and their startup times.
+Which services are consuming the most time during startup?,systemd-analyze blame,Lists services and their startup times.
+How do I check which services are delaying system boot?,systemd-analyze blame,Lists services and their startup times.
+Display the `systemd-analyze blame` output,systemd-analyze blame,Lists services and their startup times.
+I need to identify boot bottlenecks. Show me the service timings,systemd-analyze blame,Lists services and their startup times.
+Give me an ordered list of systemd units by their initialization time,systemd-analyze blame,Lists services and their startup times.
+Let's analyze what's taking the longest during system startup,systemd-analyze blame,Lists services and their startup times.
+Run `systemd-analyze critical-chain`,systemd-analyze critical-chain,Shows the critical chain of services affecting boot time.
+Please execute the command `systemd-analyze critical-chain`,systemd-analyze critical-chain,Shows the critical chain of services affecting boot time.
+Show me the output of `systemd-analyze critical-chain`,systemd-analyze critical-chain,Shows the critical chain of services affecting boot time.
+Could you run `systemd-analyze critical-chain`?,systemd-analyze critical-chain,Shows the critical chain of services affecting boot time.
+I need to run `systemd-analyze critical-chain`,systemd-analyze critical-chain,Shows the critical chain of services affecting boot time.
+Perform `systemd-analyze critical-chain`,systemd-analyze critical-chain,Shows the critical chain of services affecting boot time.
+Let's run `systemd-analyze critical-chain`,systemd-analyze critical-chain,Shows the critical chain of services affecting boot time.
+Initiate `systemd-analyze critical-chain`,systemd-analyze critical-chain,Shows the critical chain of services affecting boot time.
+Display the critical boot chain using `systemd-analyze critical-chain`,systemd-analyze critical-chain,Shows the critical chain of services affecting boot time.
+Can you get me the results of `systemd-analyze critical-chain`?,systemd-analyze critical-chain,Shows the critical chain of services affecting boot time.
+"Run `systemd-analyze critical-chain`, please",systemd-analyze critical-chain,Shows the critical chain of services affecting boot time.
+Execute `systemd-analyze critical-chain` now,systemd-analyze critical-chain,Shows the critical chain of services affecting boot time.
+How can I view all error messages logged since the last boot?,journalctl -p 3 -b,Shows log messages with priority 3 (errors) since the last boot.
+What's the command to see just the errors from the current system startup?,journalctl -p 3 -b,Shows log messages with priority 3 (errors) since the last boot.
+I need to check for any critical issues that occurred during this boot. How do I do that?,journalctl -p 3 -b,Shows log messages with priority 3 (errors) since the last boot.
+Show me only the error-level journal entries from the current boot session,journalctl -p 3 -b,Shows log messages with priority 3 (errors) since the last boot.
+Is there a quick way to list all errors since I last started the computer?,journalctl -p 3 -b,Shows log messages with priority 3 (errors) since the last boot.
+How do I display system errors that happened during the current boot?,journalctl -p 3 -b,Shows log messages with priority 3 (errors) since the last boot.
+Can you tell me how to get the error logs specific to this boot?,journalctl -p 3 -b,Shows log messages with priority 3 (errors) since the last boot.
+I'm looking for any problems reported in the logs since the system started up. What command should I use?,journalctl -p 3 -b,Shows log messages with priority 3 (errors) since the last boot.
+Filter the journal to show only messages with priority 3 from this boot,journalctl -p 3 -b,Shows log messages with priority 3 (errors) since the last boot.
+Display errors from the current boot,journalctl -p 3 -b,Shows log messages with priority 3 (errors) since the last boot.
+Where can I find the log messages that indicate errors since the last reboot?,journalctl -p 3 -b,Shows log messages with priority 3 (errors) since the last boot.
+Give me the command to view only error messages from the ongoing boot,journalctl -p 3 -b,Shows log messages with priority 3 (errors) since the last boot.
+List PID namespaces,lsns -t pid,Lists PID namespaces.
+How do I see the PID namespaces?,lsns -t pid,Lists PID namespaces.
+Display the PID namespaces,lsns -t pid,Lists PID namespaces.
+I want to list PID namespaces,lsns -t pid,Lists PID namespaces.
+Show me the PID namespaces,lsns -t pid,Lists PID namespaces.
+Can you list the PID namespaces?,lsns -t pid,Lists PID namespaces.
+Get a list of PID namespaces,lsns -t pid,Lists PID namespaces.
+What are the PID namespaces on this system?,lsns -t pid,Lists PID namespaces.
+Please show me all PID namespaces,lsns -t pid,Lists PID namespaces.
+Run the command to list PID namespaces,lsns -t pid,Lists PID namespaces.
+I need to view the PID namespaces,lsns -t pid,Lists PID namespaces.
+Provide the PID namespace information,lsns -t pid,Lists PID namespaces.
+How do I display a list of mounted filesystems with their disk usage details?,findmnt -D,Lists mounted filesystems with disk usage details.
+What command shows mounted filesystems along with their allocated disk space?,findmnt -D,Lists mounted filesystems with disk usage details.
+Could you show me how to get `findmnt` to display disk usage information?,findmnt -D,Lists mounted filesystems with disk usage details.
+I need to see the disk usage for all currently mounted filesystems,findmnt -D,Lists mounted filesystems with disk usage details.
+What's the command to list mounted filesystems and their usage?,findmnt -D,Lists mounted filesystems with disk usage details.
+"How can I view details of mounted filesystems, including their disk space usage?",findmnt -D,Lists mounted filesystems with disk usage details.
+Please tell me how to check disk usage for mounted filesystems on Linux,findmnt -D,Lists mounted filesystems with disk usage details.
+I'm looking for a way to list all mounted filesystems and how much space they're occupying,findmnt -D,Lists mounted filesystems with disk usage details.
+Give me the command to get a detailed list of mounted filesystems with disk usage,findmnt -D,Lists mounted filesystems with disk usage details.
+How do I get `findmnt` to output disk usage for each mounted filesystem?,findmnt -D,Lists mounted filesystems with disk usage details.
+I want to generate a report of mounted filesystems showing their space consumption,findmnt -D,Lists mounted filesystems with disk usage details.
+What's the best way to list all mounted filesystems and their respective disk usage?,findmnt -D,Lists mounted filesystems with disk usage details.
+Please run `lsblk -J`,lsblk -J,Lists block devices in JSON format.
+Execute `lsblk` with the `-J` flag,lsblk -J,Lists block devices in JSON format.
+Show me the block devices in JSON format using `lsblk`,lsblk -J,Lists block devices in JSON format.
+I need the output of `lsblk -J`,lsblk -J,Lists block devices in JSON format.
+Could you display the `lsblk` information as JSON?,lsblk -J,Lists block devices in JSON format.
+Run the command `lsblk -J`,lsblk -J,Lists block devices in JSON format.
+Provide the JSON representation of block devices,lsblk -J,Lists block devices in JSON format.
+Generate the `lsblk` output in JSON,lsblk -J,Lists block devices in JSON format.
+I want to see the JSON output from `lsblk`,lsblk -J,Lists block devices in JSON format.
+Can you get the `lsblk -J` data?,lsblk -J,Lists block devices in JSON format.
+Launch `lsblk` to get JSON formatted block device details,lsblk -J,Lists block devices in JSON format.
+Let's run `lsblk -J`,lsblk -J,Lists block devices in JSON format.
+Run `dmidecode -t system`,dmidecode -t system,Displays system hardware information.
+Execute `dmidecode -t system`,dmidecode -t system,Displays system hardware information.
+Display the system hardware information,dmidecode -t system,Displays system hardware information.
+Show me the system's hardware configuration,dmidecode -t system,Displays system hardware information.
+Get me the details about this system's hardware,dmidecode -t system,Displays system hardware information.
+I need to see the system's general hardware data,dmidecode -t system,Displays system hardware information.
+Please provide the system board information,dmidecode -t system,Displays system hardware information.
+Can you output the system DMI data?,dmidecode -t system,Displays system hardware information.
+Let's check the system's main hardware components,dmidecode -t system,Displays system hardware information.
+Display the information about the base system,dmidecode -t system,Displays system hardware information.
+What are the hardware specs for this machine?,dmidecode -t system,Displays system hardware information.
+I want to view the current system hardware summary,dmidecode -t system,Displays system hardware information.
+"How do I see disk I/O statistics for each process, updated every second, for three iterations?",pidstat -d 1 3,Reports disk I/O statistics for processes every second for 3 iterations.
+"Can you execute `pidstat` to show disk activity per process, with a 1-second interval, for 3 reports?",pidstat -d 1 3,Reports disk I/O statistics for processes every second for 3 iterations.
+"I need to monitor process disk I/O. Please run the command that reports it every second, three times",pidstat -d 1 3,Reports disk I/O statistics for processes every second for 3 iterations.
+"What's the command to get three snapshots of per-process disk usage, one second apart?",pidstat -d 1 3,Reports disk I/O statistics for processes every second for 3 iterations.
+"Could you provide a report of process disk I/O stats, refreshed every second, three times in total?",pidstat -d 1 3,Reports disk I/O statistics for processes every second for 3 iterations.
+"Show me the disk I/O performance of processes, sampled every second for three cycles",pidstat -d 1 3,Reports disk I/O statistics for processes every second for 3 iterations.
+"How can I check the disk activity of individual processes, getting three updates at one-second intervals?",pidstat -d 1 3,Reports disk I/O statistics for processes every second for 3 iterations.
+"Run `pidstat` to display disk I/O statistics for processes, one report per second, for a total of three reports",pidstat -d 1 3,Reports disk I/O statistics for processes every second for 3 iterations.
+"I want to see which processes are using the disk. Can you show me disk I/O stats three times, with a 1-second delay between each?",pidstat -d 1 3,Reports disk I/O statistics for processes every second for 3 iterations.
+"Generate disk I/O usage reports for active processes, once a second, for three iterations",pidstat -d 1 3,Reports disk I/O statistics for processes every second for 3 iterations.
+"What's the best way to observe process-specific disk I/O, updating the view three times with a 1-second pause?",pidstat -d 1 3,Reports disk I/O statistics for processes every second for 3 iterations.
+"Could you give me three sequential reports on process disk I/O, each separated by one second?",pidstat -d 1 3,Reports disk I/O statistics for processes every second for 3 iterations.
+What's the command to list all dependencies for the Nginx service?,systemctl list-dependencies nginx,Lists dependencies of the nginx service.
+How can I see what other services Nginx depends on?,systemctl list-dependencies nginx,Lists dependencies of the nginx service.
+I need to find the dependency tree for Nginx. What command should I use?,systemctl list-dependencies nginx,Lists dependencies of the nginx service.
+Show me the dependencies of the Nginx service,systemctl list-dependencies nginx,Lists dependencies of the nginx service.
+Could you please list the prerequisites for Nginx?,systemctl list-dependencies nginx,Lists dependencies of the nginx service.
+Which services does Nginx rely upon to function?,systemctl list-dependencies nginx,Lists dependencies of the nginx service.
+How do I check the systemd dependencies for Nginx?,systemctl list-dependencies nginx,Lists dependencies of the nginx service.
+Tell me how to view Nginx's dependency graph,systemctl list-dependencies nginx,Lists dependencies of the nginx service.
+I'm trying to figure out what Nginx depends on. What's the command?,systemctl list-dependencies nginx,Lists dependencies of the nginx service.
+Can you give me the command to list Nginx service dependencies?,systemctl list-dependencies nginx,Lists dependencies of the nginx service.
+How do I get a list of all Nginx's required services?,systemctl list-dependencies nginx,Lists dependencies of the nginx service.
+What command would I use to inspect the dependencies of the Nginx daemon?,systemctl list-dependencies nginx,Lists dependencies of the nginx service.
+Is the nginx service enabled?,systemctl is-enabled nginx,Checks if the nginx service is enabled at boot.
+Check if nginx is set to start on boot,systemctl is-enabled nginx,Checks if the nginx service is enabled at boot.
+How do I determine if nginx is enabled?,systemctl is-enabled nginx,Checks if the nginx service is enabled at boot.
+Will nginx automatically start with the system?,systemctl is-enabled nginx,Checks if the nginx service is enabled at boot.
+Can you tell me if the nginx service is configured to run at startup?,systemctl is-enabled nginx,Checks if the nginx service is enabled at boot.
+Verify the enablement status of nginx,systemctl is-enabled nginx,Checks if the nginx service is enabled at boot.
+What's the enabled status for the nginx unit?,systemctl is-enabled nginx,Checks if the nginx service is enabled at boot.
+I need to check if nginx is enabled,systemctl is-enabled nginx,Checks if the nginx service is enabled at boot.
+Show me if nginx is enabled for automatic boot,systemctl is-enabled nginx,Checks if the nginx service is enabled at boot.
+Is nginx configured to be enabled?,systemctl is-enabled nginx,Checks if the nginx service is enabled at boot.
+Does nginx persist across reboots?,systemctl is-enabled nginx,Checks if the nginx service is enabled at boot.
+Find out if the nginx service is enabled automatically,systemctl is-enabled nginx,Checks if the nginx service is enabled at boot.
+How do I list currently loaded eBPF programs?,bpftool prog list,Lists loaded eBPF programs.
+What's the command to see all active BPF programs?,bpftool prog list,Lists loaded eBPF programs.
+Could you show me how to display the loaded eBPF programs?,bpftool prog list,Lists loaded eBPF programs.
+I need to check which BPF programs are running. What should I type?,bpftool prog list,Lists loaded eBPF programs.
+Is there a way to view the list of eBPF programs?,bpftool prog list,Lists loaded eBPF programs.
+Please tell me how to list the loaded BPF programs,bpftool prog list,Lists loaded eBPF programs.
+How can I get a list of the eBPF programs on my system?,bpftool prog list,Lists loaded eBPF programs.
+What command do I use with `bpftool` to list programs?,bpftool prog list,Lists loaded eBPF programs.
+I want to see my loaded eBPF programs. What's the best way?,bpftool prog list,Lists loaded eBPF programs.
+Can you give me the command to enumerate currently loaded BPF programs?,bpftool prog list,Lists loaded eBPF programs.
+What are the currently loaded eBPF programs? How do I find them?,bpftool prog list,Lists loaded eBPF programs.
+I'm looking for the command to list BPF programs. Do you know it?,bpftool prog list,Lists loaded eBPF programs.
+Run `bpftool map list`,bpftool map list,Lists loaded eBPF maps.
+Could you please list the loaded eBPF maps?,bpftool map list,Lists loaded eBPF maps.
+I need to see the active eBPF maps. Show them,bpftool map list,Lists loaded eBPF maps.
+Execute the `bpftool map list` command,bpftool map list,Lists loaded eBPF maps.
+Display the eBPF maps for me,bpftool map list,Lists loaded eBPF maps.
+What are the currently loaded eBPF maps?,bpftool map list,Lists loaded eBPF maps.
+Get me the eBPF map list,bpftool map list,Lists loaded eBPF maps.
+Run the command to list eBPF maps,bpftool map list,Lists loaded eBPF maps.
+Show me the output from `bpftool map list`,bpftool map list,Lists loaded eBPF maps.
+Can you provide an inventory of the eBPF maps?,bpftool map list,Lists loaded eBPF maps.
+I'd like to view the eBPF map list,bpftool map list,Lists loaded eBPF maps.
+Please print the loaded eBPF maps,bpftool map list,Lists loaded eBPF maps.
+Record function traces for process,trace-cmd record -p function -P 1234,Records function traces for the process with PID 1234.
+I need to record function-level traces for PID,trace-cmd record -p function -P 1234,Records function traces for the process with PID 1234.
+How do I use `trace-cmd` to record function events for process 1234?,trace-cmd record -p function -P 1234,Records function traces for the process with PID 1234.
+What's the command to capture function call data for PID 1234?,trace-cmd record -p function -P 1234,Records function traces for the process with PID 1234.
+Could you provide the `trace-cmd` command to monitor function activity for process ID 1234?,trace-cmd record -p function -P 1234,Records function traces for the process with PID 1234.
+I want to collect function traces specifically for the process with ID,trace-cmd record -p function -P 1234,Records function traces for the process with PID 1234.
+"Can you show me how to record function traces for a particular PID, say 1234?",trace-cmd record -p function -P 1234,Records function traces for the process with PID 1234.
+Get me the function traces for PID,trace-cmd record -p function -P 1234,Records function traces for the process with PID 1234.
+How can I record function execution traces for process 1234?,trace-cmd record -p function -P 1234,Records function traces for the process with PID 1234.
+"Using `trace-cmd`, how would I go about recording function traces for just PID 1234?",trace-cmd record -p function -P 1234,Records function traces for the process with PID 1234.
+"I'm trying to trace functions for PID 1234, what's the command?",trace-cmd record -p function -P 1234,Records function traces for the process with PID 1234.
+What's the `trace-cmd` syntax to record function traces on process 1234?,trace-cmd record -p function -P 1234,Records function traces for the process with PID 1234.
+Run `trace-cmd report`,trace-cmd report,Displays the trace data from the last trace-cmd record.
+How do I view the trace data?,trace-cmd report,Displays the trace data from the last trace-cmd record.
+Show me the trace report,trace-cmd report,Displays the trace data from the last trace-cmd record.
+Display the recorded trace information,trace-cmd report,Displays the trace data from the last trace-cmd record.
+Generate the report from the last `trace-cmd` recording,trace-cmd report,Displays the trace data from the last trace-cmd record.
+I need to see the trace results,trace-cmd report,Displays the trace data from the last trace-cmd record.
+Please execute `trace-cmd report`,trace-cmd report,Displays the trace data from the last trace-cmd record.
+Initiate the trace analysis,trace-cmd report,Displays the trace data from the last trace-cmd record.
+Get me the `trace-cmd` output,trace-cmd report,Displays the trace data from the last trace-cmd record.
+Let's review the system trace,trace-cmd report,Displays the trace data from the last trace-cmd record.
+I want to examine the captured trace data,trace-cmd report,Displays the trace data from the last trace-cmd record.
+Provide the report for the last system trace,trace-cmd report,Displays the trace data from the last trace-cmd record.
+How do I terminate processes accessing `/var/log/syslog`?,fuser -k /var/log/syslog,Terminates processes accessing /var/log/syslog.
+What's the command to kill all processes currently using `/var/log/syslog`?,fuser -k /var/log/syslog,Terminates processes accessing /var/log/syslog.
+I need to stop processes that have `/var/log/syslog` open. How can I do that?,fuser -k /var/log/syslog,Terminates processes accessing /var/log/syslog.
+Please tell me how to force-close any connections to `/var/log/syslog`,fuser -k /var/log/syslog,Terminates processes accessing /var/log/syslog.
+How can I free up `/var/log/syslog` from accessing processes?,fuser -k /var/log/syslog,Terminates processes accessing /var/log/syslog.
+Could you show me the command to end all processes linked to `/var/log/syslog`?,fuser -k /var/log/syslog,Terminates processes accessing /var/log/syslog.
+I want to kill whatever is currently interacting with `/var/log/syslog`. What's the command?,fuser -k /var/log/syslog,Terminates processes accessing /var/log/syslog.
+My `/var/log/syslog` file seems to be in use. How do I clear its active processes?,fuser -k /var/log/syslog,Terminates processes accessing /var/log/syslog.
+What's the way to remove all processes holding `/var/log/syslog`?,fuser -k /var/log/syslog,Terminates processes accessing /var/log/syslog.
+How do I ensure no processes are accessing `/var/log/syslog` by killing them?,fuser -k /var/log/syslog,Terminates processes accessing /var/log/syslog.
+I need to get rid of any processes currently operating on `/var/log/syslog`,fuser -k /var/log/syslog,Terminates processes accessing /var/log/syslog.
+Give me the instruction to terminate processes keeping `/var/log/syslog` busy,fuser -k /var/log/syslog,Terminates processes accessing /var/log/syslog.
+What PIDs are currently using port 80?,lsof -t -i :80,Lists PIDs of processes using port 80.
+List all process IDs listening on port,lsof -t -i :80,Lists PIDs of processes using port 80.
+"Find which processes have port 80 open, I just need their PIDs",lsof -t -i :80,Lists PIDs of processes using port 80.
+Show me the PIDs of everything occupying port,lsof -t -i :80,Lists PIDs of processes using port 80.
+How do I get the PIDs of processes bound to port 80?,lsof -t -i :80,Lists PIDs of processes using port 80.
+I need to see the process IDs that are using port,lsof -t -i :80,Lists PIDs of processes using port 80.
+Can you tell me the PIDs for port 80?,lsof -t -i :80,Lists PIDs of processes using port 80.
+Which process IDs are active on port 80?,lsof -t -i :80,Lists PIDs of processes using port 80.
+Display the PIDs of applications using port,lsof -t -i :80,Lists PIDs of processes using port 80.
+Get me the PIDs that are connected to or listening on port,lsof -t -i :80,Lists PIDs of processes using port 80.
+What are the numeric IDs of processes using port 80?,lsof -t -i :80,Lists PIDs of processes using port 80.
+Give me a list of PIDs currently utilizing port,lsof -t -i :80,Lists PIDs of processes using port 80.
+Show me the etckeeper log,etckeeper vcs log,Displays the version control log for /etc managed by etckeeper.
+Display the version control log for etckeeper,etckeeper vcs log,Displays the version control log for /etc managed by etckeeper.
+What's the history of changes etckeeper has tracked?,etckeeper vcs log,Displays the version control log for /etc managed by etckeeper.
+"I'd like to see the etckeeper VCS log, please",etckeeper vcs log,Displays the version control log for /etc managed by etckeeper.
+Could you show me the etckeeper activity log?,etckeeper vcs log,Displays the version control log for /etc managed by etckeeper.
+How do I view etckeeper's log entries?,etckeeper vcs log,Displays the version control log for /etc managed by etckeeper.
+Provide the etckeeper change history,etckeeper vcs log,Displays the version control log for /etc managed by etckeeper.
+Tell me what's in the etckeeper log,etckeeper vcs log,Displays the version control log for /etc managed by etckeeper.
+Output the etckeeper version log,etckeeper vcs log,Displays the version control log for /etc managed by etckeeper.
+Can you pull up the etckeeper record of changes?,etckeeper vcs log,Displays the version control log for /etc managed by etckeeper.
+I need to review the etckeeper VCS history,etckeeper vcs log,Displays the version control log for /etc managed by etckeeper.
+Let me see the full etckeeper log,etckeeper vcs log,Displays the version control log for /etc managed by etckeeper.
+Run `mkswap /dev/sdb1`,mkswap /dev/sdb1,Sets up /dev/sdb1 as a swap partition.
+Set up /dev/sdb1 as a swap partition,mkswap /dev/sdb1,Sets up /dev/sdb1 as a swap partition.
+Please make /dev/sdb1 into a swap area,mkswap /dev/sdb1,Sets up /dev/sdb1 as a swap partition.
+Initialize /dev/sdb1 for swap,mkswap /dev/sdb1,Sets up /dev/sdb1 as a swap partition.
+Could you prepare /dev/sdb1 to be used for swap?,mkswap /dev/sdb1,Sets up /dev/sdb1 as a swap partition.
+I need to create a swap space on /dev/sdb,mkswap /dev/sdb1,Sets up /dev/sdb1 as a swap partition.
+Perform the `mkswap` operation on /dev/sdb,mkswap /dev/sdb1,Sets up /dev/sdb1 as a swap partition.
+Convert /dev/sdb1 to a swap partition,mkswap /dev/sdb1,Sets up /dev/sdb1 as a swap partition.
+Use `mkswap` on /dev/sdb,mkswap /dev/sdb1,Sets up /dev/sdb1 as a swap partition.
+Let's make /dev/sdb1 a swap disk,mkswap /dev/sdb1,Sets up /dev/sdb1 as a swap partition.
+Get /dev/sdb1 ready for swap,mkswap /dev/sdb1,Sets up /dev/sdb1 as a swap partition.
+Execute the command: `mkswap /dev/sdb1`,mkswap /dev/sdb1,Sets up /dev/sdb1 as a swap partition.
+Please run `swapon /dev/sdb1`,swapon /dev/sdb1,Enables the swap partition on /dev/sdb1.
+Enable swap on `/dev/sdb1`,swapon /dev/sdb1,Enables the swap partition on /dev/sdb1.
+I need to activate the swap partition located at `/dev/sdb1`,swapon /dev/sdb1,Enables the swap partition on /dev/sdb1.
+Could you make `/dev/sdb1` an active swap space?,swapon /dev/sdb1,Enables the swap partition on /dev/sdb1.
+Bring up the swap area on `/dev/sdb1`,swapon /dev/sdb1,Enables the swap partition on /dev/sdb1.
+Tell the system to use `/dev/sdb1` for virtual memory,swapon /dev/sdb1,Enables the swap partition on /dev/sdb1.
+Execute the `swapon` command for `/dev/sdb1`,swapon /dev/sdb1,Enables the swap partition on /dev/sdb1.
+I'd like to turn on the swap facility for `/dev/sdb1`,swapon /dev/sdb1,Enables the swap partition on /dev/sdb1.
+Set up `/dev/sdb1` as a swap device,swapon /dev/sdb1,Enables the swap partition on /dev/sdb1.
+Initiate swapping on the `/dev/sdb1` partition,swapon /dev/sdb1,Enables the swap partition on /dev/sdb1.
+Begin using `/dev/sdb1` as system swap,swapon /dev/sdb1,Enables the swap partition on /dev/sdb1.
+Ensure `/dev/sdb1` is enabled for swap,swapon /dev/sdb1,Enables the swap partition on /dev/sdb1.
+How do I disable the swap partition on `/dev/sdb1`?,swapoff /dev/sdb1,Disables the swap partition on /dev/sdb1.
+Please turn off swap for `/dev/sdb1`,swapoff /dev/sdb1,Disables the swap partition on /dev/sdb1.
+I need to run `swapoff /dev/sdb1`. Can you confirm the command?,swapoff /dev/sdb1,Disables the swap partition on /dev/sdb1.
+What's the command to deactivate swapping on `/dev/sdb1`?,swapoff /dev/sdb1,Disables the swap partition on /dev/sdb1.
+Can you help me stop using `/dev/sdb1` as a swap device?,swapoff /dev/sdb1,Disables the swap partition on /dev/sdb1.
+I want to remove `/dev/sdb1` from the active swap space. How do I do that?,swapoff /dev/sdb1,Disables the swap partition on /dev/sdb1.
+Execute `swapoff /dev/sdb1`,swapoff /dev/sdb1,Disables the swap partition on /dev/sdb1.
+Could you de-allocate `/dev/sdb1` from its current swap usage?,swapoff /dev/sdb1,Disables the swap partition on /dev/sdb1.
+How can I temporarily disable the swap partition located at `/dev/sdb1`?,swapoff /dev/sdb1,Disables the swap partition on /dev/sdb1.
+Please make sure `/dev/sdb1` is no longer acting as swap,swapoff /dev/sdb1,Disables the swap partition on /dev/sdb1.
+I'm trying to shut down the swap service on `/dev/sdb1`. What's the appropriate command?,swapoff /dev/sdb1,Disables the swap partition on /dev/sdb1.
+Tell me the command to stop the swap space on `/dev/sdb1`,swapoff /dev/sdb1,Disables the swap partition on /dev/sdb1.
+Could you show me the LUKS metadata for `/dev/sdb1`?,cryptsetup luksDump /dev/sdb1,Displays metadata for the LUKS partition on /dev/sdb1.
+How can I view the LUKS header information on `/dev/sdb1`?,cryptsetup luksDump /dev/sdb1,Displays metadata for the LUKS partition on /dev/sdb1.
+I need to dump the LUKS partition details for `/dev/sdb1`. What's the command?,cryptsetup luksDump /dev/sdb1,Displays metadata for the LUKS partition on /dev/sdb1.
+Please execute `cryptsetup luksDump /dev/sdb1`,cryptsetup luksDump /dev/sdb1,Displays metadata for the LUKS partition on /dev/sdb1.
+Can you display the full LUKS configuration for `/dev/sdb1`?,cryptsetup luksDump /dev/sdb1,Displays metadata for the LUKS partition on /dev/sdb1.
+What's the command to inspect the LUKS volume on `/dev/sdb1`?,cryptsetup luksDump /dev/sdb1,Displays metadata for the LUKS partition on /dev/sdb1.
+I'm trying to get the LUKS header dump from `/dev/sdb1`,cryptsetup luksDump /dev/sdb1,Displays metadata for the LUKS partition on /dev/sdb1.
+Show me the output of `cryptsetup luksDump` for `/dev/sdb1`,cryptsetup luksDump /dev/sdb1,Displays metadata for the LUKS partition on /dev/sdb1.
+Is there a way to view the LUKS metadata on `/dev/sdb1`?,cryptsetup luksDump /dev/sdb1,Displays metadata for the LUKS partition on /dev/sdb1.
+"Run `luksDump` on `/dev/sdb1`, please",cryptsetup luksDump /dev/sdb1,Displays metadata for the LUKS partition on /dev/sdb1.
+I'd like to see the LUKS partition metadata for `/dev/sdb1`,cryptsetup luksDump /dev/sdb1,Displays metadata for the LUKS partition on /dev/sdb1.
+Generate the LUKS header information for `/dev/sdb1`,cryptsetup luksDump /dev/sdb1,Displays metadata for the LUKS partition on /dev/sdb1.
+Set the Nginx AppArmor profile to complain mode,aa-complain /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to complain mode.
+Please put the AppArmor profile for Nginx into complain mode,aa-complain /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to complain mode.
+How do I get the Nginx AppArmor profile into complain mode?,aa-complain /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to complain mode.
+Can you run `aa-complain /etc/apparmor.d/usr.sbin.nginx`?,aa-complain /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to complain mode.
+I need to switch the Nginx AppArmor profile to complain mode,aa-complain /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to complain mode.
+What's the command to set Nginx's AppArmor profile to complain mode?,aa-complain /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to complain mode.
+Let's enable complain mode for the AppArmor profile covering Nginx,aa-complain /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to complain mode.
+Could you use `aa-complain` on the Nginx AppArmor profile file?,aa-complain /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to complain mode.
+Change the AppArmor status of `/etc/apparmor.d/usr.sbin.nginx` to complain,aa-complain /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to complain mode.
+I'd like to put the AppArmor profile for Nginx into complain mode,aa-complain /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to complain mode.
+Please execute `aa-complain` for the Nginx AppArmor configuration,aa-complain /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to complain mode.
+Go ahead and put Nginx's AppArmor profile in complain mode,aa-complain /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to complain mode.
+Please run `aa-enforce /etc/apparmor.d/usr.sbin.nginx`,aa-enforce /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to enforce mode.
+How do I set the AppArmor profile for nginx to enforce mode?,aa-enforce /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to enforce mode.
+Can you apply enforce mode to the nginx AppArmor profile?,aa-enforce /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to enforce mode.
+I need to switch the `/etc/apparmor.d/usr.sbin.nginx` AppArmor profile to enforcing,aa-enforce /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to enforce mode.
+Execute `aa-enforce` for the nginx AppArmor configuration,aa-enforce /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to enforce mode.
+What's the command to make the AppArmor profile for nginx enforce?,aa-enforce /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to enforce mode.
+Could you put the `usr.sbin.nginx` AppArmor profile into enforce mode?,aa-enforce /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to enforce mode.
+Let's activate enforcing for the nginx AppArmor setup,aa-enforce /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to enforce mode.
+Configure AppArmor for nginx to be in enforce mode,aa-enforce /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to enforce mode.
+I want to run `aa-enforce` on `/etc/apparmor.d/usr.sbin.nginx`,aa-enforce /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to enforce mode.
+Make the nginx AppArmor profile enforcing,aa-enforce /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to enforce mode.
+Use `aa-enforce` to put the `/etc/apparmor.d/usr.sbin.nginx` profile into enforcing,aa-enforce /etc/apparmor.d/usr.sbin.nginx,Sets the AppArmor profile for nginx to enforce mode.

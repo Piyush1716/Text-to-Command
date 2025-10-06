@@ -1,0 +1,121 @@
+user_query,command,description
+Run `ip addr show`,ip addr show,Displays IP addresses and interface details.
+How do I see my IP address?,ip addr show,Displays IP addresses and interface details.
+Show me my network interface details,ip addr show,Displays IP addresses and interface details.
+What's my current IP configuration?,ip addr show,Displays IP addresses and interface details.
+I need to check my network interfaces,ip addr show,Displays IP addresses and interface details.
+Display my IP addresses,ip addr show,Displays IP addresses and interface details.
+Could you show me the IP address and interface info?,ip addr show,Displays IP addresses and interface details.
+Get my network details,ip addr show,Displays IP addresses and interface details.
+How can I view my network interfaces?,ip addr show,Displays IP addresses and interface details.
+Can you tell me my IP?,ip addr show,Displays IP addresses and interface details.
+List the network addresses,ip addr show,Displays IP addresses and interface details.
+What command shows my IP address?,ip addr show,Displays IP addresses and interface details.
+How do I list all listening TCP and UDP sockets with numeric addresses?,ss -tulwn,Lists listening TCP and UDP sockets with numeric addresses.
+"I need to see what ports are open and listening on my system, both TCP and UDP, using numeric output",ss -tulwn,Lists listening TCP and UDP sockets with numeric addresses.
+"Show me all active listening network connections for both TCP and UDP, displaying numeric host/port values",ss -tulwn,Lists listening TCP and UDP sockets with numeric addresses.
+What's the command to display all listening TCP and UDP sockets without resolving hostnames?,ss -tulwn,Lists listening TCP and UDP sockets with numeric addresses.
+Could you tell me how to list all listening sockets (TCP and UDP) in numeric format?,ss -tulwn,Lists listening TCP and UDP sockets with numeric addresses.
+"List all listening network services, including TCP and UDP, using numeric IP addresses and port numbers",ss -tulwn,Lists listening TCP and UDP sockets with numeric addresses.
+"How can I check which TCP and UDP ports are in a listening state, showing numeric output?",ss -tulwn,Lists listening TCP and UDP sockets with numeric addresses.
+"I want to view all listening sockets, TCP and UDP, with numeric addresses. What's the command?",ss -tulwn,Lists listening TCP and UDP sockets with numeric addresses.
+Give me the command to show all listening TCP and UDP sockets in numeric form,ss -tulwn,Lists listening TCP and UDP sockets with numeric addresses.
+"What's listening on my network ports, specifically TCP and UDP, with numeric output?",ss -tulwn,Lists listening TCP and UDP sockets with numeric addresses.
+How do I get a numeric list of all listening TCP and UDP sockets?,ss -tulwn,Lists listening TCP and UDP sockets with numeric addresses.
+Display all listening TCP and UDP sockets with their numeric IP addresses and port numbers,ss -tulwn,Lists listening TCP and UDP sockets with numeric addresses.
+Can you display the ARP cache without resolving hostnames?,arp -n,Displays the ARP cache without resolving hostnames.
+"I need to see the ARP table, but without resolving hostnames",arp -n,Displays the ARP cache without resolving hostnames.
+Please show me the numeric ARP entries,arp -n,Displays the ARP cache without resolving hostnames.
+"How do I view the ARP cache in its raw, un-resolved form?",arp -n,Displays the ARP cache without resolving hostnames.
+Could you list the current ARP mappings without DNS lookups?,arp -n,Displays the ARP cache without resolving hostnames.
+"Get me the ARP table, just the IP addresses and MACs",arp -n,Displays the ARP cache without resolving hostnames.
+I'd like to check the ARP cache; display it numerically,arp -n,Displays the ARP cache without resolving hostnames.
+Show the ARP cache entries without hostname resolution,arp -n,Displays the ARP cache without resolving hostnames.
+Can you output the raw ARP table for me?,arp -n,Displays the ARP cache without resolving hostnames.
+Display the ARP table in its numeric format,arp -n,Displays the ARP cache without resolving hostnames.
+Give me a listing of the ARP cache without resolving any hostnames,arp -n,Displays the ARP cache without resolving hostnames.
+I want to see the ARP cache; please don't resolve the hostnames,arp -n,Displays the ARP cache without resolving hostnames.
+Show me the routing table,route -n,Displays the routing table with numeric addresses.
+How do I view the network routing table?,route -n,Displays the routing table with numeric addresses.
+Display the routing table with numeric IP addresses,route -n,Displays the routing table with numeric addresses.
+I need to check the active routes on this machine,route -n,Displays the routing table with numeric addresses.
+What's the command to list my network routes?,route -n,Displays the routing table with numeric addresses.
+Could you please show me the routing table numerically?,route -n,Displays the routing table with numeric addresses.
+Output the routing information for this system,route -n,Displays the routing table with numeric addresses.
+I want to see the kernel's routing entries,route -n,Displays the routing table with numeric addresses.
+List the system's routing table without resolving hostnames,route -n,Displays the routing table with numeric addresses.
+How can I see the routing table without hostname resolution?,route -n,Displays the routing table with numeric addresses.
+Display the routing table in a numerical format,route -n,Displays the routing table with numeric addresses.
+What's the command to get a quick look at the routes?,route -n,Displays the routing table with numeric addresses.
+How do I display network interfaces on Linux?,ip link show,Lists network interfaces and their status.
+What's the command to list network adapter status?,ip link show,Lists network interfaces and their status.
+Show me my network interface configuration,ip link show,Lists network interfaces and their status.
+How can I check the status of my network links?,ip link show,Lists network interfaces and their status.
+I need to see my NICs; what command should I use?,ip link show,Lists network interfaces and their status.
+List all network interfaces and their current state,ip link show,Lists network interfaces and their status.
+What's the best way to view network connection details?,ip link show,Lists network interfaces and their status.
+Can you tell me how to get information about my network devices?,ip link show,Lists network interfaces and their status.
+Give me the command to show network interfaces,ip link show,Lists network interfaces and their status.
+How do I inspect my network interfaces?,ip link show,Lists network interfaces and their status.
+Display active network links,ip link show,Lists network interfaces and their status.
+What command provides an overview of network interfaces?,ip link show,Lists network interfaces and their status.
+How do I list all open network sockets and the processes using them?,ss -anp,Lists all sockets with associated processes.
+Show me every active network connection along with its associated process ID,ss -anp,Lists all sockets with associated processes.
+What command will display all listening ports and the programs bound to them?,ss -anp,Lists all sockets with associated processes.
+I need to see a comprehensive list of all sockets and their corresponding processes,ss -anp,Lists all sockets with associated processes.
+Can you help me identify which processes have open network connections?,ss -anp,Lists all sockets with associated processes.
+"Display all established, listening, and other socket states with process information",ss -anp,Lists all sockets with associated processes.
+How can I check all network endpoints and the services using them?,ss -anp,Lists all sockets with associated processes.
+List all current network activity with the process name or ID,ss -anp,Lists all sockets with associated processes.
+What's the best way to view all system sockets and their responsible processes?,ss -anp,Lists all sockets with associated processes.
+I want to get a detailed report of all open ports and their managing processes,ss -anp,Lists all sockets with associated processes.
+Show me which applications are currently communicating over the network,ss -anp,Lists all sockets with associated processes.
+Give me a breakdown of all network connections and the processes that own them,ss -anp,Lists all sockets with associated processes.
+Run `traceroute google.com`,traceroute google.com,Traces the route packets take to google.com.
+How do I traceroute google.com?,traceroute google.com,Traces the route packets take to google.com.
+What's the command to trace the route to google.com?,traceroute google.com,Traces the route packets take to google.com.
+Could you please run `traceroute google.com`?,traceroute google.com,Traces the route packets take to google.com.
+I need to perform a traceroute to google.com,traceroute google.com,Traces the route packets take to google.com.
+Execute `traceroute google.com`,traceroute google.com,Traces the route packets take to google.com.
+Check the network path to google.com,traceroute google.com,Traces the route packets take to google.com.
+Can you show me how to run a traceroute to google.com?,traceroute google.com,Traces the route packets take to google.com.
+Initiate a traceroute command to google.com,traceroute google.com,Traces the route packets take to google.com.
+I'd like to trace the route to google.com,traceroute google.com,Traces the route packets take to google.com.
+Perform a `traceroute` to `google.com`,traceroute google.com,Traces the route packets take to google.com.
+Let's find the route packets take to google.com,traceroute google.com,Traces the route packets take to google.com.
+What's the system's last boot time?,who -b,Shows the time of the last system boot.
+When did this machine last boot up?,who -b,Shows the time of the last system boot.
+Show me the time the server was last started,who -b,Shows the time of the last system boot.
+I need to know the system's boot time,who -b,Shows the time of the last system boot.
+Can you display the last boot timestamp?,who -b,Shows the time of the last system boot.
+Tell me when this Linux host last booted,who -b,Shows the time of the last system boot.
+What was the system's most recent startup time?,who -b,Shows the time of the last system boot.
+Please give me the boot time,who -b,Shows the time of the last system boot.
+When was this instance last powered on?,who -b,Shows the time of the last system boot.
+Retrieve the system's last boot information,who -b,Shows the time of the last system boot.
+How long ago did the system boot?,who -b,Shows the time of the last system boot.
+Query the system for its boot time,who -b,Shows the time of the last system boot.
+How do I set the GECOS comment field for `user` to 'Full Name'?,usermod -c 'Full Name' user,Sets the GECOS comment field for user to 'Full Name'.
+I need to change the full name associated with `user` to 'Full Name',usermod -c 'Full Name' user,Sets the GECOS comment field for user to 'Full Name'.
+Update `user`'s descriptive name to 'Full Name',usermod -c 'Full Name' user,Sets the GECOS comment field for user to 'Full Name'.
+What's the command to modify the comment field for `user` to 'Full Name'?,usermod -c 'Full Name' user,Sets the GECOS comment field for user to 'Full Name'.
+Could you show me how to assign 'Full Name' as the GECOS field for `user`?,usermod -c 'Full Name' user,Sets the GECOS comment field for user to 'Full Name'.
+How can I put 'Full Name' in the profile comment for `user`?,usermod -c 'Full Name' user,Sets the GECOS comment field for user to 'Full Name'.
+I want to make `user`'s GECOS information read 'Full Name',usermod -c 'Full Name' user,Sets the GECOS comment field for user to 'Full Name'.
+Please set the `user` account's full name to 'Full Name',usermod -c 'Full Name' user,Sets the GECOS comment field for user to 'Full Name'.
+How do I specify 'Full Name' as the GECOS comment for `user`?,usermod -c 'Full Name' user,Sets the GECOS comment field for user to 'Full Name'.
+I need to alter the descriptive name of `user` to 'Full Name',usermod -c 'Full Name' user,Sets the GECOS comment field for user to 'Full Name'.
+Can I update `user`'s user information to show 'Full Name' in the GECOS field?,usermod -c 'Full Name' user,Sets the GECOS comment field for user to 'Full Name'.
+Give me the way to change `user`'s comment field to 'Full Name',usermod -c 'Full Name' user,Sets the GECOS comment field for user to 'Full Name'.
+How do I delete the group 'oldgroup'?,groupdel oldgroup,Deletes the group oldgroup.
+What's the command to remove 'oldgroup'?,groupdel oldgroup,Deletes the group oldgroup.
+I need to get rid of the group named 'oldgroup',groupdel oldgroup,Deletes the group oldgroup.
+The 'oldgroup' group is no longer needed; how can I remove it?,groupdel oldgroup,Deletes the group oldgroup.
+Remove group 'oldgroup',groupdel oldgroup,Deletes the group oldgroup.
+Could you tell me how to delete the 'oldgroup' group?,groupdel oldgroup,Deletes the group oldgroup.
+Please provide the command to delete the group 'oldgroup',groupdel oldgroup,Deletes the group oldgroup.
+I want to delete the group 'oldgroup'. What should I type?,groupdel oldgroup,Deletes the group oldgroup.
+What's the best way to delete 'oldgroup' from the system?,groupdel oldgroup,Deletes the group oldgroup.
+How do I completely remove the 'oldgroup' entry?,groupdel oldgroup,Deletes the group oldgroup.
+Delete the Linux group 'oldgroup',groupdel oldgroup,Deletes the group oldgroup.
+Can you show me how to remove the 'oldgroup' group?,groupdel oldgroup,Deletes the group oldgroup.

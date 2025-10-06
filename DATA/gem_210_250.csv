@@ -1,0 +1,481 @@
+user_query,command,description
+How do I lock a user's password in Linux?,passwd -l user,"Locks the password for user, disabling login."
+I need to disable login for the 'user' account,passwd -l user,"Locks the password for user, disabling login."
+What's the command to prevent 'user' from logging in?,passwd -l user,"Locks the password for user, disabling login."
+Could you please lock the password for 'user'?,passwd -l user,"Locks the password for user, disabling login."
+How can I block access for a specific user?,passwd -l user,"Locks the password for user, disabling login."
+I want to suspend 'user's' ability to log in,passwd -l user,"Locks the password for user, disabling login."
+What's the best way to effectively 'freeze' a user account?,passwd -l user,"Locks the password for user, disabling login."
+How do I revoke login privileges for 'user'?,passwd -l user,"Locks the password for user, disabling login."
+Which `passwd` flag lets me disable a user's login?,passwd -l user,"Locks the password for user, disabling login."
+Please make it so 'user' cannot log in anymore,passwd -l user,"Locks the password for user, disabling login."
+I'm looking for the command to lock a user's account password,passwd -l user,"Locks the password for user, disabling login."
+Can you show me how to disallow 'user' from authenticating?,passwd -l user,"Locks the password for user, disabling login."
+"How do I set the account expiration date for 'user' to December 31, 2025?",chage -E 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+What's the `chage` command to expire 'user' on 2025-12-31?,chage -E 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+I need to make 'user''s account expire at the end of 2025. How can I do that?,chage -E 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+Show me the command to set 'user''s login expiry to,chage -E 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+"How do I use `chage -E` to set the expiration date for 'user' to December 31, 2025?",chage -E 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+Could you provide the exact command to expire the 'user' account on 2025-12-31?,chage -E 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+What is the correct way to set 'user''s account to terminate on 2025-12-31?,chage -E 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+"I want to ensure 'user''s account is disabled after December 31, 2025. Which command achieves this?",chage -E 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+Give me the Linux command to change 'user''s expiry to,chage -E 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+How do I update the account expiry for 'user' to 2025-12-31?,chage -E 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+"Using `chage`, how do I specify that 'user''s account expires on the final day of 2025?",chage -E 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+What command sets `user`'s account expiration to 2025-12-31?,chage -E 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+How can I see information about user john?,finger user,"Displays information about user, including login and mail status."
+Can you show me the login and mail status for john?,finger user,"Displays information about user, including login and mail status."
+"What's the command to get details on a specific user, like john?",finger user,"Displays information about user, including login and mail status."
+I need to check if john is currently logged into this system,finger user,"Displays information about user, including login and mail status."
+Display the finger information for the user named john,finger user,"Displays information about user, including login and mail status."
+Tell me everything you know about user john's current session,finger user,"Displays information about user, including login and mail status."
+Is there a way to view a summary of user john's activity?,finger user,"Displays information about user, including login and mail status."
+"Get me the full user details for john, please",finger user,"Displays information about user, including login and mail status."
+"How do I look up a user's status, for example, john?",finger user,"Displays information about user, including login and mail status."
+I'd like to query the system for information on 'john',finger user,"Displays information about user, including login and mail status."
+Could you provide an overview of user john's login state?,finger user,"Displays information about user, including login and mail status."
+What's the command to 'finger' the user 'john'?,finger user,"Displays information about user, including login and mail status."
+How do I run `command` with a nice value of 10?,nice -n 10 command,Runs command with a nice value of 10 (lower priority).
+"I need to execute `command` at a lower priority, specifically nice",nice -n 10 command,Runs command with a nice value of 10 (lower priority).
+What's the way to start `command` with a nice value of 10?,nice -n 10 command,Runs command with a nice value of 10 (lower priority).
+Can you show me how to launch `command` using `nice -n 10`?,nice -n 10 command,Runs command with a nice value of 10 (lower priority).
+"How can I run `command` but make it less resource-intensive, setting its nice value to 10?",nice -n 10 command,Runs command with a nice value of 10 (lower priority).
+I want to kick off `command` and give it a nice level of,nice -n 10 command,Runs command with a nice value of 10 (lower priority).
+"How do I run `command` without it hogging the CPU, using a nice value of 10?",nice -n 10 command,Runs command with a nice value of 10 (lower priority).
+"Could you tell me how to start `command` with a nice value of 10, so it's a lower priority?",nice -n 10 command,Runs command with a nice value of 10 (lower priority).
+"What's the command to run `command` with a reduced priority, a nice value of 10?",nice -n 10 command,Runs command with a nice value of 10 (lower priority).
+"I need to run `command` politely, with a nice level of",nice -n 10 command,Runs command with a nice value of 10 (lower priority).
+How do I `nice` `command` to a priority of 10?,nice -n 10 command,Runs command with a nice value of 10 (lower priority).
+"How do I execute `command` such that it runs with a lower priority, specifically a nice value of positive 10?",nice -n 10 command,Runs command with a nice value of 10 (lower priority).
+How do I change the niceness of process 1234 to 5?,renice 5 1234,Changes the priority of process with PID 1234 to 5.
+What's the command to set the priority of PID 1234 to 5?,renice 5 1234,Changes the priority of process with PID 1234 to 5.
+I need to adjust the niceness level for process 1234 to 5. How?,renice 5 1234,Changes the priority of process with PID 1234 to 5.
+Can you show me how to `renice` process 1234 to a value of 5?,renice 5 1234,Changes the priority of process with PID 1234 to 5.
+How do I re-prioritize PID 1234 to a niceness of 5?,renice 5 1234,Changes the priority of process with PID 1234 to 5.
+What's the best way to modify the priority of process ID 1234 to 5?,renice 5 1234,Changes the priority of process with PID 1234 to 5.
+I want to make process 1234 run with a niceness of 5. How is this done?,renice 5 1234,Changes the priority of process with PID 1234 to 5.
+Could you tell me the command to give process 1234 a priority of 5?,renice 5 1234,Changes the priority of process with PID 1234 to 5.
+How can I set the `nice` value for process 1234 to 5?,renice 5 1234,Changes the priority of process with PID 1234 to 5.
+I need to use `renice` on PID 1234 to set its priority to 5. What's the syntax?,renice 5 1234,Changes the priority of process with PID 1234 to 5.
+Is there a command to change the priority of process 1234 to niceness 5?,renice 5 1234,Changes the priority of process with PID 1234 to 5.
+"For process 1234, how do I apply a niceness value of 5?",renice 5 1234,Changes the priority of process with PID 1234 to 5.
+How do I run `top` to only show processes for a specific user?,top -u user,Displays processes owned by user in top.
+I need to view the processes owned by a particular user in `top`,top -u user,Displays processes owned by user in top.
+"Show me the `top` output, but only for a given user",top -u user,Displays processes owned by user in top.
+What's the command to display just a user's processes within `top`?,top -u user,Displays processes owned by user in top.
+Can you filter `top` to only include processes for a specific user?,top -u user,Displays processes owned by user in top.
+I want to see what processes 'user' is running; how do I do that with `top`?,top -u user,Displays processes owned by user in top.
+How can I limit `top`'s display to just one user's processes?,top -u user,Displays processes owned by user in top.
+"Display `top`'s process list, restricted to a particular user",top -u user,Displays processes owned by user in top.
+Could you tell me how to monitor the processes of 'user' using `top`?,top -u user,Displays processes owned by user in top.
+Give me the `top` command that filters by user,top -u user,Displays processes owned by user in top.
+I'm trying to check resource usage for 'user'; how do I see their processes in `top`?,top -u user,Displays processes owned by user in top.
+Get me the `top` view for processes belonging solely to 'user',top -u user,Displays processes owned by user in top.
+Show me the process tree with PIDs,pstree -p,Displays a tree of processes with PIDs.
+How do I display a tree of all running processes and their IDs?,pstree -p,Displays a tree of processes with PIDs.
+Please run `pstree -p`,pstree -p,Displays a tree of processes with PIDs.
+I need to see the process hierarchy along with the process identifiers,pstree -p,Displays a tree of processes with PIDs.
+"What's the command to get a tree-like view of processes, including PIDs?",pstree -p,Displays a tree of processes with PIDs.
+Can you execute the `pstree` command to show PIDs?,pstree -p,Displays a tree of processes with PIDs.
+"Display the process tree, ensuring process IDs are visible",pstree -p,Displays a tree of processes with PIDs.
+I'd like to view the hierarchical process list with their unique PIDs,pstree -p,Displays a tree of processes with PIDs.
+Run `pstree` and make sure it shows the process IDs,pstree -p,Displays a tree of processes with PIDs.
+Give me a tree diagram of processes with their PIDs,pstree -p,Displays a tree of processes with PIDs.
+How do I use `pstree` to show PIDs for all processes?,pstree -p,Displays a tree of processes with PIDs.
+"Present the process tree structure, explicitly including the PIDs",pstree -p,Displays a tree of processes with PIDs.
+Send SIGTERM to process,kill -SIGTERM 1234,Sends the SIGTERM signal to the process with PID 1234.
+I need to terminate the process with PID 1234 using SIGTERM,kill -SIGTERM 1234,Sends the SIGTERM signal to the process with PID 1234.
+Kill PID,kill -SIGTERM 1234,Sends the SIGTERM signal to the process with PID 1234.
+How do I gracefully stop process 1234?,kill -SIGTERM 1234,Sends the SIGTERM signal to the process with PID 1234.
+Issue a termination signal to process,kill -SIGTERM 1234,Sends the SIGTERM signal to the process with PID 1234.
+End the process whose ID is,kill -SIGTERM 1234,Sends the SIGTERM signal to the process with PID 1234.
+Please send a SIGTERM to the process running as,kill -SIGTERM 1234,Sends the SIGTERM signal to the process with PID 1234.
+Make process 1234 stop executing,kill -SIGTERM 1234,Sends the SIGTERM signal to the process with PID 1234.
+I want to shut down process,kill -SIGTERM 1234,Sends the SIGTERM signal to the process with PID 1234.
+Can you send the default kill signal to PID 1234?,kill -SIGTERM 1234,Sends the SIGTERM signal to the process with PID 1234.
+Terminate the program with process ID 1234 cleanly,kill -SIGTERM 1234,Sends the SIGTERM signal to the process with PID 1234.
+Stop the process with ID,kill -SIGTERM 1234,Sends the SIGTERM signal to the process with PID 1234.
+How do I find the process IDs (PIDs) for nginx?,pgrep nginx,Lists PIDs of processes named nginx.
+What's the command to list all nginx PIDs?,pgrep nginx,Lists PIDs of processes named nginx.
+I need to get the PIDs of running nginx processes,pgrep nginx,Lists PIDs of processes named nginx.
+Show me the process IDs for nginx,pgrep nginx,Lists PIDs of processes named nginx.
+Find the PIDs of all nginx instances,pgrep nginx,Lists PIDs of processes named nginx.
+Can you list the nginx process IDs for me?,pgrep nginx,Lists PIDs of processes named nginx.
+How do I check the PIDs of nginx?,pgrep nginx,Lists PIDs of processes named nginx.
+Get me the PIDs for nginx,pgrep nginx,Lists PIDs of processes named nginx.
+What are the PIDs for nginx?,pgrep nginx,Lists PIDs of processes named nginx.
+I want to see the process IDs associated with nginx,pgrep nginx,Lists PIDs of processes named nginx.
+Query for nginx PIDs,pgrep nginx,Lists PIDs of processes named nginx.
+Give me the numerical identifiers for nginx processes,pgrep nginx,Lists PIDs of processes named nginx.
+Open file.txt using Emacs,emacs file.txt,Opens file.txt in the Emacs text editor.
+Could you please open file.txt in Emacs?,emacs file.txt,Opens file.txt in the Emacs text editor.
+I need to edit file.txt with Emacs,emacs file.txt,Opens file.txt in the Emacs text editor.
+Launch Emacs and load file.txt,emacs file.txt,Opens file.txt in the Emacs text editor.
+"Start Emacs, opening file.txt",emacs file.txt,Opens file.txt in the Emacs text editor.
+Please open file.txt in the Emacs text editor,emacs file.txt,Opens file.txt in the Emacs text editor.
+Could you fire up Emacs for file.txt?,emacs file.txt,Opens file.txt in the Emacs text editor.
+I'd like to open file.txt with Emacs,emacs file.txt,Opens file.txt in the Emacs text editor.
+"Emacs, open file.txt",emacs file.txt,Opens file.txt in the Emacs text editor.
+Use Emacs to open file.txt,emacs file.txt,Opens file.txt in the Emacs text editor.
+Let's open file.txt in Emacs,emacs file.txt,Opens file.txt in the Emacs text editor.
+Load file.txt into Emacs,emacs file.txt,Opens file.txt in the Emacs text editor.
+Open file1.txt and file2.txt in Vim with a horizontal split,vim -o file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a horizontal split.
+"Please launch Vim for file1.txt and file2.txt, displaying them in a horizontal split",vim -o file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a horizontal split.
+"I need to edit file1.txt and file2.txt in Vim, with each file in its own horizontally split window",vim -o file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a horizontal split.
+"Run Vim to open both file1.txt and file2.txt, splitting the view horizontally",vim -o file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a horizontal split.
+"Could you open file1.txt and file2.txt in Vim, making sure they appear in separate horizontal panes?",vim -o file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a horizontal split.
+"Launch Vim for file1.txt and file2.txt, showing them stacked one above the other",vim -o file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a horizontal split.
+"Start Vim and open file1.txt and file2.txt, using a horizontal split layout",vim -o file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a horizontal split.
+"I'd like to open file1.txt and file2.txt in Vim, arranged with a horizontal split",vim -o file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a horizontal split.
+"Open those two files, file1.txt and file2.txt, in Vim with a horizontal split",vim -o file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a horizontal split.
+"Use Vim to open file1.txt and file2.txt, splitting the screen horizontally",vim -o file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a horizontal split.
+"Please open file1.txt and file2.txt in Vim, with a horizontal window split",vim -o file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a horizontal split.
+"I want to open file1.txt and file2.txt in Vim, creating a horizontal split",vim -o file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a horizontal split.
+How do I open `config.conf` in Nano and ensure it creates backups?,nano -B config.conf,"Opens config.conf in Nano, creating backups on save."
+"I need to edit `config.conf` with Nano, and I want it to save a backup copy",nano -B config.conf,"Opens config.conf in Nano, creating backups on save."
+What's the command to open `config.conf` in Nano while enabling the backup feature?,nano -B config.conf,"Opens config.conf in Nano, creating backups on save."
+Can you show me how to launch Nano for `config.conf` with backup functionality?,nano -B config.conf,"Opens config.conf in Nano, creating backups on save."
+"Run Nano on `config.conf`, making sure it creates a backup of the original file",nano -B config.conf,"Opens config.conf in Nano, creating backups on save."
+"Open `config.conf` using Nano, and have it automatically generate backups",nano -B config.conf,"Opens config.conf in Nano, creating backups on save."
+I want to edit `config.conf` in Nano and have it save a previous version,nano -B config.conf,"Opens config.conf in Nano, creating backups on save."
+How can I use Nano to edit `config.conf` so that it creates a backup on save?,nano -B config.conf,"Opens config.conf in Nano, creating backups on save."
+Tell me how to run Nano on `config.conf` and make it create old file versions,nano -B config.conf,"Opens config.conf in Nano, creating backups on save."
+What's the best way to open `config.conf` in Nano and get it to create a backup?,nano -B config.conf,"Opens config.conf in Nano, creating backups on save."
+Could you tell me how to open `config.conf` in Nano with backups enabled?,nano -B config.conf,"Opens config.conf in Nano, creating backups on save."
+I need to open `config.conf` in Nano; how do I make it create a backup when I save?,nano -B config.conf,"Opens config.conf in Nano, creating backups on save."
+Open `file.txt` using Emacs in the terminal,emacs -nw file.txt,Opens file.txt in Emacs in terminal (non-GUI) mode.
+How do I open `file.txt` with Emacs in non-GUI mode?,emacs -nw file.txt,Opens file.txt in Emacs in terminal (non-GUI) mode.
+I need to edit `file.txt` using Emacs in my current console,emacs -nw file.txt,Opens file.txt in Emacs in terminal (non-GUI) mode.
+What's the command to open `file.txt` in Emacs without X?,emacs -nw file.txt,Opens file.txt in Emacs in terminal (non-GUI) mode.
+"Could you show me how to open `file.txt` in Emacs, but keep it in the terminal window?",emacs -nw file.txt,Opens file.txt in Emacs in terminal (non-GUI) mode.
+Launch Emacs to edit `file.txt` within the terminal,emacs -nw file.txt,Opens file.txt in Emacs in terminal (non-GUI) mode.
+"I want to open `file.txt` in Emacs, but I don't want a graphical window to pop up",emacs -nw file.txt,Opens file.txt in Emacs in terminal (non-GUI) mode.
+Give me the command for opening `file.txt` in terminal-only Emacs,emacs -nw file.txt,Opens file.txt in Emacs in terminal (non-GUI) mode.
+How can I use Emacs to view/edit `file.txt` directly in my shell?,emacs -nw file.txt,Opens file.txt in Emacs in terminal (non-GUI) mode.
+Open `file.txt` in Emacs's text-based interface,emacs -nw file.txt,Opens file.txt in Emacs in terminal (non-GUI) mode.
+"I'm on a remote server via SSH, how do I open `file.txt` in Emacs there?",emacs -nw file.txt,Opens file.txt in Emacs in terminal (non-GUI) mode.
+Launch `file.txt` into a non-graphical Emacs session,emacs -nw file.txt,Opens file.txt in Emacs in terminal (non-GUI) mode.
+How do I list all block devices along with their filesystem types and UUIDs?,lsblk -f,Lists block devices with filesystem types and UUIDs.
+"What command shows block device information, including filesystem type and UUID?",lsblk -f,Lists block devices with filesystem types and UUIDs.
+I need to see the filesystem types and UUIDs for my storage devices. How can I do that?,lsblk -f,Lists block devices with filesystem types and UUIDs.
+"Can you show me a detailed list of block devices, including their filesystem information?",lsblk -f,Lists block devices with filesystem types and UUIDs.
+"How do I get an overview of my disks, showing what filesystem each partition uses and its UUID?",lsblk -f,Lists block devices with filesystem types and UUIDs.
+Run the command to display block device filesystem types and UUIDs,lsblk -f,Lists block devices with filesystem types and UUIDs.
+I'm trying to identify my partitions by their UUIDs. What's the best command for that?,lsblk -f,Lists block devices with filesystem types and UUIDs.
+What's the `lsblk` command to show filesystem types and UUIDs?,lsblk -f,Lists block devices with filesystem types and UUIDs.
+List all block devices with their respective filesystem types and unique identifiers,lsblk -f,Lists block devices with filesystem types and UUIDs.
+"Could you generate a list of block devices, including their filesystem types and mount points, plus UUIDs?",lsblk -f,Lists block devices with filesystem types and UUIDs.
+I need to check the filesystem details of all my storage devices. What command should I use?,lsblk -f,Lists block devices with filesystem types and UUIDs.
+Display all attached block devices and their filesystem and UUID information,lsblk -f,Lists block devices with filesystem types and UUIDs.
+How do I get my CPU information in a tabular format?,lscpu -e,Displays CPU information in a tabular format.
+What's the command to display CPU details as a table?,lscpu -e,Displays CPU information in a tabular format.
+Can you show me the CPU architecture in a structured table?,lscpu -e,Displays CPU information in a tabular format.
+I need a tabular summary of my processor's specifications. How can I get that?,lscpu -e,Displays CPU information in a tabular format.
+Display the detailed CPU information in a table for me,lscpu -e,Displays CPU information in a tabular format.
+"Please provide the CPU features in a clear, tabulated list",lscpu -e,Displays CPU information in a tabular format.
+How do I view my system's CPU details in a table?,lscpu -e,Displays CPU information in a tabular format.
+What's the best way to get a structured output of CPU characteristics?,lscpu -e,Displays CPU information in a tabular format.
+I'm looking for the command that outputs CPU information in a row/column format,lscpu -e,Displays CPU information in a tabular format.
+Could you run the utility that presents CPU data as a table?,lscpu -e,Displays CPU information in a tabular format.
+Show me the processor's properties in a neatly formatted table,lscpu -e,Displays CPU information in a tabular format.
+Give me the command to list my CPU's specs in a tabular layout,lscpu -e,Displays CPU information in a tabular format.
+Run `vmstat -s`,vmstat -s,Displays a summary of virtual memory statistics.
+Please execute `vmstat -s`,vmstat -s,Displays a summary of virtual memory statistics.
+Display the virtual memory summary,vmstat -s,Displays a summary of virtual memory statistics.
+Show me the `vmstat` summary statistics,vmstat -s,Displays a summary of virtual memory statistics.
+I need to see the virtual memory statistics summary,vmstat -s,Displays a summary of virtual memory statistics.
+Can you get me the output of `vmstat -s`?,vmstat -s,Displays a summary of virtual memory statistics.
+What's the summary of virtual memory?,vmstat -s,Displays a summary of virtual memory statistics.
+Provide the `vmstat` summary,vmstat -s,Displays a summary of virtual memory statistics.
+Execute the command `vmstat -s`,vmstat -s,Displays a summary of virtual memory statistics.
+I want to check the virtual memory summary,vmstat -s,Displays a summary of virtual memory statistics.
+Could you show me the current virtual memory statistics summary?,vmstat -s,Displays a summary of virtual memory statistics.
+Get the virtual memory statistics summary,vmstat -s,Displays a summary of virtual memory statistics.
+What's the command to remove execute permission for the group on `script.sh`?,chmod g-x script.sh,Removes execute permission for the group on script.sh.
+How do I disable group execution rights for `script.sh`?,chmod g-x script.sh,Removes execute permission for the group on script.sh.
+I need to stop the group from running `script.sh`. What `chmod` command should I use?,chmod g-x script.sh,Removes execute permission for the group on script.sh.
+Please give me the syntax to take away group execute access from `script.sh`,chmod g-x script.sh,Removes execute permission for the group on script.sh.
+How can I prevent group members from executing `script.sh`?,chmod g-x script.sh,Removes execute permission for the group on script.sh.
+I want to make `script.sh` not executable by the group. How do I do that?,chmod g-x script.sh,Removes execute permission for the group on script.sh.
+"Using `chmod`, how do I remove the 'x' permission for the group on `script.sh`?",chmod g-x script.sh,Removes execute permission for the group on script.sh.
+What's the `chmod` string to revoke group execute permission on `script.sh`?,chmod g-x script.sh,Removes execute permission for the group on script.sh.
+How do I change `script.sh` permissions to deny group execute?,chmod g-x script.sh,Removes execute permission for the group on script.sh.
+Give me the `chmod` command to remove group execute for `script.sh`,chmod g-x script.sh,Removes execute permission for the group on script.sh.
+"My `script.sh` has group execute set, and I want to unset it. How?",chmod g-x script.sh,Removes execute permission for the group on script.sh.
+What's the way to remove the execute bit for the group on `script.sh`?,chmod g-x script.sh,Removes execute permission for the group on script.sh.
+How do I recursively change the owner of `symlink` and its target to `user`?,chown -hR user symlink,Recursively changes ownership of symlink and its target to user.
+What command would I use to make `user` the recursive owner of `symlink` and everything it points to?,chown -hR user symlink,Recursively changes ownership of symlink and its target to user.
+I need to recursively assign `user` as the owner for `symlink` and its entire linked hierarchy,chown -hR user symlink,Recursively changes ownership of symlink and its target to user.
+Could you provide the `chown` syntax to recursively set `user` as the owner of `symlink` itself and its contents?,chown -hR user symlink,Recursively changes ownership of symlink and its target to user.
+I want to change the ownership of `symlink` and all files/directories within its target to `user`. How can I do this?,chown -hR user symlink,Recursively changes ownership of symlink and its target to user.
+What's the `chown` command to recursively transfer ownership of `symlink` (including `symlink` itself) to `user`?,chown -hR user symlink,Recursively changes ownership of symlink and its target to user.
+Please show me the command to set `user` as the recursive owner of both the `symlink` and the data it references,chown -hR user symlink,Recursively changes ownership of symlink and its target to user.
+"Help me run `chown` to recursively change `symlink`'s owner, and the owner of its target directory and files, to `user`",chown -hR user symlink,Recursively changes ownership of symlink and its target to user.
+I'm looking for a way to recursively make `user` the owner of `symlink` and the underlying path it links to,chown -hR user symlink,Recursively changes ownership of symlink and its target to user.
+"Command needed to recursively change ownership of `symlink` to `user`, ensuring the symlink itself is affected along with its target",chown -hR user symlink,Recursively changes ownership of symlink and its target to user.
+"How do I apply recursive ownership of `user` to `symlink`, encompassing the symlink file and all items in its destination?",chown -hR user symlink,Recursively changes ownership of symlink and its target to user.
+"Give me the command to recursively assign `user` as the owner for `symlink`, making sure `symlink` itself changes and so does its full target",chown -hR user symlink,Recursively changes ownership of symlink and its target to user.
+Show me the IP routing table,ip route show,Displays the IP routing table.
+How do I display the network routes?,ip route show,Displays the IP routing table.
+What's the command to view the routing table?,ip route show,Displays the IP routing table.
+Can you list the current network routes?,ip route show,Displays the IP routing table.
+I need to see my system's routing information,ip route show,Displays the IP routing table.
+"Display the IP routes, please",ip route show,Displays the IP routing table.
+How can I check the routing table?,ip route show,Displays the IP routing table.
+Tell me the network routing entries,ip route show,Displays the IP routing table.
+Print out the routing table,ip route show,Displays the IP routing table.
+What are the active IP routes?,ip route show,Displays the IP routing table.
+Get me the routing table,ip route show,Displays the IP routing table.
+I'd like to view the network routing configuration,ip route show,Displays the IP routing table.
+Run `ss -tuln`,ss -tuln,Lists listening TCP and UDP sockets.
+How do I list listening TCP and UDP sockets?,ss -tuln,Lists listening TCP and UDP sockets.
+Show me all listening ports,ss -tuln,Lists listening TCP and UDP sockets.
+What's the command to check open TCP and UDP ports?,ss -tuln,Lists listening TCP and UDP sockets.
+I need to see what's listening on my machine,ss -tuln,Lists listening TCP and UDP sockets.
+"Display active listening sockets, both TCP and UDP",ss -tuln,Lists listening TCP and UDP sockets.
+How can I get a numerical list of listening TCP and UDP connections?,ss -tuln,Lists listening TCP and UDP sockets.
+List all sockets in listening state,ss -tuln,Lists listening TCP and UDP sockets.
+Get me the output of `ss -tuln`,ss -tuln,Lists listening TCP and UDP sockets.
+What's using my network ports?,ss -tuln,Lists listening TCP and UDP sockets.
+I want to list all listening TCP and UDP sockets without name resolution,ss -tuln,Lists listening TCP and UDP sockets.
+Can you show me the listening TCP and UDP services?,ss -tuln,Lists listening TCP and UDP sockets.
+How do I create a symbolic link named `link.conf` that points to `/etc/config.conf`?,ln -s /etc/config.conf link.conf,Creates a symbolic link link.conf to /etc/config.conf.
+What's the command to make `link.conf` a symlink to `/etc/config.conf`?,ln -s /etc/config.conf link.conf,Creates a symbolic link link.conf to /etc/config.conf.
+I need to create a soft link from `/etc/config.conf` to `link.conf`. How do I do that?,ln -s /etc/config.conf link.conf,Creates a symbolic link link.conf to /etc/config.conf.
+Can you tell me how to set up `link.conf` as an alias for `/etc/config.conf`?,ln -s /etc/config.conf link.conf,Creates a symbolic link link.conf to /etc/config.conf.
+How can I make `link.conf` a symbolic pointer to `/etc/config.conf`?,ln -s /etc/config.conf link.conf,Creates a symbolic link link.conf to /etc/config.conf.
+What's the syntax for creating a symbolic link where `/etc/config.conf` is the source and `link.conf` is the link name?,ln -s /etc/config.conf link.conf,Creates a symbolic link link.conf to /etc/config.conf.
+I want to symbolically link `/etc/config.conf` to `link.conf`. What's the command?,ln -s /etc/config.conf link.conf,Creates a symbolic link link.conf to /etc/config.conf.
+Could you show me how to create a shortcut named `link.conf` for the file `/etc/config.conf`?,ln -s /etc/config.conf link.conf,Creates a symbolic link link.conf to /etc/config.conf.
+How do I establish `link.conf` as a symbolic reference to `/etc/config.conf`?,ln -s /etc/config.conf link.conf,Creates a symbolic link link.conf to /etc/config.conf.
+Please give me the command to symlink `/etc/config.conf` as `link.conf`,ln -s /etc/config.conf link.conf,Creates a symbolic link link.conf to /etc/config.conf.
+I need to get `link.conf` to point to `/etc/config.conf` using a symbolic link,ln -s /etc/config.conf link.conf,Creates a symbolic link link.conf to /etc/config.conf.
+What's the proper way to create a symbolic link called `link.conf` for `/etc/config.conf`?,ln -s /etc/config.conf link.conf,Creates a symbolic link link.conf to /etc/config.conf.
+How do I hard link `file1.txt` to `file2.txt`?,ln file1.txt file2.txt,Creates a hard link file2.txt to file1.txt.
+I need to create a hard link from `file1.txt` to `file2.txt`,ln file1.txt file2.txt,Creates a hard link file2.txt to file1.txt.
+Make `file2.txt` a hard link for `file1.txt`,ln file1.txt file2.txt,Creates a hard link file2.txt to file1.txt.
+Can you help me hard link `file1.txt` as `file2.txt`?,ln file1.txt file2.txt,Creates a hard link file2.txt to file1.txt.
+What's the command to set up `file2.txt` as a hard link to `file1.txt`?,ln file1.txt file2.txt,Creates a hard link file2.txt to file1.txt.
+I want `file2.txt` to be a hard link that points to `file1.txt`,ln file1.txt file2.txt,Creates a hard link file2.txt to file1.txt.
+"Please show me how to hard link `file1.txt` to a new name, `file2.txt`",ln file1.txt file2.txt,Creates a hard link file2.txt to file1.txt.
+Link `file1.txt` and call the hard link `file2.txt`,ln file1.txt file2.txt,Creates a hard link file2.txt to file1.txt.
+Establish `file2.txt` as a hard link for `file1.txt`,ln file1.txt file2.txt,Creates a hard link file2.txt to file1.txt.
+I'm looking for the command to make `file2.txt` a hard link of `file1.txt`,ln file1.txt file2.txt,Creates a hard link file2.txt to file1.txt.
+How do you create a hard link where `file2.txt` refers to `file1.txt`?,ln file1.txt file2.txt,Creates a hard link file2.txt to file1.txt.
+Generate the Linux command to hard link `file1.txt` to `file2.txt`,ln file1.txt file2.txt,Creates a hard link file2.txt to file1.txt.
+How do I display `file.txt` and see its non-printable characters?,cat -v file.txt,Displays file.txt with non-printable characters visible.
+I need to view `file.txt` with control characters visible,cat -v file.txt,Displays file.txt with non-printable characters visible.
+"Show me the contents of `file.txt`, including any hidden characters",cat -v file.txt,Displays file.txt with non-printable characters visible.
+What's the command to reveal non-printing characters in `file.txt`?,cat -v file.txt,Displays file.txt with non-printable characters visible.
+Can you help me see the special characters in `file.txt`?,cat -v file.txt,Displays file.txt with non-printable characters visible.
+How can I inspect `file.txt` to visualize its non-ASCII parts?,cat -v file.txt,Displays file.txt with non-printable characters visible.
+"Display `file.txt` in a way that shows everything, even the invisible stuff",cat -v file.txt,Displays file.txt with non-printable characters visible.
+"I want to see the exact content of `file.txt`, including all control sequences",cat -v file.txt,Displays file.txt with non-printable characters visible.
+Give me the command to output `file.txt` and represent its non-printable characters,cat -v file.txt,Displays file.txt with non-printable characters visible.
+How do I get `cat` to show non-printable characters for `file.txt`?,cat -v file.txt,Displays file.txt with non-printable characters visible.
+"What's the best way to view `file.txt` and ensure I see all characters, even normally suppressed ones?",cat -v file.txt,Displays file.txt with non-printable characters visible.
+I need to debug `file.txt` and see its special characters,cat -v file.txt,Displays file.txt with non-printable characters visible.
+How do I view `logfile.txt` using `less` without clearing the screen when I exit?,less -X logfile.txt,Views logfile.txt in less without clearing the screen on exit.
+"What's the command to inspect `logfile.txt` page by page, leaving the content visible after quitting?",less -X logfile.txt,Views logfile.txt in less without clearing the screen on exit.
+"I need to open `logfile.txt` in `less`, making sure the terminal doesn't clear the buffer when I'm done",less -X logfile.txt,Views logfile.txt in less without clearing the screen on exit.
+Can you show me how to `less` `logfile.txt` but keep its output on the screen after `less` closes?,less -X logfile.txt,Views logfile.txt in less without clearing the screen on exit.
+"Tell me the command to read `logfile.txt` using `less`, and prevent the screen from being wiped",less -X logfile.txt,Views logfile.txt in less without clearing the screen on exit.
+How can I use `less` to display `logfile.txt` and retain its contents on the terminal after I quit?,less -X logfile.txt,Views logfile.txt in less without clearing the screen on exit.
+What command should I use to view `logfile.txt` in `less` and stop the screen from clearing on exit?,less -X logfile.txt,Views logfile.txt in less without clearing the screen on exit.
+I want to look at `logfile.txt` with `less` and have the text remain after `less` finishes,less -X logfile.txt,Views logfile.txt in less without clearing the screen on exit.
+Is there a way to `less` `logfile.txt` and leave the terminal output untouched after I close it?,less -X logfile.txt,Views logfile.txt in less without clearing the screen on exit.
+"Open `logfile.txt` in `less` for viewing, ensuring the content stays on screen when I'm done",less -X logfile.txt,Views logfile.txt in less without clearing the screen on exit.
+How do I examine `logfile.txt` with `less` so the display doesn't disappear when `less` exits?,less -X logfile.txt,Views logfile.txt in less without clearing the screen on exit.
+"Give me the command to view `logfile.txt` using `less`, keeping the screen state after closing",less -X logfile.txt,Views logfile.txt in less without clearing the screen on exit.
+"Who is currently logged into this system, along with their activity status?",who -u,Lists logged-in users with idle time and PID.
+"Can you show me a list of all active user sessions, including their idle times and PIDs?",who -u,Lists logged-in users with idle time and PID.
+"Display the logged-in users, detailing when they logged in, their terminal, and how long they've been idle",who -u,Lists logged-in users with idle time and PID.
+"I need to see who's on the system right now, and how long they've been inactive",who -u,Lists logged-in users with idle time and PID.
+"Could you provide a report of current user logins, including their process IDs and idle durations?",who -u,Lists logged-in users with idle time and PID.
+"List all current user sessions, showing their login time, TTY, PID, and idle status",who -u,Lists logged-in users with idle time and PID.
+"Tell me about the users connected to the system, especially their idle time and associated process",who -u,Lists logged-in users with idle time and PID.
+"What are the details of each logged-in user, including their current activity or inactivity?",who -u,Lists logged-in users with idle time and PID.
+"Show me the status of all logged-in users, including their PID and idle period",who -u,Lists logged-in users with idle time and PID.
+"Provide a comprehensive list of users presently logged in, along with their login information and idle time",who -u,Lists logged-in users with idle time and PID.
+I need to check the activity of all users currently logged into the server,who -u,Lists logged-in users with idle time and PID.
+"Give me a breakdown of who's logged in, showing their login duration and current idleness",who -u,Lists logged-in users with idle time and PID.
+Show me the password aging information for user,chage -l user,Displays password and account aging information for user.
+How can I check the account expiration details for user?,chage -l user,Displays password and account aging information for user.
+Display the password policy settings for 'user',chage -l user,Displays password and account aging information for user.
+What are the current password and account aging settings for user?,chage -l user,Displays password and account aging information for user.
+I need to see when 'user's' password is due to expire,chage -l user,Displays password and account aging information for user.
+Get me the account validity period for user,chage -l user,Displays password and account aging information for user.
+Please provide the password lifespan details for user,chage -l user,Displays password and account aging information for user.
+Can you show me user's current password age information?,chage -l user,Displays password and account aging information for user.
+Tell me about the password and account aging for 'user',chage -l user,Displays password and account aging information for user.
+I'd like to view the account aging information for user,chage -l user,Displays password and account aging information for user.
+Query the password expiration dates for user,chage -l user,Displays password and account aging information for user.
+What's the status of user's password aging?,chage -l user,Displays password and account aging information for user.
+How do I run `top` in batch mode for one iteration?,top -b -n 1,Runs top in batch mode for one iteration.
+"What's the command to get a single, non-interactive snapshot from `top`?",top -b -n 1,Runs top in batch mode for one iteration.
+I need to capture a one-time process list using `top` without the interactive display,top -b -n 1,Runs top in batch mode for one iteration.
+Could you show me how to run `top` just once and then exit automatically?,top -b -n 1,Runs top in batch mode for one iteration.
+Generate the command to print `top`'s output once without the full-screen interface,top -b -n 1,Runs top in batch mode for one iteration.
+What's the way to execute `top` in batch mode for only one update?,top -b -n 1,Runs top in batch mode for one iteration.
+How can I get a single batch output from the `top` utility?,top -b -n 1,Runs top in batch mode for one iteration.
+"Provide the command to run `top` once and immediately close, showing the results",top -b -n 1,Runs top in batch mode for one iteration.
+I want to grab a non-interactive snapshot of running processes using `top`,top -b -n 1,Runs top in batch mode for one iteration.
+What's the best command to get a one-off report from `top`?,top -b -n 1,Runs top in batch mode for one iteration.
+Can you give me the `top` command to display its data just once and exit?,top -b -n 1,Runs top in batch mode for one iteration.
+How do I get `top` to run in a way that it shows the processes and then quits after one refresh?,top -b -n 1,Runs top in batch mode for one iteration.
+Forcefully terminate all nginx processes,pkill -9 nginx,Forcefully terminates all nginx processes.
+"I need to kill nginx immediately, without asking",pkill -9 nginx,Forcefully terminates all nginx processes.
+Can you hard kill the nginx service?,pkill -9 nginx,Forcefully terminates all nginx processes.
+Please send a SIGKILL to all nginx instances,pkill -9 nginx,Forcefully terminates all nginx processes.
+Shut down nginx abruptly,pkill -9 nginx,Forcefully terminates all nginx processes.
+How do I brutally stop nginx?,pkill -9 nginx,Forcefully terminates all nginx processes.
+"Nginx is stuck, I need to force-quit it",pkill -9 nginx,Forcefully terminates all nginx processes.
+Take down all nginx processes right now,pkill -9 nginx,Forcefully terminates all nginx processes.
+End the nginx daemon without mercy,pkill -9 nginx,Forcefully terminates all nginx processes.
+"Kill any running nginx process, no grace",pkill -9 nginx,Forcefully terminates all nginx processes.
+I need to get rid of nginx completely,pkill -9 nginx,Forcefully terminates all nginx processes.
+Could you forcefully terminate the nginx server?,pkill -9 nginx,Forcefully terminates all nginx processes.
+"Open file1.txt and file2.txt in Vim, split vertically",vim -O file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a vertical split.
+Can you launch Vim to display file1.txt and file2.txt side-by-side?,vim -O file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a vertical split.
+"I need to edit file1.txt and file2.txt in Vim, with a vertical window split",vim -O file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a vertical split.
+Please start Vim and open file1.txt and file2.txt in a vertical split,vim -O file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a vertical split.
+How do I open file1.txt and file2.txt in Vim with each file in its own vertical pane?,vim -O file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a vertical split.
+"Could you open these two files, file1.txt and file2.txt, in Vim, split vertically?",vim -O file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a vertical split.
+"I want to view file1.txt and file2.txt simultaneously in Vim, arranged in vertical windows",vim -O file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a vertical split.
+Run Vim to open file1.txt and file2.txt in a side-by-side layout,vim -O file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a vertical split.
+Display file1.txt and file2.txt in Vim using a vertical split,vim -O file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a vertical split.
+Execute the command to open file1.txt and file2.txt in Vim with a vertical split,vim -O file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a vertical split.
+"Launch Vim, showing file1.txt and file2.txt in distinct vertical buffers",vim -O file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a vertical split.
+"Open file1.txt and file2.txt in the Vim editor, split vertically",vim -O file1.txt file2.txt,Opens file1.txt and file2.txt in Vim with a vertical split.
+Open config.conf in nano with tab expansion,nano -E config.conf,"Opens config.conf in Nano, converting tabs to spaces."
+"Can you edit config.conf using nano, ensuring tabs are converted to spaces?",nano -E config.conf,"Opens config.conf in Nano, converting tabs to spaces."
+"I need to modify config.conf. Please open it in nano, and expand any tabs",nano -E config.conf,"Opens config.conf in Nano, converting tabs to spaces."
+Launch nano for config.conf and make sure it replaces tabs with spaces,nano -E config.conf,"Opens config.conf in Nano, converting tabs to spaces."
+"Edit the config.conf file in nano, with tab-to-space conversion enabled",nano -E config.conf,"Opens config.conf in Nano, converting tabs to spaces."
+"Could you open config.conf in the nano editor, configured to convert tabs to spaces?",nano -E config.conf,"Opens config.conf in Nano, converting tabs to spaces."
+"I want to work on config.conf. Use nano, and expand all tabs",nano -E config.conf,"Opens config.conf in Nano, converting tabs to spaces."
+"Open config.conf with nano, please, and ensure tabs are not used, but spaces instead",nano -E config.conf,"Opens config.conf in Nano, converting tabs to spaces."
+"Launch nano to edit config.conf, and enable tab expansion",nano -E config.conf,"Opens config.conf in Nano, converting tabs to spaces."
+I need to open config.conf in nano. Make sure tabs are automatically turned into spaces,nano -E config.conf,"Opens config.conf in Nano, converting tabs to spaces."
+"Could you fire up nano for config.conf, and handle tabs by converting them to spaces?",nano -E config.conf,"Opens config.conf in Nano, converting tabs to spaces."
+"Please open config.conf in the editor 'nano', with the tab-to-space conversion feature active",nano -E config.conf,"Opens config.conf in Nano, converting tabs to spaces."
+How big is /var/log?,du -sh /var/log,Displays the total size of /var/log in human-readable format.
+What's the total disk usage for /var/log?,du -sh /var/log,Displays the total size of /var/log in human-readable format.
+Can you show me the size of the /var/log directory in a human-readable format?,du -sh /var/log,Displays the total size of /var/log in human-readable format.
+I need to check how much space /var/log is taking up,du -sh /var/log,Displays the total size of /var/log in human-readable format.
+How do I find the summarized size of /var/log?,du -sh /var/log,Displays the total size of /var/log in human-readable format.
+Could you tell me the combined size of all files and subdirectories within /var/log?,du -sh /var/log,Displays the total size of /var/log in human-readable format.
+"Get me the total disk space consumed by /var/log, please",du -sh /var/log,Displays the total size of /var/log in human-readable format.
+Find out the total size of /var/log in an easy-to-read way,du -sh /var/log,Displays the total size of /var/log in human-readable format.
+What's the overall disk footprint of /var/log?,du -sh /var/log,Displays the total size of /var/log in human-readable format.
+Can you report the disk usage summary for /var/log?,du -sh /var/log,Displays the total size of /var/log in human-readable format.
+Show me how much storage /var/log is currently using,du -sh /var/log,Displays the total size of /var/log in human-readable format.
+"I'd like to know the total size of the /var/log directory, formatted for humans",du -sh /var/log,Displays the total size of /var/log in human-readable format.
+Find all files with a .log extension in the /var directory,find /var -name '*.log',Finds all files with .log extension in /var.
+I need to locate all log files under /var,find /var -name '*.log',Finds all files with .log extension in /var.
+How do I find all files ending in .log within the /var directory?,find /var -name '*.log',Finds all files with .log extension in /var.
+List all the .log files present in /var,find /var -name '*.log',Finds all files with .log extension in /var.
+Show me all log files in /var,find /var -name '*.log',Finds all files with .log extension in /var.
+Get me a list of every single .log file under /var,find /var -name '*.log',Finds all files with .log extension in /var.
+"In /var, find every file that has a .log extension",find /var -name '*.log',Finds all files with .log extension in /var.
+Search the /var directory for files named with a .log suffix,find /var -name '*.log',Finds all files with .log extension in /var.
+Could you help me find all the log files in the /var path?,find /var -name '*.log',Finds all files with .log extension in /var.
+I need to track down all .log files residing in /var,find /var -name '*.log',Finds all files with .log extension in /var.
+Locate all files ending in .log within the /var directory tree,find /var -name '*.log',Finds all files with .log extension in /var.
+Please find all files with the .log extension inside /var,find /var -name '*.log',Finds all files with .log extension in /var.
+How do I list the currently loaded kernel modules?,lsmod,Lists loaded kernel modules.
+What command shows me the active kernel modules?,lsmod,Lists loaded kernel modules.
+I need to see which kernel modules are loaded,lsmod,Lists loaded kernel modules.
+Can you display the list of loaded modules?,lsmod,Lists loaded kernel modules.
+How can I check the kernel's loaded drivers?,lsmod,Lists loaded kernel modules.
+Show me all the currently running kernel modules,lsmod,Lists loaded kernel modules.
+What's the command to view the modules loaded into the kernel?,lsmod,Lists loaded kernel modules.
+I want to get a list of active kernel modules,lsmod,Lists loaded kernel modules.
+Which kernel modules are loaded right now?,lsmod,Lists loaded kernel modules.
+Is there a command to list the loaded kernel components?,lsmod,Lists loaded kernel modules.
+How do I find out what kernel modules are in use?,lsmod,Lists loaded kernel modules.
+What's currently loaded in the kernel?,lsmod,Lists loaded kernel modules.
+What's the operating system name?,uname -o,Displays the operating system name.
+How do I check the OS name on this machine?,uname -o,Displays the operating system name.
+Display the current operating system's name,uname -o,Displays the operating system name.
+Tell me what OS this system is running,uname -o,Displays the operating system name.
+What operating system am I currently using?,uname -o,Displays the operating system name.
+Could you show me the name of the operating system?,uname -o,Displays the operating system name.
+I need to find out the operating system's identification,uname -o,Displays the operating system name.
+Please output the OS name,uname -o,Displays the operating system name.
+What's the OS variant or name?,uname -o,Displays the operating system name.
+How do I determine the OS installed on this Linux box?,uname -o,Displays the operating system name.
+Provide me with the operating system string,uname -o,Displays the operating system name.
+"Can you tell me the current OS information, specifically the name?",uname -o,Displays the operating system name.
+Set the permissions for `file.txt` so only the owner can read and write it,chmod 600 file.txt,Sets file.txt to read/write for owner only.
+"Make `file.txt` private to its owner, allowing only read and write access",chmod 600 file.txt,Sets file.txt to read/write for owner only.
+How do I restrict `file.txt` so only I can read and modify it?,chmod 600 file.txt,Sets file.txt to read/write for owner only.
+I need to secure `file.txt` by giving read/write access exclusively to its owner,chmod 600 file.txt,Sets file.txt to read/write for owner only.
+Can you tell me the command to set `file.txt` to `rw-` for the owner and no access for others?,chmod 600 file.txt,Sets file.txt to read/write for owner only.
+Ensure no one but the owner can access `file.txt` for reading or writing,chmod 600 file.txt,Sets file.txt to read/write for owner only.
+What's the best way to make `file.txt` read/write for the owner and deny all for group/others?,chmod 600 file.txt,Sets file.txt to read/write for owner only.
+I want to configure `file.txt` so only I have read and write permissions on it,chmod 600 file.txt,Sets file.txt to read/write for owner only.
+"Give `file.txt` read/write permissions to the owner, and remove all other permissions",chmod 600 file.txt,Sets file.txt to read/write for owner only.
+Lock down `file.txt` so that only its owner has read and write capabilities,chmod 600 file.txt,Sets file.txt to read/write for owner only.
+How do I apply `600` permissions to `file.txt`?,chmod 600 file.txt,Sets file.txt to read/write for owner only.
+Set `file.txt` permissions to owner-only read/write,chmod 600 file.txt,Sets file.txt to read/write for owner only.
+How do I change the owner of `file.txt` to `user` and see the verbose output?,chown -v user file.txt,Changes owner of file.txt to user with verbose output.
+"I need to `chown` `file.txt` to `user`, and I want it to confirm the change",chown -v user file.txt,Changes owner of file.txt to user with verbose output.
+What command do I use to make `user` the owner of `file.txt` and show me what it's doing?,chown -v user file.txt,Changes owner of file.txt to user with verbose output.
+Can you run `chown -v user file.txt` for me?,chown -v user file.txt,Changes owner of file.txt to user with verbose output.
+Set `user` as the owner of `file.txt` and output the verbose details,chown -v user file.txt,Changes owner of file.txt to user with verbose output.
+Please change the ownership of `file.txt` to `user` and report the change verbosely,chown -v user file.txt,Changes owner of file.txt to user with verbose output.
+I want to transfer ownership of `file.txt` to `user` and get a confirmation message,chown -v user file.txt,Changes owner of file.txt to user with verbose output.
+"Execute `chown` on `file.txt` for `user`, making sure to use the verbose option",chown -v user file.txt,Changes owner of file.txt to user with verbose output.
+"How can I assign `file.txt` to `user` as its owner, with a confirmation?",chown -v user file.txt,Changes owner of file.txt to user with verbose output.
+"Run the command to make `user` the owner of `file.txt`, and display the results",chown -v user file.txt,Changes owner of file.txt to user with verbose output.
+"I need to use `chown` to give `file.txt` to `user`, and I want it to tell me it worked",chown -v user file.txt,Changes owner of file.txt to user with verbose output.
+What's the best way to change `file.txt`'s owner to `user` and have it print the action?,chown -v user file.txt,Changes owner of file.txt to user with verbose output.
+How do I assign the IP address 192.168.1.101/24 to eth0?,ip addr add 192.168.1.101/24 dev eth0,Assigns IP address 192.168.1.101/24 to eth0.
+What's the command to set IP 192.168.1.101/24 on the eth0 interface?,ip addr add 192.168.1.101/24 dev eth0,Assigns IP address 192.168.1.101/24 to eth0.
+I need to configure eth0 with 192.168.1.101/24. How can I do that?,ip addr add 192.168.1.101/24 dev eth0,Assigns IP address 192.168.1.101/24 to eth0.
+Could you tell me how to add the IP 192.168.1.101/24 to eth0?,ip addr add 192.168.1.101/24 dev eth0,Assigns IP address 192.168.1.101/24 to eth0.
+I want to apply 192.168.1.101/24 to the eth0 network interface,ip addr add 192.168.1.101/24 dev eth0,Assigns IP address 192.168.1.101/24 to eth0.
+What's the proper way to put IP address 192.168.1.101/24 on dev eth0?,ip addr add 192.168.1.101/24 dev eth0,Assigns IP address 192.168.1.101/24 to eth0.
+Linux command to assign 192.168.1.101/24 to eth0?,ip addr add 192.168.1.101/24 dev eth0,Assigns IP address 192.168.1.101/24 to eth0.
+How do I give eth0 the IP address 192.168.1.101/24?,ip addr add 192.168.1.101/24 dev eth0,Assigns IP address 192.168.1.101/24 to eth0.
+My goal is to get 192.168.1.101/24 working on eth0. What's the command?,ip addr add 192.168.1.101/24 dev eth0,Assigns IP address 192.168.1.101/24 to eth0.
+Configure IP 192.168.1.101/24 on eth0. What's the syntax?,ip addr add 192.168.1.101/24 dev eth0,Assigns IP address 192.168.1.101/24 to eth0.
+What's the command line to add IP address 192.168.1.101/24 to eth0?,ip addr add 192.168.1.101/24 dev eth0,Assigns IP address 192.168.1.101/24 to eth0.
+I need to make eth0 have the IP 192.168.1.101/,ip addr add 192.168.1.101/24 dev eth0,Assigns IP address 192.168.1.101/24 to eth0.
+Unlock the password for user,passwd -u user,"Unlocks the password for user, enabling login."
+I need to enable login for user,passwd -u user,"Unlocks the password for user, enabling login."
+How do I unlock user's account?,passwd -u user,"Unlocks the password for user, enabling login."
+Can you unlock user's password?,passwd -u user,"Unlocks the password for user, enabling login."
+Reset the password lock for user,passwd -u user,"Unlocks the password for user, enabling login."
+Allow user to log in again,passwd -u user,"Unlocks the password for user, enabling login."
+I want to remove the password lockout for user,passwd -u user,"Unlocks the password for user, enabling login."
+Make user's account active for login,passwd -u user,"Unlocks the password for user, enabling login."
+Please unlock user's account,passwd -u user,"Unlocks the password for user, enabling login."
+Clear the login restriction for user,passwd -u user,"Unlocks the password for user, enabling login."
+I need to unblock user's password,passwd -u user,"Unlocks the password for user, enabling login."
+Enable login capabilities for user,passwd -u user,"Unlocks the password for user, enabling login."
+How do I send the SIGKILL signal to process 1234?,kill -SIGKILL 1234,Sends the SIGKILL signal to the process with PID 1234.
+What's the command to kill process 1234 with signal 9?,kill -SIGKILL 1234,Sends the SIGKILL signal to the process with PID 1234.
+How do I `kill -9` process 1234?,kill -SIGKILL 1234,Sends the SIGKILL signal to the process with PID 1234.
+I need to forcibly terminate process ID,kill -SIGKILL 1234,Sends the SIGKILL signal to the process with PID 1234.
+How can I immediately stop process 1234?,kill -SIGKILL 1234,Sends the SIGKILL signal to the process with PID 1234.
+Process 1234 is completely unresponsive; how do I kill it?,kill -SIGKILL 1234,Sends the SIGKILL signal to the process with PID 1234.
+What's the command to send the uncatchable kill signal to PID 1234?,kill -SIGKILL 1234,Sends the SIGKILL signal to the process with PID 1234.
+How do I make process 1234 disappear right now?,kill -SIGKILL 1234,Sends the SIGKILL signal to the process with PID 1234.
+I need to guarantee process 1234 stops running; what's the command?,kill -SIGKILL 1234,Sends the SIGKILL signal to the process with PID 1234.
+"Please kill process 1234 instantly, no questions asked",kill -SIGKILL 1234,Sends the SIGKILL signal to the process with PID 1234.
+How do I perform a hard kill on process 1234?,kill -SIGKILL 1234,Sends the SIGKILL signal to the process with PID 1234.
+I want to terminate PID 1234 without allowing it to gracefully shut down,kill -SIGKILL 1234,Sends the SIGKILL signal to the process with PID 1234.
+Run Emacs to open `file.txt` without loading my init file,emacs --no-init-file file.txt,Opens file.txt in Emacs without loading the init file.
+"I need to edit `file.txt` using Emacs, but I want to skip my usual configuration",emacs --no-init-file file.txt,Opens file.txt in Emacs without loading the init file.
+"Open `file.txt` in Emacs, ignoring my `init.el`",emacs --no-init-file file.txt,Opens file.txt in Emacs without loading the init file.
+Could you launch Emacs to view `file.txt` with only the default settings?,emacs --no-init-file file.txt,Opens file.txt in Emacs without loading the init file.
+Start Emacs for `file.txt` without processing the initialization file,emacs --no-init-file file.txt,Opens file.txt in Emacs without loading the init file.
+How do I get Emacs to open `file.txt` without loading any of my custom configs?,emacs --no-init-file file.txt,Opens file.txt in Emacs without loading the init file.
+"I want to open `file.txt` in a 'clean' Emacs session, no dotfiles loaded",emacs --no-init-file file.txt,Opens file.txt in Emacs without loading the init file.
+Run Emacs on `file.txt` without applying any of my customizations,emacs --no-init-file file.txt,Opens file.txt in Emacs without loading the init file.
+Open `file.txt` in Emacs with no initialization,emacs --no-init-file file.txt,Opens file.txt in Emacs without loading the init file.
+"How do I open `file.txt` in a vanilla Emacs, bypassing my custom setup?",emacs --no-init-file file.txt,Opens file.txt in Emacs without loading the init file.
+"Edit `file.txt` with Emacs, making sure it doesn't load my personal configuration",emacs --no-init-file file.txt,Opens file.txt in Emacs without loading the init file.
+"Start Emacs with `file.txt` open, but don't load my `.emacs` file",emacs --no-init-file file.txt,Opens file.txt in Emacs without loading the init file.

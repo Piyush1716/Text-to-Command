@@ -1,0 +1,601 @@
+user_query,command,description
+How do I run the `date` command and have its output update every second?,watch -n 1 'date',"Runs 'date' every second, updating the output."
+"What command shows the current date and time, refreshing it every second?",watch -n 1 'date',"Runs 'date' every second, updating the output."
+I want to see the `date` output continuously updated in my terminal,watch -n 1 'date',"Runs 'date' every second, updating the output."
+"Show me the `date` command's output, updating live every second",watch -n 1 'date',"Runs 'date' every second, updating the output."
+How can I get a real-time display of the system date that refreshes?,watch -n 1 'date',"Runs 'date' every second, updating the output."
+Tell me the command to monitor the output of `date` with a one-second interval,watch -n 1 'date',"Runs 'date' every second, updating the output."
+Is there a way to have `date` run repeatedly and display its changing output?,watch -n 1 'date',"Runs 'date' every second, updating the output."
+"I need a command to display the date and time, updating it every second automatically",watch -n 1 'date',"Runs 'date' every second, updating the output."
+"What's the Linux command to get a live, constantly refreshing view of the date?",watch -n 1 'date',"Runs 'date' every second, updating the output."
+"How do I execute `date` in a loop, showing the updated output each second?",watch -n 1 'date',"Runs 'date' every second, updating the output."
+Can you give me the command to display the `date` output and refresh it every second?,watch -n 1 'date',"Runs 'date' every second, updating the output."
+I'm looking for a way to have the `date` command's output update automatically every second in the terminal,watch -n 1 'date',"Runs 'date' every second, updating the output."
+How do I time the execution of a command in Linux?,time command,Measures the execution time of command.
+What command should I use to measure how long a program takes to run?,time command,Measures the execution time of command.
+I need to find out the execution duration of a specific command. How?,time command,Measures the execution time of command.
+How can I benchmark the runtime performance of a Linux command?,time command,Measures the execution time of command.
+What's the best way to check how much time a command consumes?,time command,Measures the execution time of command.
+Could you tell me how to determine the wall-clock and CPU time of a command?,time command,Measures the execution time of command.
+I want to know how long a particular command takes to complete,time command,Measures the execution time of command.
+Is there a utility to report the execution time of another command?,time command,Measures the execution time of command.
+How can I get a detailed breakdown of a command's execution time?,time command,Measures the execution time of command.
+What's the command to get timing statistics for a program?,time command,Measures the execution time of command.
+How do I measure the elapsed time of a command in the shell?,time command,Measures the execution time of command.
+I need to profile the execution time of a command. What's the command for that?,time command,Measures the execution time of command.
+How do I run a command when the system load is low?,batch,Schedules commands to run when system load is low.
+What's the way to schedule a job to run only when the machine isn't busy?,batch,Schedules commands to run when system load is low.
+I need to defer execution of a script until system resources are free; how can I do that?,batch,Schedules commands to run when system load is low.
+How do I queue a command to execute when the system load drops?,batch,Schedules commands to run when system load is low.
+Is there a method to run a process only when the CPU isn't heavily utilized?,batch,Schedules commands to run when system load is low.
+"I want to submit a background task that runs at a low priority, when's the best time for it to execute?",batch,Schedules commands to run when system load is low.
+"How can I run a resource-intensive command later, when the system is less occupied?",batch,Schedules commands to run when system load is low.
+What's the best way to schedule a job during off-peak hours based on system load?,batch,Schedules commands to run when system load is low.
+I'd like to run a script automatically only when the system becomes idle,batch,Schedules commands to run when system load is low.
+How do I tell Linux to run a long process when it won't slow down my interactive work?,batch,Schedules commands to run when system load is low.
+Can I set a command to execute when the system load average falls below a certain point?,batch,Schedules commands to run when system load is low.
+I have a task that should only run when system activity is minimal; what's the appropriate tool?,batch,Schedules commands to run when system load is low.
+How do I disown job 1 so it keeps running after I exit?,disown -h %1,Marks job 1 to continue running after terminal exit.
+I need to make job 1 continue executing even if I close the terminal,disown -h %1,Marks job 1 to continue running after terminal exit.
+Can you tell me how to detach the first background job from my session?,disown -h %1,Marks job 1 to continue running after terminal exit.
+What's the command to let job 1 survive a terminal disconnect?,disown -h %1,Marks job 1 to continue running after terminal exit.
+How can I ensure job 1 doesn't get killed when this shell closes?,disown -h %1,Marks job 1 to continue running after terminal exit.
+I want to disown job %1 and prevent it from receiving SIGHUP,disown -h %1,Marks job 1 to continue running after terminal exit.
+Could you show me how to keep job number 1 running in the background persistently?,disown -h %1,Marks job 1 to continue running after terminal exit.
+"How do I run job 1 in the background indefinitely, even if my session ends?",disown -h %1,Marks job 1 to continue running after terminal exit.
+Is there a way to make job 1 immune to terminal closure?,disown -h %1,Marks job 1 to continue running after terminal exit.
+Please give me the command to permanently background job,disown -h %1,Marks job 1 to continue running after terminal exit.
+I need to prevent the first job from stopping when I log out,disown -h %1,Marks job 1 to continue running after terminal exit.
+How do I make job one persist beyond this terminal session?,disown -h %1,Marks job 1 to continue running after terminal exit.
+How do I see my background jobs?,jobs -l,Lists background jobs with PIDs.
+"Show me a list of my current shell's background processes, including their PIDs",jobs -l,Lists background jobs with PIDs.
+What are the PIDs of my active background jobs?,jobs -l,Lists background jobs with PIDs.
+Can you display my running jobs and their process IDs?,jobs -l,Lists background jobs with PIDs.
+List all background jobs along with their PIDs,jobs -l,Lists background jobs with PIDs.
+I need to check the status of my background jobs and get their PIDs,jobs -l,Lists background jobs with PIDs.
+How can I view detailed information about my background processes?,jobs -l,Lists background jobs with PIDs.
+"Show me the jobs I have running in the background, with their process IDs",jobs -l,Lists background jobs with PIDs.
+Please list my background jobs and their PIDs,jobs -l,Lists background jobs with PIDs.
+Display the PIDs for my shell's background tasks,jobs -l,Lists background jobs with PIDs.
+"Give me a full listing of my background jobs, including the PID",jobs -l,Lists background jobs with PIDs.
+I want to see which background jobs are active and what their PIDs are,jobs -l,Lists background jobs with PIDs.
+Bring job 1 to the foreground,fg %1,Brings job 1 to the foreground.
+Foreground job,fg %1,Brings job 1 to the foreground.
+Resume job,fg %1,Brings job 1 to the foreground.
+Switch to job,fg %1,Brings job 1 to the foreground.
+Activate job,fg %1,Brings job 1 to the foreground.
+Put job one in the foreground,fg %1,Brings job 1 to the foreground.
+Can you foreground job 1 for me?,fg %1,Brings job 1 to the foreground.
+I want to bring job 1 back to the front,fg %1,Brings job 1 to the foreground.
+Make job 1 active,fg %1,Brings job 1 to the foreground.
+Bring the first background process to the foreground,fg %1,Brings job 1 to the foreground.
+How do I get job 1 into the foreground?,fg %1,Brings job 1 to the foreground.
+Please put the first job in the front,fg %1,Brings job 1 to the foreground.
+How do I run `vmstat -d`?,vmstat -d,Reports disk I/O statistics.
+Please execute `vmstat -d`,vmstat -d,Reports disk I/O statistics.
+Show me the disk I/O statistics using `vmstat`,vmstat -d,Reports disk I/O statistics.
+What's the command to display disk activity with `vmstat -d`?,vmstat -d,Reports disk I/O statistics.
+Can you run `vmstat -d` for me?,vmstat -d,Reports disk I/O statistics.
+"I need to check disk I/O, what's the `vmstat -d` command?",vmstat -d,Reports disk I/O statistics.
+Display the disk statistics report using `vmstat -d`,vmstat -d,Reports disk I/O statistics.
+Tell me how to use `vmstat -d`,vmstat -d,Reports disk I/O statistics.
+Could you please run `vmstat -d` to check disk performance?,vmstat -d,Reports disk I/O statistics.
+How can I view the disk I/O stats via `vmstat -d`?,vmstat -d,Reports disk I/O statistics.
+I'd like to get the `vmstat -d` output,vmstat -d,Reports disk I/O statistics.
+Execute `vmstat -d` to see disk performance data,vmstat -d,Reports disk I/O statistics.
+How can I display my BIOS information?,dmidecode -t bios,Displays BIOS information.
+Show me the details about my system's BIOS,dmidecode -t bios,Displays BIOS information.
+What's my current BIOS version?,dmidecode -t bios,Displays BIOS information.
+Could you please show me my BIOS information?,dmidecode -t bios,Displays BIOS information.
+What command do I use to check my BIOS?,dmidecode -t bios,Displays BIOS information.
+I need to view my machine's BIOS data,dmidecode -t bios,Displays BIOS information.
+Can you display my firmware information?,dmidecode -t bios,Displays BIOS information.
+Get me the BIOS manufacturer and its release date,dmidecode -t bios,Displays BIOS information.
+Is there a way to get my system's BIOS details?,dmidecode -t bios,Displays BIOS information.
+Tell me about the BIOS installed on this computer,dmidecode -t bios,Displays BIOS information.
+I require the specifications of the installed BIOS,dmidecode -t bios,Displays BIOS information.
+I'd like to see the detailed information about the BIOS,dmidecode -t bios,Displays BIOS information.
+How do I remove columns 1 through 5 from `file.txt`?,colrm 1 5 < file.txt,Removes columns 1 through 5 from file.txt.
+What's the command to strip the first five columns from `file.txt`?,colrm 1 5 < file.txt,Removes columns 1 through 5 from file.txt.
+I need to delete columns 1 to 5 from `file.txt`. How can I do that on the command line?,colrm 1 5 < file.txt,Removes columns 1 through 5 from file.txt.
+Provide the `colrm` command to take out columns 1 through 5 from `file.txt`,colrm 1 5 < file.txt,Removes columns 1 through 5 from file.txt.
+How can I process `file.txt` to eliminate its columns from 1 to 5?,colrm 1 5 < file.txt,Removes columns 1 through 5 from file.txt.
+"What Linux utility can remove columns 1, 2, 3, 4, and 5 from `file.txt`?",colrm 1 5 < file.txt,Removes columns 1 through 5 from file.txt.
+I'm looking for a way to get rid of the first five columns in `file.txt`,colrm 1 5 < file.txt,Removes columns 1 through 5 from file.txt.
+Can you show me the command to cut columns 1-5 from `file.txt`?,colrm 1 5 < file.txt,Removes columns 1 through 5 from file.txt.
+How do I use `colrm` to discard the range of columns from 1 to 5 in `file.txt`?,colrm 1 5 < file.txt,Removes columns 1 through 5 from file.txt.
+I want to modify `file.txt` by removing the initial five columns. What's the command?,colrm 1 5 < file.txt,Removes columns 1 through 5 from file.txt.
+What's the syntax for removing columns from position 1 up to position 5 in `file.txt`?,colrm 1 5 < file.txt,Removes columns 1 through 5 from file.txt.
+Give me the shell command to remove columns 1 through 5 from `file.txt`,colrm 1 5 < file.txt,Removes columns 1 through 5 from file.txt.
+How do I convert tabs to spaces in `file.txt`?,expand file.txt,Converts tabs to spaces in file.txt.
+I need to replace all tabs with spaces in `file.txt`. What's the command?,expand file.txt,Converts tabs to spaces in file.txt.
+Can you run `expand file.txt` for me?,expand file.txt,Converts tabs to spaces in file.txt.
+What's the Linux command to expand tabs in `file.txt`?,expand file.txt,Converts tabs to spaces in file.txt.
+How do I make `file.txt` use spaces instead of tabs?,expand file.txt,Converts tabs to spaces in file.txt.
+Please convert `file.txt` from tabs to spaces,expand file.txt,Converts tabs to spaces in file.txt.
+"I want to process `file.txt` to ensure it only has spaces, not tabs. How?",expand file.txt,Converts tabs to spaces in file.txt.
+Show me how to apply the `expand` command to `file.txt`,expand file.txt,Converts tabs to spaces in file.txt.
+Could you help me expand `file.txt`?,expand file.txt,Converts tabs to spaces in file.txt.
+Which utility do I use to change tabs to spaces within `file.txt`?,expand file.txt,Converts tabs to spaces in file.txt.
+"I have `file.txt` with tabs, and I need to replace them with spaces in the terminal",expand file.txt,Converts tabs to spaces in file.txt.
+How do I get `file.txt` formatted so tabs are replaced by an equivalent number of spaces?,expand file.txt,Converts tabs to spaces in file.txt.
+How do I convert spaces to tabs in `file.txt` using the `unexpand` command?,unexpand file.txt,Converts spaces to tabs in file.txt.
+Can you please run `unexpand file.txt` for me?,unexpand file.txt,Converts spaces to tabs in file.txt.
+I need to replace spaces with tabs in `file.txt`. What's the command?,unexpand file.txt,Converts spaces to tabs in file.txt.
+Execute `unexpand file.txt`,unexpand file.txt,Converts spaces to tabs in file.txt.
+What's the command to turn spaces into tabs in `file.txt`?,unexpand file.txt,Converts spaces to tabs in file.txt.
+Could you apply `unexpand` to `file.txt`?,unexpand file.txt,Converts spaces to tabs in file.txt.
+I want to process `file.txt` with `unexpand`. How do I do it?,unexpand file.txt,Converts spaces to tabs in file.txt.
+Run the `unexpand` command on `file.txt`,unexpand file.txt,Converts spaces to tabs in file.txt.
+How can I use `unexpand` to fix the spacing in `file.txt`?,unexpand file.txt,Converts spaces to tabs in file.txt.
+Convert `file.txt` from spaces to tabs,unexpand file.txt,Converts spaces to tabs in file.txt.
+Show me the command to use `unexpand` on `file.txt`,unexpand file.txt,Converts spaces to tabs in file.txt.
+"For `file.txt`, I need to convert spaces to tabs. What's the Linux way?",unexpand file.txt,Converts spaces to tabs in file.txt.
+How do I cut the first field from `file.csv` using a comma delimiter?,"cut -d ',' -f 1 file.csv",Extracts the first field from comma-separated file.csv.
+I need to extract the first comma-separated column from `file.csv`. What's the command?,"cut -d ',' -f 1 file.csv",Extracts the first field from comma-separated file.csv.
+What's the command to get just the first item of each comma-separated line in `file.csv`?,"cut -d ',' -f 1 file.csv",Extracts the first field from comma-separated file.csv.
+Can you show me how to display only the first piece of data from `file.csv` when it's comma-delimited?,"cut -d ',' -f 1 file.csv",Extracts the first field from comma-separated file.csv.
+How do I use `cut` to grab the first comma-separated field from `file.csv`?,"cut -d ',' -f 1 file.csv",Extracts the first field from comma-separated file.csv.
+"Extract the first field from `file.csv`, using a comma as the separator","cut -d ',' -f 1 file.csv",Extracts the first field from comma-separated file.csv.
+"For a CSV file named `file.csv`, how do I output only the first column's content?","cut -d ',' -f 1 file.csv",Extracts the first field from comma-separated file.csv.
+What's the `cut` command for getting the first value before the comma in `file.csv`?,"cut -d ',' -f 1 file.csv",Extracts the first field from comma-separated file.csv.
+"I have `file.csv` and want to show only the very first part of each line, separated by commas","cut -d ',' -f 1 file.csv",Extracts the first field from comma-separated file.csv.
+How do I get the initial element from each comma-separated entry in `file.csv`?,"cut -d ',' -f 1 file.csv",Extracts the first field from comma-separated file.csv.
+Give me the Linux command to pull out the first data point from `file.csv` where fields are delimited by commas,"cut -d ',' -f 1 file.csv",Extracts the first field from comma-separated file.csv.
+First comma-separated field of `file.csv` command?,"cut -d ',' -f 1 file.csv",Extracts the first field from comma-separated file.csv.
+How do I use `tee` to write data to `file.txt` and display it on the terminal?,tee file.txt,Reads from stdin and writes to file.txt and stdout.
+I need to save piped input to `file.txt` but also see it scroll by on my screen. Which command does that?,tee file.txt,Reads from stdin and writes to file.txt and stdout.
+"What's the command to duplicate standard input, sending one copy to `file.txt` and another to standard output?",tee file.txt,Reads from stdin and writes to file.txt and stdout.
+Tell me how to use `tee` to simultaneously write to `file.txt` and the console,tee file.txt,Reads from stdin and writes to file.txt and stdout.
+I want to capture all stdin into `file.txt` and show it on screen. What's the command?,tee file.txt,Reads from stdin and writes to file.txt and stdout.
+How can I use `tee` to record data to `file.txt` and print it to my terminal?,tee file.txt,Reads from stdin and writes to file.txt and stdout.
+"Could you show me the command to take input, save it to `file.txt`, and also output it to stdout?",tee file.txt,Reads from stdin and writes to file.txt and stdout.
+"I'm looking for a way to process stdin, writing it to `file.txt` and having it displayed on the screen",tee file.txt,Reads from stdin and writes to file.txt and stdout.
+What's the syntax for `tee` when I want to save standard input to `file.txt` and see it on my screen?,tee file.txt,Reads from stdin and writes to file.txt and stdout.
+Give me the `tee` command that writes to `file.txt` and also prints to the terminal from stdin,tee file.txt,Reads from stdin and writes to file.txt and stdout.
+How do I get `tee` to both store data in `file.txt` and echo it to standard output?,tee file.txt,Reads from stdin and writes to file.txt and stdout.
+I need to make `tee` output to `file.txt` and also my display. What's the command?,tee file.txt,Reads from stdin and writes to file.txt and stdout.
+Please securely delete `file.txt`,shred -u file.txt,Overwrites and deletes file.txt securely.
+I need to make `file.txt` unrecoverable,shred -u file.txt,Overwrites and deletes file.txt securely.
+Can you shred `file.txt` and then remove it?,shred -u file.txt,Overwrites and deletes file.txt securely.
+Wipe `file.txt` from existence so no one can ever get it back,shred -u file.txt,Overwrites and deletes file.txt securely.
+I want to overwrite `file.txt` multiple times and then delete it,shred -u file.txt,Overwrites and deletes file.txt securely.
+How do I permanently erase `file.txt` to prevent any data recovery?,shred -u file.txt,Overwrites and deletes file.txt securely.
+Could you help me sanitize `file.txt` and ensure its final deletion?,shred -u file.txt,Overwrites and deletes file.txt securely.
+"Perform a secure removal of `file.txt`, please",shred -u file.txt,Overwrites and deletes file.txt securely.
+Delete `file.txt` in a way that prevents forensic recovery,shred -u file.txt,Overwrites and deletes file.txt securely.
+I need to use `shred` on `file.txt` to completely destroy its contents and remove the file,shred -u file.txt,Overwrites and deletes file.txt securely.
+"Expunge `file.txt` from the system, making it impossible to retrieve",shred -u file.txt,Overwrites and deletes file.txt securely.
+Ensure `file.txt` is thoroughly overwritten and then deleted,shred -u file.txt,Overwrites and deletes file.txt securely.
+How do I create a character device node named `/dev/mynode` with major number 1 and minor number 3?,mknod /dev/mynode c 1 3,"Creates a character device node /dev/mynode with major 1, minor 3."
+What's the command to make a character device file at `/dev/mynode` using major 1 and minor 3?,mknod /dev/mynode c 1 3,"Creates a character device node /dev/mynode with major 1, minor 3."
+I need to set up a character device node with major 1 and minor 3 at `/dev/mynode`. How can I do that?,mknod /dev/mynode c 1 3,"Creates a character device node /dev/mynode with major 1, minor 3."
+Could you tell me how to use `mknod` to create a character device `/dev/mynode` with major 1 and minor 3?,mknod /dev/mynode c 1 3,"Creates a character device node /dev/mynode with major 1, minor 3."
+How do I assign major number 1 and minor number 3 to a new character device node `/dev/mynode`?,mknod /dev/mynode c 1 3,"Creates a character device node /dev/mynode with major 1, minor 3."
+Generate the command to create a character type device file `/dev/mynode` with kernel IDs 1 and,mknod /dev/mynode c 1 3,"Creates a character device node /dev/mynode with major 1, minor 3."
+"I want to create a special file `/dev/mynode` that's a character device with major 1, minor 3. What command should I use?",mknod /dev/mynode c 1 3,"Creates a character device node /dev/mynode with major 1, minor 3."
+"What's the syntax for `mknod` to create `/dev/mynode` as a character device, major 1, minor 3?",mknod /dev/mynode c 1 3,"Creates a character device node /dev/mynode with major 1, minor 3."
+Help me create a character device node `/dev/mynode` using major number 1 and minor number,mknod /dev/mynode c 1 3,"Creates a character device node /dev/mynode with major 1, minor 3."
+Provide the command to establish a character device `/dev/mynode` with major number one and minor number three,mknod /dev/mynode c 1 3,"Creates a character device node /dev/mynode with major 1, minor 3."
+I need to register a character device at `/dev/mynode` with major 1 and minor 3. What command handles this?,mknod /dev/mynode c 1 3,"Creates a character device node /dev/mynode with major 1, minor 3."
+"On Linux, what's the command to instantiate a character device file named `/dev/mynode` with major number 1 and minor number 3?",mknod /dev/mynode c 1 3,"Creates a character device node /dev/mynode with major 1, minor 3."
+Which processes are currently accessing /var/log/syslog?,fuser -v /var/log/syslog,Lists processes accessing /var/log/syslog.
+List all processes that have /var/log/syslog open,fuser -v /var/log/syslog,Lists processes accessing /var/log/syslog.
+Show me what's using /var/log/syslog right now,fuser -v /var/log/syslog,Lists processes accessing /var/log/syslog.
+Can you identify the processes with open file handles on /var/log/syslog?,fuser -v /var/log/syslog,Lists processes accessing /var/log/syslog.
+I need to find out which applications are interacting with /var/log/syslog,fuser -v /var/log/syslog,Lists processes accessing /var/log/syslog.
+Determine which processes are locking or accessing /var/log/syslog,fuser -v /var/log/syslog,Lists processes accessing /var/log/syslog.
+How do I check which processes are reading from or writing to /var/log/syslog?,fuser -v /var/log/syslog,Lists processes accessing /var/log/syslog.
+Who is currently holding /var/log/syslog open?,fuser -v /var/log/syslog,Lists processes accessing /var/log/syslog.
+Display the processes that have /var/log/syslog in use,fuser -v /var/log/syslog,Lists processes accessing /var/log/syslog.
+Please list the PIDs accessing /var/log/syslog,fuser -v /var/log/syslog,Lists processes accessing /var/log/syslog.
+Which running processes have a connection to /var/log/syslog?,fuser -v /var/log/syslog,Lists processes accessing /var/log/syslog.
+Find any active processes associated with /var/log/syslog,fuser -v /var/log/syslog,Lists processes accessing /var/log/syslog.
+How do I run `ltrace` on process 1234?,ltrace -p 1234,Traces library calls made by the process with PID 1234.
+What's the command to trace library calls for PID 1234?,ltrace -p 1234,Traces library calls made by the process with PID 1234.
+Execute `ltrace` for the process with ID,ltrace -p 1234,Traces library calls made by the process with PID 1234.
+I need to monitor library calls of process 1234. How do I use `ltrace`?,ltrace -p 1234,Traces library calls made by the process with PID 1234.
+Could you show me how to `ltrace` process 1234?,ltrace -p 1234,Traces library calls made by the process with PID 1234.
+Please provide the `ltrace` command for PID,ltrace -p 1234,Traces library calls made by the process with PID 1234.
+How can I observe the library calls made by process 1234 using `ltrace`?,ltrace -p 1234,Traces library calls made by the process with PID 1234.
+Run `ltrace -p 1234`,ltrace -p 1234,Traces library calls made by the process with PID 1234.
+I want to trace library activity for process,ltrace -p 1234,Traces library calls made by the process with PID 1234.
+What's the syntax for `ltrace` to attach to PID 1234?,ltrace -p 1234,Traces library calls made by the process with PID 1234.
+Trace library usage for process,ltrace -p 1234,Traces library calls made by the process with PID 1234.
+How do I get `ltrace` to target process 1234?,ltrace -p 1234,Traces library calls made by the process with PID 1234.
+What's the command to `strace` process 1234?,strace -p 1234,Traces system calls made by the process with PID 1234.
+How do I trace the system calls of PID 1234?,strace -p 1234,Traces system calls made by the process with PID 1234.
+Please run `strace -p 1234`,strace -p 1234,Traces system calls made by the process with PID 1234.
+I need to see the system calls made by process ID 1234. How can I do that?,strace -p 1234,Traces system calls made by the process with PID 1234.
+Can you give me the command to attach `strace` to a running process with PID 1234?,strace -p 1234,Traces system calls made by the process with PID 1234.
+Execute `strace` for process,strace -p 1234,Traces system calls made by the process with PID 1234.
+What's the proper way to monitor system calls for process 1234 using `strace`?,strace -p 1234,Traces system calls made by the process with PID 1234.
+"Show me how to trace a process by its PID, specifically",strace -p 1234,Traces system calls made by the process with PID 1234.
+I want to debug process 1234 by observing its system calls. What command should I use?,strace -p 1234,Traces system calls made by the process with PID 1234.
+Could you provide the command to start tracing the system calls of process 1234?,strace -p 1234,Traces system calls made by the process with PID 1234.
+How do I initiate `strace` on process 1234?,strace -p 1234,Traces system calls made by the process with PID 1234.
+Give me the `strace` command for PID,strace -p 1234,Traces system calls made by the process with PID 1234.
+Run mtr google.com,mtr google.com,Combines ping and traceroute to monitor network performance to google.com.
+Please run mtr google.com,mtr google.com,Combines ping and traceroute to monitor network performance to google.com.
+Could you run mtr google.com for me?,mtr google.com,Combines ping and traceroute to monitor network performance to google.com.
+I need to run mtr google.com,mtr google.com,Combines ping and traceroute to monitor network performance to google.com.
+Execute mtr google.com,mtr google.com,Combines ping and traceroute to monitor network performance to google.com.
+Perform an mtr to google.com,mtr google.com,Combines ping and traceroute to monitor network performance to google.com.
+Start mtr targeting google.com,mtr google.com,Combines ping and traceroute to monitor network performance to google.com.
+Check google.com's network path with mtr,mtr google.com,Combines ping and traceroute to monitor network performance to google.com.
+Show me the mtr output for google.com,mtr google.com,Combines ping and traceroute to monitor network performance to google.com.
+Get mtr running on google.com,mtr google.com,Combines ping and traceroute to monitor network performance to google.com.
+Run the mtr command on google.com,mtr google.com,Combines ping and traceroute to monitor network performance to google.com.
+I want to mtr google.com,mtr google.com,Combines ping and traceroute to monitor network performance to google.com.
+Run nmap localhost,nmap localhost,Scans open ports on localhost.
+Please run nmap localhost,nmap localhost,Scans open ports on localhost.
+Execute nmap localhost,nmap localhost,Scans open ports on localhost.
+Perform an nmap scan on localhost,nmap localhost,Scans open ports on localhost.
+Could you run nmap localhost?,nmap localhost,Scans open ports on localhost.
+I need to run nmap localhost,nmap localhost,Scans open ports on localhost.
+Scan localhost using nmap,nmap localhost,Scans open ports on localhost.
+Initiate nmap localhost,nmap localhost,Scans open ports on localhost.
+Launch nmap localhost,nmap localhost,Scans open ports on localhost.
+Run the command: nmap localhost,nmap localhost,Scans open ports on localhost.
+Perform nmap localhost,nmap localhost,Scans open ports on localhost.
+Go ahead and run nmap localhost,nmap localhost,Scans open ports on localhost.
+Please run `host google.com`,host google.com,Performs a DNS lookup for google.com.
+What's the IP address for google.com?,host google.com,Performs a DNS lookup for google.com.
+Could you perform a DNS lookup for google.com?,host google.com,Performs a DNS lookup for google.com.
+Can you resolve google.com for me?,host google.com,Performs a DNS lookup for google.com.
+I need to check the DNS records of google.com,host google.com,Performs a DNS lookup for google.com.
+Find the DNS information associated with google.com,host google.com,Performs a DNS lookup for google.com.
+Query DNS for google.com,host google.com,Performs a DNS lookup for google.com.
+Show me the `host` command's output for google.com,host google.com,Performs a DNS lookup for google.com.
+What are the public DNS details for google.com?,host google.com,Performs a DNS lookup for google.com.
+Could you look up google.com in DNS?,host google.com,Performs a DNS lookup for google.com.
+Execute the `host` tool on google.com,host google.com,Performs a DNS lookup for google.com.
+Get me the DNS resolution for google.com,host google.com,Performs a DNS lookup for google.com.
+How do I set my default shell to Zsh?,chsh -s /bin/zsh user,Changes the login shell for user to zsh.
+What's the command to change a user's login shell to `/bin/zsh`?,chsh -s /bin/zsh user,Changes the login shell for user to zsh.
+Could you show me how to make Zsh my primary shell?,chsh -s /bin/zsh user,Changes the login shell for user to zsh.
+I need to switch the default shell for `user` to Zsh. How do I do that?,chsh -s /bin/zsh user,Changes the login shell for user to zsh.
+What's the proper way to configure Zsh as the default shell on login?,chsh -s /bin/zsh user,Changes the login shell for user to zsh.
+How can I change the shell for `user` to `/bin/zsh` using the `chsh` command?,chsh -s /bin/zsh user,Changes the login shell for user to zsh.
+Tell me the command to set `/bin/zsh` as the login shell for a specific user,chsh -s /bin/zsh user,Changes the login shell for user to zsh.
+I want to start using Zsh as my interactive shell. What's the command to change it?,chsh -s /bin/zsh user,Changes the login shell for user to zsh.
+Can you provide the syntax for changing the default shell to Zsh for a user?,chsh -s /bin/zsh user,Changes the login shell for user to zsh.
+How do I make Zsh my permanent shell on this Linux system?,chsh -s /bin/zsh user,Changes the login shell for user to zsh.
+What command do I run to update the default shell for `user` to `zsh`?,chsh -s /bin/zsh user,Changes the login shell for user to zsh.
+Show me how to make Zsh the default login shell for any user account,chsh -s /bin/zsh user,Changes the login shell for user to zsh.
+How do I list all the groups a user belongs to?,id -Gn user,Lists all group names for user.
+Can you show me the group names for a specific user?,id -Gn user,Lists all group names for user.
+What are all the groups a user is a member of?,id -Gn user,Lists all group names for user.
+I want to get a list of all group names associated with a user,id -Gn user,Lists all group names for user.
+How do I find out which groups a particular user is in?,id -Gn user,Lists all group names for user.
+Display the group memberships for a given user,id -Gn user,Lists all group names for user.
+Please enumerate all the groups for a user,id -Gn user,Lists all group names for user.
+Which groups is 'username' part of?,id -Gn user,Lists all group names for user.
+Tell me all the group names assigned to a user,id -Gn user,Lists all group names for user.
+I need to see the supplementary groups a user belongs to,id -Gn user,Lists all group names for user.
+Could you list just the group names for a user?,id -Gn user,Lists all group names for user.
+How can I check a user's group affiliations?,id -Gn user,Lists all group names for user.
+Show me the passwd entry for user,getent passwd user,Displays passwd database entry for user.
+What's user's passwd information?,getent passwd user,Displays passwd database entry for user.
+Get the passwd database entry for user,getent passwd user,Displays passwd database entry for user.
+Please display the user record from passwd,getent passwd user,Displays passwd database entry for user.
+Look up user in the passwd database,getent passwd user,Displays passwd database entry for user.
+Query the passwd file for user's details,getent passwd user,Displays passwd database entry for user.
+I need the passwd details for user,getent passwd user,Displays passwd database entry for user.
+Retrieve user's passwd entry,getent passwd user,Displays passwd database entry for user.
+Can you show me user's passwd data?,getent passwd user,Displays passwd database entry for user.
+Find the passwd entry corresponding to user,getent passwd user,Displays passwd database entry for user.
+Display the passwd information for user,getent passwd user,Displays passwd database entry for user.
+Access the passwd entry for user,getent passwd user,Displays passwd database entry for user.
+How do I format `file.txt` for printing without any headers or footers?,pr -t file.txt,Formats file.txt for printing without headers or footers.
+"What's the command to prepare `file.txt` for printing, but omit page headers and footers?",pr -t file.txt,Formats file.txt for printing without headers or footers.
+"I need to print `file.txt` but I want it raw, no `pr` headers or footers. How?",pr -t file.txt,Formats file.txt for printing without headers or footers.
+Can you show me how to paginate `file.txt` without adding the standard header and footer lines?,pr -t file.txt,Formats file.txt for printing without headers or footers.
+What's the flag to make `pr` print `file.txt` without its usual header/footer?,pr -t file.txt,Formats file.txt for printing without headers or footers.
+How do I get a print-formatted version of `file.txt` that doesn't include page numbers or filenames at the top/bottom?,pr -t file.txt,Formats file.txt for printing without headers or footers.
+"I want to send `file.txt` to the printer, but without the default pagination information. Which command should I use?",pr -t file.txt,Formats file.txt for printing without headers or footers.
+"Generate a plain, un-paginated print output for `file.txt`",pr -t file.txt,Formats file.txt for printing without headers or footers.
+"Tell me how to format `file.txt` for printing, explicitly removing headers and footers",pr -t file.txt,Formats file.txt for printing without headers or footers.
+"I'm using `pr`, but how do I stop it from putting a header and footer on `file.txt`?",pr -t file.txt,Formats file.txt for printing without headers or footers.
+"How can I get `file.txt` ready for printing, stripped of all pagination details?",pr -t file.txt,Formats file.txt for printing without headers or footers.
+Give me the command to print `file.txt` without any of the added page-specific information,pr -t file.txt,Formats file.txt for printing without headers or footers.
+How do I wrap `file.txt` to 80 characters per line?,fold -w 80 file.txt,Wraps lines in file.txt to 80 characters.
+What's the command to limit lines in `file.txt` to 80 columns?,fold -w 80 file.txt,Wraps lines in file.txt to 80 characters.
+I need to reformat `file.txt` so lines are no longer than 80 characters,fold -w 80 file.txt,Wraps lines in file.txt to 80 characters.
+Can you show me how to use `fold` to wrap `file.txt` at 80 characters?,fold -w 80 file.txt,Wraps lines in file.txt to 80 characters.
+How can I ensure all lines in `file.txt` are 80 characters wide at most?,fold -w 80 file.txt,Wraps lines in file.txt to 80 characters.
+Please tell me the command to break lines in `file.txt` after 80 characters,fold -w 80 file.txt,Wraps lines in file.txt to 80 characters.
+What's the syntax for `fold` to set a width of 80 for `file.txt`?,fold -w 80 file.txt,Wraps lines in file.txt to 80 characters.
+I want to wrap the text in `file.txt` to 80 character line lengths. How?,fold -w 80 file.txt,Wraps lines in file.txt to 80 characters.
+Give me the command to wrap `file.txt` at column,fold -w 80 file.txt,Wraps lines in file.txt to 80 characters.
+How do I make `file.txt` have a maximum line length of 80 characters?,fold -w 80 file.txt,Wraps lines in file.txt to 80 characters.
+Could you provide the command to wrap `file.txt` to 80 chars?,fold -w 80 file.txt,Wraps lines in file.txt to 80 characters.
+I'm trying to wrap `file.txt`'s lines to 80 characters. What's the command?,fold -w 80 file.txt,Wraps lines in file.txt to 80 characters.
+Sort `file.txt`,sort file.txt,Sorts the lines of file.txt alphabetically.
+How do I sort `file.txt`?,sort file.txt,Sorts the lines of file.txt alphabetically.
+I need to sort the contents of `file.txt`,sort file.txt,Sorts the lines of file.txt alphabetically.
+Can you please sort `file.txt` for me?,sort file.txt,Sorts the lines of file.txt alphabetically.
+What's the command to sort `file.txt`?,sort file.txt,Sorts the lines of file.txt alphabetically.
+Could you alphabetize the lines in `file.txt`?,sort file.txt,Sorts the lines of file.txt alphabetically.
+Please run `sort` on `file.txt`,sort file.txt,Sorts the lines of file.txt alphabetically.
+I want to arrange `file.txt` in alphabetical order,sort file.txt,Sorts the lines of file.txt alphabetically.
+Get `file.txt` sorted,sort file.txt,Sorts the lines of file.txt alphabetically.
+How can I sort `file.txt` alphabetically?,sort file.txt,Sorts the lines of file.txt alphabetically.
+Execute the `sort` command for `file.txt`,sort file.txt,Sorts the lines of file.txt alphabetically.
+Make `file.txt` sorted,sort file.txt,Sorts the lines of file.txt alphabetically.
+How do I remove consecutive duplicate lines from `file.txt`?,uniq file.txt,Removes duplicate consecutive lines from file.txt.
+What's the command to filter out adjacent identical lines in `file.txt`?,uniq file.txt,Removes duplicate consecutive lines from file.txt.
+I need to process `file.txt` to show only unique consecutive lines. How can I do that?,uniq file.txt,Removes duplicate consecutive lines from file.txt.
+Can you tell me how to use the `uniq` command on `file.txt`?,uniq file.txt,Removes duplicate consecutive lines from file.txt.
+What Linux command will de-duplicate adjacent lines in `file.txt`?,uniq file.txt,Removes duplicate consecutive lines from file.txt.
+How do I get `uniq` to operate on `file.txt`?,uniq file.txt,Removes duplicate consecutive lines from file.txt.
+I want to strip out duplicate lines that are next to each other in `file.txt`. What's the command?,uniq file.txt,Removes duplicate consecutive lines from file.txt.
+Could you give me the command to make `file.txt` contain only one instance of any sequence of identical lines?,uniq file.txt,Removes duplicate consecutive lines from file.txt.
+What's the simplest way to run `uniq` on `file.txt`?,uniq file.txt,Removes duplicate consecutive lines from file.txt.
+"I have `file.txt` and I want to remove duplicate lines, but only if they are consecutive. What command should I use?",uniq file.txt,Removes duplicate consecutive lines from file.txt.
+"How can I use a command-line tool to collapse identical, adjacent lines in `file.txt`?",uniq file.txt,Removes duplicate consecutive lines from file.txt.
+Give me the `uniq` command for `file.txt`,uniq file.txt,Removes duplicate consecutive lines from file.txt.
+How do I compare `file1.txt` and `file2.txt` on Linux to see unique and common lines?,comm file1.txt file2.txt,"Compares two sorted files, showing unique and common lines."
+"What's the command to find common and distinct entries between two sorted files, `file1.txt` and `file2.txt`?",comm file1.txt file2.txt,"Compares two sorted files, showing unique and common lines."
+"I need to compare `file1.txt` and `file2.txt` (both sorted). What command will show me lines present in one, the other, or both?",comm file1.txt file2.txt,"Compares two sorted files, showing unique and common lines."
+"Linux: how to compare two sorted text files, `file1.txt` and `file2.txt`, for differences and commonalities?",comm file1.txt file2.txt,"Compares two sorted files, showing unique and common lines."
+Tell me the command to analyze `file1.txt` and `file2.txt` (which are sorted) to identify their unique and shared content,comm file1.txt file2.txt,"Compares two sorted files, showing unique and common lines."
+What's the correct syntax to use `comm` for comparing `file1.txt` and `file2.txt`?,comm file1.txt file2.txt,"Compares two sorted files, showing unique and common lines."
+"How can I use a command line tool to compare `file1.txt` and `file2.txt`, assuming they're sorted, and output common and unique lines?",comm file1.txt file2.txt,"Compares two sorted files, showing unique and common lines."
+I want to compare `file1.txt` and `file2.txt` (both sorted) and get a report of unique and shared lines. What command should I use?,comm file1.txt file2.txt,"Compares two sorted files, showing unique and common lines."
+"Give me the command to compare two sorted files, `file1.txt` and `file2.txt`, showing what's in each and what's common",comm file1.txt file2.txt,"Compares two sorted files, showing unique and common lines."
+"If I have sorted files `file1.txt` and `file2.txt`, what's the command to list their common lines and lines unique to each?",comm file1.txt file2.txt,"Compares two sorted files, showing unique and common lines."
+What is the Linux command to compare sorted `file1.txt` and `file2.txt` to display unique and common entries?,comm file1.txt file2.txt,"Compares two sorted files, showing unique and common lines."
+Help me run the `comm` command to compare `file1.txt` with `file2.txt`,comm file1.txt file2.txt,"Compares two sorted files, showing unique and common lines."
+How do I check disk usage specifically for ext4 filesystems?,df -t ext4,Shows disk usage for ext4 filesystems only.
+Show me the disk space occupied by ext4 partitions,df -t ext4,Shows disk usage for ext4 filesystems only.
+"I need to see disk usage, but only for ext4 types",df -t ext4,Shows disk usage for ext4 filesystems only.
+Could you tell me the disk usage of my ext4 filesystems?,df -t ext4,Shows disk usage for ext4 filesystems only.
+What's the command to display disk usage for only ext4 filesystems?,df -t ext4,Shows disk usage for ext4 filesystems only.
+Display disk usage for ext,df -t ext4,Shows disk usage for ext4 filesystems only.
+Report on disk utilization for ext4 filesystems,df -t ext4,Shows disk usage for ext4 filesystems only.
+What's the proper way to view ext4 disk usage?,df -t ext4,Shows disk usage for ext4 filesystems only.
+Get me the disk usage for *just* ext4 filesystems,df -t ext4,Shows disk usage for ext4 filesystems only.
+Please show me the disk usage for all ext4 filesystems,df -t ext4,Shows disk usage for ext4 filesystems only.
+"Disk usage for ext4 filesystems, please",df -t ext4,Shows disk usage for ext4 filesystems only.
+How do I filter `df` output to show only ext4 filesystems?,df -t ext4,Shows disk usage for ext4 filesystems only.
+Run `free -w`,free -w,Displays memory usage with wide format.
+Execute the `free` command with the wide format option,free -w,Displays memory usage with wide format.
+Show me the system's memory usage in a wide display,free -w,Displays memory usage with wide format.
+Display memory statistics with all columns visible,free -w,Displays memory usage with wide format.
+Could you please get me the wide-format memory details?,free -w,Displays memory usage with wide format.
+"I need a comprehensive overview of current memory, shown widely",free -w,Displays memory usage with wide format.
+Run the `free` command to display wide memory usage,free -w,Displays memory usage with wide format.
+"Please output the memory usage in its full, wide form",free -w,Displays memory usage with wide format.
+"What's the memory status, ensuring a wide table is shown?",free -w,Displays memory usage with wide format.
+Could you present the memory usage with the wide option enabled?,free -w,Displays memory usage with wide format.
+Provide a wide-screen view of the current memory allocation,free -w,Displays memory usage with wide format.
+"I'd like to see the memory usage without any truncation, in a wide layout",free -w,Displays memory usage with wide format.
+Could you please run `lscpu -b`?,lscpu -b,Displays CPU information in a parseable format.
+I need to see the CPU information in a parseable format,lscpu -b,Displays CPU information in a parseable format.
+Show me the output of `lscpu -b`,lscpu -b,Displays CPU information in a parseable format.
+How do I get the CPU details in a machine-readable way?,lscpu -b,Displays CPU information in a parseable format.
+Execute `lscpu -b` for me,lscpu -b,Displays CPU information in a parseable format.
+Display the CPU configuration in a parseable manner,lscpu -b,Displays CPU information in a parseable format.
+Please provide the CPU data using `lscpu -b`,lscpu -b,Displays CPU information in a parseable format.
+What's the best way to get parseable CPU stats?,lscpu -b,Displays CPU information in a parseable format.
+"Could you fetch the CPU information, formatted for parsing?",lscpu -b,Displays CPU information in a parseable format.
+Run `lscpu -b` and show me the result,lscpu -b,Displays CPU information in a parseable format.
+I want the CPU breakdown in a way I can process programmatically,lscpu -b,Displays CPU information in a parseable format.
+Gimme the `lscpu -b` output,lscpu -b,Displays CPU information in a parseable format.
+Run `chcon -t httpd_sys_content_t /var/www`,chcon -t httpd_sys_content_t /var/www,Sets SELinux context for /var/www to httpd_sys_content_t.
+Set the SELinux context for `/var/www` to `httpd_sys_content_t`,chcon -t httpd_sys_content_t /var/www,Sets SELinux context for /var/www to httpd_sys_content_t.
+Apply the `httpd_sys_content_t` SELinux label to `/var/www`,chcon -t httpd_sys_content_t /var/www,Sets SELinux context for /var/www to httpd_sys_content_t.
+Change the SELinux type of `/var/www` to `httpd_sys_content_t`,chcon -t httpd_sys_content_t /var/www,Sets SELinux context for /var/www to httpd_sys_content_t.
+I need to ensure `/var/www` has the `httpd_sys_content_t` SELinux context,chcon -t httpd_sys_content_t /var/www,Sets SELinux context for /var/www to httpd_sys_content_t.
+Could you please label `/var/www` with `httpd_sys_content_t`?,chcon -t httpd_sys_content_t /var/www,Sets SELinux context for /var/www to httpd_sys_content_t.
+Please set `/var/www`'s SELinux context to `httpd_sys_content_t`,chcon -t httpd_sys_content_t /var/www,Sets SELinux context for /var/www to httpd_sys_content_t.
+I need to `chcon` `/var/www` to `httpd_sys_content_t`,chcon -t httpd_sys_content_t /var/www,Sets SELinux context for /var/www to httpd_sys_content_t.
+Update the SELinux context on `/var/www` to `httpd_sys_content_t`,chcon -t httpd_sys_content_t /var/www,Sets SELinux context for /var/www to httpd_sys_content_t.
+Assign `httpd_sys_content_t` as the SELinux type for `/var/www`,chcon -t httpd_sys_content_t /var/www,Sets SELinux context for /var/www to httpd_sys_content_t.
+Configure `/var/www`'s SELinux type to be `httpd_sys_content_t`,chcon -t httpd_sys_content_t /var/www,Sets SELinux context for /var/www to httpd_sys_content_t.
+Establish `httpd_sys_content_t` as the SELinux context for the `/var/www` directory,chcon -t httpd_sys_content_t /var/www,Sets SELinux context for /var/www to httpd_sys_content_t.
+How do I persistently enable the `httpd_enable_homedirs` SELinux boolean?,setsebool -P httpd_enable_homedirs on,Enables the SELinux boolean httpd_enable_homedirs persistently.
+What's the command to permanently allow Apache to serve files from user home directories via SELinux?,setsebool -P httpd_enable_homedirs on,Enables the SELinux boolean httpd_enable_homedirs persistently.
+I need to configure SELinux to let my web server access user home directories; how do I make this change stick across reboots?,setsebool -P httpd_enable_homedirs on,Enables the SELinux boolean httpd_enable_homedirs persistently.
+Please turn on the `httpd_enable_homedirs` SELinux setting and ensure it's persistent,setsebool -P httpd_enable_homedirs on,Enables the SELinux boolean httpd_enable_homedirs persistently.
+My httpd service can't access user home directories due to SELinux. What's the permanent fix for this?,setsebool -P httpd_enable_homedirs on,Enables the SELinux boolean httpd_enable_homedirs persistently.
+Could you provide the command to enable `httpd_enable_homedirs` persistently?,setsebool -P httpd_enable_homedirs on,Enables the SELinux boolean httpd_enable_homedirs persistently.
+How do I set the `httpd_enable_homedirs` boolean to 'on' and make it permanent?,setsebool -P httpd_enable_homedirs on,Enables the SELinux boolean httpd_enable_homedirs persistently.
+I'm trying to allow httpd to read user-specific content. What's the persistent SELinux boolean for homedir access?,setsebool -P httpd_enable_homedirs on,Enables the SELinux boolean httpd_enable_homedirs persistently.
+Give me the command to enable persistent SELinux access for httpd to user home directories,setsebool -P httpd_enable_homedirs on,Enables the SELinux boolean httpd_enable_homedirs persistently.
+Can you show me how to permanently allow the web server into user home directories using SELinux?,setsebool -P httpd_enable_homedirs on,Enables the SELinux boolean httpd_enable_homedirs persistently.
+What command do I use to persistently activate `httpd_enable_homedirs`?,setsebool -P httpd_enable_homedirs on,Enables the SELinux boolean httpd_enable_homedirs persistently.
+I need to grant httpd persistent access to user home directories. Which SELinux boolean should I enable?,setsebool -P httpd_enable_homedirs on,Enables the SELinux boolean httpd_enable_homedirs persistently.
+Remove the immutable attribute from file.txt,chattr -i file.txt,Removes the immutable attribute from file.txt.
+How do I unset the 'i' flag on file.txt?,chattr -i file.txt,Removes the immutable attribute from file.txt.
+I need to make file.txt mutable; how can I do that?,chattr -i file.txt,Removes the immutable attribute from file.txt.
+Disable the immutable status for file.txt,chattr -i file.txt,Removes the immutable attribute from file.txt.
+Clear the immutable attribute from file.txt,chattr -i file.txt,Removes the immutable attribute from file.txt.
+Take off the immutable write protection from file.txt,chattr -i file.txt,Removes the immutable attribute from file.txt.
+File.txt is immutable. How do I change its attribute?,chattr -i file.txt,Removes the immutable attribute from file.txt.
+What's the command to remove the 'i' attribute from file.txt?,chattr -i file.txt,Removes the immutable attribute from file.txt.
+Make file.txt editable by removing its immutable flag,chattr -i file.txt,Removes the immutable attribute from file.txt.
+Can you help me remove the immutable attribute from file.txt?,chattr -i file.txt,Removes the immutable attribute from file.txt.
+I want to allow modifications to file.txt; it's currently immutable,chattr -i file.txt,Removes the immutable attribute from file.txt.
+How do I get rid of the immutable property on file.txt?,chattr -i file.txt,Removes the immutable attribute from file.txt.
+How do I use the `install` command to copy `script.sh` to `/usr/local/bin` and set its permissions to 755?,install -m 755 script.sh /usr/local/bin,Copies script.sh to /usr/local/bin with 755 permissions.
+I need to copy `script.sh` to `/usr/local/bin` and ensure it has 755 permissions. What's the command for that?,install -m 755 script.sh /usr/local/bin,Copies script.sh to /usr/local/bin with 755 permissions.
+What's the best way to make `script.sh` executable and put it in `/usr/local/bin`?,install -m 755 script.sh /usr/local/bin,Copies script.sh to /usr/local/bin with 755 permissions.
+How can I install `script.sh` into `/usr/local/bin` with 755 file permissions?,install -m 755 script.sh /usr/local/bin,Copies script.sh to /usr/local/bin with 755 permissions.
+Could you show me the command to place `script.sh` in `/usr/local/bin` with mode 755?,install -m 755 script.sh /usr/local/bin,Copies script.sh to /usr/local/bin with 755 permissions.
+I'm trying to deploy `script.sh` to `/usr/local/bin` with rwxr-xr-x permissions. How do I do that?,install -m 755 script.sh /usr/local/bin,Copies script.sh to /usr/local/bin with 755 permissions.
+What command should I use to copy `script.sh` to `/usr/local/bin` and grant 755 execution rights?,install -m 755 script.sh /usr/local/bin,Copies script.sh to /usr/local/bin with 755 permissions.
+How do I get `script.sh` into `/usr/local/bin` as an executable for all users?,install -m 755 script.sh /usr/local/bin,Copies script.sh to /usr/local/bin with 755 permissions.
+Is there a simple way to transfer `script.sh` to `/usr/local/bin` and automatically set its permissions to 755?,install -m 755 script.sh /usr/local/bin,Copies script.sh to /usr/local/bin with 755 permissions.
+I want to make `script.sh` available system-wide from `/usr/local/bin` with full execute permissions for the owner and execute for others. What's the command?,install -m 755 script.sh /usr/local/bin,Copies script.sh to /usr/local/bin with 755 permissions.
+How do I set up `script.sh` in `/usr/local/bin` with the correct permissions (755)?,install -m 755 script.sh /usr/local/bin,Copies script.sh to /usr/local/bin with 755 permissions.
+Can you provide the specific `install` command to copy `script.sh` to `/usr/local/bin` and apply 755 permissions?,install -m 755 script.sh /usr/local/bin,Copies script.sh to /usr/local/bin with 755 permissions.
+Run `arping 192.168.1.1`,arping 192.168.1.1,Sends ARP requests to 192.168.1.1 to resolve MAC address.
+Could you please run `arping 192.168.1.1`?,arping 192.168.1.1,Sends ARP requests to 192.168.1.1 to resolve MAC address.
+Please arping,arping 192.168.1.1,Sends ARP requests to 192.168.1.1 to resolve MAC address.
+I need to arping 192.168.1.1 to find its MAC address,arping 192.168.1.1,Sends ARP requests to 192.168.1.1 to resolve MAC address.
+Execute the `arping` command for,arping 192.168.1.1,Sends ARP requests to 192.168.1.1 to resolve MAC address.
+Initiate an ARP ping to,arping 192.168.1.1,Sends ARP requests to 192.168.1.1 to resolve MAC address.
+Let's try arpinging,arping 192.168.1.1,Sends ARP requests to 192.168.1.1 to resolve MAC address.
+Can you send an ARP request to 192.168.1.1?,arping 192.168.1.1,Sends ARP requests to 192.168.1.1 to resolve MAC address.
+Check 192.168.1.1's ARP status using `arping`,arping 192.168.1.1,Sends ARP requests to 192.168.1.1 to resolve MAC address.
+Perform an `arping` operation on,arping 192.168.1.1,Sends ARP requests to 192.168.1.1 to resolve MAC address.
+Use `arping` on,arping 192.168.1.1,Sends ARP requests to 192.168.1.1 to resolve MAC address.
+Fire off `arping 192.168.1.1`,arping 192.168.1.1,Sends ARP requests to 192.168.1.1 to resolve MAC address.
+Show me the ARP table,ip neighbor show,Displays the ARP table with neighbor entries.
+How can I view the network neighbor entries?,ip neighbor show,Displays the ARP table with neighbor entries.
+Please display the current ARP cache,ip neighbor show,Displays the ARP table with neighbor entries.
+List the devices in the ARP table,ip neighbor show,Displays the ARP table with neighbor entries.
+I need to see the neighbor discovery entries,ip neighbor show,Displays the ARP table with neighbor entries.
+Could you show me the active network neighbors?,ip neighbor show,Displays the ARP table with neighbor entries.
+What are the current ARP entries on this system?,ip neighbor show,Displays the ARP table with neighbor entries.
+Display the ARP table with neighbor information,ip neighbor show,Displays the ARP table with neighbor entries.
+Run the command that shows the neighbor cache,ip neighbor show,Displays the ARP table with neighbor entries.
+How do I check the ARP table for connected hosts?,ip neighbor show,Displays the ARP table with neighbor entries.
+Can you output the current layer 2 neighbor entries?,ip neighbor show,Displays the ARP table with neighbor entries.
+I'd like to inspect the neighbor table,ip neighbor show,Displays the ARP table with neighbor entries.
+Show me my scheduled `at` jobs,atq,Lists pending jobs scheduled with at.
+List the jobs in my `at` queue,atq,Lists pending jobs scheduled with at.
+What `at` jobs are currently pending?,atq,Lists pending jobs scheduled with at.
+Display the tasks I've scheduled using `at`,atq,Lists pending jobs scheduled with at.
+Check the status of my `at` jobs,atq,Lists pending jobs scheduled with at.
+Are there any jobs waiting in my `at` queue?,atq,Lists pending jobs scheduled with at.
+Could you show me my `at` queue?,atq,Lists pending jobs scheduled with at.
+I want to see my `at` jobs,atq,Lists pending jobs scheduled with at.
+Provide a list of my `at` scheduled jobs,atq,Lists pending jobs scheduled with at.
+What's in the `at` job queue?,atq,Lists pending jobs scheduled with at.
+Show me what I have set up with `at`,atq,Lists pending jobs scheduled with at.
+Give me an overview of my future `at` tasks,atq,Lists pending jobs scheduled with at.
+How do I resume job 1 and run it in the background?,bg %1,Resumes job 1 in the background.
+Can you put job 1 into the background?,bg %1,Resumes job 1 in the background.
+I need to background the first suspended job,bg %1,Resumes job 1 in the background.
+What command will send job 1 to the background?,bg %1,Resumes job 1 in the background.
+How can I restart job 1 in the background?,bg %1,Resumes job 1 in the background.
+Move job 1 to the background,bg %1,Resumes job 1 in the background.
+I want to continue job 1 without it taking up my terminal,bg %1,Resumes job 1 in the background.
+Could you background the job I just stopped?,bg %1,Resumes job 1 in the background.
+What's the way to get job 1 running in the background?,bg %1,Resumes job 1 in the background.
+Put job 1 into the background process,bg %1,Resumes job 1 in the background.
+I want to resume the first job in the background,bg %1,Resumes job 1 in the background.
+How do I make the current suspended job run in the background?,bg %1,Resumes job 1 in the background.
+"Open `config.conf` in Nano, starting at line",nano +10 config.conf,Opens config.conf in Nano at line 10.
+Could you please launch Nano for `config.conf` and place the cursor on line 10?,nano +10 config.conf,Opens config.conf in Nano at line 10.
+I need to edit `config.conf`. Can you open it with Nano at the tenth line?,nano +10 config.conf,Opens config.conf in Nano at line 10.
+"Run Nano on `config.conf`, precisely at line number",nano +10 config.conf,Opens config.conf in Nano at line 10.
+"Bring up `config.conf` in Nano, jumping straight to line",nano +10 config.conf,Opens config.conf in Nano at line 10.
+"Execute the Nano editor on `config.conf`, and make sure it opens at line",nano +10 config.conf,Opens config.conf in Nano at line 10.
+"Initiate Nano for `config.conf`, with the cursor positioned at line",nano +10 config.conf,Opens config.conf in Nano at line 10.
+"Load `config.conf` into Nano, and navigate to line",nano +10 config.conf,Opens config.conf in Nano at line 10.
+"Please open `config.conf` using Nano, and automatically go to line",nano +10 config.conf,Opens config.conf in Nano at line 10.
+"Use Nano to edit `config.conf`, and place the entry point at line",nano +10 config.conf,Opens config.conf in Nano at line 10.
+"Could you open `config.conf` in Nano, and have the prompt at line 10?",nano +10 config.conf,Opens config.conf in Nano at line 10.
+"Start Nano with `config.conf`, pointing to line",nano +10 config.conf,Opens config.conf in Nano at line 10.
+Open `file.txt` in Vim without loading any configuration files,vim -u NONE file.txt,Opens file.txt in Vim without loading any configuration.
+How do I start Vim with `file.txt` and skip all my custom settings?,vim -u NONE file.txt,Opens file.txt in Vim without loading any configuration.
+I need to edit `file.txt` using a completely bare Vim instance,vim -u NONE file.txt,Opens file.txt in Vim without loading any configuration.
+"Run Vim on `file.txt` in a clean mode, ignoring `.vimrc`",vim -u NONE file.txt,Opens file.txt in Vim without loading any configuration.
+What command opens `file.txt` in Vim with default settings only?,vim -u NONE file.txt,Opens file.txt in Vim without loading any configuration.
+Launch Vim to edit `file.txt` without any plugins or user customizations,vim -u NONE file.txt,Opens file.txt in Vim without loading any configuration.
+"Could you tell me how to open `file.txt` in Vim, bypassing my usual setup?",vim -u NONE file.txt,Opens file.txt in Vim without loading any configuration.
+"I want to open `file.txt` in Vim as if it were a fresh install, no configs loaded",vim -u NONE file.txt,Opens file.txt in Vim without loading any configuration.
+How do I get Vim to open `file.txt` without sourcing any startup files?,vim -u NONE file.txt,Opens file.txt in Vim without loading any configuration.
+Please show me how to open `file.txt` in Vim using only its factory defaults,vim -u NONE file.txt,Opens file.txt in Vim without loading any configuration.
+"Open `file.txt` in Vim, but ensure no user configuration is applied",vim -u NONE file.txt,Opens file.txt in Vim without loading any configuration.
+"How can I open `file.txt` with a vanilla Vim, no personalizations?",vim -u NONE file.txt,Opens file.txt in Vim without loading any configuration.
+How do I run `script.el` using Emacs in batch mode from the terminal?,emacs --batch -l script.el,Runs Emacs in batch mode to execute script.el.
+What's the command to execute `script.el` non-interactively with Emacs?,emacs --batch -l script.el,Runs Emacs in batch mode to execute script.el.
+Could you show me how to make Emacs run `script.el` without launching its GUI?,emacs --batch -l script.el,Runs Emacs in batch mode to execute script.el.
+I need to run an Emacs Lisp script (`script.el`) in batch mode. What's the exact command?,emacs --batch -l script.el,Runs Emacs in batch mode to execute script.el.
+How can I get Emacs to process `script.el` from the command line in a non-interactive fashion?,emacs --batch -l script.el,Runs Emacs in batch mode to execute script.el.
+Please give me the command to run `script.el` using Emacs in the background,emacs --batch -l script.el,Runs Emacs in batch mode to execute script.el.
+What's the syntax to run `script.el` through Emacs's batch processing?,emacs --batch -l script.el,Runs Emacs in batch mode to execute script.el.
+I want to run `script.el` with Emacs in batch mode. What command should I use?,emacs --batch -l script.el,Runs Emacs in batch mode to execute script.el.
+How do I invoke Emacs to run `script.el` as a batch job?,emacs --batch -l script.el,Runs Emacs in batch mode to execute script.el.
+"Command to execute `script.el` using Emacs in batch mode, please",emacs --batch -l script.el,Runs Emacs in batch mode to execute script.el.
+"Can you tell me the command to run `script.el` with Emacs, specifically in batch mode?",emacs --batch -l script.el,Runs Emacs in batch mode to execute script.el.
+How do I run an Emacs Lisp file (`script.el`) from the command line without Emacs opening visually?,emacs --batch -l script.el,Runs Emacs in batch mode to execute script.el.
+How do I count the words in file.txt?,wc -w file.txt,Counts the number of words in file.txt.
+What's the command to get the word count of file.txt?,wc -w file.txt,Counts the number of words in file.txt.
+I need to find out how many words are in file.txt,wc -w file.txt,Counts the number of words in file.txt.
+Show me the word count for file.txt,wc -w file.txt,Counts the number of words in file.txt.
+What's the Linux command to count words in file.txt?,wc -w file.txt,Counts the number of words in file.txt.
+Could you tell me the number of words in file.txt?,wc -w file.txt,Counts the number of words in file.txt.
+I want to count the words in file.txt,wc -w file.txt,Counts the number of words in file.txt.
+How do I determine the total word count for file.txt?,wc -w file.txt,Counts the number of words in file.txt.
+Find the word count for file.txt,wc -w file.txt,Counts the number of words in file.txt.
+Is there a command-line tool to count words in file.txt?,wc -w file.txt,Counts the number of words in file.txt.
+Get me the word count of file.txt,wc -w file.txt,Counts the number of words in file.txt.
+What's the command to display the word count for file.txt?,wc -w file.txt,Counts the number of words in file.txt.
+How do I count the bytes in `file.txt`?,wc -c file.txt,Counts the number of bytes in file.txt.
+What command gives the byte count for `file.txt`?,wc -c file.txt,Counts the number of bytes in file.txt.
+I need to find out the number of bytes in `file.txt`,wc -c file.txt,Counts the number of bytes in file.txt.
+Can you tell me the byte size of `file.txt`?,wc -c file.txt,Counts the number of bytes in file.txt.
+How can I determine the byte length of `file.txt`?,wc -c file.txt,Counts the number of bytes in file.txt.
+Show me the byte total of `file.txt`,wc -c file.txt,Counts the number of bytes in file.txt.
+What's the byte count of `file.txt`?,wc -c file.txt,Counts the number of bytes in file.txt.
+Get me the number of bytes for `file.txt`,wc -c file.txt,Counts the number of bytes in file.txt.
+Provide the byte measure of `file.txt`,wc -c file.txt,Counts the number of bytes in file.txt.
+How do I check the byte usage of `file.txt`?,wc -c file.txt,Counts the number of bytes in file.txt.
+What's the command-line way to get `file.txt`'s byte count?,wc -c file.txt,Counts the number of bytes in file.txt.
+Calculate the byte count of `file.txt` for me,wc -c file.txt,Counts the number of bytes in file.txt.
+"How do I merge `file1.txt` and `file2.txt` line by line, side by side?",paste file1.txt file2.txt,Merges lines of file1.txt and file2.txt side by side.
+What's the command to combine the contents of `file1.txt` and `file2.txt` horizontally?,paste file1.txt file2.txt,Merges lines of file1.txt and file2.txt side by side.
+"Can you show me how to put `file1.txt` and `file2.txt` next to each other, line by line?",paste file1.txt file2.txt,Merges lines of file1.txt and file2.txt side by side.
+I need to join `file1.txt` and `file2.txt` so their lines appear in parallel columns,paste file1.txt file2.txt,Merges lines of file1.txt and file2.txt side by side.
+How can I display `file1.txt` and `file2.txt` as two side-by-side streams of text?,paste file1.txt file2.txt,Merges lines of file1.txt and file2.txt side by side.
+Which Linux utility can interleave `file1.txt` and `file2.txt` horizontally?,paste file1.txt file2.txt,Merges lines of file1.txt and file2.txt side by side.
+I want to create an output where each line has data from `file1.txt` and then `file2.txt` on the same line,paste file1.txt file2.txt,Merges lines of file1.txt and file2.txt side by side.
+What's the easiest way to show `file1.txt` and `file2.txt` in a columned format?,paste file1.txt file2.txt,Merges lines of file1.txt and file2.txt side by side.
+Help me combine lines from `file1.txt` and `file2.txt` onto a single line for each entry,paste file1.txt file2.txt,Merges lines of file1.txt and file2.txt side by side.
+Is there a command that takes `file1.txt` and `file2.txt` and pastes them together side-by-side?,paste file1.txt file2.txt,Merges lines of file1.txt and file2.txt side by side.
+How do I get a side-by-side view of `file1.txt` and `file2.txt` in my terminal?,paste file1.txt file2.txt,Merges lines of file1.txt and file2.txt side by side.
+I'm looking for a command to concatenate `file1.txt` and `file2.txt` line-for-line horizontally,paste file1.txt file2.txt,Merges lines of file1.txt and file2.txt side by side.
+Please run the command `join file1.txt file2.txt`,join file1.txt file2.txt,Joins lines of two sorted files on a common field.
+How do I join `file1.txt` and `file2.txt`? Please execute the appropriate command,join file1.txt file2.txt,Joins lines of two sorted files on a common field.
+Execute `join file1.txt file2.txt`,join file1.txt file2.txt,Joins lines of two sorted files on a common field.
+I need to merge `file1.txt` and `file2.txt` based on a common field. Can you run the `join` command for me?,join file1.txt file2.txt,Joins lines of two sorted files on a common field.
+Could you please perform the `join` operation on `file1.txt` and `file2.txt`?,join file1.txt file2.txt,Joins lines of two sorted files on a common field.
+Run the `join` utility with `file1.txt` and `file2.txt` as arguments,join file1.txt file2.txt,Joins lines of two sorted files on a common field.
+I'm looking to combine the data from `file1.txt` and `file2.txt` where lines match. Please run `join file1.txt file2.txt`,join file1.txt file2.txt,Joins lines of two sorted files on a common field.
+Go ahead and run the command `join file1.txt file2.txt`,join file1.txt file2.txt,Joins lines of two sorted files on a common field.
+Initiate `join file1.txt file2.txt`,join file1.txt file2.txt,Joins lines of two sorted files on a common field.
+I want to join `file1.txt` with `file2.txt`. Make it happen,join file1.txt file2.txt,Joins lines of two sorted files on a common field.
+Could you process `file1.txt` and `file2.txt` using the `join` command?,join file1.txt file2.txt,Joins lines of two sorted files on a common field.
+Execute the `join` command on `file1.txt` and `file2.txt` to merge their common lines,join file1.txt file2.txt,Joins lines of two sorted files on a common field.
+"Show me the name, size, and type of all block devices","lsblk -o NAME,SIZE,TYPE","Lists block devices with name, size, and type columns."
+"List block devices, but only include their name, size, and type","lsblk -o NAME,SIZE,TYPE","Lists block devices with name, size, and type columns."
+"What are the names, sizes, and types of the block devices on this system?","lsblk -o NAME,SIZE,TYPE","Lists block devices with name, size, and type columns."
+"Can you display the name, size, and type for each block device?","lsblk -o NAME,SIZE,TYPE","Lists block devices with name, size, and type columns."
+"I need to see a table of block devices with their name, size, and type","lsblk -o NAME,SIZE,TYPE","Lists block devices with name, size, and type columns."
+"How do I check the name, size, and type attributes of block devices?","lsblk -o NAME,SIZE,TYPE","Lists block devices with name, size, and type columns."
+"Tell me about the block devices, specifically their name, size, and type","lsblk -o NAME,SIZE,TYPE","Lists block devices with name, size, and type columns."
+"Provide me with a detailed list of block devices, just the name, size, and type","lsblk -o NAME,SIZE,TYPE","Lists block devices with name, size, and type columns."
+"Get me the name, size, and type information for all block devices","lsblk -o NAME,SIZE,TYPE","Lists block devices with name, size, and type columns."
+"I'd like to view the name, size, and type columns for block devices","lsblk -o NAME,SIZE,TYPE","Lists block devices with name, size, and type columns."
+"Output the name, size, and type of all block devices","lsblk -o NAME,SIZE,TYPE","Lists block devices with name, size, and type columns."
+"What command shows the block device name, size, and type?","lsblk -o NAME,SIZE,TYPE","Lists block devices with name, size, and type columns."
+How do I see who's logged in with headers?,who -H,Lists logged-in users with column headers.
+"Show me the currently logged-in users, including column headers",who -H,Lists logged-in users with column headers.
+Run `who` but add the descriptive headers,who -H,Lists logged-in users with column headers.
+"I need to list all active users and their session details, with proper headings",who -H,Lists logged-in users with column headers.
+Can you execute `who -H` for me?,who -H,Lists logged-in users with column headers.
+"Display the logged-in users, ensuring the output has column titles",who -H,Lists logged-in users with column headers.
+"Get me the user list, and please include the header row",who -H,Lists logged-in users with column headers.
+What's the command to check who's online with the header option?,who -H,Lists logged-in users with column headers.
+"I want to see who's logged on, complete with column labels",who -H,Lists logged-in users with column headers.
+"Tell me who's using the system, and show the column descriptions",who -H,Lists logged-in users with column headers.
+Could you run `who` with the header output enabled?,who -H,Lists logged-in users with column headers.
+"List all current users, and format the output with headers",who -H,Lists logged-in users with column headers.
+How do I run `command` with a 10-second timeout?,timeout 10s command,Runs command with a 10-second timeout.
+What's the command to limit `command`'s execution time to 10 seconds?,timeout 10s command,Runs command with a 10-second timeout.
+I need to automatically stop `command` after 10 seconds. How can I do that?,timeout 10s command,Runs command with a 10-second timeout.
+How can I ensure `command` doesn't run for more than 10 seconds?,timeout 10s command,Runs command with a 10-second timeout.
+What's the syntax to kill `command` if it runs longer than 10 seconds?,timeout 10s command,Runs command with a 10-second timeout.
+I want to execute `command` for a maximum duration of 10 seconds. How?,timeout 10s command,Runs command with a 10-second timeout.
+How do I run `command` and have it terminate after 10 seconds?,timeout 10s command,Runs command with a 10-second timeout.
+Which utility can run `command` and stop it after 10 seconds?,timeout 10s command,Runs command with a 10-second timeout.
+Is there a way to put a 10-second time limit on `command`?,timeout 10s command,Runs command with a 10-second timeout.
+How do I make `command` exit if it hasn't finished within 10 seconds?,timeout 10s command,Runs command with a 10-second timeout.
+How can I run `command` for only 10 seconds before it's stopped?,timeout 10s command,Runs command with a 10-second timeout.
+I need to set a 10-second deadline for `command`'s execution. What's the command?,timeout 10s command,Runs command with a 10-second timeout.

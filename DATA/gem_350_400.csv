@@ -1,0 +1,601 @@
+user_query,command,description
+Switch to the third directory in my stack,pushd +2,Rotates the directory stack to make the third entry the current directory.
+Rotate the directory stack so the third entry becomes current,pushd +2,Rotates the directory stack to make the third entry the current directory.
+Go to the directory at stack position +,pushd +2,Rotates the directory stack to make the third entry the current directory.
+Can you set my current directory to the third one in the `dirs` list?,pushd +2,Rotates the directory stack to make the third entry the current directory.
+I want to jump to the third directory saved in my shell's stack,pushd +2,Rotates the directory stack to make the third entry the current directory.
+Make the third entry on my directory stack the active directory,pushd +2,Rotates the directory stack to make the third entry the current directory.
+Perform the action of moving to the third directory in my stack using `pushd`,pushd +2,Rotates the directory stack to make the third entry the current directory.
+Change my current working directory to the third item in the directory stack,pushd +2,Rotates the directory stack to make the third entry the current directory.
+Navigate to the directory that's two positions down from the top of the stack,pushd +2,Rotates the directory stack to make the third entry the current directory.
+Please bring up the third directory from my directory stack,pushd +2,Rotates the directory stack to make the third entry the current directory.
+I need to access the third directory entry from my session's stack,pushd +2,Rotates the directory stack to make the third entry the current directory.
+Update my current directory to the third one available on the directory stack,pushd +2,Rotates the directory stack to make the third entry the current directory.
+How do I clear the directory stack?,dirs -c,Clears the directory stack.
+What's the command to clear the directory stack?,dirs -c,Clears the directory stack.
+I need to empty my directory stack,dirs -c,Clears the directory stack.
+Can you tell me how to reset the directory stack?,dirs -c,Clears the directory stack.
+How do I get rid of the entries in the directory stack?,dirs -c,Clears the directory stack.
+I want to clear the pushd/popd stack,dirs -c,Clears the directory stack.
+What's the way to flush the dirstack?,dirs -c,Clears the directory stack.
+How can I clear the list of remembered directories?,dirs -c,Clears the directory stack.
+Tell me how to wipe the directory stack,dirs -c,Clears the directory stack.
+What command clears the directory stack entirely?,dirs -c,Clears the directory stack.
+Is there a command to clear the dirstack?,dirs -c,Clears the directory stack.
+How do you clear out the directory stack?,dirs -c,Clears the directory stack.
+Change my current directory to the physical location of `/path/to/symlink`,cd -P /path/to/symlink,Changes to the physical directory resolved from /path/to/symlink.
+How do I navigate to the true directory that `/path/to/symlink` points to?,cd -P /path/to/symlink,Changes to the physical directory resolved from /path/to/symlink.
+Please `cd` to the actual path where `/path/to/symlink` resolves,cd -P /path/to/symlink,Changes to the physical directory resolved from /path/to/symlink.
+"I need to enter the real directory behind `/path/to/symlink`, not the symlink itself",cd -P /path/to/symlink,Changes to the physical directory resolved from /path/to/symlink.
+Resolve `/path/to/symlink` to its physical path and change directory there,cd -P /path/to/symlink,Changes to the physical directory resolved from /path/to/symlink.
+Move me to the underlying directory that `/path/to/symlink` represents,cd -P /path/to/symlink,Changes to the physical directory resolved from /path/to/symlink.
+Jump to the physical target of the symlink `/path/to/symlink`,cd -P /path/to/symlink,Changes to the physical directory resolved from /path/to/symlink.
+Go to the absolute physical path pointed to by `/path/to/symlink`,cd -P /path/to/symlink,Changes to the physical directory resolved from /path/to/symlink.
+Take me to the resolved directory of `/path/to/symlink`,cd -P /path/to/symlink,Changes to the physical directory resolved from /path/to/symlink.
+Can you `cd` me into the source directory of `/path/to/symlink`?,cd -P /path/to/symlink,Changes to the physical directory resolved from /path/to/symlink.
+I want to change to the directory that `/path/to/symlink` *actually* is,cd -P /path/to/symlink,Changes to the physical directory resolved from /path/to/symlink.
+Enter the actual directory specified by `/path/to/symlink` after resolving the link,cd -P /path/to/symlink,Changes to the physical directory resolved from /path/to/symlink.
+How do I list all mounted ext4 filesystems?,findmnt -t ext4,Lists mounted ext4 filesystems with details.
+Show me the details of my mounted ext4 partitions,findmnt -t ext4,Lists mounted ext4 filesystems with details.
+What are the currently active ext4 mounts?,findmnt -t ext4,Lists mounted ext4 filesystems with details.
+I need to see all ext4 filesystems that are currently mounted. How can I do that?,findmnt -t ext4,Lists mounted ext4 filesystems with details.
+Can you display the status of ext4 filesystems?,findmnt -t ext4,Lists mounted ext4 filesystems with details.
+List ext4 mounts,findmnt -t ext4,Lists mounted ext4 filesystems with details.
+Give me a list of all ext4 filesystems currently in use,findmnt -t ext4,Lists mounted ext4 filesystems with details.
+How can I check which ext4 filesystems are mounted on this system?,findmnt -t ext4,Lists mounted ext4 filesystems with details.
+What's the command to view only ext4 mounts?,findmnt -t ext4,Lists mounted ext4 filesystems with details.
+I want to see my ext4 mount points,findmnt -t ext4,Lists mounted ext4 filesystems with details.
+Could you tell me what ext4 filesystems are active right now?,findmnt -t ext4,Lists mounted ext4 filesystems with details.
+Display the mounted ext4 filesystems,findmnt -t ext4,Lists mounted ext4 filesystems with details.
+How do I list the Linux namespaces?,lsns,"Lists Linux namespaces (e.g., PID, network, user)."
+What command shows me Linux namespaces?,lsns,"Lists Linux namespaces (e.g., PID, network, user)."
+Can you display the active namespaces?,lsns,"Lists Linux namespaces (e.g., PID, network, user)."
+I need to check the system's namespaces,lsns,"Lists Linux namespaces (e.g., PID, network, user)."
+Please run `lsns`,lsns,"Lists Linux namespaces (e.g., PID, network, user)."
+"Show me all PID, network, and user namespaces",lsns,"Lists Linux namespaces (e.g., PID, network, user)."
+List all available Linux namespaces,lsns,"Lists Linux namespaces (e.g., PID, network, user)."
+How can I view the different Linux namespaces?,lsns,"Lists Linux namespaces (e.g., PID, network, user)."
+Which tool do I use to see Linux namespaces?,lsns,"Lists Linux namespaces (e.g., PID, network, user)."
+Execute `lsns` for me,lsns,"Lists Linux namespaces (e.g., PID, network, user)."
+I want to get a summary of the namespaces,lsns,"Lists Linux namespaces (e.g., PID, network, user)."
+Give me a list of the Linux namespaces,lsns,"Lists Linux namespaces (e.g., PID, network, user)."
+Show me all kernel parameters and their values,sysctl -a,Displays all kernel parameters and their values.
+How do I display all system control parameters?,sysctl -a,Displays all kernel parameters and their values.
+List every kernel setting that's currently active,sysctl -a,Displays all kernel parameters and their values.
+What are all the `sysctl` variables and their current values?,sysctl -a,Displays all kernel parameters and their values.
+I want to see all my kernel's configuration options,sysctl -a,Displays all kernel parameters and their values.
+Could you run `sysctl -a` for me?,sysctl -a,Displays all kernel parameters and their values.
+Display a full list of kernel parameters,sysctl -a,Displays all kernel parameters and their values.
+Get me all information from `sysctl`,sysctl -a,Displays all kernel parameters and their values.
+How can I check all the kernel's tunable parameters?,sysctl -a,Displays all kernel parameters and their values.
+Please show me everything `sysctl -a` outputs,sysctl -a,Displays all kernel parameters and their values.
+What are the current values for all kernel parameters?,sysctl -a,Displays all kernel parameters and their values.
+List all kernel options available through `sysctl`,sysctl -a,Displays all kernel parameters and their values.
+How do I list the current audit rules?,auditctl -l,Lists current audit rules for system monitoring.
+What's the command to display the system's configured audit rules?,auditctl -l,Lists current audit rules for system monitoring.
+Can you show me the active audit rules?,auditctl -l,Lists current audit rules for system monitoring.
+"I need to check the current audit configuration, how do I do that?",auditctl -l,Lists current audit rules for system monitoring.
+Which command lists the existing audit rules?,auditctl -l,Lists current audit rules for system monitoring.
+Tell me how to view the audit rules,auditctl -l,Lists current audit rules for system monitoring.
+How can I see the audit rules for system monitoring?,auditctl -l,Lists current audit rules for system monitoring.
+How do I use `auditctl` to show the loaded rules?,auditctl -l,Lists current audit rules for system monitoring.
+Could you please provide the command to list the system's current audit rules?,auditctl -l,Lists current audit rules for system monitoring.
+I want to get a list of the audit rules,auditctl -l,Lists current audit rules for system monitoring.
+What command will output the current audit rules?,auditctl -l,Lists current audit rules for system monitoring.
+What are the audit rules set to right now?,auditctl -l,Lists current audit rules for system monitoring.
+How do I search for login events in the audit logs?,ausearch -m LOGIN,Searches audit logs for login-related events.
+What command should I use to find login attempts in the audit trail?,ausearch -m LOGIN,Searches audit logs for login-related events.
+I want to view all login-related entries from the audit log,ausearch -m LOGIN,Searches audit logs for login-related events.
+Display the login activity recorded in the audit logs,ausearch -m LOGIN,Searches audit logs for login-related events.
+Can you show me how to query the audit logs for user logins?,ausearch -m LOGIN,Searches audit logs for login-related events.
+Retrieve all login events from the system's audit logs,ausearch -m LOGIN,Searches audit logs for login-related events.
+How can I check who logged in using the audit logs?,ausearch -m LOGIN,Searches audit logs for login-related events.
+Find all instances of login in the audit log,ausearch -m LOGIN,Searches audit logs for login-related events.
+What's the way to get login events from `ausearch`?,ausearch -m LOGIN,Searches audit logs for login-related events.
+I need to list login events from the audit system,ausearch -m LOGIN,Searches audit logs for login-related events.
+Give me the command to audit login entries,ausearch -m LOGIN,Searches audit logs for login-related events.
+How do I examine login activity in the audit logs?,ausearch -m LOGIN,Searches audit logs for login-related events.
+Run `blkid -o list`,blkid -o list,Lists block devices with UUIDs and filesystem types.
+Show me a list of all block devices with their UUIDs and filesystem types,blkid -o list,Lists block devices with UUIDs and filesystem types.
+"How do I list block devices, their UUIDs, and filesystem types?",blkid -o list,Lists block devices with UUIDs and filesystem types.
+Execute `blkid -o list`,blkid -o list,Lists block devices with UUIDs and filesystem types.
+Can you list the block devices using `blkid`?,blkid -o list,Lists block devices with UUIDs and filesystem types.
+What's the command to get UUIDs and filesystem types for block devices?,blkid -o list,Lists block devices with UUIDs and filesystem types.
+I need to see my disk partitions with their UUIDs. How can I do that?,blkid -o list,Lists block devices with UUIDs and filesystem types.
+Display a formatted list of block device information,blkid -o list,Lists block devices with UUIDs and filesystem types.
+Please provide a list of all block devices,blkid -o list,Lists block devices with UUIDs and filesystem types.
+Use `blkid` to output device details in a list,blkid -o list,Lists block devices with UUIDs and filesystem types.
+"Generate a report of block devices, UUIDs, and types",blkid -o list,Lists block devices with UUIDs and filesystem types.
+List all disk identifiers and their filesystem types,blkid -o list,Lists block devices with UUIDs and filesystem types.
+How can I see which processes are actively using I/O?,iotop -o,"Displays I/O usage by processes, showing only active ones."
+I want to monitor real-time disk activity for active processes,iotop -o,"Displays I/O usage by processes, showing only active ones."
+"What command displays current I/O usage, focusing on active ones?",iotop -o,"Displays I/O usage by processes, showing only active ones."
+Show me the I/O operations from currently active processes,iotop -o,"Displays I/O usage by processes, showing only active ones."
+How do I display processes that are currently performing I/O?,iotop -o,"Displays I/O usage by processes, showing only active ones."
+Can you run iotop but only for processes with actual I/O?,iotop -o,"Displays I/O usage by processes, showing only active ones."
+I need to find out which applications are actively using the disk,iotop -o,"Displays I/O usage by processes, showing only active ones."
+Which command reveals only the I/O-intensive processes?,iotop -o,"Displays I/O usage by processes, showing only active ones."
+"Display the real-time I/O activity, filtering out idle processes",iotop -o,"Displays I/O usage by processes, showing only active ones."
+"What's the command to monitor I/O usage, showing only processes that are currently active?",iotop -o,"Displays I/O usage by processes, showing only active ones."
+I'm troubleshooting slow disk performance; how do I see what's actively hitting the disk?,iotop -o,"Displays I/O usage by processes, showing only active ones."
+Give me the command to view active I/O operations on the system,iotop -o,"Displays I/O usage by processes, showing only active ones."
+What's the `setfacl` command to recursively grant `user` read and execute permissions on `/data`?,setfacl -R -m u:user:rx /data,Recursively grants user read and execute permissions on /data using ACL.
+How do I use ACLs to give `user` recursive read and execute access to `/data`?,setfacl -R -m u:user:rx /data,Recursively grants user read and execute permissions on /data using ACL.
+I need `user` to have recursive read and execute permissions on `/data` via ACLs. What command do I run?,setfacl -R -m u:user:rx /data,Recursively grants user read and execute permissions on /data using ACL.
+Grant `user` recursive r-x permissions on `/data` using `setfacl`,setfacl -R -m u:user:rx /data,Recursively grants user read and execute permissions on /data using ACL.
+How can I set ACLs to provide `u:user:rx` recursively on `/data`?,setfacl -R -m u:user:rx /data,Recursively grants user read and execute permissions on /data using ACL.
+"I want to enable `user` to read and execute everything inside `/data` and its subdirectories, specifically with ACLs. What's the command?",setfacl -R -m u:user:rx /data,Recursively grants user read and execute permissions on /data using ACL.
+Could you show me the `setfacl` command that adds recursive read and execute for `user` on `/data`?,setfacl -R -m u:user:rx /data,Recursively grants user read and execute permissions on /data using ACL.
+What's the Linux command to give `user` recursive read and execute access to `/data` using an ACL?,setfacl -R -m u:user:rx /data,Recursively grants user read and execute permissions on /data using ACL.
+I need to recursively apply read and execute permissions for `user` on `/data` via ACL. How?,setfacl -R -m u:user:rx /data,Recursively grants user read and execute permissions on /data using ACL.
+"My user `user` needs to be able to read and execute files within `/data` and all its subdirectories, but I only want to grant this via an Access Control List. What's the appropriate command?",setfacl -R -m u:user:rx /data,Recursively grants user read and execute permissions on /data using ACL.
+ACL for `/data`: give `user` recursive r-x,setfacl -R -m u:user:rx /data,Recursively grants user read and execute permissions on /data using ACL.
+"Using ACLs, what command will grant recursive read and execute access to `/data` for `user`?",setfacl -R -m u:user:rx /data,Recursively grants user read and execute permissions on /data using ACL.
+How do I remove ACL entries for 'user' from 'file.txt'?,setfacl -x u:user file.txt,Removes ACL entries for user from file.txt.
+What's the command to revoke user's ACL permissions on file.txt?,setfacl -x u:user file.txt,Removes ACL entries for user from file.txt.
+I need to take away all ACL access for 'user' from 'file.txt',setfacl -x u:user file.txt,Removes ACL entries for user from file.txt.
+Remove 'user' from file.txt's access control list,setfacl -x u:user file.txt,Removes ACL entries for user from file.txt.
+'user' still has ACL access to 'file.txt' and I want to delete it. How?,setfacl -x u:user file.txt,Removes ACL entries for user from file.txt.
+How to delete a specific user's ACL entry on file.txt?,setfacl -x u:user file.txt,Removes ACL entries for user from file.txt.
+What setfacl command removes 'user' from file.txt?,setfacl -x u:user file.txt,Removes ACL entries for user from file.txt.
+Revoke 'user's' file.txt access control list entries,setfacl -x u:user file.txt,Removes ACL entries for user from file.txt.
+I want to remove all ACL settings for 'user' on 'file.txt',setfacl -x u:user file.txt,Removes ACL entries for user from file.txt.
+Could you show me how to completely clear 'user's' ACL access for 'file.txt'?,setfacl -x u:user file.txt,Removes ACL entries for user from file.txt.
+How do I clear an ACL entry for 'user' from 'file.txt'?,setfacl -x u:user file.txt,Removes ACL entries for user from file.txt.
+What's the best way to remove user-specific ACL rules from file.txt?,setfacl -x u:user file.txt,Removes ACL entries for user from file.txt.
+How do I recursively set the SELinux context for `/home/user` to `user_home_t`?,chcon -R -t user_home_t /home/user,Recursively sets SELinux context for /home/user to user_home_t.
+What's the command to change the SELinux type of `/home/user` and all its contents to `user_home_t`?,chcon -R -t user_home_t /home/user,Recursively sets SELinux context for /home/user to user_home_t.
+I need to apply the `user_home_t` SELinux label to `/home/user` and everything inside it. What command should I use?,chcon -R -t user_home_t /home/user,Recursively sets SELinux context for /home/user to user_home_t.
+My files in `/home/user` seem to have incorrect SELinux contexts. How can I fix them to `user_home_t` recursively?,chcon -R -t user_home_t /home/user,Recursively sets SELinux context for /home/user to user_home_t.
+Could you give me the command to relabel `/home/user` and all subdirectories/files with `user_home_t`?,chcon -R -t user_home_t /home/user,Recursively sets SELinux context for /home/user to user_home_t.
+I'm troubleshooting SELinux denials related to my home directory. What's the best way to ensure `/home/user` and its contents are properly tagged with `user_home_t`?,chcon -R -t user_home_t /home/user,Recursively sets SELinux context for /home/user to user_home_t.
+I want to make sure all files and folders under `/home/user` have the `user_home_t` SELinux context. What's the command for that?,chcon -R -t user_home_t /home/user,Recursively sets SELinux context for /home/user to user_home_t.
+What's the `chcon` command to recursively assign `user_home_t` to `/home/user`?,chcon -R -t user_home_t /home/user,Recursively sets SELinux context for /home/user to user_home_t.
+How can I restore the default SELinux context of `user_home_t` for `/home/user` and its entire hierarchy?,chcon -R -t user_home_t /home/user,Recursively sets SELinux context for /home/user to user_home_t.
+"Tell me how to set the SELinux type for `/home/user` to `user_home_t`, affecting all nested items",chcon -R -t user_home_t /home/user,Recursively sets SELinux context for /home/user to user_home_t.
+I need to fix an SELinux permissions issue in `/home/user`. The contexts need to be `user_home_t` recursively. How do I do that?,chcon -R -t user_home_t /home/user,Recursively sets SELinux context for /home/user to user_home_t.
+What's the command to change the security context of `/home/user` to `user_home_t` for everything inside it?,chcon -R -t user_home_t /home/user,Recursively sets SELinux context for /home/user to user_home_t.
+How do I list SELinux user mappings?,semanage user -l,Lists SELinux user mappings.
+Show me the current SELinux user mappings,semanage user -l,Lists SELinux user mappings.
+Please display the SELinux user assignments,semanage user -l,Lists SELinux user mappings.
+What are the SELinux user mappings?,semanage user -l,Lists SELinux user mappings.
+Can you show me the SELinux user to login mappings?,semanage user -l,Lists SELinux user mappings.
+I need to view the SELinux user mappings,semanage user -l,Lists SELinux user mappings.
+Get me a list of all SELinux user mappings,semanage user -l,Lists SELinux user mappings.
+How can I see the SELinux user mappings?,semanage user -l,Lists SELinux user mappings.
+Display the configured SELinux user mappings,semanage user -l,Lists SELinux user mappings.
+Provide a list of SELinux user mappings,semanage user -l,Lists SELinux user mappings.
+I'd like to check the SELinux user mappings,semanage user -l,Lists SELinux user mappings.
+List the SELinux user-to-login associations,semanage user -l,Lists SELinux user mappings.
+Run `getfattr -d file.txt`,getfattr -d file.txt,Displays extended attributes for file.txt.
+How do I display the extended attributes for `file.txt`?,getfattr -d file.txt,Displays extended attributes for file.txt.
+Show me the extended attributes for `file.txt`,getfattr -d file.txt,Displays extended attributes for file.txt.
+I need to get the extended attributes for `file.txt`,getfattr -d file.txt,Displays extended attributes for file.txt.
+What's the command to view `file.txt`'s extended attributes?,getfattr -d file.txt,Displays extended attributes for file.txt.
+Could you please execute `getfattr -d file.txt`?,getfattr -d file.txt,Displays extended attributes for file.txt.
+How can I see `file.txt`'s extended attributes in a human-readable way?,getfattr -d file.txt,Displays extended attributes for file.txt.
+I'm trying to retrieve the extended attributes of `file.txt`,getfattr -d file.txt,Displays extended attributes for file.txt.
+Display the decoded attributes for `file.txt`,getfattr -d file.txt,Displays extended attributes for file.txt.
+Tell me how to run `getfattr -d file.txt`,getfattr -d file.txt,Displays extended attributes for file.txt.
+Get the extended attributes for `file.txt`,getfattr -d file.txt,Displays extended attributes for file.txt.
+What's the appropriate command to display extended attributes for `file.txt`?,getfattr -d file.txt,Displays extended attributes for file.txt.
+How do I set the `user.comment` extended attribute to 'Test' on `file.txt`?,setfattr -n user.comment -v 'Test' file.txt,Sets a user-defined extended attribute 'user.comment' to 'Test' on file.txt.
+What's the command to add a user comment 'Test' to `file.txt`?,setfattr -n user.comment -v 'Test' file.txt,Sets a user-defined extended attribute 'user.comment' to 'Test' on file.txt.
+I need to assign the value 'Test' to the `user.comment` attribute for `file.txt`. How?,setfattr -n user.comment -v 'Test' file.txt,Sets a user-defined extended attribute 'user.comment' to 'Test' on file.txt.
+Could you show me how to use `setfattr` to put 'Test' as the `user.comment` on `file.txt`?,setfattr -n user.comment -v 'Test' file.txt,Sets a user-defined extended attribute 'user.comment' to 'Test' on file.txt.
+How can I write 'Test' as an extended attribute named `user.comment` for `file.txt`?,setfattr -n user.comment -v 'Test' file.txt,Sets a user-defined extended attribute 'user.comment' to 'Test' on file.txt.
+What's the correct syntax to set `user.comment='Test'` on `file.txt` using `setfattr`?,setfattr -n user.comment -v 'Test' file.txt,Sets a user-defined extended attribute 'user.comment' to 'Test' on file.txt.
+I want to add a custom comment 'Test' to `file.txt`. What's the command?,setfattr -n user.comment -v 'Test' file.txt,Sets a user-defined extended attribute 'user.comment' to 'Test' on file.txt.
+How do I configure `file.txt` with a `user.comment` of 'Test'?,setfattr -n user.comment -v 'Test' file.txt,Sets a user-defined extended attribute 'user.comment' to 'Test' on file.txt.
+Provide the command to set the `user.comment` extended attribute of `file.txt` to 'Test',setfattr -n user.comment -v 'Test' file.txt,Sets a user-defined extended attribute 'user.comment' to 'Test' on file.txt.
+I need to attach the comment 'Test' to `file.txt` as a `user.comment` attribute. What command should I use?,setfattr -n user.comment -v 'Test' file.txt,Sets a user-defined extended attribute 'user.comment' to 'Test' on file.txt.
+Give me the `setfattr` command for setting `user.comment` to 'Test' on `file.txt`,setfattr -n user.comment -v 'Test' file.txt,Sets a user-defined extended attribute 'user.comment' to 'Test' on file.txt.
+What command allows me to apply a user comment 'Test' to `file.txt`?,setfattr -n user.comment -v 'Test' file.txt,Sets a user-defined extended attribute 'user.comment' to 'Test' on file.txt.
+Make `file.txt` append-only,chattr +a file.txt,"Sets the append-only attribute on file.txt, allowing only appending."
+How do I set the append-only attribute on `file.txt`?,chattr +a file.txt,"Sets the append-only attribute on file.txt, allowing only appending."
+Please apply the append-only flag to `file.txt`,chattr +a file.txt,"Sets the append-only attribute on file.txt, allowing only appending."
+"I need `file.txt` to only allow appending, preventing any modifications or deletions",chattr +a file.txt,"Sets the append-only attribute on file.txt, allowing only appending."
+Can you configure `file.txt` so that it's append-only?,chattr +a file.txt,"Sets the append-only attribute on file.txt, allowing only appending."
+Use `chattr` to enable append-only mode for `file.txt`,chattr +a file.txt,"Sets the append-only attribute on file.txt, allowing only appending."
+What's the command to set the `+a` attribute on `file.txt`?,chattr +a file.txt,"Sets the append-only attribute on file.txt, allowing only appending."
+Could you ensure `file.txt` can only be appended to?,chattr +a file.txt,"Sets the append-only attribute on file.txt, allowing only appending."
+Set the append-only permission for `file.txt`,chattr +a file.txt,"Sets the append-only attribute on file.txt, allowing only appending."
+"I want to prevent `file.txt` from being edited, allowing only new data to be added at the end",chattr +a file.txt,"Sets the append-only attribute on file.txt, allowing only appending."
+Run the `chattr` command to make `file.txt` append-only,chattr +a file.txt,"Sets the append-only attribute on file.txt, allowing only appending."
+Implement append-only behavior for `file.txt`,chattr +a file.txt,"Sets the append-only attribute on file.txt, allowing only appending."
+Please run `dump -f backup.tar /dev/sda1`,dump -f backup.tar /dev/sda1,Backs up the /dev/sda1 filesystem to backup.tar.
+I need to back up `/dev/sda1` to `backup.tar`,dump -f backup.tar /dev/sda1,Backs up the /dev/sda1 filesystem to backup.tar.
+Could you execute the dump of `/dev/sda1` to `backup.tar`?,dump -f backup.tar /dev/sda1,Backs up the /dev/sda1 filesystem to backup.tar.
+How do I dump `/dev/sda1` into a file named `backup.tar`?,dump -f backup.tar /dev/sda1,Backs up the /dev/sda1 filesystem to backup.tar.
+Let's create a backup of `/dev/sda1` and save it as `backup.tar`,dump -f backup.tar /dev/sda1,Backs up the /dev/sda1 filesystem to backup.tar.
+"Perform the dump operation on `/dev/sda1`, outputting to `backup.tar`",dump -f backup.tar /dev/sda1,Backs up the /dev/sda1 filesystem to backup.tar.
+Run the `dump` command to put `/dev/sda1` into `backup.tar`,dump -f backup.tar /dev/sda1,Backs up the /dev/sda1 filesystem to backup.tar.
+I'd like to back up the filesystem `/dev/sda1` to `backup.tar`,dump -f backup.tar /dev/sda1,Backs up the /dev/sda1 filesystem to backup.tar.
+Can you `dump` `/dev/sda1` to `backup.tar` please?,dump -f backup.tar /dev/sda1,Backs up the /dev/sda1 filesystem to backup.tar.
+Initiate a full `dump` of `/dev/sda1` to `backup.tar`,dump -f backup.tar /dev/sda1,Backs up the /dev/sda1 filesystem to backup.tar.
+Get `/dev/sda1` backed up to `backup.tar`,dump -f backup.tar /dev/sda1,Backs up the /dev/sda1 filesystem to backup.tar.
+What's the best way to `dump` `/dev/sda1` to `backup.tar`?,dump -f backup.tar /dev/sda1,Backs up the /dev/sda1 filesystem to backup.tar.
+Run `restore -rf backup.tar`,restore -rf backup.tar,Restores the filesystem from backup.tar.
+Please execute `restore -rf backup.tar`,restore -rf backup.tar,Restores the filesystem from backup.tar.
+I need to restore the filesystem from `backup.tar`,restore -rf backup.tar,Restores the filesystem from backup.tar.
+Could you run the command `restore -rf backup.tar`?,restore -rf backup.tar,Restores the filesystem from backup.tar.
+Initiate the restore process using `restore -rf backup.tar`,restore -rf backup.tar,Restores the filesystem from backup.tar.
+Time to run: `restore -rf backup.tar`,restore -rf backup.tar,Restores the filesystem from backup.tar.
+Perform a full restore from `backup.tar`,restore -rf backup.tar,Restores the filesystem from backup.tar.
+Execute the command to restore the filesystem: `restore -rf backup.tar`,restore -rf backup.tar,Restores the filesystem from backup.tar.
+Let's kick off `restore -rf backup.tar`,restore -rf backup.tar,Restores the filesystem from backup.tar.
+Start the filesystem restore from `backup.tar` using the appropriate command,restore -rf backup.tar,Restores the filesystem from backup.tar.
+I'm about to run `restore -rf backup.tar`,restore -rf backup.tar,Restores the filesystem from backup.tar.
+Go ahead and apply `restore -rf backup.tar`,restore -rf backup.tar,Restores the filesystem from backup.tar.
+How do I set a 1GB soft and 2GB hard disk quota for a user on /mnt?,xfs_quota -x -c 'limit bsoft=1g bhard=2g user' /mnt,Sets a 1GB soft and 2GB hard disk quota for user on /mnt.
+What's the command to configure an XFS quota of 1GB soft and 2GB hard for 'user' on /mnt?,xfs_quota -x -c 'limit bsoft=1g bhard=2g user' /mnt,Sets a 1GB soft and 2GB hard disk quota for user on /mnt.
+I need to limit a user's disk space on /mnt to 1GB soft and 2GB hard. What should I type?,xfs_quota -x -c 'limit bsoft=1g bhard=2g user' /mnt,Sets a 1GB soft and 2GB hard disk quota for user on /mnt.
+"Can you show me how to apply a 1GB soft, 2GB hard block quota for 'user' on the /mnt filesystem?",xfs_quota -x -c 'limit bsoft=1g bhard=2g user' /mnt,Sets a 1GB soft and 2GB hard disk quota for user on /mnt.
+I want to add an XFS user quota on /mnt with a 1g soft and 2g hard limit. What's the syntax?,xfs_quota -x -c 'limit bsoft=1g bhard=2g user' /mnt,Sets a 1GB soft and 2GB hard disk quota for user on /mnt.
+Please help me establish a 1GB soft and 2GB hard disk quota for 'user' on /mnt,xfs_quota -x -c 'limit bsoft=1g bhard=2g user' /mnt,Sets a 1GB soft and 2GB hard disk quota for user on /mnt.
+How can I enforce a 1GB soft and 2GB disk usage limit for 'user' on /mnt using xfs_quota?,xfs_quota -x -c 'limit bsoft=1g bhard=2g user' /mnt,Sets a 1GB soft and 2GB hard disk quota for user on /mnt.
+Command to define a 1GB soft and 2GB hard user block quota on /mnt,xfs_quota -x -c 'limit bsoft=1g bhard=2g user' /mnt,Sets a 1GB soft and 2GB hard disk quota for user on /mnt.
+What's the correct way to impose a 1GB soft and 2GB storage quota for a user on /mnt?,xfs_quota -x -c 'limit bsoft=1g bhard=2g user' /mnt,Sets a 1GB soft and 2GB hard disk quota for user on /mnt.
+I need to assign a 1g soft and 2g hard disk quota to 'user' on /mnt. Which command do I use?,xfs_quota -x -c 'limit bsoft=1g bhard=2g user' /mnt,Sets a 1GB soft and 2GB hard disk quota for user on /mnt.
+Set a 1GB soft and 2GB hard disk quota for 'user' on /mnt. Provide the command,xfs_quota -x -c 'limit bsoft=1g bhard=2g user' /mnt,Sets a 1GB soft and 2GB hard disk quota for user on /mnt.
+Generate the command to configure a 1GB soft and 2GB user quota on the /mnt mount point,xfs_quota -x -c 'limit bsoft=1g bhard=2g user' /mnt,Sets a 1GB soft and 2GB hard disk quota for user on /mnt.
+How do I create a tar archive of `/data` that preserves ACLs and extended attributes?,tar --acls --xattrs -cpf backup.tar /data,"Creates a tar archive of /data, preserving ACLs and extended attributes."
+What's the `tar` command to back up `/data` and keep its file permissions and extended attributes intact?,tar --acls --xattrs -cpf backup.tar /data,"Creates a tar archive of /data, preserving ACLs and extended attributes."
+I need to make a tarball of `/data` into `backup.tar` that includes all access control lists and xattrs,tar --acls --xattrs -cpf backup.tar /data,"Creates a tar archive of /data, preserving ACLs and extended attributes."
+"Generate the command to archive `/data` to `backup.tar`, ensuring ACLs and extended attributes are included",tar --acls --xattrs -cpf backup.tar /data,"Creates a tar archive of /data, preserving ACLs and extended attributes."
+"How can I use `tar` to create an exact copy of `/data`, saving its ACLs and extended attributes, into `backup.tar`?",tar --acls --xattrs -cpf backup.tar /data,"Creates a tar archive of /data, preserving ACLs and extended attributes."
+"I want to package the `/data` directory into `backup.tar`, retaining all its metadata like ACLs and extended attributes",tar --acls --xattrs -cpf backup.tar /data,"Creates a tar archive of /data, preserving ACLs and extended attributes."
+Could you tell me the `tar` command for creating a backup of `/data` that fully preserves its ACLs and xattrs?,tar --acls --xattrs -cpf backup.tar /data,"Creates a tar archive of /data, preserving ACLs and extended attributes."
+What's the correct `tar` syntax to archive `/data` into `backup.tar` while maintaining ACLs and extended attributes?,tar --acls --xattrs -cpf backup.tar /data,"Creates a tar archive of /data, preserving ACLs and extended attributes."
+"Help me tar `/data` into `backup.tar`, including the Access Control Lists and Extended Attributes",tar --acls --xattrs -cpf backup.tar /data,"Creates a tar archive of /data, preserving ACLs and extended attributes."
+"I'm looking for the command to make a comprehensive tar archive of `/data`, explicitly including ACLs and extended attributes",tar --acls --xattrs -cpf backup.tar /data,"Creates a tar archive of /data, preserving ACLs and extended attributes."
+"How do I create a tar file named `backup.tar` from the `/data` directory, ensuring all advanced permissions and attributes are saved?",tar --acls --xattrs -cpf backup.tar /data,"Creates a tar archive of /data, preserving ACLs and extended attributes."
+"Give me the `tar` command to create a `backup.tar` of `/data`, preserving ACLs and all xattrs",tar --acls --xattrs -cpf backup.tar /data,"Creates a tar archive of /data, preserving ACLs and extended attributes."
+How can I create a 100MB file filled with zeros on Linux?,dd if=/dev/zero of=file.img bs=1M count=100,Creates a 100MB file.img filled with zeros.
+What's the command to make a 100MB empty file named `file.img`?,dd if=/dev/zero of=file.img bs=1M count=100,Creates a 100MB file.img filled with zeros.
+I need to generate a 100MB zero-filled file. How do I do that?,dd if=/dev/zero of=file.img bs=1M count=100,Creates a 100MB file.img filled with zeros.
+Can you tell me how to create a 100MB test file full of null bytes?,dd if=/dev/zero of=file.img bs=1M count=100,Creates a 100MB file.img filled with zeros.
+What's the simplest way to create a 100-megabyte file of zeros on my system?,dd if=/dev/zero of=file.img bs=1M count=100,Creates a 100MB file.img filled with zeros.
+I'm looking for a command to make a 100MB file named `file.img` filled with zeros,dd if=/dev/zero of=file.img bs=1M count=100,Creates a 100MB file.img filled with zeros.
+How do I make a 100MB dummy file containing only zeros?,dd if=/dev/zero of=file.img bs=1M count=100,Creates a 100MB file.img filled with zeros.
+Generate a 100MB `file.img` with all its bytes set to zero. What's the command?,dd if=/dev/zero of=file.img bs=1M count=100,Creates a 100MB file.img filled with zeros.
+I need to provision a 100MB file with zeros. How should I do it?,dd if=/dev/zero of=file.img bs=1M count=100,Creates a 100MB file.img filled with zeros.
+What's the bash command to create a 100MB zeroed `file.img`?,dd if=/dev/zero of=file.img bs=1M count=100,Creates a 100MB file.img filled with zeros.
+Could you give me the command to create a 100MB `file.img` filled with nulls?,dd if=/dev/zero of=file.img bs=1M count=100,Creates a 100MB file.img filled with zeros.
+I want to create a file of a specific size (100MB) and fill it with zeros. How?,dd if=/dev/zero of=file.img bs=1M count=100,Creates a 100MB file.img filled with zeros.
+Run `zcmp file1.gz file2.gz`,zcmp file1.gz file2.gz,Compares two compressed files without decompressing.
+Please compare `file1.gz` and `file2.gz`,zcmp file1.gz file2.gz,Compares two compressed files without decompressing.
+Can you run `zcmp` on `file1.gz` and `file2.gz` for me?,zcmp file1.gz file2.gz,Compares two compressed files without decompressing.
+I need to compare `file1.gz` and `file2.gz` without decompressing them,zcmp file1.gz file2.gz,Compares two compressed files without decompressing.
+Execute `zcmp` with `file1.gz` and `file2.gz` as arguments,zcmp file1.gz file2.gz,Compares two compressed files without decompressing.
+How do I check if `file1.gz` and `file2.gz` are identical?,zcmp file1.gz file2.gz,Compares two compressed files without decompressing.
+Perform a `zcmp` comparison on `file1.gz` and `file2.gz`,zcmp file1.gz file2.gz,Compares two compressed files without decompressing.
+Could you compare `file1.gz` against `file2.gz`?,zcmp file1.gz file2.gz,Compares two compressed files without decompressing.
+Use the compressed comparison utility for `file1.gz` and `file2.gz`,zcmp file1.gz file2.gz,Compares two compressed files without decompressing.
+Check for differences between `file1.gz` and `file2.gz` using the appropriate command,zcmp file1.gz file2.gz,Compares two compressed files without decompressing.
+Please run the command to compare `file1.gz` and `file2.gz` directly,zcmp file1.gz file2.gz,Compares two compressed files without decompressing.
+I'd like to run `zcmp` on `file1.gz` and `file2.gz`,zcmp file1.gz file2.gz,Compares two compressed files without decompressing.
+"How do I compare two compressed files, file1.gz and file2.gz?",zdiff file1.gz file2.gz,Shows differences between two compressed files.
+What's the command to show differences between file1.gz and file2.gz?,zdiff file1.gz file2.gz,Shows differences between two compressed files.
+Please display the differences between file1.gz and file2.gz,zdiff file1.gz file2.gz,Shows differences between two compressed files.
+I need to diff file1.gz and file2.gz. What command should I use?,zdiff file1.gz file2.gz,Shows differences between two compressed files.
+Can you run `zdiff` on file1.gz and file2.gz?,zdiff file1.gz file2.gz,Shows differences between two compressed files.
+Show me the contents difference between file1.gz and file2.gz,zdiff file1.gz file2.gz,Shows differences between two compressed files.
+How do I get a diff of file1.gz and file2.gz?,zdiff file1.gz file2.gz,Shows differences between two compressed files.
+I want to compare file1.gz and file2.gz,zdiff file1.gz file2.gz,Shows differences between two compressed files.
+What are the differences between file1.gz and file2.gz?,zdiff file1.gz file2.gz,Shows differences between two compressed files.
+Tell me how to find the differences in file1.gz and file2.gz,zdiff file1.gz file2.gz,Shows differences between two compressed files.
+Could you please run the `zdiff` command for file1.gz and file2.gz?,zdiff file1.gz file2.gz,Shows differences between two compressed files.
+I'd like to see a comparison report for file1.gz and file2.gz,zdiff file1.gz file2.gz,Shows differences between two compressed files.
+How do I convert a hexdump (`hexdump.txt`) back into a binary file (`file.bin`)?,xxd -r -p hexdump.txt file.bin,Converts a hexdump in hexdump.txt back to binary file.bin.
+What's the command to restore `file.bin` from its hexadecimal dump `hexdump.txt`?,xxd -r -p hexdump.txt file.bin,Converts a hexdump in hexdump.txt back to binary file.bin.
+I need to decode `hexdump.txt` into `file.bin`. What `xxd` command should I use?,xxd -r -p hexdump.txt file.bin,Converts a hexdump in hexdump.txt back to binary file.bin.
+How can I turn a plain hexdump (`hexdump.txt`) back into its original binary form (`file.bin`)?,xxd -r -p hexdump.txt file.bin,Converts a hexdump in hexdump.txt back to binary file.bin.
+"Command to reconstruct `file.bin` from `hexdump.txt`, assuming `hexdump.txt` is a raw hex output?",xxd -r -p hexdump.txt file.bin,Converts a hexdump in hexdump.txt back to binary file.bin.
+Could you tell me how to convert `hexdump.txt` (a hexdump) to `file.bin` (a binary file)?,xxd -r -p hexdump.txt file.bin,Converts a hexdump in hexdump.txt back to binary file.bin.
+I have `hexdump.txt` which is a hexdump. How do I get `file.bin` from it?,xxd -r -p hexdump.txt file.bin,Converts a hexdump in hexdump.txt back to binary file.bin.
+"What's the syntax to reverse an `xxd -p` operation, converting `hexdump.txt` back to `file.bin`?",xxd -r -p hexdump.txt file.bin,Converts a hexdump in hexdump.txt back to binary file.bin.
+How do I use `xxd` to take `hexdump.txt` and generate `file.bin` from its contents?,xxd -r -p hexdump.txt file.bin,Converts a hexdump in hexdump.txt back to binary file.bin.
+Need to transform `hexdump.txt` (hexadecimal data) into a binary file called `file.bin`. How is this done?,xxd -r -p hexdump.txt file.bin,Converts a hexdump in hexdump.txt back to binary file.bin.
+"Guide me on converting `hexdump.txt` (a pure hexdump) back into its binary equivalent, `file.bin`",xxd -r -p hexdump.txt file.bin,Converts a hexdump in hexdump.txt back to binary file.bin.
+What's the Linux command to get `file.bin` from `hexdump.txt` (a hexdump)?,xxd -r -p hexdump.txt file.bin,Converts a hexdump in hexdump.txt back to binary file.bin.
+How do I base64 encode `file.bin`?,base64 file.bin,Encodes file.bin to base64 and outputs to stdout.
+What's the command to base64 encode `file.bin`?,base64 file.bin,Encodes file.bin to base64 and outputs to stdout.
+I need to base64 `file.bin`,base64 file.bin,Encodes file.bin to base64 and outputs to stdout.
+Can you show me how to convert `file.bin` to base64?,base64 file.bin,Encodes file.bin to base64 and outputs to stdout.
+Encode `file.bin` to base,base64 file.bin,Encodes file.bin to base64 and outputs to stdout.
+How can I get the base64 representation of `file.bin`?,base64 file.bin,Encodes file.bin to base64 and outputs to stdout.
+What's the Linux command for base64 encoding `file.bin`?,base64 file.bin,Encodes file.bin to base64 and outputs to stdout.
+I want to base64-encode the contents of `file.bin`,base64 file.bin,Encodes file.bin to base64 and outputs to stdout.
+Run `base64` on `file.bin`,base64 file.bin,Encodes file.bin to base64 and outputs to stdout.
+Generate a base64 string from `file.bin`,base64 file.bin,Encodes file.bin to base64 and outputs to stdout.
+How do I base64 `file.bin` and print the result to the console?,base64 file.bin,Encodes file.bin to base64 and outputs to stdout.
+Give me the base64 for `file.bin`,base64 file.bin,Encodes file.bin to base64 and outputs to stdout.
+How do I decode the base64 content in `encoded.txt`?,base64 -d encoded.txt,Decodes base64 content from encoded.txt to stdout.
+Please decode the base64 string stored in `encoded.txt`,base64 -d encoded.txt,Decodes base64 content from encoded.txt to stdout.
+I need to de-base64 the data from `encoded.txt`,base64 -d encoded.txt,Decodes base64 content from encoded.txt to stdout.
+Can you show me how to decode `encoded.txt` using base64?,base64 -d encoded.txt,Decodes base64 content from encoded.txt to stdout.
+Execute the base64 decode operation on `encoded.txt`,base64 -d encoded.txt,Decodes base64 content from encoded.txt to stdout.
+Decode `encoded.txt` as a base64 file,base64 -d encoded.txt,Decodes base64 content from encoded.txt to stdout.
+What's the command to base64-decode `encoded.txt`?,base64 -d encoded.txt,Decodes base64 content from encoded.txt to stdout.
+Extract the original content by decoding `encoded.txt` from base,base64 -d encoded.txt,Decodes base64 content from encoded.txt to stdout.
+Perform a base64 decode on the file named `encoded.txt`,base64 -d encoded.txt,Decodes base64 content from encoded.txt to stdout.
+I want to get the raw data from `encoded.txt` after base64 decoding,base64 -d encoded.txt,Decodes base64 content from encoded.txt to stdout.
+Un-base64 the contents of `encoded.txt`,base64 -d encoded.txt,Decodes base64 content from encoded.txt to stdout.
+Process `encoded.txt` to decode its base64 encoding,base64 -d encoded.txt,Decodes base64 content from encoded.txt to stdout.
+"How do I dump `file.bin` in hexadecimal format, grouped by 4 bytes?",od -t x4 file.bin,"Dumps file.bin in hexadecimal format, 4 bytes per group."
+"Can you show me the command to view `file.bin`'s contents as hexadecimal, with 4 bytes per group?",od -t x4 file.bin,"Dumps file.bin in hexadecimal format, 4 bytes per group."
+"What's the Linux command to display `file.bin` in hex, showing groups of 4 bytes?",od -t x4 file.bin,"Dumps file.bin in hexadecimal format, 4 bytes per group."
+"I need to inspect `file.bin` and see its raw data in hexadecimal, chunked into 4-byte segments. How can I do that?",od -t x4 file.bin,"Dumps file.bin in hexadecimal format, 4 bytes per group."
+"Could you provide the command to hexdump `file.bin`, formatting it with 4 bytes per block?",od -t x4 file.bin,"Dumps file.bin in hexadecimal format, 4 bytes per group."
+"How do I use `od` to output `file.bin` in hexadecimal, ensuring 4-byte groupings?",od -t x4 file.bin,"Dumps file.bin in hexadecimal format, 4 bytes per group."
+"I'm trying to view `file.bin` as hex, with each entry showing 4 bytes. Which command performs this?",od -t x4 file.bin,"Dumps file.bin in hexadecimal format, 4 bytes per group."
+"Give me the command line to represent `file.bin`'s binary content in hexadecimal, separated into 4-byte sequences",od -t x4 file.bin,"Dumps file.bin in hexadecimal format, 4 bytes per group."
+"I want to see `file.bin`'s contents in hex, with each set of 4 bytes grouped together. What's the command for this?",od -t x4 file.bin,"Dumps file.bin in hexadecimal format, 4 bytes per group."
+"How can I get a hexadecimal dump of `file.bin`, with each value block being 4 bytes long?",od -t x4 file.bin,"Dumps file.bin in hexadecimal format, 4 bytes per group."
+"What's the best way to display `file.bin` in hex, making sure to show 4 bytes at a time?",od -t x4 file.bin,"Dumps file.bin in hexadecimal format, 4 bytes per group."
+"I need to output `file.bin` as hexadecimal, with 4 bytes per group. What's the command?",od -t x4 file.bin,"Dumps file.bin in hexadecimal format, 4 bytes per group."
+Run `zmore logfile.gz`,zmore logfile.gz,"Views compressed logfile.gz with pagination, similar to more."
+Please `zmore logfile.gz`,zmore logfile.gz,"Views compressed logfile.gz with pagination, similar to more."
+Could you execute `zmore logfile.gz`?,zmore logfile.gz,"Views compressed logfile.gz with pagination, similar to more."
+Open `logfile.gz` for paginated viewing,zmore logfile.gz,"Views compressed logfile.gz with pagination, similar to more."
+Show me the contents of `logfile.gz` paginated,zmore logfile.gz,"Views compressed logfile.gz with pagination, similar to more."
+Display `logfile.gz` using `zmore`,zmore logfile.gz,"Views compressed logfile.gz with pagination, similar to more."
+I need to page through `logfile.gz`; please do that,zmore logfile.gz,"Views compressed logfile.gz with pagination, similar to more."
+View `logfile.gz` one screen at a time,zmore logfile.gz,"Views compressed logfile.gz with pagination, similar to more."
+Let's inspect `logfile.gz` with `zmore`,zmore logfile.gz,"Views compressed logfile.gz with pagination, similar to more."
+Please decompress and paginate `logfile.gz` for viewing,zmore logfile.gz,"Views compressed logfile.gz with pagination, similar to more."
+"Page through `logfile.gz`, the compressed log file",zmore logfile.gz,"Views compressed logfile.gz with pagination, similar to more."
+Get `logfile.gz` open with `zmore`,zmore logfile.gz,"Views compressed logfile.gz with pagination, similar to more."
+What's the command to capture HTTP traffic on eth0?,tcpdump -i eth0 port 80,Captures HTTP traffic on port 80 via eth0.
+How do I use tcpdump to monitor port 80 on interface eth0?,tcpdump -i eth0 port 80,Captures HTTP traffic on port 80 via eth0.
+I need to sniff all traffic on port 80 coming through eth0. What's the command?,tcpdump -i eth0 port 80,Captures HTTP traffic on port 80 via eth0.
+Give me the tcpdump command to capture traffic on port 80 via eth,tcpdump -i eth0 port 80,Captures HTTP traffic on port 80 via eth0.
+Could you provide the command to capture HTTP requests on eth0?,tcpdump -i eth0 port 80,Captures HTTP traffic on port 80 via eth0.
+Show me how to capture web traffic on eth0 using tcpdump for port,tcpdump -i eth0 port 80,Captures HTTP traffic on port 80 via eth0.
+What's the `tcpdump` command for monitoring port 80 traffic on the `eth0` interface?,tcpdump -i eth0 port 80,Captures HTTP traffic on port 80 via eth0.
+Run tcpdump to capture port 80 packets on eth,tcpdump -i eth0 port 80,Captures HTTP traffic on port 80 via eth0.
+How can I view all HTTP activity on eth0?,tcpdump -i eth0 port 80,Captures HTTP traffic on port 80 via eth0.
+I want to capture traffic on eth0 specifically for port 80. What's the right tcpdump command?,tcpdump -i eth0 port 80,Captures HTTP traffic on port 80 via eth0.
+Please tell me the command to capture only HTTP port traffic on eth,tcpdump -i eth0 port 80,Captures HTTP traffic on port 80 via eth0.
+Get me the command to log all port 80 traffic from eth,tcpdump -i eth0 port 80,Captures HTTP traffic on port 80 via eth0.
+Show me the current nftables rules,nft list ruleset,Displays all active nftables firewall rules.
+List the active nftables firewall rules,nft list ruleset,Displays all active nftables firewall rules.
+Display the nftables ruleset,nft list ruleset,Displays all active nftables firewall rules.
+What are the configured nft rules?,nft list ruleset,Displays all active nftables firewall rules.
+Could you please show me the nftables configuration?,nft list ruleset,Displays all active nftables firewall rules.
+I need to view the nftables rules,nft list ruleset,Displays all active nftables firewall rules.
+Provide the current nftables firewall rules,nft list ruleset,Displays all active nftables firewall rules.
+How do I see the nftables ruleset?,nft list ruleset,Displays all active nftables firewall rules.
+Can you output the nftables rules?,nft list ruleset,Displays all active nftables firewall rules.
+Display all current nftables rules,nft list ruleset,Displays all active nftables firewall rules.
+What are the rules applied by nftables?,nft list ruleset,Displays all active nftables firewall rules.
+Give me the nftables firewall rule list,nft list ruleset,Displays all active nftables firewall rules.
+Run `iptraf-ng -i eth0`,iptraf-ng -i eth0,Monitors network traffic on eth0 interactively.
+How do I monitor `eth0` network traffic interactively?,iptraf-ng -i eth0,Monitors network traffic on eth0 interactively.
+Can you start `iptraf-ng` on interface `eth0`?,iptraf-ng -i eth0,Monitors network traffic on eth0 interactively.
+I need to see live network activity on `eth0`,iptraf-ng -i eth0,Monitors network traffic on eth0 interactively.
+Execute the network monitor `iptraf-ng` for `eth0`,iptraf-ng -i eth0,Monitors network traffic on eth0 interactively.
+Please launch `iptraf-ng` targeting `eth0`,iptraf-ng -i eth0,Monitors network traffic on eth0 interactively.
+Show me the real-time traffic passing through `eth0`,iptraf-ng -i eth0,Monitors network traffic on eth0 interactively.
+What's the command to inspect `eth0` with `iptraf-ng`?,iptraf-ng -i eth0,Monitors network traffic on eth0 interactively.
+Get `iptraf-ng` running on `eth0`,iptraf-ng -i eth0,Monitors network traffic on eth0 interactively.
+I want to watch all the network packets on `eth0`,iptraf-ng -i eth0,Monitors network traffic on eth0 interactively.
+Initiate interactive network monitoring for `eth0` using `iptraf-ng`,iptraf-ng -i eth0,Monitors network traffic on eth0 interactively.
+Start monitoring `eth0` traffic,iptraf-ng -i eth0,Monitors network traffic on eth0 interactively.
+Please run `hping3 -S 192.168.1.1`,hping3 -S 192.168.1.1,Sends TCP SYN packets to 192.168.1.1 for network probing.
+Can you execute `hping3 -S 192.168.1.1` for a SYN scan?,hping3 -S 192.168.1.1,Sends TCP SYN packets to 192.168.1.1 for network probing.
+I need to send TCP SYN packets to 192.168.1.1. Launch `hping3 -S 192.168.1.1`,hping3 -S 192.168.1.1,Sends TCP SYN packets to 192.168.1.1 for network probing.
+Initiate a network probe on 192.168.1.1 by running `hping3 -S 192.168.1.1`,hping3 -S 192.168.1.1,Sends TCP SYN packets to 192.168.1.1 for network probing.
+Let's start `hping3 -S 192.168.1.1` to check the host's SYN response,hping3 -S 192.168.1.1,Sends TCP SYN packets to 192.168.1.1 for network probing.
+Could you run `hping3 -S 192.168.1.1` for me?,hping3 -S 192.168.1.1,Sends TCP SYN packets to 192.168.1.1 for network probing.
+Perform the command `hping3 -S 192.168.1.1` to send SYN packets,hping3 -S 192.168.1.1,Sends TCP SYN packets to 192.168.1.1 for network probing.
+Execute `hping3 -S 192.168.1.1` to test 192.168.1.1's general SYN behavior,hping3 -S 192.168.1.1,Sends TCP SYN packets to 192.168.1.1 for network probing.
+Conduct a SYN probe on 192.168.1.1 using `hping3 -S 192.168.1.1`,hping3 -S 192.168.1.1,Sends TCP SYN packets to 192.168.1.1 for network probing.
+"To send SYN packets to 192.168.1.1, run `hping3 -S 192.168.1.1`",hping3 -S 192.168.1.1,Sends TCP SYN packets to 192.168.1.1 for network probing.
+Begin a `hping3 -S 192.168.1.1` session to analyze the target,hping3 -S 192.168.1.1,Sends TCP SYN packets to 192.168.1.1 for network probing.
+Time to run `hping3 -S 192.168.1.1` and see what's up with that IP,hping3 -S 192.168.1.1,Sends TCP SYN packets to 192.168.1.1 for network probing.
+How do I use netcat to check if port 22 is open on 192.168.1.1?,netcat -zv 192.168.1.1 22,Scans port 22 on 192.168.1.1 for connectivity.
+Can you test connectivity to port 22 on 192.168.1.1 with `nc`?,netcat -zv 192.168.1.1 22,Scans port 22 on 192.168.1.1 for connectivity.
+What's the command to verify if 192.168.1.1 is listening on port 22 using netcat?,netcat -zv 192.168.1.1 22,Scans port 22 on 192.168.1.1 for connectivity.
+I need to quickly scan port 22 on 192.168.1.1. What's the netcat syntax for that?,netcat -zv 192.168.1.1 22,Scans port 22 on 192.168.1.1 for connectivity.
+How can I use `nc` to see if the SSH port (22) is reachable on 192.168.1.1?,netcat -zv 192.168.1.1 22,Scans port 22 on 192.168.1.1 for connectivity.
+Could you show me the netcat command to do a verbose check on port 22 of 192.168.1.1?,netcat -zv 192.168.1.1 22,Scans port 22 on 192.168.1.1 for connectivity.
+What's the best way to determine if port 22 is active on 192.168.1.1 using a network utility like netcat?,netcat -zv 192.168.1.1 22,Scans port 22 on 192.168.1.1 for connectivity.
+I want to check port 22 on 192.168.1.1 for responsiveness. What's the `netcat` command?,netcat -zv 192.168.1.1 22,Scans port 22 on 192.168.1.1 for connectivity.
+"How do I perform a basic port scan on 192.168.1.1, specifically for port 22, with `nc`?",netcat -zv 192.168.1.1 22,Scans port 22 on 192.168.1.1 for connectivity.
+"Can netcat tell me if 192.168.1.1 has port 22 open? If so, what's the command?",netcat -zv 192.168.1.1 22,Scans port 22 on 192.168.1.1 for connectivity.
+I need to confirm if port 22 is accessible on 192.168.1.1. What `nc` command should I run?,netcat -zv 192.168.1.1 22,Scans port 22 on 192.168.1.1 for connectivity.
+What's the Linux command to test the connection to port 22 on host 192.168.1.1 using netcat?,netcat -zv 192.168.1.1 22,Scans port 22 on 192.168.1.1 for connectivity.
+Please run the command `ipset create myset hash:ip`,ipset create myset hash:ip,Creates an IP set named myset for firewall rules.
+Could you create an IP set named `myset` of type `hash:ip`?,ipset create myset hash:ip,Creates an IP set named myset for firewall rules.
+I need to create an IP set for firewall rules. Set up `myset` as a `hash:ip` type,ipset create myset hash:ip,Creates an IP set named myset for firewall rules.
+Execute `ipset create myset hash:ip`,ipset create myset hash:ip,Creates an IP set named myset for firewall rules.
+"Using the `ipset` utility, create a new set called `myset` as a `hash:ip`",ipset create myset hash:ip,Creates an IP set named myset for firewall rules.
+Would you mind running `ipset create myset hash:ip`?,ipset create myset hash:ip,Creates an IP set named myset for firewall rules.
+Go ahead and create the IP set `myset` with `hash:ip`,ipset create myset hash:ip,Creates an IP set named myset for firewall rules.
+I want to make an IP set. Run the command `ipset create myset hash:ip`,ipset create myset hash:ip,Creates an IP set named myset for firewall rules.
+Create `myset` (`hash:ip`) using `ipset`,ipset create myset hash:ip,Creates an IP set named myset for firewall rules.
+"Can you please initiate the creation of an IP set called `myset`, using the `hash:ip` configuration?",ipset create myset hash:ip,Creates an IP set named myset for firewall rules.
+Perform `ipset create myset hash:ip`,ipset create myset hash:ip,Creates an IP set named myset for firewall rules.
+Make an IP set for me: `ipset create myset hash:ip`,ipset create myset hash:ip,Creates an IP set named myset for firewall rules.
+How do I capture 10 packets on eth0 using tshark?,tshark -i eth0 -c 10,Captures 10 packets on eth0 using Wireshark's terminal interface.
+What's the tshark command to capture 10 packets from eth0?,tshark -i eth0 -c 10,Captures 10 packets on eth0 using Wireshark's terminal interface.
+I need to grab 10 packets from eth0 with tshark,tshark -i eth0 -c 10,Captures 10 packets on eth0 using Wireshark's terminal interface.
+Run tshark to capture 10 packets on interface eth,tshark -i eth0 -c 10,Captures 10 packets on eth0 using Wireshark's terminal interface.
+Can you provide the command for tshark to capture only 10 packets on eth0?,tshark -i eth0 -c 10,Captures 10 packets on eth0 using Wireshark's terminal interface.
+How do I limit tshark to 10 packets on the eth0 interface?,tshark -i eth0 -c 10,Captures 10 packets on eth0 using Wireshark's terminal interface.
+What's the syntax for tshark to sniff 10 packets off eth0?,tshark -i eth0 -c 10,Captures 10 packets on eth0 using Wireshark's terminal interface.
+I'm looking for the tshark command to get the first 10 packets on eth,tshark -i eth0 -c 10,Captures 10 packets on eth0 using Wireshark's terminal interface.
+Capture 10 packets on eth0 with tshark,tshark -i eth0 -c 10,Captures 10 packets on eth0 using Wireshark's terminal interface.
+"Tshark, 10 packets, eth",tshark -i eth0 -c 10,Captures 10 packets on eth0 using Wireshark's terminal interface.
+How to capture 10 network packets on eth0 using the tshark utility?,tshark -i eth0 -c 10,Captures 10 packets on eth0 using Wireshark's terminal interface.
+What command do I use to monitor 10 packets on eth0 via tshark?,tshark -i eth0 -c 10,Captures 10 packets on eth0 using Wireshark's terminal interface.
+Generate a secure 16-character password,pwgen -s 16 1,Generates one secure 16-character random password.
+Could you please generate a secure 16-character password for me?,pwgen -s 16 1,Generates one secure 16-character random password.
+I need one 16-character random password,pwgen -s 16 1,Generates one secure 16-character random password.
+Please give me a secure password that is 16 characters long,pwgen -s 16 1,Generates one secure 16-character random password.
+"Show me a single, secure, 16-character password",pwgen -s 16 1,Generates one secure 16-character random password.
+Can I get a new 16-character secure password?,pwgen -s 16 1,Generates one secure 16-character random password.
+"Generate a random, 16-character, secure password",pwgen -s 16 1,Generates one secure 16-character random password.
+I'm looking for a secure 16-character password,pwgen -s 16 1,Generates one secure 16-character random password.
+Could you provide a 16-character secure password?,pwgen -s 16 1,Generates one secure 16-character random password.
+What's a good secure 16-character password I can use?,pwgen -s 16 1,Generates one secure 16-character random password.
+"Just one secure 16-character password, please",pwgen -s 16 1,Generates one secure 16-character random password.
+Generate me a secure 16-character password,pwgen -s 16 1,Generates one secure 16-character random password.
+"Create a new group called newgroup, giving it a GID of",addgroup --gid 2000 newgroup,Creates a group named newgroup with GID 2000.
+I need to add the group 'newgroup' and assign it GID,addgroup --gid 2000 newgroup,Creates a group named newgroup with GID 2000.
+Can you please make a group named 'newgroup' with a group ID of 2000?,addgroup --gid 2000 newgroup,Creates a group named newgroup with GID 2000.
+Add a group 'newgroup' with GID,addgroup --gid 2000 newgroup,Creates a group named newgroup with GID 2000.
+Set up the group 'newgroup' and specify its GID as,addgroup --gid 2000 newgroup,Creates a group named newgroup with GID 2000.
+I want to create 'newgroup' and ensure its GID is,addgroup --gid 2000 newgroup,Creates a group named newgroup with GID 2000.
+Please create a new group entry for 'newgroup' with GID,addgroup --gid 2000 newgroup,Creates a group named newgroup with GID 2000.
+Could you provision a group named 'newgroup' with the ID 2000?,addgroup --gid 2000 newgroup,Creates a group named newgroup with GID 2000.
+Make group 'newgroup' and give it the identifier,addgroup --gid 2000 newgroup,Creates a group named newgroup with GID 2000.
+I need to register a group called 'newgroup' with GID,addgroup --gid 2000 newgroup,Creates a group named newgroup with GID 2000.
+"Establish 'newgroup' as a new group, assigning GID",addgroup --gid 2000 newgroup,Creates a group named newgroup with GID 2000.
+"New group 'newgroup', GID",addgroup --gid 2000 newgroup,Creates a group named newgroup with GID 2000.
+"How do I set the expiration date for the `user` account to December 31st, 2025?",usermod -e 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+I need to make the `user` account expire on 2025-12-31. What's the command for that?,usermod -e 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+What command is used to set `user`'s account expiration to 2025-12-31?,usermod -e 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+"Set the `user` account's expiry date to December 31st,",usermod -e 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+How can I expire the `user` account on 2025-12-31?,usermod -e 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+Could you give me the command to set the account expiry for `user` to 2025-12-31?,usermod -e 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+"I want to make `user`'s account inactive after December 31st, 2025. What's the procedure?",usermod -e 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+What's the Linux command to set an account expiration for `user` to the end of 2025?,usermod -e 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+Can you show me how to configure `user`'s account to expire on 2025-12-31?,usermod -e 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+"Give me the command to expire `user` on December 31st,",usermod -e 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+How do you assign an expiration date of 2025-12-31 to the `user` account?,usermod -e 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+I need to set the account termination date for `user` to,usermod -e 2025-12-31 user,"Sets the account expiration date for user to Dec 31, 2025."
+Run the `lastlog` command,lastlog,Displays last login information for all users.
+Show me everyone's last login,lastlog,Displays last login information for all users.
+How do I display the last login times for all users?,lastlog,Displays last login information for all users.
+Can you get me the last login information?,lastlog,Displays last login information for all users.
+I need to view the system's user login history,lastlog,Displays last login information for all users.
+What's the last login for all accounts?,lastlog,Displays last login information for all users.
+Please check when users last logged in,lastlog,Displays last login information for all users.
+Could you provide the last login details?,lastlog,Displays last login information for all users.
+Retrieve the full last login report,lastlog,Displays last login information for all users.
+I want to see the last login dates for all system users,lastlog,Displays last login information for all users.
+Generate a list of last login times,lastlog,Displays last login information for all users.
+Execute the `lastlog` utility,lastlog,Displays last login information for all users.
+Display failed login attempts for user,faillog -u user,Displays failed login attempts for user.
+Show me user's failed login history,faillog -u user,Displays failed login attempts for user.
+How do I check for user's unsuccessful login attempts?,faillog -u user,Displays failed login attempts for user.
+Run faillog for user,faillog -u user,Displays failed login attempts for user.
+I need to see user's login failures,faillog -u user,Displays failed login attempts for user.
+Can you provide the failed login report for user?,faillog -u user,Displays failed login attempts for user.
+What were the failed login attempts recorded for user?,faillog -u user,Displays failed login attempts for user.
+Check user's recent failed login attempts,faillog -u user,Displays failed login attempts for user.
+Get me the faillog output for user,faillog -u user,Displays failed login attempts for user.
+Please list all failed login tries for user,faillog -u user,Displays failed login attempts for user.
+I want to view the details of user's failed logins,faillog -u user,Displays failed login attempts for user.
+Provide information on user's failed access attempts,faillog -u user,Displays failed login attempts for user.
+Show me the cron jobs for user,crontab -u user -l,Lists cron jobs for user.
+Display user's crontab entries,crontab -u user -l,Lists cron jobs for user.
+View the scheduled tasks for user,crontab -u user -l,Lists cron jobs for user.
+What are the cron jobs for user?,crontab -u user -l,Lists cron jobs for user.
+Can I see the crontab for user?,crontab -u user -l,Lists cron jobs for user.
+I need to get all the cron jobs for user,crontab -u user -l,Lists cron jobs for user.
+List the scheduled tasks belonging to user,crontab -u user -l,Lists cron jobs for user.
+Retrieve the crontab configuration for user,crontab -u user -l,Lists cron jobs for user.
+How do I see user's cron schedule?,crontab -u user -l,Lists cron jobs for user.
+Tell me what cron entries user has,crontab -u user -l,Lists cron jobs for user.
+Output the cron jobs configured for user,crontab -u user -l,Lists cron jobs for user.
+Please show me all the entries in user's crontab,crontab -u user -l,Lists cron jobs for user.
+Run systemctl status nginx,systemctl status nginx,Shows the status of the nginx service.
+What's the status of the Nginx service?,systemctl status nginx,Shows the status of the nginx service.
+How do I check Nginx's current state?,systemctl status nginx,Shows the status of the nginx service.
+Can you show me the Nginx service status?,systemctl status nginx,Shows the status of the nginx service.
+I need to see if Nginx is running. What's the command?,systemctl status nginx,Shows the status of the nginx service.
+Display Nginx status,systemctl status nginx,Shows the status of the nginx service.
+Please execute `systemctl status nginx`,systemctl status nginx,Shows the status of the nginx service.
+Could you give me an update on Nginx's condition?,systemctl status nginx,Shows the status of the nginx service.
+Show me the `systemctl` output for Nginx,systemctl status nginx,Shows the status of the nginx service.
+Is the Nginx service up and running?,systemctl status nginx,Shows the status of the nginx service.
+I want to check the health of Nginx,systemctl status nginx,Shows the status of the nginx service.
+"Nginx status report, please",systemctl status nginx,Shows the status of the nginx service.
+Please execute the command `pidstat -w 1 3`,pidstat -w 1 3,Reports task switching activity every second for 3 iterations.
+Can you run `pidstat -w 1 3` for me?,pidstat -w 1 3,Reports task switching activity every second for 3 iterations.
+I need a report on task switching activity. Show me the output of `pidstat -w 1 3`,pidstat -w 1 3,Reports task switching activity every second for 3 iterations.
+"Generate a `pidstat` report on task switches, updating every second, for three iterations",pidstat -w 1 3,Reports task switching activity every second for 3 iterations.
+Could you fire off `pidstat -w 1 3`?,pidstat -w 1 3,Reports task switching activity every second for 3 iterations.
+Let's see the task switching data; run `pidstat -w 1 3`,pidstat -w 1 3,Reports task switching activity every second for 3 iterations.
+Perform `pidstat -w 1 3` to monitor task context switches,pidstat -w 1 3,Reports task switching activity every second for 3 iterations.
+"Show me the `pidstat -w 1 3` output, please",pidstat -w 1 3,Reports task switching activity every second for 3 iterations.
+Initiate `pidstat -w 1 3` to check task switching,pidstat -w 1 3,Reports task switching activity every second for 3 iterations.
+I want to track task switching for 3 seconds. Run `pidstat -w 1 3`,pidstat -w 1 3,Reports task switching activity every second for 3 iterations.
+Could you launch `pidstat` with the `-w 1 3` parameters?,pidstat -w 1 3,Reports task switching activity every second for 3 iterations.
+Go ahead and run `pidstat -w 1 3`,pidstat -w 1 3,Reports task switching activity every second for 3 iterations.
+Run lscgroup,lscgroup,Lists control groups in the system.
+Execute the lscgroup command,lscgroup,Lists control groups in the system.
+Please list the control groups,lscgroup,Lists control groups in the system.
+Show me the output of lscgroup,lscgroup,Lists control groups in the system.
+Could you run lscgroup for me?,lscgroup,Lists control groups in the system.
+I want to see the system's control groups,lscgroup,Lists control groups in the system.
+Display the control groups,lscgroup,Lists control groups in the system.
+Perform lscgroup,lscgroup,Lists control groups in the system.
+Invoke the lscgroup utility,lscgroup,Lists control groups in the system.
+What are the control groups on this system?,lscgroup,Lists control groups in the system.
+Get me a list of the control groups,lscgroup,Lists control groups in the system.
+Run the lscgroup program,lscgroup,Lists control groups in the system.
+How do I run `command` with idle I/O priority?,ionice -c3 command,Runs command with idle I/O priority.
+I want to execute `command` at the lowest possible disk priority,ionice -c3 command,Runs command with idle I/O priority.
+Can you launch `command` so its disk operations only happen when the system is idle?,ionice -c3 command,Runs command with idle I/O priority.
+What's the way to run `command` using the `ionice -c3` setting?,ionice -c3 command,Runs command with idle I/O priority.
+How can I run `command` without affecting the speed of other applications' disk access?,ionice -c3 command,Runs command with idle I/O priority.
+I need to run `command` with minimal impact on overall system disk performance,ionice -c3 command,Runs command with idle I/O priority.
+Is there a command to make `command` wait for other I/O before performing its own?,ionice -c3 command,Runs command with idle I/O priority.
+Could you please execute `command` with the I/O priority set to idle?,ionice -c3 command,Runs command with idle I/O priority.
+I'm running `command` and want its disk usage to be the very lowest priority,ionice -c3 command,Runs command with idle I/O priority.
+How do I give `command` an I/O priority class of 3?,ionice -c3 command,Runs command with idle I/O priority.
+I want to launch `command` so its disk activity is completely non-urgent,ionice -c3 command,Runs command with idle I/O priority.
+Please run `command` with the lowest possible impact on disk latency,ionice -c3 command,Runs command with idle I/O priority.
+How do I bind process 1234 to CPUs 0-3?,taskset -cp 0-3 1234,Binds process with PID 1234 to CPUs 0-3.
+What command do I use to make PID 1234 execute only on cores 0 through 3?,taskset -cp 0-3 1234,Binds process with PID 1234 to CPUs 0-3.
+Could you show me how to set the CPU affinity for process 1234 to cores 0-3?,taskset -cp 0-3 1234,Binds process with PID 1234 to CPUs 0-3.
+"I want to limit the execution of PID 1234 to CPU cores 0, 1, 2, and 3. How can I achieve this?",taskset -cp 0-3 1234,Binds process with PID 1234 to CPUs 0-3.
+"How do I pin process ID 1234 to specific CPUs, namely 0 through 3?",taskset -cp 0-3 1234,Binds process with PID 1234 to CPUs 0-3.
+What's the proper way to restrict process 1234 to run exclusively on CPUs 0-3?,taskset -cp 0-3 1234,Binds process with PID 1234 to CPUs 0-3.
+"I need to configure process 1234 so it only uses CPU 0, 1, 2, and 3. What's the command?",taskset -cp 0-3 1234,Binds process with PID 1234 to CPUs 0-3.
+Can you tell me the `taskset` command to assign process 1234 to cores 0-3?,taskset -cp 0-3 1234,Binds process with PID 1234 to CPUs 0-3.
+How do I make sure PID 1234 is scheduled only on cores 0-3?,taskset -cp 0-3 1234,Binds process with PID 1234 to CPUs 0-3.
+Give me the command to force process 1234 to run on CPU cores,taskset -cp 0-3 1234,Binds process with PID 1234 to CPUs 0-3.
+I want to isolate process 1234 to CPUs 0-3 for performance reasons. How's that done?,taskset -cp 0-3 1234,Binds process with PID 1234 to CPUs 0-3.
+What's the syntax to set the processor mask for PID 1234 to cores 0-3?,taskset -cp 0-3 1234,Binds process with PID 1234 to CPUs 0-3.
+How do I view the logs from the last system boot?,journalctl -b,Displays system logs since the last boot.
+What's the command to check boot-time messages?,journalctl -b,Displays system logs since the last boot.
+Can you show me the system journal entries since the last startup?,journalctl -b,Displays system logs since the last boot.
+I need to see what happened during the most recent boot cycle,journalctl -b,Displays system logs since the last boot.
+How do I access the boot logs in Linux?,journalctl -b,Displays system logs since the last boot.
+What command displays the logs generated during system startup?,journalctl -b,Displays system logs since the last boot.
+Show me the full system logs recorded from the last time my computer started,journalctl -b,Displays system logs since the last boot.
+I want to review the events that occurred since the last reboot,journalctl -b,Displays system logs since the last boot.
+Where can I find the system's boot log information?,journalctl -b,Displays system logs since the last boot.
+How can I examine the logs created immediately after power-on?,journalctl -b,Displays system logs since the last boot.
+Could you provide the command to view the boot-specific journal?,journalctl -b,Displays system logs since the last boot.
+Give me the command to see all logs since the machine last booted up,journalctl -b,Displays system logs since the last boot.
+Show me the disk partitions,parted -l,Lists partition tables for all disks.
+How do I list all the partition tables on my system?,parted -l,Lists partition tables for all disks.
+Could you please display the partition layout for all drives?,parted -l,Lists partition tables for all disks.
+I need to see the partition information for every disk,parted -l,Lists partition tables for all disks.
+What command do I use to list all disk partitions?,parted -l,Lists partition tables for all disks.
+List the partition tables for all connected disks,parted -l,Lists partition tables for all disks.
+Can you show me the partition details for each drive?,parted -l,Lists partition tables for all disks.
+I want to view the partition maps across all my storage devices,parted -l,Lists partition tables for all disks.
+What are the partitions on this machine?,parted -l,Lists partition tables for all disks.
+Display a summary of all disk partitions,parted -l,Lists partition tables for all disks.
+How do I get a list of all existing partition tables?,parted -l,Lists partition tables for all disks.
+Let's see the partition layout for every disk,parted -l,Lists partition tables for all disks.
+Which Debian package provides /usr/bin/nginx?,apt-file search /usr/bin/nginx,Finds which package provides /usr/bin/nginx on Debian-based systems.
+How do I find out which package installed /usr/bin/nginx?,apt-file search /usr/bin/nginx,Finds which package provides /usr/bin/nginx on Debian-based systems.
+What software package does /usr/bin/nginx belong to?,apt-file search /usr/bin/nginx,Finds which package provides /usr/bin/nginx on Debian-based systems.
+I need to identify the package that owns the file /usr/bin/nginx,apt-file search /usr/bin/nginx,Finds which package provides /usr/bin/nginx on Debian-based systems.
+Can you tell me the source package for /usr/bin/nginx?,apt-file search /usr/bin/nginx,Finds which package provides /usr/bin/nginx on Debian-based systems.
+How can I determine which package contains /usr/bin/nginx?,apt-file search /usr/bin/nginx,Finds which package provides /usr/bin/nginx on Debian-based systems.
+What's the best way to find the package associated with /usr/bin/nginx on a Debian-based system?,apt-file search /usr/bin/nginx,Finds which package provides /usr/bin/nginx on Debian-based systems.
+I'm looking for the package that /usr/bin/nginx came from,apt-file search /usr/bin/nginx,Finds which package provides /usr/bin/nginx on Debian-based systems.
+Which distribution package supplies /usr/bin/nginx?,apt-file search /usr/bin/nginx,Finds which package provides /usr/bin/nginx on Debian-based systems.
+How do I trace /usr/bin/nginx back to its original package?,apt-file search /usr/bin/nginx,Finds which package provides /usr/bin/nginx on Debian-based systems.
+What package is responsible for providing /usr/bin/nginx?,apt-file search /usr/bin/nginx,Finds which package provides /usr/bin/nginx on Debian-based systems.
+Where can I find which package includes /usr/bin/nginx?,apt-file search /usr/bin/nginx,Finds which package provides /usr/bin/nginx on Debian-based systems.

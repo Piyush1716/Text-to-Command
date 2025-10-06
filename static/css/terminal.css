@@ -1,0 +1,226 @@
+/* Windows Terminal-inspired dark theme UI (limited to 5 colors) */
+:root {
+  --bg: #0c0c0c; /* background (near black) */
+  --fg: #f3f4f6; /* foreground (off white) */
+  --muted: #9ca3af; /* muted gray */
+  --accent: #22c55e; /* green accent for commands/caret */
+  --danger: #ef4444; /* error red */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--fg);
+  margin: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+.titlebar {
+  height: 44px;
+  border-bottom: 1px solid #1f2937;
+  background: #111213;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.tabs {
+  display: flex;
+  gap: 6px;
+}
+
+.tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  background: #151617;
+  border: 1px solid #1f2937;
+  border-radius: 6px 6px 0 0;
+  color: var(--muted);
+}
+
+.tab.active {
+  background: #1a1b1c;
+  color: var(--fg);
+  border-bottom-color: #1a1b1c;
+}
+
+.tab-icon {
+  opacity: 0.75;
+}
+.tab-label {
+  font-size: 13px;
+}
+
+.actions .action-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  border: 1px solid #1f2937;
+  background: #151617;
+  color: var(--muted);
+  cursor: pointer;
+}
+.actions .action-btn:hover {
+  color: var(--fg);
+  border-color: #374151;
+}
+
+/* Terminal body */
+.terminal {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.screen {
+  min-height: 48vh;
+  background: #0e0f10;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  padding: 12px 14px;
+  overflow-y: auto;
+  line-height: 1.5;
+}
+
+.line {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.line .prefix {
+  color: var(--muted);
+}
+
+.line .cmd {
+  color: var(--accent);
+}
+
+.line.error {
+  color: var(--danger);
+}
+
+/* Prompt */
+.prompt {
+  margin-top: 14px;
+  display: grid;
+  gap: 10px;
+}
+
+.prompt-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.prompt-prefix {
+  color: var(--muted);
+  user-select: none;
+}
+
+.prompt-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--fg);
+  font: inherit;
+  caret-color: var(--accent);
+}
+.prompt-input::placeholder {
+  color: #6b7280;
+}
+
+/* Suggestions */
+.suggestions {
+  display: grid;
+  gap: 6px;
+}
+
+.suggestion-item {
+  border: 1px solid #1f2937;
+  background: #101112;
+  border-radius: 6px;
+  padding: 10px 12px;
+  display: grid;
+  gap: 4px;
+  cursor: pointer;
+  outline: none;
+}
+.suggestion-item:hover,
+.suggestion-item:focus,
+.suggestion-item.active {
+  border-color: #374151;
+  background: #141517;
+}
+
+.suggestion-cmd {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.suggestion-desc {
+  color: var(--fg);
+  opacity: 0.9;
+}
+
+.suggestion-meta {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+/* Buttons */
+.btn {
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 6px;
+  border: 1px solid #1f2937;
+  background: #151617;
+  color: var(--fg);
+  cursor: pointer;
+}
+.btn:hover {
+  border-color: #374151;
+}
+
+.btn.primary {
+  background: #16321f;
+  border-color: #225b34;
+}
+.btn.primary:hover {
+  background: #1b3b25;
+  border-color: #2e7a45;
+}
+
+/* Utilities */
+.kbd {
+  display: inline-block;
+  padding: 1px 5px;
+  border: 1px solid #374151;
+  border-bottom-width: 3px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.spinner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #374151;
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

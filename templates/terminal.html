@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Terminal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/terminal.css') }}">
+</head>
+
+<body>
+    <header class="titlebar" role="banner" aria-label="Terminal title bar">
+        <div class="tabs">
+            <div class="tab active" aria-selected="true" role="tab">
+                <span class="tab-icon" aria-hidden="true">⌘</span>
+                <span class="tab-label">Terminal</span>
+            </div>
+        </div>
+        <div class="actions" aria-hidden="true">
+            <button class="action-btn" title="New Tab">+</button>
+        </div>
+    </header>
+
+    <main class="terminal" role="main" aria-label="Windows-like terminal">
+        <div id="screen" class="screen" role="log" aria-live="polite" aria-atomic="false"></div>
+
+        <section class="prompt" aria-label="Command prompt">
+            <div class="prompt-line">
+                <span class="prompt-prefix" aria-hidden="true">PS C:\Users\You></span>
+                <input id="queryInput" class="prompt-input" type="text" autocomplete="off" spellcheck="false"
+                    aria-label="Enter your query in natural language"
+                    placeholder="Describe what you want to do (e.g., list files newer than 7 days)" />
+            </div>
+
+            <div id="suggestions" class="suggestions" role="listbox" aria-label="Command suggestions"></div>
+
+            <div class="prompt-actions">
+                <button id="suggestBtn" class="btn" aria-label="Suggest commands">Suggest</button>
+                <button id="runBtn" class="btn primary" aria-label="Run selected command">Run</button>
+            </div>
+        </section>
+    </main>
+
+    <template id="suggestionItemTmpl">
+        <div class="suggestion-item" role="option" tabindex="0">
+            <div class="suggestion-cmd"></div>
+            <div class="suggestion-desc"></div>
+            <div class="suggestion-meta"></div>
+        </div>
+    </template>
+
+    <script src="{{ url_for('static', filename='js/terminal.js') }}"></script>
+</body>
+
+</html>

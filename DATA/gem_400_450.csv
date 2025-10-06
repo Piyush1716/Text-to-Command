@@ -1,0 +1,601 @@
+user_query,command,description
+Could you please run `yum deplist httpd` for me?,yum deplist httpd,Lists dependencies for the httpd package on CentOS/RHEL.
+How can I list all dependencies for the `httpd` package on CentOS/RHEL?,yum deplist httpd,Lists dependencies for the httpd package on CentOS/RHEL.
+Show me the dependency tree for the `httpd` package using `yum`,yum deplist httpd,Lists dependencies for the httpd package on CentOS/RHEL.
+I need to find out what packages `httpd` relies on. What's the command?,yum deplist httpd,Lists dependencies for the httpd package on CentOS/RHEL.
+What are the prerequisites for installing the `httpd` service?,yum deplist httpd,Lists dependencies for the httpd package on CentOS/RHEL.
+Can you display the full dependency list for `httpd`?,yum deplist httpd,Lists dependencies for the httpd package on CentOS/RHEL.
+Please run the command to get `httpd`'s dependencies,yum deplist httpd,Lists dependencies for the httpd package on CentOS/RHEL.
+I'm preparing to install `httpd` and want to see its dependencies,yum deplist httpd,Lists dependencies for the httpd package on CentOS/RHEL.
+"List all packages that `httpd` depends on, using `yum`",yum deplist httpd,Lists dependencies for the httpd package on CentOS/RHEL.
+I'd like to query the `httpd` package for its dependency list,yum deplist httpd,Lists dependencies for the httpd package on CentOS/RHEL.
+What command do I use to check the dependencies of the `httpd` package?,yum deplist httpd,Lists dependencies for the httpd package on CentOS/RHEL.
+Tell me what `httpd` needs to function correctly on a RHEL system,yum deplist httpd,Lists dependencies for the httpd package on CentOS/RHEL.
+How do I list DNF modules?,dnf module list,Lists available modules on Fedora-based systems.
+What's the command to see available DNF modules?,dnf module list,Lists available modules on Fedora-based systems.
+I want to view the DNF module list,dnf module list,Lists available modules on Fedora-based systems.
+Please show me the DNF modules,dnf module list,Lists available modules on Fedora-based systems.
+Can you display the DNF modules?,dnf module list,Lists available modules on Fedora-based systems.
+List DNF modules,dnf module list,Lists available modules on Fedora-based systems.
+How can I check which DNF modules are available?,dnf module list,Lists available modules on Fedora-based systems.
+Tell me the command to get the DNF module list,dnf module list,Lists available modules on Fedora-based systems.
+What's the way to browse DNF modules?,dnf module list,Lists available modules on Fedora-based systems.
+I need to see a list of DNF modules,dnf module list,Lists available modules on Fedora-based systems.
+Could you provide the command for listing DNF modules?,dnf module list,Lists available modules on Fedora-based systems.
+How do I get an overview of DNF modules?,dnf module list,Lists available modules on Fedora-based systems.
+Please run the command `xxd file.bin`,xxd file.bin,Creates a hexadecimal dump of file.bin.
+How do I create a hexadecimal dump of `file.bin`?,xxd file.bin,Creates a hexadecimal dump of file.bin.
+I need a hex dump of `file.bin`. Can you run `xxd` for that?,xxd file.bin,Creates a hexadecimal dump of file.bin.
+Execute `xxd` on `file.bin`,xxd file.bin,Creates a hexadecimal dump of file.bin.
+What's the command to view `file.bin` in hex format?,xxd file.bin,Creates a hexadecimal dump of file.bin.
+Could you generate a hexadecimal output for `file.bin`?,xxd file.bin,Creates a hexadecimal dump of file.bin.
+Show me the hex dump of `file.bin`,xxd file.bin,Creates a hexadecimal dump of file.bin.
+I want to use `xxd` to dump `file.bin`,xxd file.bin,Creates a hexadecimal dump of file.bin.
+Perform a hex dump of `file.bin` using `xxd`,xxd file.bin,Creates a hexadecimal dump of file.bin.
+Is there a command to get a hex representation of `file.bin`?,xxd file.bin,Creates a hexadecimal dump of file.bin.
+"Run `xxd` on `file.bin`, please",xxd file.bin,Creates a hexadecimal dump of file.bin.
+Let's hex dump `file.bin`,xxd file.bin,Creates a hexadecimal dump of file.bin.
+I need to synchronize `/src` to `/dst` with archive mode and verbose output,rsync -av /src /dst,Synchronizes /src to /dst with archive mode and verbose output.
+"Can you copy everything from `/src` to `/dst`, preserving permissions and showing progress?",rsync -av /src /dst,Synchronizes /src to /dst with archive mode and verbose output.
+"My goal is to mirror `/src` into `/dst` using `rsync`, ensuring all attributes are maintained and I get detailed output",rsync -av /src /dst,Synchronizes /src to /dst with archive mode and verbose output.
+"Perform an `rsync` operation from `/src` to `/dst`, making sure it's an archive sync and I can see the details",rsync -av /src /dst,Synchronizes /src to /dst with archive mode and verbose output.
+"How do I use `rsync` to make `/dst` an exact, verbose copy of `/src`?",rsync -av /src /dst,Synchronizes /src to /dst with archive mode and verbose output.
+"Let's get `rsync` going to update `/dst` from `/src`, with full archiving and progress display",rsync -av /src /dst,Synchronizes /src to /dst with archive mode and verbose output.
+"I want to replicate the `/src` directory to `/dst` using `rsync`, keeping all file attributes and showing verbose output",rsync -av /src /dst,Synchronizes /src to /dst with archive mode and verbose output.
+"Could you help me set up an `rsync` job to copy `/src` to `/dst` incrementally, with verbose output?",rsync -av /src /dst,Synchronizes /src to /dst with archive mode and verbose output.
+Time to `rsync` `/src` to `/dst`. Let's use archive mode and see what's happening,rsync -av /src /dst,Synchronizes /src to /dst with archive mode and verbose output.
+"I need to perform a backup-like synchronization of `/src` to `/dst`, with detailed feedback",rsync -av /src /dst,Synchronizes /src to /dst with archive mode and verbose output.
+"Initiate an `rsync` from `/src` to `/dst`, ensuring archive integrity and verbose reporting",rsync -av /src /dst,Synchronizes /src to /dst with archive mode and verbose output.
+"Please `rsync` the contents of `/src` to `/dst`, making sure it's a complete, attribute-preserving copy, and tell me what it's doing",rsync -av /src /dst,Synchronizes /src to /dst with archive mode and verbose output.
+How do I display the inode details for `/file.txt` on `/dev/sda1`?,debugfs -R 'stat /file.txt' /dev/sda1,Displays inode details for /file.txt on /dev/sda1 using debugfs.
+What's the `debugfs` command to get the `stat` information for `/file.txt` on `/dev/sda1`?,debugfs -R 'stat /file.txt' /dev/sda1,Displays inode details for /file.txt on /dev/sda1 using debugfs.
+I need to see the inode metadata for `/file.txt` on `/dev/sda1`. How can I do that?,debugfs -R 'stat /file.txt' /dev/sda1,Displays inode details for /file.txt on /dev/sda1 using debugfs.
+Could you show me the file system information for `/file.txt` located on `/dev/sda1` using `debugfs`?,debugfs -R 'stat /file.txt' /dev/sda1,Displays inode details for /file.txt on /dev/sda1 using debugfs.
+Run `debugfs` to show `stat /file.txt` on `/dev/sda1`,debugfs -R 'stat /file.txt' /dev/sda1,Displays inode details for /file.txt on /dev/sda1 using debugfs.
+I'm trying to inspect the inode for `/file.txt` on `/dev/sda1`. What command should I use?,debugfs -R 'stat /file.txt' /dev/sda1,Displays inode details for /file.txt on /dev/sda1 using debugfs.
+Use `debugfs` to perform a `stat` on `/file.txt` on `/dev/sda1`,debugfs -R 'stat /file.txt' /dev/sda1,Displays inode details for /file.txt on /dev/sda1 using debugfs.
+Generate the inode details for `/file.txt` on the `/dev/sda1` partition using `debugfs`,debugfs -R 'stat /file.txt' /dev/sda1,Displays inode details for /file.txt on /dev/sda1 using debugfs.
+Get the inode info for `/file.txt` from `/dev/sda1` using the `debugfs` `stat` command,debugfs -R 'stat /file.txt' /dev/sda1,Displays inode details for /file.txt on /dev/sda1 using debugfs.
+Execute the `debugfs` `stat` command for `/file.txt` on `/dev/sda1`,debugfs -R 'stat /file.txt' /dev/sda1,Displays inode details for /file.txt on /dev/sda1 using debugfs.
+What's the command to view `/file.txt`'s inode information on `/dev/sda1` via `debugfs`?,debugfs -R 'stat /file.txt' /dev/sda1,Displays inode details for /file.txt on /dev/sda1 using debugfs.
+Display `/file.txt`'s inode structure on `/dev/sda1` using the `debugfs` utility,debugfs -R 'stat /file.txt' /dev/sda1,Displays inode details for /file.txt on /dev/sda1 using debugfs.
+Can you run a dry run fsck on /dev/sda1 for ext4?,fsck.ext4 -n /dev/sda1,Checks the ext4 filesystem on /dev/sda1 without making changes.
+I need to check the ext4 filesystem on /dev/sda1 without making any modifications,fsck.ext4 -n /dev/sda1,Checks the ext4 filesystem on /dev/sda1 without making changes.
+Please inspect /dev/sda1 (ext4) in a read-only mode,fsck.ext4 -n /dev/sda1,Checks the ext4 filesystem on /dev/sda1 without making changes.
+"Verify the integrity of /dev/sda1 (ext4), but only simulate the changes",fsck.ext4 -n /dev/sda1,Checks the ext4 filesystem on /dev/sda1 without making changes.
+How do I non-destructively check the ext4 filesystem on /dev/sda1?,fsck.ext4 -n /dev/sda1,Checks the ext4 filesystem on /dev/sda1 without making changes.
+"Could you scan /dev/sda1 for ext4 filesystem issues and just report them, without fixing anything?",fsck.ext4 -n /dev/sda1,Checks the ext4 filesystem on /dev/sda1 without making changes.
+Perform a non-modifying check of ext4 on /dev/sda,fsck.ext4 -n /dev/sda1,Checks the ext4 filesystem on /dev/sda1 without making changes.
+I want to check the health of my ext4 partition /dev/sda1 and get a report without applying fixes,fsck.ext4 -n /dev/sda1,Checks the ext4 filesystem on /dev/sda1 without making changes.
+Run a simulated fsck on the ext4 partition at /dev/sda,fsck.ext4 -n /dev/sda1,Checks the ext4 filesystem on /dev/sda1 without making changes.
+"Check /dev/sda1 for any potential ext4 filesystem issues, but don't commit any changes",fsck.ext4 -n /dev/sda1,Checks the ext4 filesystem on /dev/sda1 without making changes.
+Run a dry run scan on /dev/sda1 for ext4 filesystem errors,fsck.ext4 -n /dev/sda1,Checks the ext4 filesystem on /dev/sda1 without making changes.
+"Examine the ext4 filesystem on /dev/sda1 safely, without writing anything",fsck.ext4 -n /dev/sda1,Checks the ext4 filesystem on /dev/sda1 without making changes.
+Monitor `/var/log` for filesystem events indefinitely,inotifywait -m /var/log,Monitors /var/log for filesystem events.
+How do I continuously watch `/var/log` using `inotifywait`?,inotifywait -m /var/log,Monitors /var/log for filesystem events.
+I need to keep an eye on `/var/log` for any changes,inotifywait -m /var/log,Monitors /var/log for filesystem events.
+Set up a persistent monitor for filesystem activity in `/var/log`,inotifywait -m /var/log,Monitors /var/log for filesystem events.
+Run `inotifywait` in monitor mode on `/var/log`,inotifywait -m /var/log,Monitors /var/log for filesystem events.
+Show me the command to track all events in `/var/log` constantly,inotifywait -m /var/log,Monitors /var/log for filesystem events.
+What's the best way to continually observe `/var/log`?,inotifywait -m /var/log,Monitors /var/log for filesystem events.
+Could you execute a continuous watch on `/var/log`?,inotifywait -m /var/log,Monitors /var/log for filesystem events.
+I want to use `inotifywait` to monitor `/var/log` without stopping,inotifywait -m /var/log,Monitors /var/log for filesystem events.
+Begin an endless watch of the `/var/log` directory for changes,inotifywait -m /var/log,Monitors /var/log for filesystem events.
+Start monitoring `/var/log` for filesystem events and keep it running,inotifywait -m /var/log,Monitors /var/log for filesystem events.
+Initiate a continuous event log for `/var/log`,inotifywait -m /var/log,Monitors /var/log for filesystem events.
+Run `lsof -p 1234`,lsof -p 1234,Lists open files for the process with PID 1234.
+Please list the open files for process ID,lsof -p 1234,Lists open files for the process with PID 1234.
+How can I see what files PID 1234 has open?,lsof -p 1234,Lists open files for the process with PID 1234.
+I need to check the open files associated with process,lsof -p 1234,Lists open files for the process with PID 1234.
+Execute `lsof -p 1234` for me,lsof -p 1234,Lists open files for the process with PID 1234.
+Display the open file handles for the process identified by,lsof -p 1234,Lists open files for the process with PID 1234.
+Could you show me the open files for process 1234?,lsof -p 1234,Lists open files for the process with PID 1234.
+What files is process 1234 currently using?,lsof -p 1234,Lists open files for the process with PID 1234.
+Get me the list of files open by PID,lsof -p 1234,Lists open files for the process with PID 1234.
+I want to use `lsof` to view open files for process,lsof -p 1234,Lists open files for the process with PID 1234.
+Check open files for process,lsof -p 1234,Lists open files for the process with PID 1234.
+Show me the `lsof` output for PID,lsof -p 1234,Lists open files for the process with PID 1234.
+How can I view the memory map for process ID 1234?,pmap -x 1234,Displays the memory map for the process with PID 1234.
+Display the memory usage details for PID,pmap -x 1234,Displays the memory map for the process with PID 1234.
+I need to see the memory layout of process,pmap -x 1234,Displays the memory map for the process with PID 1234.
+What's the command to get a detailed memory map for process 1234?,pmap -x 1234,Displays the memory map for the process with PID 1234.
+Could you show me the memory segments for process 1234?,pmap -x 1234,Displays the memory map for the process with PID 1234.
+I want to inspect the memory allocated to process,pmap -x 1234,Displays the memory map for the process with PID 1234.
+Please provide the memory map for PID,pmap -x 1234,Displays the memory map for the process with PID 1234.
+How do I check the resident memory for process 1234?,pmap -x 1234,Displays the memory map for the process with PID 1234.
+Show the extended memory information for process,pmap -x 1234,Displays the memory map for the process with PID 1234.
+Can you generate the memory map for process 1234?,pmap -x 1234,Displays the memory map for the process with PID 1234.
+I'm trying to debug process 1234; what's its memory footprint?,pmap -x 1234,Displays the memory map for the process with PID 1234.
+Let me see the memory regions for process ID,pmap -x 1234,Displays the memory map for the process with PID 1234.
+How do I display a summary of TCP statistics?,netstat -s | grep Tcp,Displays TCP protocol statistics.
+Show me the aggregated TCP protocol statistics,netstat -s | grep Tcp,Displays TCP protocol statistics.
+What's the command to get overall TCP stats?,netstat -s | grep Tcp,Displays TCP protocol statistics.
+I need to check the TCP performance summary,netstat -s | grep Tcp,Displays TCP protocol statistics.
+"Could you show me the TCP statistics, please?",netstat -s | grep Tcp,Displays TCP protocol statistics.
+Display a report of TCP activity,netstat -s | grep Tcp,Displays TCP protocol statistics.
+I want to see the TCP connections summary,netstat -s | grep Tcp,Displays TCP protocol statistics.
+How do I view only the TCP portion of `netstat -s`?,netstat -s | grep Tcp,Displays TCP protocol statistics.
+Get me the consolidated TCP protocol statistics,netstat -s | grep Tcp,Displays TCP protocol statistics.
+What are the current TCP statistics?,netstat -s | grep Tcp,Displays TCP protocol statistics.
+Provide a quick overview of TCP performance,netstat -s | grep Tcp,Displays TCP protocol statistics.
+Fetch the summary of TCP data,netstat -s | grep Tcp,Displays TCP protocol statistics.
+How do I see my network interface statistics?,ip -s link,Shows network interface statistics.
+Show me a summary of my network links,ip -s link,Shows network interface statistics.
+What's the command to display network interface stats?,ip -s link,Shows network interface statistics.
+Can you give me the summarized network link information?,ip -s link,Shows network interface statistics.
+I need to check the statistics for my network interfaces,ip -s link,Shows network interface statistics.
+Display the current network link status in a summarized way,ip -s link,Shows network interface statistics.
+How can I view a summary of my network device links?,ip -s link,Shows network interface statistics.
+Get me the network interface summary statistics,ip -s link,Shows network interface statistics.
+Please show the summarized link layer stats for my interfaces,ip -s link,Shows network interface statistics.
+What's the best way to get a quick overview of my network links?,ip -s link,Shows network interface statistics.
+How do I list the brief stats for network interfaces?,ip -s link,Shows network interface statistics.
+Provide the summarized details of my network links,ip -s link,Shows network interface statistics.
+Show me the SELinux port mappings,semanage port -l,Lists SELinux port mappings.
+List all SELinux port assignments,semanage port -l,Lists SELinux port mappings.
+Can you display the current SELinux port configurations?,semanage port -l,Lists SELinux port mappings.
+Please execute `semanage port -l`,semanage port -l,Lists SELinux port mappings.
+I need to see the SELinux port list,semanage port -l,Lists SELinux port mappings.
+What are the SELinux port definitions?,semanage port -l,Lists SELinux port mappings.
+Output the SELinux port mapping table,semanage port -l,Lists SELinux port mappings.
+Could you provide a list of SELinux ports?,semanage port -l,Lists SELinux port mappings.
+Display the SELinux port information,semanage port -l,Lists SELinux port mappings.
+Get me the SELinux port mappings,semanage port -l,Lists SELinux port mappings.
+Run the command to list SELinux ports,semanage port -l,Lists SELinux port mappings.
+I'd like to view the SELinux port allocations,semanage port -l,Lists SELinux port mappings.
+How do I add an audit rule to track all write and attribute changes to `/etc/passwd`?,"auditctl -a always,exit -F path=/etc/passwd -F perm=wa",Adds an audit rule to monitor write and attribute changes to /etc/passwd.
+I need the `auditctl` command to monitor write and attribute permissions on `/etc/passwd`,"auditctl -a always,exit -F path=/etc/passwd -F perm=wa",Adds an audit rule to monitor write and attribute changes to /etc/passwd.
+Please show me how to set up auditing for modifications and metadata changes to `/etc/passwd`,"auditctl -a always,exit -F path=/etc/passwd -F perm=wa",Adds an audit rule to monitor write and attribute changes to /etc/passwd.
+What's the correct way to add an audit watch on `/etc/passwd` that logs both `w` and `a` events?,"auditctl -a always,exit -F path=/etc/passwd -F perm=wa",Adds an audit rule to monitor write and attribute changes to /etc/passwd.
+Can you generate the `auditctl` command to monitor all writes and attribute updates on the `/etc/passwd` file?,"auditctl -a always,exit -F path=/etc/passwd -F perm=wa",Adds an audit rule to monitor write and attribute changes to /etc/passwd.
+"I want to configure the audit system to alert on any changes, including permissions, to `/etc/passwd`","auditctl -a always,exit -F path=/etc/passwd -F perm=wa",Adds an audit rule to monitor write and attribute changes to /etc/passwd.
+How do I ensure that any write or attribute operation on `/etc/passwd` is logged by the audit daemon?,"auditctl -a always,exit -F path=/etc/passwd -F perm=wa",Adds an audit rule to monitor write and attribute changes to /etc/passwd.
+Provide the command to audit `/etc/passwd` for write and attribute access,"auditctl -a always,exit -F path=/etc/passwd -F perm=wa",Adds an audit rule to monitor write and attribute changes to /etc/passwd.
+I need an audit rule for `/etc/passwd` that covers both writing and modifying its attributes,"auditctl -a always,exit -F path=/etc/passwd -F perm=wa",Adds an audit rule to monitor write and attribute changes to /etc/passwd.
+Help me add a rule to `auditctl` that watches `/etc/passwd` for `w` and `a` permissions,"auditctl -a always,exit -F path=/etc/passwd -F perm=wa",Adds an audit rule to monitor write and attribute changes to /etc/passwd.
+I'm looking for the command to monitor all successful write and attribute changes to `/etc/passwd`,"auditctl -a always,exit -F path=/etc/passwd -F perm=wa",Adds an audit rule to monitor write and attribute changes to /etc/passwd.
+Configure an audit rule to monitor `/etc/passwd` for any write or attribute-related syscalls,"auditctl -a always,exit -F path=/etc/passwd -F perm=wa",Adds an audit rule to monitor write and attribute changes to /etc/passwd.
+Run `sysdig -c netstat`,sysdig -c netstat,Runs sysdig to display network connection statistics.
+Could you please execute `sysdig -c netstat`?,sysdig -c netstat,Runs sysdig to display network connection statistics.
+I need to see network connection statistics; can sysdig do that?,sysdig -c netstat,Runs sysdig to display network connection statistics.
+Show me the network stats using sysdig's `netstat` chisel,sysdig -c netstat,Runs sysdig to display network connection statistics.
+How do I display network connections with sysdig?,sysdig -c netstat,Runs sysdig to display network connection statistics.
+Please launch `sysdig` and apply the `netstat` command,sysdig -c netstat,Runs sysdig to display network connection statistics.
+Execute `sysdig -c netstat`,sysdig -c netstat,Runs sysdig to display network connection statistics.
+Can you use sysdig to monitor network activity?,sysdig -c netstat,Runs sysdig to display network connection statistics.
+Get me a report of current network connections via sysdig,sysdig -c netstat,Runs sysdig to display network connection statistics.
+Let's run `sysdig -c netstat`,sysdig -c netstat,Runs sysdig to display network connection statistics.
+I want to check network status; run `sysdig -c netstat`,sysdig -c netstat,Runs sysdig to display network connection statistics.
+Display the `netstat` output using sysdig,sysdig -c netstat,Runs sysdig to display network connection statistics.
+"Run `dstat -cdngy`, please",dstat -cdngy,"Monitors CPU, disk, network, and system activity in real-time."
+"I need to see CPU, disk, network, memory, and general system stats in real-time. Use dstat",dstat -cdngy,"Monitors CPU, disk, network, and system activity in real-time."
+"Could you start dstat to monitor all major system resources: CPU, disk, network, memory, and system load?",dstat -cdngy,"Monitors CPU, disk, network, and system activity in real-time."
+"Let's get a comprehensive real-time view of system activity. The dstat command with CPU, disk, network, memory, and system options should do it",dstat -cdngy,"Monitors CPU, disk, network, and system activity in real-time."
+"How do I check CPU, disk, network, memory, and system performance live using dstat?",dstat -cdngy,"Monitors CPU, disk, network, and system activity in real-time."
+Kick off `dstat -cdngy` for a full system overview,dstat -cdngy,"Monitors CPU, disk, network, and system activity in real-time."
+Show me what `dstat -cdngy` reports,dstat -cdngy,"Monitors CPU, disk, network, and system activity in real-time."
+"I need to monitor CPU, disk I/O, network traffic, memory usage, and system calls in real-time using dstat",dstat -cdngy,"Monitors CPU, disk, network, and system activity in real-time."
+"Bring up dstat to watch CPU, disk, network, and system activity, including memory",dstat -cdngy,"Monitors CPU, disk, network, and system activity in real-time."
+"Execute dstat with the flags for CPU, disk, network, memory/paging, and system statistics",dstat -cdngy,"Monitors CPU, disk, network, and system activity in real-time."
+"Can we run a real-time diagnostic check on CPU, disk, network, and memory using dstat?",dstat -cdngy,"Monitors CPU, disk, network, and system activity in real-time."
+Please launch `dstat -cdngy` to keep an eye on the system's vital signs,dstat -cdngy,"Monitors CPU, disk, network, and system activity in real-time."
+How do I run the `fatrace` command?,fatrace,Monitors filesystem access events in real-time.
+What's the command to monitor filesystem access in real-time?,fatrace,Monitors filesystem access events in real-time.
+I need to see live file system events; what command should I use?,fatrace,Monitors filesystem access events in real-time.
+Can you give me an example of how to use `fatrace`?,fatrace,Monitors filesystem access events in real-time.
+How do I initiate `fatrace` to track file activity?,fatrace,Monitors filesystem access events in real-time.
+What's the proper way to execute `fatrace`?,fatrace,Monitors filesystem access events in real-time.
+I want to watch filesystem operations as they happen. Which command does that?,fatrace,Monitors filesystem access events in real-time.
+Could you explain how to start `fatrace`?,fatrace,Monitors filesystem access events in real-time.
+Tell me the command for real-time filesystem event monitoring,fatrace,Monitors filesystem access events in real-time.
+How can I observe live file access using `fatrace`?,fatrace,Monitors filesystem access events in real-time.
+What's the command to monitor file system I/O in real-time?,fatrace,Monitors filesystem access events in real-time.
+I need to track file changes instantly. What command is suitable?,fatrace,Monitors filesystem access events in real-time.
+How do I open the LUKS encrypted device `/dev/sdb1` and map it as `crypt`?,cryptsetup luksOpen /dev/sdb1 crypt,Opens an encrypted LUKS device /dev/sdb1 as 'crypt'.
+Please execute `cryptsetup luksOpen /dev/sdb1 crypt`,cryptsetup luksOpen /dev/sdb1 crypt,Opens an encrypted LUKS device /dev/sdb1 as 'crypt'.
+I need to decrypt `/dev/sdb1` and assign it the device name `crypt`,cryptsetup luksOpen /dev/sdb1 crypt,Opens an encrypted LUKS device /dev/sdb1 as 'crypt'.
+Can you open the LUKS volume on `/dev/sdb1` and make it available as `crypt`?,cryptsetup luksOpen /dev/sdb1 crypt,Opens an encrypted LUKS device /dev/sdb1 as 'crypt'.
+What's the command to activate my encrypted `/dev/sdb1` partition with the mapping `crypt`?,cryptsetup luksOpen /dev/sdb1 crypt,Opens an encrypted LUKS device /dev/sdb1 as 'crypt'.
+"I want to unlock `/dev/sdb1` using cryptsetup, mapping it to `crypt`",cryptsetup luksOpen /dev/sdb1 crypt,Opens an encrypted LUKS device /dev/sdb1 as 'crypt'.
+Could you help me open my encrypted drive `/dev/sdb1` and name it `crypt` for access?,cryptsetup luksOpen /dev/sdb1 crypt,Opens an encrypted LUKS device /dev/sdb1 as 'crypt'.
+Run the `cryptsetup` command to open `/dev/sdb1` with the logical name `crypt`,cryptsetup luksOpen /dev/sdb1 crypt,Opens an encrypted LUKS device /dev/sdb1 as 'crypt'.
+Tell me how to open `/dev/sdb1` as a LUKS device called `crypt`,cryptsetup luksOpen /dev/sdb1 crypt,Opens an encrypted LUKS device /dev/sdb1 as 'crypt'.
+"Please open `/dev/sdb1` as a LUKS volume, mapping it to `crypt`",cryptsetup luksOpen /dev/sdb1 crypt,Opens an encrypted LUKS device /dev/sdb1 as 'crypt'.
+I need to open the encrypted partition `/dev/sdb1` and refer to it as `crypt`,cryptsetup luksOpen /dev/sdb1 crypt,Opens an encrypted LUKS device /dev/sdb1 as 'crypt'.
+Go ahead and open `/dev/sdb1` as `crypt` using cryptsetup,cryptsetup luksOpen /dev/sdb1 crypt,Opens an encrypted LUKS device /dev/sdb1 as 'crypt'.
+Run `badblocks -v /dev/sdb`,badblocks -v /dev/sdb,Checks /dev/sdb for bad blocks with verbose output.
+Execute the badblocks utility on /dev/sdb with verbose output,badblocks -v /dev/sdb,Checks /dev/sdb for bad blocks with verbose output.
+"Check /dev/sdb for bad blocks, showing all details",badblocks -v /dev/sdb,Checks /dev/sdb for bad blocks with verbose output.
+Please start a verbose bad block scan on /dev/sdb,badblocks -v /dev/sdb,Checks /dev/sdb for bad blocks with verbose output.
+I need to run badblocks -v /dev/sdb,badblocks -v /dev/sdb,Checks /dev/sdb for bad blocks with verbose output.
+Could you run `badblocks -v /dev/sdb` for me?,badblocks -v /dev/sdb,Checks /dev/sdb for bad blocks with verbose output.
+Perform a bad block test on /dev/sdb and output verbosely,badblocks -v /dev/sdb,Checks /dev/sdb for bad blocks with verbose output.
+Initiate the badblocks command against /dev/sdb in verbose mode,badblocks -v /dev/sdb,Checks /dev/sdb for bad blocks with verbose output.
+"Begin checking /dev/sdb for bad sectors, showing verbose progress",badblocks -v /dev/sdb,Checks /dev/sdb for bad blocks with verbose output.
+Run `badblocks` on `/dev/sdb` with the verbose flag,badblocks -v /dev/sdb,Checks /dev/sdb for bad blocks with verbose output.
+Let's get `badblocks -v /dev/sdb` going,badblocks -v /dev/sdb,Checks /dev/sdb for bad blocks with verbose output.
+"Check `sdb` for bad blocks, and make sure the output is verbose",badblocks -v /dev/sdb,Checks /dev/sdb for bad blocks with verbose output.
+How do I trace both library and system calls for process 1234?,ltrace -S -p 1234,Traces both library and system calls for the process with PID 1234.
+"Run ltrace on PID 1234, making sure to include system calls",ltrace -S -p 1234,Traces both library and system calls for the process with PID 1234.
+I need to see all library and system calls made by process 1234 for debugging,ltrace -S -p 1234,Traces both library and system calls for the process with PID 1234.
+Can you show me the shared library calls and kernel syscalls for PID 1234?,ltrace -S -p 1234,Traces both library and system calls for the process with PID 1234.
+What's the command to monitor both userland and kernel activity of process ID 1234?,ltrace -S -p 1234,Traces both library and system calls for the process with PID 1234.
+"Get me a full trace of PID 1234, covering its interactions with libraries and the OS",ltrace -S -p 1234,Traces both library and system calls for the process with PID 1234.
+Please start ltrace for process 1234 and include the system calls,ltrace -S -p 1234,Traces both library and system calls for the process with PID 1234.
+I want to inspect the library and system call execution path of PID,ltrace -S -p 1234,Traces both library and system calls for the process with PID 1234.
+Trace all library function calls and system calls for process,ltrace -S -p 1234,Traces both library and system calls for the process with PID 1234.
+Display the library and system level operations for PID,ltrace -S -p 1234,Traces both library and system calls for the process with PID 1234.
+How can I observe both the userspace and kernel-level calls for process 1234?,ltrace -S -p 1234,Traces both library and system calls for the process with PID 1234.
+Initiate a comprehensive trace of library and system activities for PID,ltrace -S -p 1234,Traces both library and system calls for the process with PID 1234.
+How can I get a summary of system call usage for PID 1234 using `strace`?,strace -c -p 1234,Summarizes system call usage for the process with PID 1234.
+I need to profile the system calls made by process 1234. What's the command?,strace -c -p 1234,Summarizes system call usage for the process with PID 1234.
+Show me the system call statistics for the process with PID,strace -c -p 1234,Summarizes system call usage for the process with PID 1234.
+Can you run `strace` to count the system calls for PID 1234 and show me the summary?,strace -c -p 1234,Summarizes system call usage for the process with PID 1234.
+Get a system call usage summary for PID,strace -c -p 1234,Summarizes system call usage for the process with PID 1234.
+What's the `strace` command to summarize system calls for process 1234?,strace -c -p 1234,Summarizes system call usage for the process with PID 1234.
+I want to see which system calls PID 1234 is spending its time on. How do I do that?,strace -c -p 1234,Summarizes system call usage for the process with PID 1234.
+"Help me analyze the system call activity of process 1234, I need a summary",strace -c -p 1234,Summarizes system call usage for the process with PID 1234.
+Could you please run `strace` in summary mode on PID 1234?,strace -c -p 1234,Summarizes system call usage for the process with PID 1234.
+Generate a system call report for the process with PID,strace -c -p 1234,Summarizes system call usage for the process with PID 1234.
+I need to do a quick system call profile for PID 1234. What's the command?,strace -c -p 1234,Summarizes system call usage for the process with PID 1234.
+Summarize the syscalls for PID,strace -c -p 1234,Summarizes system call usage for the process with PID 1234.
+How do I attach GDB to a running process with PID 1234?,gdb --pid 1234,Attaches the GNU Debugger to the process with PID 1234.
+What's the command to debug process ID 1234 using GDB?,gdb --pid 1234,Attaches the GNU Debugger to the process with PID 1234.
+I need to connect GDB to process 1234. How do I do that?,gdb --pid 1234,Attaches the GNU Debugger to the process with PID 1234.
+"Can you give me the GDB command for attaching to a live process, like 1234?",gdb --pid 1234,Attaches the GNU Debugger to the process with PID 1234.
+"How do you use GDB to target an existing process, for example, PID 1234?",gdb --pid 1234,Attaches the GNU Debugger to the process with PID 1234.
+"Show me the GDB command to attach to a specific process ID, such as",gdb --pid 1234,Attaches the GNU Debugger to the process with PID 1234.
+What's the proper way to attach the GNU Debugger to a process with PID 1234?,gdb --pid 1234,Attaches the GNU Debugger to the process with PID 1234.
+I want to debug process 1234 with GDB. What command should I use?,gdb --pid 1234,Attaches the GNU Debugger to the process with PID 1234.
+Could you tell me the GDB syntax to attach to a running process whose ID is 1234?,gdb --pid 1234,Attaches the GNU Debugger to the process with PID 1234.
+What's the command-line invocation to make GDB attach to PID 1234?,gdb --pid 1234,Attaches the GNU Debugger to the process with PID 1234.
+How can I get GDB to hook into process 1234?,gdb --pid 1234,Attaches the GNU Debugger to the process with PID 1234.
+Suppose I have PID 1234; how do I use GDB to inspect it?,gdb --pid 1234,Attaches the GNU Debugger to the process with PID 1234.
+How do I collect performance statistics for process 1234 using `perf`?,perf stat -p 1234,Collects performance statistics for the process with PID 1234.
+What's the `perf` command to get performance metrics for PID 1234?,perf stat -p 1234,Collects performance statistics for the process with PID 1234.
+I need to monitor the performance of process ID 1234. How do I use `perf stat` for that?,perf stat -p 1234,Collects performance statistics for the process with PID 1234.
+"Can you tell me how to profile the performance of a specific process, like PID 1234, with `perf`?",perf stat -p 1234,Collects performance statistics for the process with PID 1234.
+How do I view performance data for PID 1234 using the `perf` tool?,perf stat -p 1234,Collects performance statistics for the process with PID 1234.
+What's the command to gather performance statistics on process 1234?,perf stat -p 1234,Collects performance statistics for the process with PID 1234.
+I'm trying to get `perf` counters for process 1234. What's the command line?,perf stat -p 1234,Collects performance statistics for the process with PID 1234.
+How can I measure the performance of the process with PID 1234 using `perf stat`?,perf stat -p 1234,Collects performance statistics for the process with PID 1234.
+"What's the command to apply `perf stat` to a running process, specifically 1234?",perf stat -p 1234,Collects performance statistics for the process with PID 1234.
+Could you provide the command to analyze the performance of PID 1234 using `perf`?,perf stat -p 1234,Collects performance statistics for the process with PID 1234.
+I want to get performance information for process 1234. What `perf` command should I use?,perf stat -p 1234,Collects performance statistics for the process with PID 1234.
+How do I use `perf stat` to capture performance details for process 1234?,perf stat -p 1234,Collects performance statistics for the process with PID 1234.
+How do I scan 192.168.1.1 for service versions?,nmap -sV 192.168.1.1,Scans 192.168.1.1 for open ports and service versions.
+What's the nmap command to detect service versions and open ports on 192.168.1.1?,nmap -sV 192.168.1.1,Scans 192.168.1.1 for open ports and service versions.
+I need to perform a service version detection scan on 192.168.1.1. What's the syntax?,nmap -sV 192.168.1.1,Scans 192.168.1.1 for open ports and service versions.
+Could you give me the command to enumerate services and their versions on 192.168.1.1?,nmap -sV 192.168.1.1,Scans 192.168.1.1 for open ports and service versions.
+How can I use nmap to find out the versions of services running on 192.168.1.1?,nmap -sV 192.168.1.1,Scans 192.168.1.1 for open ports and service versions.
+Scan 192.168.1.1 for open ports and associated service versions,nmap -sV 192.168.1.1,Scans 192.168.1.1 for open ports and service versions.
+What command should I use to get a detailed service scan of 192.168.1.1?,nmap -sV 192.168.1.1,Scans 192.168.1.1 for open ports and service versions.
+Show me the command to identify open ports and service versions on,nmap -sV 192.168.1.1,Scans 192.168.1.1 for open ports and service versions.
+I want to check 192.168.1.1 for its open ports and the software versions listening on them,nmap -sV 192.168.1.1,Scans 192.168.1.1 for open ports and service versions.
+Give me the nmap option for service version detection against,nmap -sV 192.168.1.1,Scans 192.168.1.1 for open ports and service versions.
+How do I perform a comprehensive port and service version scan on 192.168.1.1?,nmap -sV 192.168.1.1,Scans 192.168.1.1 for open ports and service versions.
+What's the command to determine service versions on 192.168.1.1's exposed ports?,nmap -sV 192.168.1.1,Scans 192.168.1.1 for open ports and service versions.
+Run `etckeeper init`,etckeeper init,Initializes etckeeper to track /etc in a version control system.
+Please execute `etckeeper init`,etckeeper init,Initializes etckeeper to track /etc in a version control system.
+Could you run `etckeeper init` for me?,etckeeper init,Initializes etckeeper to track /etc in a version control system.
+I need to run `etckeeper init`,etckeeper init,Initializes etckeeper to track /etc in a version control system.
+Perform the `etckeeper init` command,etckeeper init,Initializes etckeeper to track /etc in a version control system.
+Go ahead and run `etckeeper init`,etckeeper init,Initializes etckeeper to track /etc in a version control system.
+Let's fire off `etckeeper init`,etckeeper init,Initializes etckeeper to track /etc in a version control system.
+Execute `etckeeper init` to initialize etckeeper,etckeeper init,Initializes etckeeper to track /etc in a version control system.
+Would you mind running `etckeeper init`?,etckeeper init,Initializes etckeeper to track /etc in a version control system.
+I'd like to run `etckeeper init`,etckeeper init,Initializes etckeeper to track /etc in a version control system.
+Can you kick off `etckeeper init`?,etckeeper init,Initializes etckeeper to track /etc in a version control system.
+It's time to run `etckeeper init`,etckeeper init,Initializes etckeeper to track /etc in a version control system.
+Run `etckeeper commit 'Updated config'`,etckeeper commit 'Updated config',Commits changes in /etc with the message 'Updated config'.
+"Please commit the /etc changes with etckeeper, using 'Updated config' as the message",etckeeper commit 'Updated config',Commits changes in /etc with the message 'Updated config'.
+I need to commit the current state of /etc. The message should be 'Updated config',etckeeper commit 'Updated config',Commits changes in /etc with the message 'Updated config'.
+Execute `etckeeper commit 'Updated config'`,etckeeper commit 'Updated config',Commits changes in /etc with the message 'Updated config'.
+Could you perform an etckeeper commit with the message 'Updated config'?,etckeeper commit 'Updated config',Commits changes in /etc with the message 'Updated config'.
+Apply the /etc configuration changes. Use `etckeeper commit 'Updated config'`,etckeeper commit 'Updated config',Commits changes in /etc with the message 'Updated config'.
+Go ahead and run `etckeeper commit 'Updated config'`,etckeeper commit 'Updated config',Commits changes in /etc with the message 'Updated config'.
+"Commit the /etc directory's changes using etckeeper, setting the log message to 'Updated config'",etckeeper commit 'Updated config',Commits changes in /etc with the message 'Updated config'.
+Perform the etckeeper commit. The message is 'Updated config',etckeeper commit 'Updated config',Commits changes in /etc with the message 'Updated config'.
+"Save the /etc changes with etckeeper, logging 'Updated config'",etckeeper commit 'Updated config',Commits changes in /etc with the message 'Updated config'.
+I want to commit the /etc configuration with the message 'Updated config' using etckeeper,etckeeper commit 'Updated config',Commits changes in /etc with the message 'Updated config'.
+Initiate an etckeeper commit using the message 'Updated config',etckeeper commit 'Updated config',Commits changes in /etc with the message 'Updated config'.
+Show me who's logged in and their message status,who -T,Lists logged-in users with message status.
+List all current users and their terminal messaging permissions,who -T,Lists logged-in users with message status.
+How do I check who's online and if their terminal is writable?,who -T,Lists logged-in users with message status.
+What command displays logged-in users along with their messageability?,who -T,Lists logged-in users with message status.
+I need to see the active users and whether I can send them a message,who -T,Lists logged-in users with message status.
+Could you show me all logged-in users and their current terminal messaging state?,who -T,Lists logged-in users with message status.
+Display the logged-in users and whether their terminal allows messages,who -T,Lists logged-in users with message status.
+I want to know who is on the system and if their console is open for writes,who -T,Lists logged-in users with message status.
+Tell me who is logged in and their message permission setting,who -T,Lists logged-in users with message status.
+What's the way to list users and their terminal message access?,who -T,Lists logged-in users with message status.
+"Can you show me the logged-in users, including if they can receive messages?",who -T,Lists logged-in users with message status.
+How do I get a list of active users and their messaging status?,who -T,Lists logged-in users with message status.
+"Create a user named `newuser`, make sure they have a home directory, and use `/bin/zsh` as their default shell",useradd -m -s /bin/zsh newuser,Creates newuser with a home directory and zsh as the default shell.
+I need to add the user `newuser` with a home directory and `zsh` as their login shell,useradd -m -s /bin/zsh newuser,Creates newuser with a home directory and zsh as the default shell.
+"Set up `newuser` on the system, giving them a home directory and `/bin/zsh` as their shell",useradd -m -s /bin/zsh newuser,Creates newuser with a home directory and zsh as the default shell.
+Can you create the user account `newuser` with a home folder and `zsh` configured as their default shell?,useradd -m -s /bin/zsh newuser,Creates newuser with a home directory and zsh as the default shell.
+"Add `newuser`, ensuring they get a home directory and `zsh` as their primary shell",useradd -m -s /bin/zsh newuser,Creates newuser with a home directory and zsh as the default shell.
+How do I make a new user `newuser` that has a home directory and `/bin/zsh` as their interactive shell?,useradd -m -s /bin/zsh newuser,Creates newuser with a home directory and zsh as the default shell.
+I want to create `newuser` with a home directory and `/bin/zsh` as their login shell,useradd -m -s /bin/zsh newuser,Creates newuser with a home directory and zsh as the default shell.
+"Please provision a user `newuser`, making sure to create a home directory and set `zsh` as their default shell",useradd -m -s /bin/zsh newuser,Creates newuser with a home directory and zsh as the default shell.
+"Add a user `newuser` for me, assign them a home directory, and make `zsh` their shell",useradd -m -s /bin/zsh newuser,Creates newuser with a home directory and zsh as the default shell.
+"I need to create `newuser`, providing them with a home directory and setting `zsh` as their default shell",useradd -m -s /bin/zsh newuser,Creates newuser with a home directory and zsh as the default shell.
+Set up `newuser` with a home directory and configure `/bin/zsh` as their default login shell,useradd -m -s /bin/zsh newuser,Creates newuser with a home directory and zsh as the default shell.
+"Create a new user account for `newuser`, including a home directory and `zsh` as their default shell",useradd -m -s /bin/zsh newuser,Creates newuser with a home directory and zsh as the default shell.
+How do I see the sudo group entry?,getent group sudo,Displays the sudo group entry from the group database.
+Show me the details for the sudo group,getent group sudo,Displays the sudo group entry from the group database.
+What's the command to display the sudo group information?,getent group sudo,Displays the sudo group entry from the group database.
+Retrieve the sudo group's entry from the system,getent group sudo,Displays the sudo group entry from the group database.
+Can you get me the sudo group details?,getent group sudo,Displays the sudo group entry from the group database.
+Display the sudo group entry from the group database,getent group sudo,Displays the sudo group entry from the group database.
+Get the sudo group info,getent group sudo,Displays the sudo group entry from the group database.
+I need to see the sudo group's ID and members,getent group sudo,Displays the sudo group entry from the group database.
+How can I verify the sudo group's configuration?,getent group sudo,Displays the sudo group entry from the group database.
+Where can I find the sudo group details?,getent group sudo,Displays the sudo group entry from the group database.
+Suggest a command to view the sudo group,getent group sudo,Displays the sudo group entry from the group database.
+Please show the sudo group's details,getent group sudo,Displays the sudo group entry from the group database.
+Run pwck,pwck,Verifies the integrity of password files.
+Please run pwck,pwck,Verifies the integrity of password files.
+Execute pwck,pwck,Verifies the integrity of password files.
+Could you run pwck?,pwck,Verifies the integrity of password files.
+I need to run pwck,pwck,Verifies the integrity of password files.
+Launch pwck,pwck,Verifies the integrity of password files.
+Start the pwck command,pwck,Verifies the integrity of password files.
+Let's run pwck,pwck,Verifies the integrity of password files.
+Perform pwck,pwck,Verifies the integrity of password files.
+Initiate pwck,pwck,Verifies the integrity of password files.
+Run the pwck utility,pwck,Verifies the integrity of password files.
+Go ahead and run pwck,pwck,Verifies the integrity of password files.
+Please run the `grpck` command,grpck,Verifies the integrity of group files.
+How do I verify the integrity of my group files?,grpck,Verifies the integrity of group files.
+I need to check for errors in my group files,grpck,Verifies the integrity of group files.
+Execute `grpck`,grpck,Verifies the integrity of group files.
+What's the command to validate group file integrity?,grpck,Verifies the integrity of group files.
+Perform a group file integrity check,grpck,Verifies the integrity of group files.
+I'd like to make sure my group files are correct,grpck,Verifies the integrity of group files.
+Could you run the utility for verifying group file integrity?,grpck,Verifies the integrity of group files.
+Verify my Linux group files,grpck,Verifies the integrity of group files.
+Run `grpck`,grpck,Verifies the integrity of group files.
+Check the integrity of group definitions,grpck,Verifies the integrity of group files.
+I need to ensure no group file corruption exists,grpck,Verifies the integrity of group files.
+What's the command to execute `col -b` using `file.txt` as input?,col -b < file.txt,Filters file.txt to remove backspaces and their preceding characters.
+I need to filter out backspaces and their preceding characters from `file.txt`. What's the best way to do that using `col`?,col -b < file.txt,Filters file.txt to remove backspaces and their preceding characters.
+Could you give me the command to apply the `col -b` filter to `file.txt`?,col -b < file.txt,Filters file.txt to remove backspaces and their preceding characters.
+How do I apply `col -b` to the contents of `file.txt`?,col -b < file.txt,Filters file.txt to remove backspaces and their preceding characters.
+What's the exact command to run `col -b` and feed `file.txt` into it?,col -b < file.txt,Filters file.txt to remove backspaces and their preceding characters.
+I'm trying to clean up `file.txt` by removing backspace sequences. What's the command to do that with `col -b`?,col -b < file.txt,Filters file.txt to remove backspaces and their preceding characters.
+How do I redirect `file.txt` into the `col -b` command?,col -b < file.txt,Filters file.txt to remove backspaces and their preceding characters.
+I need to run `col -b` with `file.txt` as input. What's the typical syntax for that?,col -b < file.txt,Filters file.txt to remove backspaces and their preceding characters.
+"Using `col`, how can I make it process `file.txt` to remove backspaces?",col -b < file.txt,Filters file.txt to remove backspaces and their preceding characters.
+Give me the full command to execute `col -b` on `file.txt`,col -b < file.txt,Filters file.txt to remove backspaces and their preceding characters.
+I want to use `col` to remove backspaces from `file.txt`. What command should I use?,col -b < file.txt,Filters file.txt to remove backspaces and their preceding characters.
+Could you tell me the command to run `col -b` with `file.txt` as its input source?,col -b < file.txt,Filters file.txt to remove backspaces and their preceding characters.
+Run `tsort file.txt`,tsort file.txt,Performs a topological sort on the input from file.txt.
+Please execute the command `tsort file.txt`,tsort file.txt,Performs a topological sort on the input from file.txt.
+Perform a topological sort on the contents of `file.txt`,tsort file.txt,Performs a topological sort on the input from file.txt.
+What's the command to topologically sort `file.txt`?,tsort file.txt,Performs a topological sort on the input from file.txt.
+How do I use `tsort` with `file.txt`?,tsort file.txt,Performs a topological sort on the input from file.txt.
+I need to get a topological ordering of `file.txt`. How can I do that?,tsort file.txt,Performs a topological sort on the input from file.txt.
+Could you please topologically sort `file.txt` for me?,tsort file.txt,Performs a topological sort on the input from file.txt.
+Apply the `tsort` utility to `file.txt`,tsort file.txt,Performs a topological sort on the input from file.txt.
+Generate a topological sort from `file.txt`,tsort file.txt,Performs a topological sort on the input from file.txt.
+Can you process `file.txt` with `tsort`?,tsort file.txt,Performs a topological sort on the input from file.txt.
+I want to topologically sort `file.txt`,tsort file.txt,Performs a topological sort on the input from file.txt.
+Execute `tsort` on `file.txt`,tsort file.txt,Performs a topological sort on the input from file.txt.
+"How do I display lines from `file.txt` that begin with ""word""?",look word file.txt,Displays lines in file.txt starting with 'word'.
+"What's the command to find all entries in `file.txt` starting with ""word""?",look word file.txt,Displays lines in file.txt starting with 'word'.
+"I want to see all lines in `file.txt` that are prefixed by ""word""",look word file.txt,Displays lines in file.txt starting with 'word'.
+"Using the `look` command, how do I extract lines from `file.txt` beginning with ""word""?",look word file.txt,Displays lines in file.txt starting with 'word'.
+"Show me the lines in `file.txt` that start with ""word""",look word file.txt,Displays lines in file.txt starting with 'word'.
+"How can I use `look` to filter `file.txt` for strings beginning with ""word""?",look word file.txt,Displays lines in file.txt starting with 'word'.
+"Tell me the command to list lines in `file.txt` that commence with ""word""",look word file.txt,Displays lines in file.txt starting with 'word'.
+"I need to get lines from `file.txt` that match ""word"" at the start",look word file.txt,Displays lines in file.txt starting with 'word'.
+"What's the `look` syntax to find lines in `file.txt` that begin with ""word""?",look word file.txt,Displays lines in file.txt starting with 'word'.
+"Find all lines in `file.txt` that start with ""word"", using the `look` utility",look word file.txt,Displays lines in file.txt starting with 'word'.
+"How do I make `look` show me everything in `file.txt` that begins with ""word""?",look word file.txt,Displays lines in file.txt starting with 'word'.
+"Give me the command to output lines from `file.txt` where ""word"" is the initial string",look word file.txt,Displays lines in file.txt starting with 'word'.
+How do I append my standard input to `file.txt` while also displaying it on the screen?,tee -a file.txt,Appends stdin to file.txt and outputs to stdout.
+"What command lets me save my typed input to `file.txt` without overwriting, and still see it in the terminal?",tee -a file.txt,Appends stdin to file.txt and outputs to stdout.
+"Can you show me how to duplicate my input stream, sending one copy to append to `file.txt` and the other to stdout?",tee -a file.txt,Appends stdin to file.txt and outputs to stdout.
+I need to write whatever I type to the end of `file.txt` and also have it appear in my console. How do I do that?,tee -a file.txt,Appends stdin to file.txt and outputs to stdout.
+"How can I take input from my keyboard, add it to `file.txt`, and ensure it's also printed to the display?",tee -a file.txt,Appends stdin to file.txt and outputs to stdout.
+What's the Linux way to record my session's input into `file.txt` (appending) and keep it visible?,tee -a file.txt,Appends stdin to file.txt and outputs to stdout.
+I'm looking for a command that will echo my input to `file.txt` (appending) and also to the terminal,tee -a file.txt,Appends stdin to file.txt and outputs to stdout.
+How do I make my terminal input go to `file.txt` (appending) and simultaneously be shown on my screen?,tee -a file.txt,Appends stdin to file.txt and outputs to stdout.
+"Could you tell me how to funnel my current input into `file.txt` at the very end, and still have it pass through to standard output?",tee -a file.txt,Appends stdin to file.txt and outputs to stdout.
+Is there a utility to capture everything I type to `file.txt` (adding to it) and also print it to the console?,tee -a file.txt,Appends stdin to file.txt and outputs to stdout.
+"I want to split my input: one path goes to append to `file.txt`, the other to my command line output. How?",tee -a file.txt,Appends stdin to file.txt and outputs to stdout.
+What's the command to both log my input to `file.txt` (appending it) and display it instantly?,tee -a file.txt,Appends stdin to file.txt and outputs to stdout.
+"How can I split `file.txt` into multiple files, each containing 1000 lines, with names like `prefix-aa`, `prefix-ab`, etc.?",split -l 1000 file.txt prefix-,"Splits file.txt into files with 1000 lines each, named prefix-aa, prefix-ab, etc."
+"What's the command to split `file.txt` into chunks of 1000 lines, using `prefix-` as the base name?",split -l 1000 file.txt prefix-,"Splits file.txt into files with 1000 lines each, named prefix-aa, prefix-ab, etc."
+"I need to break `file.txt` into smaller files, 1000 lines each, and I want the output files to be named `prefix-` followed by an incrementing suffix",split -l 1000 file.txt prefix-,"Splits file.txt into files with 1000 lines each, named prefix-aa, prefix-ab, etc."
+"How do I use `split` to make 1000-line files from `file.txt`, using `prefix-` as a base name?",split -l 1000 file.txt prefix-,"Splits file.txt into files with 1000 lines each, named prefix-aa, prefix-ab, etc."
+I'm trying to split `file.txt` into files of 1000 lines. How do I specify a prefix like `prefix-` for the output files?,split -l 1000 file.txt prefix-,"Splits file.txt into files with 1000 lines each, named prefix-aa, prefix-ab, etc."
+"I have a large `file.txt` and want to divide it into smaller files, each exactly 1000 lines long. The new files should be named `prefix-aa`, `prefix-ab`, and so on. What's the best way to do this?",split -l 1000 file.txt prefix-,"Splits file.txt into files with 1000 lines each, named prefix-aa, prefix-ab, etc."
+"Can someone tell me how to split `file.txt` into 1000-line segments, naming them `prefix-` followed by letters?",split -l 1000 file.txt prefix-,"Splits file.txt into files with 1000 lines each, named prefix-aa, prefix-ab, etc."
+How do I split `file.txt` into files of 1000 lines and ensure they are named starting with `prefix-`?,split -l 1000 file.txt prefix-,"Splits file.txt into files with 1000 lines each, named prefix-aa, prefix-ab, etc."
+"Hey, I'm trying to break up `file.txt` into 1000-line pieces. I also need the output files to have a `prefix-` before their usual suffixes. How would I do that on Linux?",split -l 1000 file.txt prefix-,"Splits file.txt into files with 1000 lines each, named prefix-aa, prefix-ab, etc."
+What's the proper `split` command syntax to get 1000-line files from `file.txt` and name them with `prefix-`?,split -l 1000 file.txt prefix-,"Splits file.txt into files with 1000 lines each, named prefix-aa, prefix-ab, etc."
+"I need help splitting `file.txt` into 1000-line files, and the output filenames should all begin with `prefix-`",split -l 1000 file.txt prefix-,"Splits file.txt into files with 1000 lines each, named prefix-aa, prefix-ab, etc."
+"How do I split `file.txt` so that *each* resulting file has 1000 lines, and their names start with `prefix-`?",split -l 1000 file.txt prefix-,"Splits file.txt into files with 1000 lines each, named prefix-aa, prefix-ab, etc."
+"How do I split `file.txt` into multiple files using `csplit`, with each split occurring at lines that begin with '#'?",csplit file.txt '/^#/' {*},Splits file.txt into files at lines starting with '#'.
+I need to run a `csplit` command to separate `file.txt` into distinct files. The split point should be any line starting with a hash symbol,csplit file.txt '/^#/' {*},Splits file.txt into files at lines starting with '#'.
+"What's the command to divide `file.txt` into separate files, where the division happens at lines that start with '#' using `csplit`?",csplit file.txt '/^#/' {*},Splits file.txt into files at lines starting with '#'.
+Can you help me split `file.txt` into new files wherever a line begins with '#'? I'm looking for the `csplit` syntax,csplit file.txt '/^#/' {*},Splits file.txt into files at lines starting with '#'.
+"Please execute the `csplit` command that breaks `file.txt` into smaller files, using lines that start with '#' as the delimiters",csplit file.txt '/^#/' {*},Splits file.txt into files at lines starting with '#'.
+Show me how to segment `file.txt` into multiple output files. Each segment should start after a line beginning with '#',csplit file.txt '/^#/' {*},Splits file.txt into files at lines starting with '#'.
+I want to split `file.txt` into individual files. The split condition is a line starting with '#'. How do I do this with `csplit`?,csplit file.txt '/^#/' {*},Splits file.txt into files at lines starting with '#'.
+Generate the `csplit` command to split `file.txt` into files at every line that starts with a hash mark,csplit file.txt '/^#/' {*},Splits file.txt into files at lines starting with '#'.
+"Could you run `csplit` to split `file.txt` into files, where the split points are lines whose first character is '#'?",csplit file.txt '/^#/' {*},Splits file.txt into files at lines starting with '#'.
+"What's the `csplit` command to parse `file.txt` into separate output files, using lines that begin with '#' as the separators?",csplit file.txt '/^#/' {*},Splits file.txt into files at lines starting with '#'.
+"How can I use `csplit` to create new files from `file.txt`, with each new file starting after a line marked by a leading '#'?",csplit file.txt '/^#/' {*},Splits file.txt into files at lines starting with '#'.
+I need `file.txt` to be broken into multiple files. The split should occur whenever `csplit` encounters a line starting with '#'. What's the command?,csplit file.txt '/^#/' {*},Splits file.txt into files at lines starting with '#'.
+How do I view the Nginx service unit file?,systemctl cat nginx,Displays the unit file for the nginx service.
+What's the command to display the systemd unit for Nginx?,systemctl cat nginx,Displays the unit file for the nginx service.
+Can you show me the configuration file for the Nginx service?,systemctl cat nginx,Displays the unit file for the nginx service.
+I need to see the definition of the Nginx service. How can I do that?,systemctl cat nginx,Displays the unit file for the nginx service.
+What command lets me inspect the Nginx service unit?,systemctl cat nginx,Displays the unit file for the nginx service.
+How do I `cat` the Nginx systemd service file?,systemctl cat nginx,Displays the unit file for the nginx service.
+Display the Nginx service's systemd unit file content,systemctl cat nginx,Displays the unit file for the nginx service.
+Show me how the Nginx service is configured via systemd,systemctl cat nginx,Displays the unit file for the nginx service.
+Where can I find the Nginx service's unit file content?,systemctl cat nginx,Displays the unit file for the nginx service.
+I want to see the contents of the `nginx.service` unit. What command should I use?,systemctl cat nginx,Displays the unit file for the nginx service.
+Could you provide the command to view the Nginx service's Systemd definition?,systemctl cat nginx,Displays the unit file for the nginx service.
+What's the best way to examine the Nginx systemd service unit?,systemctl cat nginx,Displays the unit file for the nginx service.
+Please force log rotation based on `/etc/logrotate.conf`,logrotate -f /etc/logrotate.conf,Forces log rotation based on /etc/logrotate.conf.
+I need to manually run `logrotate` using the `/etc/logrotate.conf` file,logrotate -f /etc/logrotate.conf,Forces log rotation based on /etc/logrotate.conf.
+Trigger `logrotate` immediately with the configuration from `/etc/logrotate.conf`,logrotate -f /etc/logrotate.conf,Forces log rotation based on /etc/logrotate.conf.
+"Can you execute a forced `logrotate` operation, specifying `/etc/logrotate.conf`?",logrotate -f /etc/logrotate.conf,Forces log rotation based on /etc/logrotate.conf.
+I want to apply the log rotation rules in `/etc/logrotate.conf` right away,logrotate -f /etc/logrotate.conf,Forces log rotation based on /etc/logrotate.conf.
+Force `logrotate` to process `/etc/logrotate.conf` now,logrotate -f /etc/logrotate.conf,Forces log rotation based on /etc/logrotate.conf.
+Initiate an immediate log rotation using the `/etc/logrotate.conf` configuration file,logrotate -f /etc/logrotate.conf,Forces log rotation based on /etc/logrotate.conf.
+Could you run `logrotate` in forced mode with `/etc/logrotate.conf`?,logrotate -f /etc/logrotate.conf,Forces log rotation based on /etc/logrotate.conf.
+Let's get `logrotate` to run against `/etc/logrotate.conf` forcefully,logrotate -f /etc/logrotate.conf,Forces log rotation based on /etc/logrotate.conf.
+"Perform a manual `logrotate` action, referencing `/etc/logrotate.conf`",logrotate -f /etc/logrotate.conf,Forces log rotation based on /etc/logrotate.conf.
+I'd like to force the log rotation specified in `/etc/logrotate.conf`,logrotate -f /etc/logrotate.conf,Forces log rotation based on /etc/logrotate.conf.
+"Run `logrotate -f /etc/logrotate.conf` for me, please",logrotate -f /etc/logrotate.conf,Forces log rotation based on /etc/logrotate.conf.
+How do I display my CPU's information in a parseable format?,lscpu -p,Displays CPU information in a parseable format without comments.
+What command should I use to get detailed CPU specs without comments?,lscpu -p,Displays CPU information in a parseable format without comments.
+Can you tell me the command to list CPU properties in a script-friendly way?,lscpu -p,Displays CPU information in a parseable format without comments.
+"I need the CPU architecture details, but I want the output to be easily parsable. What's the command?",lscpu -p,Displays CPU information in a parseable format without comments.
+"Is there a Linux command that shows CPU info in a raw, comment-free format?",lscpu -p,Displays CPU information in a parseable format without comments.
+"How can I get a clean, structured output of my CPU's capabilities?",lscpu -p,Displays CPU information in a parseable format without comments.
+Please give me the command to show CPU details specifically for programmatic parsing,lscpu -p,Displays CPU information in a parseable format without comments.
+What's the best way to extract CPU information without any header lines or comments?,lscpu -p,Displays CPU information in a parseable format without comments.
+"Could you provide the command to display CPU data in a format suitable for scripting, like plain key-value, without extra text?",lscpu -p,Displays CPU information in a parseable format without comments.
+"I'm looking for a command to get a concise, parseable list of my system's CPU characteristics",lscpu -p,Displays CPU information in a parseable format without comments.
+Show me the command that outputs CPU information in a format designed for easy parsing by other tools,lscpu -p,Displays CPU information in a parseable format without comments.
+"What's the command to get CPU details in a format without comments, optimized for machine reading?",lscpu -p,Displays CPU information in a parseable format without comments.
+Please run `numactl --hardware`,numactl --hardware,Displays NUMA node information.
+Show me the NUMA node information,numactl --hardware,Displays NUMA node information.
+Could you execute `numactl --hardware`?,numactl --hardware,Displays NUMA node information.
+I need to see the NUMA hardware topology,numactl --hardware,Displays NUMA node information.
+What's the command to display NUMA node details?,numactl --hardware,Displays NUMA node information.
+Display the output of `numactl --hardware`,numactl --hardware,Displays NUMA node information.
+Get the NUMA architecture configuration,numactl --hardware,Displays NUMA node information.
+Run `numactl --hardware` and show me the results,numactl --hardware,Displays NUMA node information.
+How can I view the NUMA node hardware?,numactl --hardware,Displays NUMA node information.
+Print the NUMA hardware overview,numactl --hardware,Displays NUMA node information.
+I'd like to check the NUMA nodes using `numactl --hardware`,numactl --hardware,Displays NUMA node information.
+Execute the `numactl --hardware` command,numactl --hardware,Displays NUMA node information.
+Show me the System V semaphore arrays,ipcs -s,Lists System V semaphore arrays.
+Could you list the IPC semaphores?,ipcs -s,Lists System V semaphore arrays.
+I need to check the status of the System V semaphores,ipcs -s,Lists System V semaphore arrays.
+"Display the semaphore arrays, please",ipcs -s,Lists System V semaphore arrays.
+What are the current System V semaphores?,ipcs -s,Lists System V semaphore arrays.
+Run the command to view semaphore arrays,ipcs -s,Lists System V semaphore arrays.
+Can you provide the details of the System V semaphore sets?,ipcs -s,Lists System V semaphore arrays.
+Let's inspect the IPC semaphores,ipcs -s,Lists System V semaphore arrays.
+I want to see the active System V semaphores,ipcs -s,Lists System V semaphore arrays.
+Get me the semaphore array information,ipcs -s,Lists System V semaphore arrays.
+How do I list the System V semaphores?,ipcs -s,Lists System V semaphore arrays.
+Show me the output of `ipcs -s`,ipcs -s,Lists System V semaphore arrays.
+Run `ipcs -q`,ipcs -q,Lists System V message queues.
+Show me the message queues,ipcs -q,Lists System V message queues.
+List System V message queues,ipcs -q,Lists System V message queues.
+Execute `ipcs -q`,ipcs -q,Lists System V message queues.
+Can you display the message queue status?,ipcs -q,Lists System V message queues.
+I want to see the active message queues,ipcs -q,Lists System V message queues.
+Get the message queue information,ipcs -q,Lists System V message queues.
+What are the current System V message queues?,ipcs -q,Lists System V message queues.
+Please run `ipcs` to list the queues,ipcs -q,Lists System V message queues.
+Show me only the queues,ipcs -q,Lists System V message queues.
+Display the state of message queues,ipcs -q,Lists System V message queues.
+Provide a list of System V message queues,ipcs -q,Lists System V message queues.
+Run the command: `dmidecode -t processor`,dmidecode -t processor,Displays detailed processor information.
+Please execute `dmidecode -t processor`,dmidecode -t processor,Displays detailed processor information.
+Could you please display my processor's detailed information using `dmidecode`?,dmidecode -t processor,Displays detailed processor information.
+Show me the output of `dmidecode -t processor`,dmidecode -t processor,Displays detailed processor information.
+I need to view my CPU specifications. Run `dmidecode -t processor`,dmidecode -t processor,Displays detailed processor information.
+Perform `dmidecode -t processor` for me,dmidecode -t processor,Displays detailed processor information.
+Display all processor-related data with the `dmidecode -t processor` command,dmidecode -t processor,Displays detailed processor information.
+Get the processor details using `dmidecode -t processor`,dmidecode -t processor,Displays detailed processor information.
+Could you fetch the processor type details by running `dmidecode` with the `-t processor` option?,dmidecode -t processor,Displays detailed processor information.
+Please run `dmidecode -t processor` to check my CPU,dmidecode -t processor,Displays detailed processor information.
+I'd like to see the processor-specific data from `dmidecode`,dmidecode -t processor,Displays detailed processor information.
+Initiate `dmidecode -t processor`,dmidecode -t processor,Displays detailed processor information.
+How do I list SELinux login mappings?,semanage login -l,Lists SELinux login mappings.
+Show me the SELinux login mappings,semanage login -l,Lists SELinux login mappings.
+What's the command to display SELinux login mappings?,semanage login -l,Lists SELinux login mappings.
+I need to check SELinux login policy. How can I do that?,semanage login -l,Lists SELinux login mappings.
+List current SELinux login definitions,semanage login -l,Lists SELinux login mappings.
+Can you show me the SELinux login configurations?,semanage login -l,Lists SELinux login mappings.
+What command reveals SELinux login entries?,semanage login -l,Lists SELinux login mappings.
+I'd like to see the SELinux login mappings for users,semanage login -l,Lists SELinux login mappings.
+How can I view the SELinux login mapping list?,semanage login -l,Lists SELinux login mappings.
+Display SELinux login assignments,semanage login -l,Lists SELinux login mappings.
+Get SELinux login mappings,semanage login -l,Lists SELinux login mappings.
+Where can I find the SELinux login mapping information?,semanage login -l,Lists SELinux login mappings.
+How do I list SELinux booleans?,semanage boolean -l,Lists SELinux booleans with descriptions.
+What command shows the SELinux booleans?,semanage boolean -l,Lists SELinux booleans with descriptions.
+Show me all SELinux booleans,semanage boolean -l,Lists SELinux booleans with descriptions.
+I need to view the SELinux boolean settings,semanage boolean -l,Lists SELinux booleans with descriptions.
+Can you tell me how to display SELinux booleans?,semanage boolean -l,Lists SELinux booleans with descriptions.
+How do I use `semanage` to list booleans?,semanage boolean -l,Lists SELinux booleans with descriptions.
+What's the way to get SELinux booleans with descriptions?,semanage boolean -l,Lists SELinux booleans with descriptions.
+List the SELinux booleans,semanage boolean -l,Lists SELinux booleans with descriptions.
+I want to see the current SELinux boolean status,semanage boolean -l,Lists SELinux booleans with descriptions.
+Give me the list of SELinux booleans,semanage boolean -l,Lists SELinux booleans with descriptions.
+How do you check SELinux booleans?,semanage boolean -l,Lists SELinux booleans with descriptions.
+Display the current SELinux booleans,semanage boolean -l,Lists SELinux booleans with descriptions.
+Could you please start `netcat` listening on port 12345?,netcat -l 12345,Listens for incoming connections on port 12345.
+Listen for incoming connections on port,netcat -l 12345,Listens for incoming connections on port 12345.
+Please open port 12345 with `netcat` to receive data,netcat -l 12345,Listens for incoming connections on port 12345.
+I need a `netcat` listener on port,netcat -l 12345,Listens for incoming connections on port 12345.
+Can you get `netcat` to listen on 12345?,netcat -l 12345,Listens for incoming connections on port 12345.
+Set up a listening socket on port,netcat -l 12345,Listens for incoming connections on port 12345.
+Start `netcat` in listening mode on port,netcat -l 12345,Listens for incoming connections on port 12345.
+Listen on port,netcat -l 12345,Listens for incoming connections on port 12345.
+Initiate `netcat` to monitor port 12345 for incoming connections,netcat -l 12345,Listens for incoming connections on port 12345.
+"Fire up a `netcat` listener on port 12345, please",netcat -l 12345,Listens for incoming connections on port 12345.
+Run the `netcat` command to listen on port,netcat -l 12345,Listens for incoming connections on port 12345.
+Let's make port 12345 listen with `netcat`,netcat -l 12345,Listens for incoming connections on port 12345.
+How can I continuously monitor network connections and highlight changes?,watch -d 'netstat -tuln',"Runs 'netstat -tuln' every 2 seconds, highlighting changes."
+"I want to see `netstat -tuln` output updating automatically, with differences highlighted",watch -d 'netstat -tuln',"Runs 'netstat -tuln' every 2 seconds, highlighting changes."
+What's the command to track open network ports and see what changes over time?,watch -d 'netstat -tuln',"Runs 'netstat -tuln' every 2 seconds, highlighting changes."
+"Show me real-time network activity, highlighting new or closed connections",watch -d 'netstat -tuln',"Runs 'netstat -tuln' every 2 seconds, highlighting changes."
+"Help me keep an eye on active network connections, emphasizing changes",watch -d 'netstat -tuln',"Runs 'netstat -tuln' every 2 seconds, highlighting changes."
+"How do I dynamically observe network connections, showing any new connections or disconnects?",watch -d 'netstat -tuln',"Runs 'netstat -tuln' every 2 seconds, highlighting changes."
+"Display the current network state, constantly refreshing and indicating differences",watch -d 'netstat -tuln',"Runs 'netstat -tuln' every 2 seconds, highlighting changes."
+"Monitor open TCP and UDP ports, highlighting any changes",watch -d 'netstat -tuln',"Runs 'netstat -tuln' every 2 seconds, highlighting changes."
+I need a live view of network connections that updates frequently and highlights differences,watch -d 'netstat -tuln',"Runs 'netstat -tuln' every 2 seconds, highlighting changes."
+"How can I watch network connections as they appear and disappear, with changes highlighted?",watch -d 'netstat -tuln',"Runs 'netstat -tuln' every 2 seconds, highlighting changes."
+"Give me a constantly updating display of network activity, drawing attention to changes",watch -d 'netstat -tuln',"Runs 'netstat -tuln' every 2 seconds, highlighting changes."
+What's the best way to see a refreshing list of network connections and identify what's changed?,watch -d 'netstat -tuln',"Runs 'netstat -tuln' every 2 seconds, highlighting changes."
+How do I open `file.txt` in Emacs using a Lisp expression?,"emacs --eval '(find-file ""file.txt"")'",Opens file.txt in Emacs non-interactively via Lisp expression.
+I need to make Emacs load `file.txt` directly from the command line via an eval,"emacs --eval '(find-file ""file.txt"")'",Opens file.txt in Emacs non-interactively via Lisp expression.
+"What's the command to open `file.txt` in Emacs without user interaction, using an evaluated Lisp form?","emacs --eval '(find-file ""file.txt"")'",Opens file.txt in Emacs non-interactively via Lisp expression.
+Can you show me how to open `file.txt` in Emacs by evaluating a Lisp snippet?,"emacs --eval '(find-file ""file.txt"")'",Opens file.txt in Emacs non-interactively via Lisp expression.
+I want to launch Emacs and have it immediately open `file.txt` using a Lisp command,"emacs --eval '(find-file ""file.txt"")'",Opens file.txt in Emacs non-interactively via Lisp expression.
+"How do I get Emacs to open `file.txt` programmatically, like by passing it a Lisp expression?","emacs --eval '(find-file ""file.txt"")'",Opens file.txt in Emacs non-interactively via Lisp expression.
+Could you provide the command to open `file.txt` in Emacs using an `--eval` argument?,"emacs --eval '(find-file ""file.txt"")'",Opens file.txt in Emacs non-interactively via Lisp expression.
+What's the terminal command to tell Emacs to open `file.txt` by evaluating some Emacs Lisp?,"emacs --eval '(find-file ""file.txt"")'",Opens file.txt in Emacs non-interactively via Lisp expression.
+I'm trying to open `file.txt` in Emacs by calling `find-file` via the command line,"emacs --eval '(find-file ""file.txt"")'",Opens file.txt in Emacs non-interactively via Lisp expression.
+"How can I instruct Emacs to open `file.txt` upon startup, by evaluating a Lisp statement?","emacs --eval '(find-file ""file.txt"")'",Opens file.txt in Emacs non-interactively via Lisp expression.
+I need Emacs to open `file.txt` using a Lisp evaluation from the shell,"emacs --eval '(find-file ""file.txt"")'",Opens file.txt in Emacs non-interactively via Lisp expression.
+Please give me the command to open `file.txt` in Emacs using a direct Lisp call,"emacs --eval '(find-file ""file.txt"")'",Opens file.txt in Emacs non-interactively via Lisp expression.
+How do I run `script.vim` using Vim in silent mode?,vim -es -S script.vim,Runs Vim in silent mode to execute script.vim.
+Execute `script.vim` with Vim non-interactively,vim -es -S script.vim,Runs Vim in silent mode to execute script.vim.
+Run Vim to process `script.vim` in batch mode,vim -es -S script.vim,Runs Vim in silent mode to execute script.vim.
+Launch Vim silently to execute `script.vim`,vim -es -S script.vim,Runs Vim in silent mode to execute script.vim.
+I need to run the Vim script `script.vim` without any user interaction,vim -es -S script.vim,Runs Vim in silent mode to execute script.vim.
+Can you make Vim run `script.vim` in script mode?,vim -es -S script.vim,Runs Vim in silent mode to execute script.vim.
+What's the command to execute `script.vim` using Vim silently?,vim -es -S script.vim,Runs Vim in silent mode to execute script.vim.
+Initiate Vim to run `script.vim` without displaying an interface,vim -es -S script.vim,Runs Vim in silent mode to execute script.vim.
+Run `script.vim` through Vim as a background task,vim -es -S script.vim,Runs Vim in silent mode to execute script.vim.
+"Please run `script.vim` using Vim in its Ex mode, silently",vim -es -S script.vim,Runs Vim in silent mode to execute script.vim.
+Automate the execution of `script.vim` with Vim's scripting capabilities,vim -es -S script.vim,Runs Vim in silent mode to execute script.vim.
+Invoke Vim to perform operations defined in `script.vim` without user input,vim -es -S script.vim,Runs Vim in silent mode to execute script.vim.
+"Could you tell me how to open `config.conf` in Nano, making sure tabs are 4 spaces wide?",nano -T 4 config.conf,Opens config.conf in Nano with tabs set to 4 spaces.
+"What's the command to edit `config.conf` with Nano, setting tab width to 4?",nano -T 4 config.conf,Opens config.conf in Nano with tabs set to 4 spaces.
+I need to open `config.conf` in Nano and configure tabs to be 4 spaces. How do I do that?,nano -T 4 config.conf,Opens config.conf in Nano with tabs set to 4 spaces.
+How do I open `config.conf` in Nano and have it display tabs as 4 spaces?,nano -T 4 config.conf,Opens config.conf in Nano with tabs set to 4 spaces.
+"Nano, `config.conf`, 4-space tabs. Command?",nano -T 4 config.conf,Opens config.conf in Nano with tabs set to 4 spaces.
+"I'm trying to edit `config.conf` in Nano, but I need tabs to be 4 spaces. What's the best way to open it like that?",nano -T 4 config.conf,Opens config.conf in Nano with tabs set to 4 spaces.
+"How do I open `config.conf` with Nano, specifically ensuring tab indents are 4 characters?",nano -T 4 config.conf,Opens config.conf in Nano with tabs set to 4 spaces.
+Please provide the command to invoke Nano on `config.conf` with a tab width of,nano -T 4 config.conf,Opens config.conf in Nano with tabs set to 4 spaces.
+"Open `config.conf` in Nano with 4-space tabs, please",nano -T 4 config.conf,Opens config.conf in Nano with tabs set to 4 spaces.
+What's the Nano option to set tab width to 4 when opening `config.conf`?,nano -T 4 config.conf,Opens config.conf in Nano with tabs set to 4 spaces.
+"If I want to modify `config.conf` using Nano, and I need 4-space tabs, what command should I use?",nano -T 4 config.conf,Opens config.conf in Nano with tabs set to 4 spaces.
+"Hey, how do I quickly open `config.conf` in Nano, but with 4-space tabs?",nano -T 4 config.conf,Opens config.conf in Nano with tabs set to 4 spaces.

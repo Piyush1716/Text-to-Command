@@ -1,0 +1,481 @@
+user_query,command,description
+How do I extract the printable strings from the `/bin/ls` binary?,strings /bin/ls,Extracts printable strings from the binary /bin/ls.
+Could you show me the text strings embedded within the `/bin/ls` executable?,strings /bin/ls,Extracts printable strings from the binary /bin/ls.
+What's the command to get all the human-readable strings from `/bin/ls`?,strings /bin/ls,Extracts printable strings from the binary /bin/ls.
+I need to view the printable character sequences present in `/bin/ls`,strings /bin/ls,Extracts printable strings from the binary /bin/ls.
+Display the strings found in the `/bin/ls` file,strings /bin/ls,Extracts printable strings from the binary /bin/ls.
+Can you run the `strings` utility on `/bin/ls` for me?,strings /bin/ls,Extracts printable strings from the binary /bin/ls.
+Please output the printable string data from `/bin/ls`,strings /bin/ls,Extracts printable strings from the binary /bin/ls.
+I want to see what strings are inside the `/bin/ls` program,strings /bin/ls,Extracts printable strings from the binary /bin/ls.
+Tell me the command to list the strings within `/bin/ls`,strings /bin/ls,Extracts printable strings from the binary /bin/ls.
+Get me the printable strings from the `/bin/ls` binary,strings /bin/ls,Extracts printable strings from the binary /bin/ls.
+Could you parse `/bin/ls` for its embedded text strings?,strings /bin/ls,Extracts printable strings from the binary /bin/ls.
+How can I extract all the readable strings from the `/bin/ls` binary file?,strings /bin/ls,Extracts printable strings from the binary /bin/ls.
+How do I display `file.bin` in hexadecimal and ASCII format?,hexdump -C file.bin,Displays file.bin in hexadecimal and ASCII format.
+What's the command to view `file.bin` using `hexdump` with character output?,hexdump -C file.bin,Displays file.bin in hexadecimal and ASCII format.
+"I need to see the contents of `file.bin` in a canonical hex dump, showing both hex and ASCII. How can I do that?",hexdump -C file.bin,Displays file.bin in hexadecimal and ASCII format.
+Can you give me the `hexdump` command to show `file.bin` byte-by-byte with their ASCII equivalents?,hexdump -C file.bin,Displays file.bin in hexadecimal and ASCII format.
+How can I get `hexdump` to output `file.bin` with the character column?,hexdump -C file.bin,Displays file.bin in hexadecimal and ASCII format.
+What command would I use to inspect `file.bin`'s raw binary data along with its ASCII representation?,hexdump -C file.bin,Displays file.bin in hexadecimal and ASCII format.
+Show me how to hexdump `file.bin` in the standard hex+ASCII layout,hexdump -C file.bin,Displays file.bin in hexadecimal and ASCII format.
+I'm trying to view `file.bin` and need to see the hexadecimal values and the corresponding characters. What's the syntax?,hexdump -C file.bin,Displays file.bin in hexadecimal and ASCII format.
+Give me the command to dump `file.bin` in a hex and ASCII format,hexdump -C file.bin,Displays file.bin in hexadecimal and ASCII format.
+How do I make `hexdump` show `file.bin` with both its hex and character values?,hexdump -C file.bin,Displays file.bin in hexadecimal and ASCII format.
+What's the best way to print `file.bin`'s binary content in a hex and ASCII side-by-side view?,hexdump -C file.bin,Displays file.bin in hexadecimal and ASCII format.
+"I want to examine `file.bin` with a hex editor-like output on the command line, showing ASCII. What command achieves this?",hexdump -C file.bin,Displays file.bin in hexadecimal and ASCII format.
+How can I get the detailed status of `file.txt`?,stat file.txt,"Displays detailed file status, including timestamps and permissions."
+What command shows the permissions and timestamps for `file.txt`?,stat file.txt,"Displays detailed file status, including timestamps and permissions."
+I need to display all available information about `file.txt`. What should I type?,stat file.txt,"Displays detailed file status, including timestamps and permissions."
+Could you show me how to run `stat` on `file.txt`?,stat file.txt,"Displays detailed file status, including timestamps and permissions."
+What's the way to check `file.txt`'s properties using `stat`?,stat file.txt,"Displays detailed file status, including timestamps and permissions."
+Tell me the command to view the file status of `file.txt`,stat file.txt,"Displays detailed file status, including timestamps and permissions."
+How do I use `stat` to inspect `file.txt`?,stat file.txt,"Displays detailed file status, including timestamps and permissions."
+I want to see the inode number and block size for `file.txt`. What's the command?,stat file.txt,"Displays detailed file status, including timestamps and permissions."
+What's the correct syntax to get the detailed status for `file.txt`?,stat file.txt,"Displays detailed file status, including timestamps and permissions."
+How do I execute `stat file.txt` in the terminal?,stat file.txt,"Displays detailed file status, including timestamps and permissions."
+Could you provide the command to get a comprehensive status report on `file.txt`?,stat file.txt,"Displays detailed file status, including timestamps and permissions."
+"If I wanted to see the last modification time, access time, and change time for `file.txt`, what would I type?",stat file.txt,"Displays detailed file status, including timestamps and permissions."
+How can I see what's using port 80?,lsof -i :80,Lists processes using port 80.
+What command shows which process is listening on port 80?,lsof -i :80,Lists processes using port 80.
+I need to list all processes currently utilizing TCP port 80. How do I do that?,lsof -i :80,Lists processes using port 80.
+Can you tell me which application has port 80 open?,lsof -i :80,Lists processes using port 80.
+Show me the process ID for whatever is bound to port,lsof -i :80,Lists processes using port 80.
+How do I determine which service is occupying port 80?,lsof -i :80,Lists processes using port 80.
+I want to find the program that's using port 80. What's the command?,lsof -i :80,Lists processes using port 80.
+Could you help me execute `lsof -i :80`?,lsof -i :80,Lists processes using port 80.
+What's the best way to check for processes on port 80?,lsof -i :80,Lists processes using port 80.
+"Display the active connections on port 80, please",lsof -i :80,Lists processes using port 80.
+I need to identify the process responsible for port 80 traffic,lsof -i :80,Lists processes using port 80.
+Tell me what's hogging port 80 right now,lsof -i :80,Lists processes using port 80.
+Run `tcpdump -i eth0`,tcpdump -i eth0,Captures packets on the eth0 interface.
+How do I capture packets on the `eth0` interface?,tcpdump -i eth0,Captures packets on the eth0 interface.
+Please start `tcpdump` on `eth0`,tcpdump -i eth0,Captures packets on the eth0 interface.
+I need to capture traffic on `eth0`. Which command should I use?,tcpdump -i eth0,Captures packets on the eth0 interface.
+What's the command to sniff packets on `eth0`?,tcpdump -i eth0,Captures packets on the eth0 interface.
+Initiate a packet capture session on `eth0` with `tcpdump`,tcpdump -i eth0,Captures packets on the eth0 interface.
+How do I configure `tcpdump` to listen on `eth0`?,tcpdump -i eth0,Captures packets on the eth0 interface.
+I want to monitor `eth0` for network activity,tcpdump -i eth0,Captures packets on the eth0 interface.
+Can you provide the `tcpdump` syntax for `eth0`?,tcpdump -i eth0,Captures packets on the eth0 interface.
+Execute `tcpdump` targeting `eth0`,tcpdump -i eth0,Captures packets on the eth0 interface.
+Could you show me how to capture traffic from `eth0` using `tcpdump`?,tcpdump -i eth0,Captures packets on the eth0 interface.
+I need to capture network data on `eth0`,tcpdump -i eth0,Captures packets on the eth0 interface.
+How do I look up the IP address for google.com using `nslookup`?,nslookup google.com,Queries DNS for google.com's IP address.
+What's the `nslookup` command to find the IP address of google.com?,nslookup google.com,Queries DNS for google.com's IP address.
+I'm trying to find the IP address of google.com. How can I do that with `nslookup`?,nslookup google.com,Queries DNS for google.com's IP address.
+Get me the IP of google.com using `nslookup`,nslookup google.com,Queries DNS for google.com's IP address.
+Could you tell me the command to query the DNS for google.com's IP address using `nslookup`?,nslookup google.com,Queries DNS for google.com's IP address.
+Please perform a DNS lookup for google.com using the `nslookup` utility,nslookup google.com,Queries DNS for google.com's IP address.
+How would I use `nslookup` to get the IP address associated with google.com?,nslookup google.com,Queries DNS for google.com's IP address.
+My goal is to find google.com's IP. How do I achieve this with `nslookup`?,nslookup google.com,Queries DNS for google.com's IP address.
+Perform an `nslookup` on google.com,nslookup google.com,Queries DNS for google.com's IP address.
+Can you help me find the IP address of google.com using the `nslookup` command?,nslookup google.com,Queries DNS for google.com's IP address.
+Display the DNS information for google.com using `nslookup`,nslookup google.com,Queries DNS for google.com's IP address.
+"If I were in a Linux terminal, what command would I type to run `nslookup` on google.com?",nslookup google.com,Queries DNS for google.com's IP address.
+Run `dig google.com`,dig google.com,Performs a detailed DNS lookup for google.com.
+Execute the command `dig google.com`,dig google.com,Performs a detailed DNS lookup for google.com.
+Could you please run `dig google.com`?,dig google.com,Performs a detailed DNS lookup for google.com.
+How do I perform a DNS lookup for google.com?,dig google.com,Performs a detailed DNS lookup for google.com.
+I need to check the DNS records for google.com; what command should I use?,dig google.com,Performs a detailed DNS lookup for google.com.
+Please fire up the terminal and run `dig google.com`,dig google.com,Performs a detailed DNS lookup for google.com.
+Show me the DNS information for google.com,dig google.com,Performs a detailed DNS lookup for google.com.
+What's the command to dig google.com?,dig google.com,Performs a detailed DNS lookup for google.com.
+Perform a detailed DNS lookup for google.com,dig google.com,Performs a detailed DNS lookup for google.com.
+Get the DNS details for google.com using `dig`,dig google.com,Performs a detailed DNS lookup for google.com.
+Could you `dig google.com` for me?,dig google.com,Performs a detailed DNS lookup for google.com.
+I want to use `dig` to query google.com,dig google.com,Performs a detailed DNS lookup for google.com.
+Please run `ipcs -m`,ipcs -m,Lists shared memory segments.
+How can I list the shared memory segments?,ipcs -m,Lists shared memory segments.
+Show me the shared memory status,ipcs -m,Lists shared memory segments.
+I need to inspect shared memory segments,ipcs -m,Lists shared memory segments.
+What's the command to view shared memory?,ipcs -m,Lists shared memory segments.
+Execute `ipcs -m`,ipcs -m,Lists shared memory segments.
+Can you display the shared memory segments for me?,ipcs -m,Lists shared memory segments.
+I want to check shared memory usage,ipcs -m,Lists shared memory segments.
+Run the command that lists shared memory segments,ipcs -m,Lists shared memory segments.
+How do I get an overview of shared memory on this system?,ipcs -m,Lists shared memory segments.
+List current shared memory segments,ipcs -m,Lists shared memory segments.
+Display the output of `ipcs -m`,ipcs -m,Lists shared memory segments.
+How do I check CPU usage every second for three iterations?,sar -u 1 3,Reports CPU usage every second for 3 iterations.
+"Can you run the `sar` command to report CPU utilization at 1-second intervals, three times?",sar -u 1 3,Reports CPU usage every second for 3 iterations.
+"Show me the CPU activity, refreshing every second, for three consecutive readings",sar -u 1 3,Reports CPU usage every second for 3 iterations.
+"I need to get CPU statistics, sampled every second, for 3 reports",sar -u 1 3,Reports CPU usage every second for 3 iterations.
+"What's the command to monitor CPU usage with a 1-second sampling rate, for 3 samples?",sar -u 1 3,Reports CPU usage every second for 3 iterations.
+"Could you display the CPU load three times, with a one-second delay between each?",sar -u 1 3,Reports CPU usage every second for 3 iterations.
+"Initiate a `sar` report for CPU, showing data every second, three times",sar -u 1 3,Reports CPU usage every second for 3 iterations.
+"Provide me with three consecutive CPU usage reports, each one second apart",sar -u 1 3,Reports CPU usage every second for 3 iterations.
+"I'd like to check the CPU usage over 3 seconds, taking a sample each second",sar -u 1 3,Reports CPU usage every second for 3 iterations.
+"Execute the command that shows CPU utilization for three iterations, updated every second",sar -u 1 3,Reports CPU usage every second for 3 iterations.
+Run `sar -u 1 3` please,sar -u 1 3,Reports CPU usage every second for 3 iterations.
+"Give me the output of a CPU usage report, sampled every second, three times",sar -u 1 3,Reports CPU usage every second for 3 iterations.
+Run `dmesg` with human-readable timestamps,dmesg -T,Displays kernel messages with human-readable timestamps.
+How can I display kernel messages with proper time formatting?,dmesg -T,Displays kernel messages with human-readable timestamps.
+Show me the kernel ring buffer output and make sure the timestamps are easy to read,dmesg -T,Displays kernel messages with human-readable timestamps.
+What's the command to get `dmesg` to show human-readable timestamps?,dmesg -T,Displays kernel messages with human-readable timestamps.
+"I need to check the system's kernel logs, and the times need to be clear and understandable",dmesg -T,Displays kernel messages with human-readable timestamps.
+Could you display the kernel boot messages along with their human-readable timestamps?,dmesg -T,Displays kernel messages with human-readable timestamps.
+How do I view `dmesg` output with actual date and time information?,dmesg -T,Displays kernel messages with human-readable timestamps.
+"Just show me the kernel buffer, but make sure the timestamps are present and readable",dmesg -T,Displays kernel messages with human-readable timestamps.
+"I want to examine recent kernel events, and I need the timestamps to be accurate and human-friendly",dmesg -T,Displays kernel messages with human-readable timestamps.
+"Display the kernel log messages, ensuring the timestamps are correctly formatted",dmesg -T,Displays kernel messages with human-readable timestamps.
+What's the best way to see kernel messages with timestamps?,dmesg -T,Displays kernel messages with human-readable timestamps.
+Please run `dmesg` and add the human-readable timestamps to the output,dmesg -T,Displays kernel messages with human-readable timestamps.
+Run lsdev,lsdev,Lists hardware device information.
+Please run lsdev for me,lsdev,Lists hardware device information.
+Could you execute the lsdev command?,lsdev,Lists hardware device information.
+Show me the hardware devices,lsdev,Lists hardware device information.
+List all the hardware components,lsdev,Lists hardware device information.
+I need to check my system's hardware,lsdev,Lists hardware device information.
+Get me the device list,lsdev,Lists hardware device information.
+Perform a hardware device listing,lsdev,Lists hardware device information.
+What hardware do I have connected?,lsdev,Lists hardware device information.
+Display the hardware device information,lsdev,Lists hardware device information.
+Let's run lsdev and see,lsdev,Lists hardware device information.
+Can you provide details about the hardware devices?,lsdev,Lists hardware device information.
+How do I change the group ownership of `file.txt` to `group`?,chgrp group file.txt,Changes the group ownership of file.txt to group.
+What's the command to set `file.txt`'s group to `group`?,chgrp group file.txt,Changes the group ownership of file.txt to group.
+I need `file.txt` to belong to `group`. How can I make that happen?,chgrp group file.txt,Changes the group ownership of file.txt to group.
+Could you show me how to assign `file.txt` to the `group` group?,chgrp group file.txt,Changes the group ownership of file.txt to group.
+What's the proper way to modify `file.txt`'s group to `group`?,chgrp group file.txt,Changes the group ownership of file.txt to group.
+How do I change the primary group of `file.txt` to `group`?,chgrp group file.txt,Changes the group ownership of file.txt to group.
+Please provide the syntax to change `file.txt`'s group to `group`,chgrp group file.txt,Changes the group ownership of file.txt to group.
+I want to make `group` the new group owner for `file.txt`. What's the command?,chgrp group file.txt,Changes the group ownership of file.txt to group.
+Tell me how to update the group of `file.txt` to `group`,chgrp group file.txt,Changes the group ownership of file.txt to group.
+I need to explicitly re-assign `file.txt` to the `group` group. How?,chgrp group file.txt,Changes the group ownership of file.txt to group.
+What's the Linux command to make `file.txt`'s group `group`?,chgrp group file.txt,Changes the group ownership of file.txt to group.
+How do I effectively transfer `file.txt`'s group ownership to `group`?,chgrp group file.txt,Changes the group ownership of file.txt to group.
+How do I recursively change the group ownership of the `/data` directory to `group`?,chgrp -R group /data,Recursively changes group ownership of /data to group.
+What's the command to set the group owner of `/data` and everything inside it to `group`?,chgrp -R group /data,Recursively changes group ownership of /data to group.
+I need to make sure the `group` group owns `/data` and all its subdirectories. How can I do that?,chgrp -R group /data,Recursively changes group ownership of /data to group.
+Could you tell me how to change the group of `/data` and its entire contents to `group`?,chgrp -R group /data,Recursively changes group ownership of /data to group.
+What's the correct way to recursively assign the `group` group to `/data`?,chgrp -R group /data,Recursively changes group ownership of /data to group.
+How can I modify the group ownership of `/data` and all contained files/directories to `group`?,chgrp -R group /data,Recursively changes group ownership of /data to group.
+I want to change the group for `/data` and all files/folders under it to `group`. What command should I use?,chgrp -R group /data,Recursively changes group ownership of /data to group.
+Could you give me the command to change `/data`'s group recursively to `group`?,chgrp -R group /data,Recursively changes group ownership of /data to group.
+What's the Linux command to recursively set the primary group of `/data` to `group`?,chgrp -R group /data,Recursively changes group ownership of /data to group.
+I need to grant `group` ownership of `/data` for all its files and subdirectories. How do I achieve this?,chgrp -R group /data,Recursively changes group ownership of /data to group.
+What command will update the group of `/data` and its subdirectories/files to `group`?,chgrp -R group /data,Recursively changes group ownership of /data to group.
+How do I apply the `group` group to `/data` and all items within it?,chgrp -R group /data,Recursively changes group ownership of /data to group.
+How do I remove all Access Control List entries from file.txt?,setfacl -b file.txt,"Removes all ACL entries from file.txt, restoring default permissions."
+What's the command to completely clear ACLs on file.txt?,setfacl -b file.txt,"Removes all ACL entries from file.txt, restoring default permissions."
+"I need to reset file.txt's permissions to their default, getting rid of any ACLs",setfacl -b file.txt,"Removes all ACL entries from file.txt, restoring default permissions."
+How can I delete all custom ACL rules applied to file.txt?,setfacl -b file.txt,"Removes all ACL entries from file.txt, restoring default permissions."
+What's the way to remove all extended ACL permissions from file.txt?,setfacl -b file.txt,"Removes all ACL entries from file.txt, restoring default permissions."
+How do I restore default permissions for file.txt and remove all its ACLs?,setfacl -b file.txt,"Removes all ACL entries from file.txt, restoring default permissions."
+Can you tell me how to clear all specific ACL entries from file.txt?,setfacl -b file.txt,"Removes all ACL entries from file.txt, restoring default permissions."
+I want to disable all ACLs on file.txt. How do I do that?,setfacl -b file.txt,"Removes all ACL entries from file.txt, restoring default permissions."
+How do I get rid of all Access Control Lists on file.txt?,setfacl -b file.txt,"Removes all ACL entries from file.txt, restoring default permissions."
+"What command will remove all ACLs from file.txt, effectively un-ACL-ing it?",setfacl -b file.txt,"Removes all ACL entries from file.txt, restoring default permissions."
+"How do I make file.txt ignore any ACLs it might have, and go back to standard permissions?",setfacl -b file.txt,"Removes all ACL entries from file.txt, restoring default permissions."
+I need to remove the '+' indicator for ACLs on file.txt; what's the command?,setfacl -b file.txt,"Removes all ACL entries from file.txt, restoring default permissions."
+Could you download the source code for Nginx?,apt source nginx,Downloads the source code for the nginx package on Debian-based systems.
+I need to get the Nginx package's source files,apt source nginx,Downloads the source code for the nginx package on Debian-based systems.
+Please fetch the Nginx source code,apt source nginx,Downloads the source code for the nginx package on Debian-based systems.
+Can you retrieve the Nginx source?,apt source nginx,Downloads the source code for the nginx package on Debian-based systems.
+I'd like to download the source for Nginx,apt source nginx,Downloads the source code for the nginx package on Debian-based systems.
+Download the Nginx source package,apt source nginx,Downloads the source code for the nginx package on Debian-based systems.
+Get me the source code for the Nginx application,apt source nginx,Downloads the source code for the nginx package on Debian-based systems.
+I require the Nginx source code,apt source nginx,Downloads the source code for the nginx package on Debian-based systems.
+Could you use apt to download the Nginx source?,apt source nginx,Downloads the source code for the nginx package on Debian-based systems.
+Please provide the Nginx package source,apt source nginx,Downloads the source code for the nginx package on Debian-based systems.
+Grab the Nginx source files,apt source nginx,Downloads the source code for the nginx package on Debian-based systems.
+Initiate the Nginx source code download,apt source nginx,Downloads the source code for the nginx package on Debian-based systems.
+Reinstall httpd,yum reinstall httpd,Reinstalls the httpd package on CentOS/RHEL systems.
+How do I reinstall the httpd package?,yum reinstall httpd,Reinstalls the httpd package on CentOS/RHEL systems.
+Can you reinstall httpd using yum?,yum reinstall httpd,Reinstalls the httpd package on CentOS/RHEL systems.
+Please reinstall the httpd server,yum reinstall httpd,Reinstalls the httpd package on CentOS/RHEL systems.
+I need to perform a reinstall of httpd,yum reinstall httpd,Reinstalls the httpd package on CentOS/RHEL systems.
+What's the command to reinstall httpd?,yum reinstall httpd,Reinstalls the httpd package on CentOS/RHEL systems.
+Could you re-install httpd for me?,yum reinstall httpd,Reinstalls the httpd package on CentOS/RHEL systems.
+Perform a reinstall of the httpd package,yum reinstall httpd,Reinstalls the httpd package on CentOS/RHEL systems.
+I want to force a reinstallation of httpd,yum reinstall httpd,Reinstalls the httpd package on CentOS/RHEL systems.
+Run the command to reinstall httpd,yum reinstall httpd,Reinstalls the httpd package on CentOS/RHEL systems.
+Reinstall httpd on this system,yum reinstall httpd,Reinstalls the httpd package on CentOS/RHEL systems.
+Use yum to reinstall httpd,yum reinstall httpd,Reinstalls the httpd package on CentOS/RHEL systems.
+Show me the dnf transaction history,dnf history list,Lists transaction history for dnf on Fedora-based systems.
+How can I view my dnf transaction log?,dnf history list,Lists transaction history for dnf on Fedora-based systems.
+Could you please list the dnf history?,dnf history list,Lists transaction history for dnf on Fedora-based systems.
+I need to see what dnf operations have been performed,dnf history list,Lists transaction history for dnf on Fedora-based systems.
+What's the full history of dnf transactions?,dnf history list,Lists transaction history for dnf on Fedora-based systems.
+Can I get a list of all dnf activity?,dnf history list,Lists transaction history for dnf on Fedora-based systems.
+Display the dnf package management history,dnf history list,Lists transaction history for dnf on Fedora-based systems.
+Run the command that shows dnf transaction history,dnf history list,Lists transaction history for dnf on Fedora-based systems.
+Generate a list of all past dnf transactions,dnf history list,Lists transaction history for dnf on Fedora-based systems.
+What dnf transactions have occurred?,dnf history list,Lists transaction history for dnf on Fedora-based systems.
+Provide a detailed list of dnf transaction records,dnf history list,Lists transaction history for dnf on Fedora-based systems.
+List dnf history for me,dnf history list,Lists transaction history for dnf on Fedora-based systems.
+Run the command `logger 'Test message'`,logger 'Test message',Sends 'Test message' to the system log.
+Please log 'Test message' to the system,logger 'Test message',Sends 'Test message' to the system log.
+Execute `logger` with the message 'Test message',logger 'Test message',Sends 'Test message' to the system log.
+Send 'Test message' to the system log,logger 'Test message',Sends 'Test message' to the system log.
+I need to put 'Test message' into the logs,logger 'Test message',Sends 'Test message' to the system log.
+Could you run `logger 'Test message'`?,logger 'Test message',Sends 'Test message' to the system log.
+Use `logger` to record 'Test message' in the system journal,logger 'Test message',Sends 'Test message' to the system log.
+Post 'Test message' to the log file,logger 'Test message',Sends 'Test message' to the system log.
+Make 'Test message' appear in the system log,logger 'Test message',Sends 'Test message' to the system log.
+Trigger `logger` to write 'Test message',logger 'Test message',Sends 'Test message' to the system log.
+Initiate the `logger` command with 'Test message',logger 'Test message',Sends 'Test message' to the system log.
+Log 'Test message' using the standard system logger,logger 'Test message',Sends 'Test message' to the system log.
+What is the current run-level of the system?,who -r,Displays the current run-level of the system.
+How do I find out the system's current run-level?,who -r,Displays the current run-level of the system.
+Can you display the current run-level for me?,who -r,Displays the current run-level of the system.
+Show me the output of `who -r`,who -r,Displays the current run-level of the system.
+Please check the run-level,who -r,Displays the current run-level of the system.
+Tell me the run-level this machine is currently in,who -r,Displays the current run-level of the system.
+Execute `who -r`,who -r,Displays the current run-level of the system.
+I need to know the current run-level,who -r,Displays the current run-level of the system.
+Display the system's run-level,who -r,Displays the current run-level of the system.
+What run-level are we operating at?,who -r,Displays the current run-level of the system.
+Could you run the command to show the run-level?,who -r,Displays the current run-level of the system.
+Get me the current system run-level,who -r,Displays the current run-level of the system.
+Please set the full name for `user` to `'Full Name'`,chfn -f 'Full Name' user,Sets the full name for user in the GECOS field.
+Could you update the GECOS field for `user` with `'Full Name'` as their full name?,chfn -f 'Full Name' user,Sets the full name for user in the GECOS field.
+I need to change `user`'s full name to `'Full Name'`,chfn -f 'Full Name' user,Sets the full name for user in the GECOS field.
+How can I assign the full name `'Full Name'` to the user `user`?,chfn -f 'Full Name' user,Sets the full name for user in the GECOS field.
+Run the command to set `user`'s full name as `'Full Name'`,chfn -f 'Full Name' user,Sets the full name for user in the GECOS field.
+Could you configure the full name for `user` to be `'Full Name'`?,chfn -f 'Full Name' user,Sets the full name for user in the GECOS field.
+I'd like to modify the display name for `user` to `'Full Name'`,chfn -f 'Full Name' user,Sets the full name for user in the GECOS field.
+Is there a way to set the user `user`'s real name to `'Full Name'`?,chfn -f 'Full Name' user,Sets the full name for user in the GECOS field.
+Please execute `chfn` to update `user`'s full name to `'Full Name'`,chfn -f 'Full Name' user,Sets the full name for user in the GECOS field.
+I need to get `user`'s full name in the system changed to `'Full Name'`,chfn -f 'Full Name' user,Sets the full name for user in the GECOS field.
+Could you help me adjust the full name entry for `user` to `'Full Name'`?,chfn -f 'Full Name' user,Sets the full name for user in the GECOS field.
+I want to specify `'Full Name'` as the full name for `user`,chfn -f 'Full Name' user,Sets the full name for user in the GECOS field.
+How can I switch my current primary group to `group`?,newgrp group,Switches the current session to the specified group.
+I need to change my active group to `group` for this session,newgrp group,Switches the current session to the specified group.
+What's the command to make `group` my effective group?,newgrp group,Switches the current session to the specified group.
+Can you tell me how to join the `group` group?,newgrp group,Switches the current session to the specified group.
+I want to operate as a member of `group`. How do I do that?,newgrp group,Switches the current session to the specified group.
+How do I set `group` as my current working group?,newgrp group,Switches the current session to the specified group.
+I need to assume the permissions of `group`. What's the command?,newgrp group,Switches the current session to the specified group.
+My current shell needs to use `group` as its primary group. How can I achieve this?,newgrp group,Switches the current session to the specified group.
+How do I activate `group` for my current terminal session?,newgrp group,Switches the current session to the specified group.
+Please show me how to switch to `group` temporarily,newgrp group,Switches the current session to the specified group.
+I need to access files owned by `group`. How do I adopt that group?,newgrp group,Switches the current session to the specified group.
+What's the best way to get into the `group` context for my current work?,newgrp group,Switches the current session to the specified group.
+Run `at now + 1 hour`,at now + 1 hour,Schedules a command to run in one hour.
+How do I use `at` to schedule something for one hour from now?,at now + 1 hour,Schedules a command to run in one hour.
+I need to set a task to execute exactly 60 minutes from now,at now + 1 hour,Schedules a command to run in one hour.
+What's the command to make something run one hour later?,at now + 1 hour,Schedules a command to run in one hour.
+Can you give me the `at` syntax for running a job an hour from now?,at now + 1 hour,Schedules a command to run in one hour.
+Please run a command for me that will execute one hour from now,at now + 1 hour,Schedules a command to run in one hour.
+How do I use `at` to defer execution of a command for one hour?,at now + 1 hour,Schedules a command to run in one hour.
+I want to run something one hour from now. What's the `at` command for that?,at now + 1 hour,Schedules a command to run in one hour.
+Schedule a job to start one hour from the current time,at now + 1 hour,Schedules a command to run in one hour.
+What do I type into the terminal to schedule something for an hour later?,at now + 1 hour,Schedules a command to run in one hour.
+How do I tell the system to execute a command one hour in the future?,at now + 1 hour,Schedules a command to run in one hour.
+Could you show me the `at` command for scheduling a task to run in one hour?,at now + 1 hour,Schedules a command to run in one hour.
+How do I list my current cron jobs?,crontab -l,Lists the current user's cron jobs.
+What's the command to view my crontab entries?,crontab -l,Lists the current user's cron jobs.
+Show me my scheduled cron tasks,crontab -l,Lists the current user's cron jobs.
+I need to see my crontab,crontab -l,Lists the current user's cron jobs.
+How can I check my user's cron jobs?,crontab -l,Lists the current user's cron jobs.
+Could you tell me how to display my active cron jobs?,crontab -l,Lists the current user's cron jobs.
+What command do I use to see what's in my crontab?,crontab -l,Lists the current user's cron jobs.
+List all cron jobs configured for my account,crontab -l,Lists the current user's cron jobs.
+How do I inspect my crontab file?,crontab -l,Lists the current user's cron jobs.
+I want to view my cron schedule,crontab -l,Lists the current user's cron jobs.
+Give me the command to print my cron jobs,crontab -l,Lists the current user's cron jobs.
+How do I get a list of my cron jobs?,crontab -l,Lists the current user's cron jobs.
+How do I run `command` in the background so it doesn't stop when I disconnect?,nohup command &,"Runs command immune to hangups, with output to nohup.out."
+I need to start `command` and have it keep running after I log out. What's the command?,nohup command &,"Runs command immune to hangups, with output to nohup.out."
+"What's the proper way to execute `command` in the background, immune to hangups?",nohup command &,"Runs command immune to hangups, with output to nohup.out."
+My process dies when my SSH session ends. How can I run `command` persistently?,nohup command &,"Runs command immune to hangups, with output to nohup.out."
+How do I use `nohup` to run `command` in the background?,nohup command &,"Runs command immune to hangups, with output to nohup.out."
+"I want `command` to run continuously, detached from my current shell. How do I do that?",nohup command &,"Runs command immune to hangups, with output to nohup.out."
+Is there a way to make `command` run in the background and survive a terminal closure?,nohup command &,"Runs command immune to hangups, with output to nohup.out."
+"What's the command to launch `command` asynchronously, ensuring it won't be killed by a SIGHUP?",nohup command &,"Runs command immune to hangups, with output to nohup.out."
+Please tell me how to run `command` in the background such that its output goes to `nohup.out` and it keeps running,nohup command &,"Runs command immune to hangups, with output to nohup.out."
+I need to run `command` in the background and safely close my terminal. How do I achieve this?,nohup command &,"Runs command immune to hangups, with output to nohup.out."
+What's the best practice for running a long-term command like `command` in the background without it stopping?,nohup command &,"Runs command immune to hangups, with output to nohup.out."
+How can I run `command` as a background process that is immune to session termination?,nohup command &,"Runs command immune to hangups, with output to nohup.out."
+How do I view the logs for the Nginx service?,journalctl -u nginx,Displays logs for the nginx service.
+What's the command to check Nginx's systemd journal?,journalctl -u nginx,Displays logs for the nginx service.
+I need to see Nginx logs. How can I do that?,journalctl -u nginx,Displays logs for the nginx service.
+Show me the current logs for Nginx,journalctl -u nginx,Displays logs for the nginx service.
+How do I troubleshoot Nginx using its logs?,journalctl -u nginx,Displays logs for the nginx service.
+Where can I find the log output for Nginx?,journalctl -u nginx,Displays logs for the nginx service.
+Display Nginx service messages from the journal,journalctl -u nginx,Displays logs for the nginx service.
+What command shows Nginx activity or errors?,journalctl -u nginx,Displays logs for the nginx service.
+Can you tell me how to look at Nginx's journal entries?,journalctl -u nginx,Displays logs for the nginx service.
+I want to examine Nginx's log file. What's the best way?,journalctl -u nginx,Displays logs for the nginx service.
+How do I get `journalctl` to show only Nginx-related entries?,journalctl -u nginx,Displays logs for the nginx service.
+Check the Nginx service logs for me,journalctl -u nginx,Displays logs for the nginx service.
+Execute `file file.bin`,file file.bin,Determines the file type of file.bin.
+How do I determine the file type of `file.bin`?,file file.bin,Determines the file type of file.bin.
+Please run `file file.bin`,file file.bin,Determines the file type of file.bin.
+What command tells me the type of `file.bin`?,file file.bin,Determines the file type of file.bin.
+I need to identify the file type for `file.bin`,file file.bin,Determines the file type of file.bin.
+Can you show me what kind of file `file.bin` is?,file file.bin,Determines the file type of file.bin.
+Check the file type of `file.bin`,file file.bin,Determines the file type of file.bin.
+Run the `file` command on `file.bin`,file file.bin,Determines the file type of file.bin.
+Tell me the file type of `file.bin`,file file.bin,Determines the file type of file.bin.
+What's the file type of `file.bin`?,file file.bin,Determines the file type of file.bin.
+How can I figure out what `file.bin` is?,file file.bin,Determines the file type of file.bin.
+Use the `file` utility to inspect `file.bin`,file file.bin,Determines the file type of file.bin.
+Run `mkfifo pipe`,mkfifo pipe,Creates a named pipe called pipe.
+Please execute the command `mkfifo pipe`,mkfifo pipe,Creates a named pipe called pipe.
+I need to create a named pipe called 'pipe',mkfifo pipe,Creates a named pipe called pipe.
+Could you make a FIFO named 'pipe' for me?,mkfifo pipe,Creates a named pipe called pipe.
+How do I set up a named pipe named 'pipe'?,mkfifo pipe,Creates a named pipe called pipe.
+I want to use `mkfifo` to create 'pipe',mkfifo pipe,Creates a named pipe called pipe.
+Create a named pipe with the name 'pipe',mkfifo pipe,Creates a named pipe called pipe.
+Execute: `mkfifo pipe`,mkfifo pipe,Creates a named pipe called pipe.
+Let's create a named pipe called 'pipe',mkfifo pipe,Creates a named pipe called pipe.
+I need to run `mkfifo pipe`,mkfifo pipe,Creates a named pipe called pipe.
+Can you run the `mkfifo pipe` command?,mkfifo pipe,Creates a named pipe called pipe.
+Please create a FIFO file named 'pipe',mkfifo pipe,Creates a named pipe called pipe.
+How do I set the size of file.txt to exactly one megabyte?,truncate -s 1M file.txt,Resizes file.txt to exactly 1 megabyte.
+What's the command to resize file.txt to 1MB?,truncate -s 1M file.txt,Resizes file.txt to exactly 1 megabyte.
+I need to make file.txt precisely 1 megabyte. How?,truncate -s 1M file.txt,Resizes file.txt to exactly 1 megabyte.
+Can you tell me how to truncate file.txt to a size of 1M?,truncate -s 1M file.txt,Resizes file.txt to exactly 1 megabyte.
+How can I force file.txt to be exactly 1MB?,truncate -s 1M file.txt,Resizes file.txt to exactly 1 megabyte.
+I want to fix file.txt's size at 1 megabyte. What command should I use?,truncate -s 1M file.txt,Resizes file.txt to exactly 1 megabyte.
+What's the Linux way to set file.txt to exactly 1 MiB?,truncate -s 1M file.txt,Resizes file.txt to exactly 1 megabyte.
+How do I ensure file.txt has a size of precisely 1 megabyte?,truncate -s 1M file.txt,Resizes file.txt to exactly 1 megabyte.
+I need to explicitly set file.txt's size to 1M,truncate -s 1M file.txt,Resizes file.txt to exactly 1 megabyte.
+Give me the command to make file.txt exactly one megabyte,truncate -s 1M file.txt,Resizes file.txt to exactly 1 megabyte.
+How do I change file.txt's size to 1MB?,truncate -s 1M file.txt,Resizes file.txt to exactly 1 megabyte.
+"Using the `truncate` command, how would I set file.txt's size to 1 megabyte?",truncate -s 1M file.txt,Resizes file.txt to exactly 1 megabyte.
+How do I split `largefile.txt` into 1MB pieces?,split -b 1M largefile.txt,Splits largefile.txt into 1MB chunks.
+I need to break `largefile.txt` into 1-megabyte chunks. What's the command?,split -b 1M largefile.txt,Splits largefile.txt into 1MB chunks.
+What's the `split` command syntax to divide `largefile.txt` into 1MB segments?,split -b 1M largefile.txt,Splits largefile.txt into 1MB chunks.
+Can you show me how to split `largefile.txt` into files of 1 megabyte each?,split -b 1M largefile.txt,Splits largefile.txt into 1MB chunks.
+How can I partition `largefile.txt` into 1MB files using the `split` utility?,split -b 1M largefile.txt,Splits largefile.txt into 1MB chunks.
+I'm trying to split `largefile.txt` into 1MB parts. What options should I use with `split`?,split -b 1M largefile.txt,Splits largefile.txt into 1MB chunks.
+"To get 1MB files from `largefile.txt`, what's the command line?",split -b 1M largefile.txt,Splits largefile.txt into 1MB chunks.
+Could you give me the command to fragment `largefile.txt` into 1-megabyte files?,split -b 1M largefile.txt,Splits largefile.txt into 1MB chunks.
+What's the easiest way to split `largefile.txt` into 1MB blocks?,split -b 1M largefile.txt,Splits largefile.txt into 1MB chunks.
+I want to chop `largefile.txt` up into 1MB sections. How do I do that in Linux?,split -b 1M largefile.txt,Splits largefile.txt into 1MB chunks.
+How do I use `split` to create 1MB files from `largefile.txt`?,split -b 1M largefile.txt,Splits largefile.txt into 1MB chunks.
+Need to split `largefile.txt` into 1M files. Command please,split -b 1M largefile.txt,Splits largefile.txt into 1MB chunks.
+How do I reformat `file.txt` to wrap lines at 80 characters?,fmt -w 80 file.txt,Reformats file.txt to wrap lines at 80 characters.
+What's the `fmt` command to set the line width of `file.txt` to 80 columns?,fmt -w 80 file.txt,Reformats file.txt to wrap lines at 80 characters.
+I need to wrap text in `file.txt` so that no line exceeds 80 characters. How can I do this?,fmt -w 80 file.txt,Reformats file.txt to wrap lines at 80 characters.
+Can you give me the command to wrap `file.txt` content at an 80-character limit?,fmt -w 80 file.txt,Reformats file.txt to wrap lines at 80 characters.
+How do I use the `fmt` utility to ensure all lines in `file.txt` are 80 characters or shorter?,fmt -w 80 file.txt,Reformats file.txt to wrap lines at 80 characters.
+My `file.txt` has very long lines. What's the command to break them at 80 characters?,fmt -w 80 file.txt,Reformats file.txt to wrap lines at 80 characters.
+What's the syntax for `fmt` to rewrap `file.txt` to 80 columns?,fmt -w 80 file.txt,Reformats file.txt to wrap lines at 80 characters.
+I want to apply an 80-character line wrap to `file.txt`. What Linux command accomplishes this?,fmt -w 80 file.txt,Reformats file.txt to wrap lines at 80 characters.
+Tell me how to make `file.txt` conform to an 80-column line length using `fmt`,fmt -w 80 file.txt,Reformats file.txt to wrap lines at 80 characters.
+What command reformats `file.txt` by wrapping its text at 80 character boundaries?,fmt -w 80 file.txt,Reformats file.txt to wrap lines at 80 characters.
+Could you show me the command to format `file.txt` with a maximum line length of 80 characters?,fmt -w 80 file.txt,Reformats file.txt to wrap lines at 80 characters.
+How can I use a command-line tool to force `file.txt` to wrap its text at 80 characters?,fmt -w 80 file.txt,Reformats file.txt to wrap lines at 80 characters.
+How do I number the lines of `file.txt`?,nl file.txt,Numbers the lines of file.txt.
+Run `nl file.txt`,nl file.txt,Numbers the lines of file.txt.
+Could you please add line numbers to `file.txt`?,nl file.txt,Numbers the lines of file.txt.
+I need to get numbered output for `file.txt`,nl file.txt,Numbers the lines of file.txt.
+What's the command to prefix each line of `file.txt` with its number?,nl file.txt,Numbers the lines of file.txt.
+Show me `file.txt` with line numbers applied,nl file.txt,Numbers the lines of file.txt.
+Please execute the `nl` command on `file.txt`,nl file.txt,Numbers the lines of file.txt.
+Apply line numbering to `file.txt`,nl file.txt,Numbers the lines of file.txt.
+I want to see `file.txt` with its lines enumerated,nl file.txt,Numbers the lines of file.txt.
+How can I use `nl` to number `file.txt`?,nl file.txt,Numbers the lines of file.txt.
+Can you generate a numbered version of `file.txt`?,nl file.txt,Numbers the lines of file.txt.
+Display `file.txt` with line numbers,nl file.txt,Numbers the lines of file.txt.
+How do I count the number of lines in `file.txt`?,wc -l file.txt,Counts the number of lines in file.txt.
+What's the command to get the line count of `file.txt`?,wc -l file.txt,Counts the number of lines in file.txt.
+I need to find out how many lines are in `file.txt`,wc -l file.txt,Counts the number of lines in file.txt.
+Could you show me how to count lines in `file.txt`?,wc -l file.txt,Counts the number of lines in file.txt.
+Determine the total line count for `file.txt`,wc -l file.txt,Counts the number of lines in file.txt.
+How can I get just the line number count for `file.txt`?,wc -l file.txt,Counts the number of lines in file.txt.
+Give me the command to count lines for `file.txt`,wc -l file.txt,Counts the number of lines in file.txt.
+I'm trying to figure out the line count of `file.txt`. What's the best way?,wc -l file.txt,Counts the number of lines in file.txt.
+Count the lines in `file.txt` for me,wc -l file.txt,Counts the number of lines in file.txt.
+What's the `wc` command specifically for lines in `file.txt`?,wc -l file.txt,Counts the number of lines in file.txt.
+How many lines does `file.txt` contain?,wc -l file.txt,Counts the number of lines in file.txt.
+I want to know the exact number of lines in `file.txt`,wc -l file.txt,Counts the number of lines in file.txt.
+How do I display `file.txt` with its lines in reverse order?,tac file.txt,Displays file.txt in reverse line order.
+What's the command to show `file.txt` from the last line to the first?,tac file.txt,Displays file.txt in reverse line order.
+"I need to view `file.txt` backwards, line by line",tac file.txt,Displays file.txt in reverse line order.
+Can you tell me how to reverse the line order of `file.txt`?,tac file.txt,Displays file.txt in reverse line order.
+Show me `file.txt` but starting from the bottom,tac file.txt,Displays file.txt in reverse line order.
+Is there a way to print `file.txt` with the lines flipped vertically?,tac file.txt,Displays file.txt in reverse line order.
+I'm trying to get `file.txt` to display from its end to its beginning,tac file.txt,Displays file.txt in reverse line order.
+What's the Linux command to reverse the sequence of lines in `file.txt`?,tac file.txt,Displays file.txt in reverse line order.
+Could you help me display `file.txt` upside down (line-wise)?,tac file.txt,Displays file.txt in reverse line order.
+I want to see the contents of `file.txt` in reverse line order,tac file.txt,Displays file.txt in reverse line order.
+How do I get `file.txt` to show its last line first?,tac file.txt,Displays file.txt in reverse line order.
+Give me the command to invert the line order of `file.txt`,tac file.txt,Displays file.txt in reverse line order.
+"Run the `ethtool eth0` command, please",ethtool eth0,Displays the status and settings of the eth0 interface.
+How can I check the status of `eth0`?,ethtool eth0,Displays the status and settings of the eth0 interface.
+Display the current settings for my `eth0` interface,ethtool eth0,Displays the status and settings of the eth0 interface.
+I need to see the details of `eth0`,ethtool eth0,Displays the status and settings of the eth0 interface.
+Execute `ethtool` on `eth0`,ethtool eth0,Displays the status and settings of the eth0 interface.
+Show me the link parameters for `eth0`,ethtool eth0,Displays the status and settings of the eth0 interface.
+What are the capabilities of `eth0`?,ethtool eth0,Displays the status and settings of the eth0 interface.
+Get the configuration information for `eth0`,ethtool eth0,Displays the status and settings of the eth0 interface.
+Could you provide a report on `eth0`?,ethtool eth0,Displays the status and settings of the eth0 interface.
+Inspect the `eth0` network interface,ethtool eth0,Displays the status and settings of the eth0 interface.
+Tell me about `eth0`'s network settings,ethtool eth0,Displays the status and settings of the eth0 interface.
+Perform a diagnostic check on `eth0`,ethtool eth0,Displays the status and settings of the eth0 interface.
+List the IP sets,ipset list,Lists configured IP sets for firewall rules.
+Show me the configured IP sets,ipset list,Lists configured IP sets for firewall rules.
+What are the current IP set rules?,ipset list,Lists configured IP sets for firewall rules.
+How do I view my IP sets?,ipset list,Lists configured IP sets for firewall rules.
+Can you display the IP sets?,ipset list,Lists configured IP sets for firewall rules.
+I need to see the firewall's IP sets,ipset list,Lists configured IP sets for firewall rules.
+Please list all IP sets,ipset list,Lists configured IP sets for firewall rules.
+Run `ipset list`,ipset list,Lists configured IP sets for firewall rules.
+Display the existing IP sets,ipset list,Lists configured IP sets for firewall rules.
+What IP sets are currently active?,ipset list,Lists configured IP sets for firewall rules.
+Could you provide a list of the IP sets?,ipset list,Lists configured IP sets for firewall rules.
+Check the IP set configurations,ipset list,Lists configured IP sets for firewall rules.
+Could you please list the firewall rules with verbose output?,iptables -L -v,Lists firewall rules with verbose output.
+Show me the detailed iptables configuration,iptables -L -v,Lists firewall rules with verbose output.
+"I need to see all the current firewall rules, including the specifics",iptables -L -v,Lists firewall rules with verbose output.
+"What are the iptables rules, and can I get them verbosely?",iptables -L -v,Lists firewall rules with verbose output.
+Display the complete firewall rule set,iptables -L -v,Lists firewall rules with verbose output.
+Please provide a verbose listing of the system's firewall rules,iptables -L -v,Lists firewall rules with verbose output.
+I'd like to view the iptables rules with full detail,iptables -L -v,Lists firewall rules with verbose output.
+"Show me the current firewall rules, including packet counts",iptables -L -v,Lists firewall rules with verbose output.
+How can I get an in-depth look at the firewall policies?,iptables -L -v,Lists firewall rules with verbose output.
+"List the firewall rules, showing all counters",iptables -L -v,Lists firewall rules with verbose output.
+Give me an expanded view of the active iptables rules,iptables -L -v,Lists firewall rules with verbose output.
+I want to inspect the firewall rules with verbose information,iptables -L -v,Lists firewall rules with verbose output.
+How do I set the maximum number of open file descriptors to 1024?,ulimit -n 1024,Sets the maximum number of open file descriptors to 1024.
+I need to increase the file descriptor limit to 1024. What's the command?,ulimit -n 1024,Sets the maximum number of open file descriptors to 1024.
+Can you tell me how to configure the `ulimit -n` value to 1024?,ulimit -n 1024,Sets the maximum number of open file descriptors to 1024.
+What's the best way to allow my current shell session to open up to 1024 files?,ulimit -n 1024,Sets the maximum number of open file descriptors to 1024.
+I want to set the maximum open files for my user to 1024. How do I do that?,ulimit -n 1024,Sets the maximum number of open file descriptors to 1024.
+How can I set the 'no-file' limit to 1024?,ulimit -n 1024,Sets the maximum number of open file descriptors to 1024.
+Please show me the command to raise the soft limit for open files to,ulimit -n 1024,Sets the maximum number of open file descriptors to 1024.
+My application requires 1024 file descriptors. How do I set the system to allow this?,ulimit -n 1024,Sets the maximum number of open file descriptors to 1024.
+Could you help me configure the open file limit to 1024 for my environment?,ulimit -n 1024,Sets the maximum number of open file descriptors to 1024.
+What's the command to permit 1024 concurrent open files in Linux?,ulimit -n 1024,Sets the maximum number of open file descriptors to 1024.
+I'm encountering 'too many open files' errors. How do I adjust the limit to 1024?,ulimit -n 1024,Sets the maximum number of open file descriptors to 1024.
+What's the command to set the open file handle limit to 1024?,ulimit -n 1024,Sets the maximum number of open file descriptors to 1024.
+How can I list the SELinux file context mappings?,semanage fcontext -l,Lists SELinux file context mappings.
+What command shows the SELinux file context rules?,semanage fcontext -l,Lists SELinux file context mappings.
+Display all defined SELinux file contexts,semanage fcontext -l,Lists SELinux file context mappings.
+I need to see the current SELinux file context configuration,semanage fcontext -l,Lists SELinux file context mappings.
+How do I view the `fcontext` mappings?,semanage fcontext -l,Lists SELinux file context mappings.
+Show me the default SELinux file labeling rules,semanage fcontext -l,Lists SELinux file context mappings.
+Can you list the SELinux file context entries?,semanage fcontext -l,Lists SELinux file context mappings.
+Where can I find the SELinux file context definitions?,semanage fcontext -l,Lists SELinux file context mappings.
+What are the configured SELinux file contexts?,semanage fcontext -l,Lists SELinux file context mappings.
+Give me the command to check SELinux file context mappings,semanage fcontext -l,Lists SELinux file context mappings.
+I want to examine the SELinux file context rules,semanage fcontext -l,Lists SELinux file context mappings.
+List SELinux file context mappings using `semanage`,semanage fcontext -l,Lists SELinux file context mappings.
+Run `restorecon -v /var/log`,restorecon -v /var/log,Restores default SELinux contexts for /var/log.
+Please restore the default SELinux contexts for `/var/log` and show verbose output,restorecon -v /var/log,Restores default SELinux contexts for /var/log.
+"I need to fix the SELinux contexts on `/var/log`. Can you run the appropriate command for that, verbosely?",restorecon -v /var/log,Restores default SELinux contexts for /var/log.
+"Apply default SELinux contexts to the `/var/log` directory, displaying the changes",restorecon -v /var/log,Restores default SELinux contexts for /var/log.
+Execute `restorecon` on `/var/log` with the verbose flag,restorecon -v /var/log,Restores default SELinux contexts for /var/log.
+"Reset the SELinux contexts for `/var/log` to their defaults, showing progress",restorecon -v /var/log,Restores default SELinux contexts for /var/log.
+"Could you restore the SELinux contexts for `/var/log`, printing detailed information?",restorecon -v /var/log,Restores default SELinux contexts for /var/log.
+"I want to revert the SELinux contexts of `/var/log` to their original state, verbosely",restorecon -v /var/log,Restores default SELinux contexts for /var/log.
+"Fix the SELinux context labels on `/var/log`, making sure to show everything it does",restorecon -v /var/log,Restores default SELinux contexts for /var/log.
+Run the command to restore SELinux contexts on `/var/log` and output details,restorecon -v /var/log,Restores default SELinux contexts for /var/log.
+Please run `restorecon` on `/var/log` with verbose logging,restorecon -v /var/log,Restores default SELinux contexts for /var/log.
+"Ensure `/var/log` has its correct default SELinux contexts, displaying actions taken",restorecon -v /var/log,Restores default SELinux contexts for /var/log.
+List all SELinux boolean settings,getsebool -a,Lists all SELinux boolean settings.
+Show me every SELinux boolean's current state,getsebool -a,Lists all SELinux boolean settings.
+How do I display all SELinux boolean values?,getsebool -a,Lists all SELinux boolean settings.
+What are all the SELinux booleans configured as?,getsebool -a,Lists all SELinux boolean settings.
+Please retrieve a complete list of SELinux booleans,getsebool -a,Lists all SELinux boolean settings.
+Can you check the status of all SELinux booleans?,getsebool -a,Lists all SELinux boolean settings.
+I need to see every SELinux boolean setting,getsebool -a,Lists all SELinux boolean settings.
+Get me the full list of SELinux booleans,getsebool -a,Lists all SELinux boolean settings.
+Display all current SELinux boolean configurations,getsebool -a,Lists all SELinux boolean settings.
+What's the status for all SELinux booleans?,getsebool -a,Lists all SELinux boolean settings.
+Could you provide a list of all SELinux boolean states?,getsebool -a,Lists all SELinux boolean settings.
+I'd like to view every SELinux boolean,getsebool -a,Lists all SELinux boolean settings.
