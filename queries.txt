@@ -1,0 +1,14 @@
+list all files in the current directory with sizes and permissions
+display the disk usage of each folder in the current directory
+check how much free memory I have right now
+see running processes sorted by CPU usage
+find out my current working directory
+show the current system date and time
+show network configuration details of my system
+display the IP address of my device
+ping google.com five times to check connectivity
+remove apache2 from my system completely
+clean up unused packages and dependencies
+display all active network connections
+show currently logged in users
+reboot the system immediatel
