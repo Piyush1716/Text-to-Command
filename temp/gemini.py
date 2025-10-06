@@ -3,7 +3,7 @@ import time
 from google import genai
 
 # Initialize Gemini client
-client = genai.Client(api_key="AIzaSyChctSaAq41eIzh6LMXhwvRGViCeQ5eUYY")  # or use os.getenv("GEMINI_API_KEY")
+client = genai.Client(api_key="X")  # or use os.getenv("GEMINI_API_KEY")
 
 # Load your commands dataset
 df = pd.read_csv("c.csv")  # columns: command, description
